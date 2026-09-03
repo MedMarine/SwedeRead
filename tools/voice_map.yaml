@@ -1,0 +1,61 @@
+# Speaker → Gemini TTS voice + delivery style for Svenska per se illustrata.
+#
+# The style prompt is prepended to every TTS request (Gemini treats a leading
+# natural-language instruction as delivery direction, not text to read).
+# build_reader.py hashes (voice + style + text) into each block's audio
+# filename, so changing a voice or style here automatically invalidates the
+# affected clips — tools/generate_audio.py then regenerates only those.
+#
+# NARRATOR is used for all narration blocks and any speaker not listed.
+
+NARRATOR:
+  voice: Sulafat
+  style: >-
+    Read aloud in Swedish with a warm, calm storyteller's voice, slowly and
+    very clearly, as if reading a children's book to a language learner.
+    Pause briefly at commas and dashes.
+
+Karin:
+  voice: Aoede
+  style: >-
+    Read aloud in Swedish as a warm, calm mother with gentle dry humour —
+    slowly and very clearly, for a language learner.
+
+Anders:
+  voice: Charon
+  style: >-
+    Read aloud in Swedish as a quiet, deep-voiced father of few words —
+    slowly, plainly and very clearly, for a language learner.
+
+Oskar:
+  voice: Puck
+  style: >-
+    Read aloud in Swedish as an energetic, boastful twelve-year-old boy —
+    lively but still slow and very clear, for a language learner.
+
+Nils:
+  voice: Iapetus
+  style: >-
+    Read aloud in Swedish as a precise, curious ten-year-old boy who chooses
+    his words carefully — slowly and very clearly, for a language learner.
+
+Astrid:
+  voice: Leda
+  style: >-
+    Read aloud in Swedish as a bright seven-year-old girl — simple, warm and
+    a little sing-song, slowly and very clearly, for a language learner.
+
+Fru Ek:
+  voice: Kore
+  style: >-
+    Read aloud in Swedish as a friendly, patient shopkeeper — slowly and very
+    clearly, for a language learner.
+
+# Uttal chips (single words / short phrases) use the narrator voice with an
+# extra-deliberate style so vowel length and pitch accent stay audible.
+UTTAL:
+  voice: Sulafat
+  style: >-
+    Pronounce the following Swedish word or short phrase slowly, clearly and
+    naturally, as a pronunciation model for a language learner. Say only the
+    word or phrase itself.

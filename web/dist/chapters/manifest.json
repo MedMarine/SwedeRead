@@ -1,0 +1,314 @@
+{
+ "title": "Svenska per se illustrata — Del I: Familjen Berg",
+ "arcs": {
+  "A": {
+   "name": "Hemma i Sjövik",
+   "from": 1,
+   "to": 6
+  },
+  "B": {
+   "name": "Dagar och djur",
+   "from": 7,
+   "to": 12
+  },
+  "C": {
+   "name": "Skola och tid",
+   "from": 13,
+   "to": 18
+  },
+  "D": {
+   "name": "Ut i världen",
+   "from": 19,
+   "to": 24
+  },
+  "E": {
+   "name": "Berättelser och fester",
+   "from": 25,
+   "to": 30
+  }
+ },
+ "chapters": [
+  {
+   "n": 1,
+   "titel": "Sverige och Norden",
+   "arc": "A",
+   "grammatik_fokus": "är/ligger; en/ett; stor/stort/stora; inte; frågor (Var…? Vad…? Är…? Ligger…?)",
+   "file": "chapters/kap01.json"
+  },
+  {
+   "n": 2,
+   "titel": "Familjen Berg",
+   "arc": "A",
+   "grammatik_fokus": "heter; vem?/vems?; genitiv -s; han/hon/de; hur många?; plural (-or, -ar, omljud)",
+   "file": "chapters/kap02.json"
+  },
+  {
+   "n": 3,
+   "titel": "Huset vid sjön",
+   "arc": "A",
+   "grammatik_fokus": "bestämd form singular (-en/-et); det finns; den/det som pronomen; under/över/bakom/framför/mellan",
+   "file": "chapters/kap03.json"
+  },
+  {
+   "n": 4,
+   "titel": "En stygg pojke",
+   "arc": "A",
+   "grammatik_fokus": "presens av handlingsverb (-ar/-er/korta); objektspronomen (mig, dig, honom, henne, oss, dem); varför? – därför att",
+   "file": "chapters/kap04.json"
+  },
+  {
+   "n": 5,
+   "titel": "Vems är bollen?",
+   "arc": "A",
+   "grammatik_fokus": "har; possessiva pronomen (min/mitt/mina …); sin/sitt/sina i kontrast mot hans/hennes; färger",
+   "file": "chapters/kap05.json"
+  },
+  {
+   "n": 6,
+   "titel": "Vägen till skolan",
+   "arc": "A",
+   "grammatik_fokus": "går/åker/cyklar; läge och riktning (här/hit, där/dit, hemma/hem, inne/in, ute/ut, uppe/upp, nere/ner); bestämd form plural",
+   "file": "chapters/kap06.json"
+  },
+  {
+   "n": 7,
+   "titel": "Astrid och Misse",
+   "arc": "B",
+   "grammatik_fokus": "ger/får (två objekt!); reflexiva verb (tvättar sig, lägger sig, sätter sig); vad gör X?",
+   "file": "chapters/kap07.json"
+  },
+  {
+   "n": 8,
+   "titel": "I affären",
+   "arc": "B",
+   "grammatik_fokus": "den här/det här/de här; hur mycket kostar…?; räkneord 10–100; vill ha",
+   "file": "chapters/kap08.json"
+  },
+  {
+   "n": 9,
+   "titel": "På morfars gård",
+   "arc": "B",
+   "grammatik_fokus": "någon/något/några ↔ ingen/inget/inga; alla och varje; djurens plural",
+   "file": "chapters/kap09.json"
+  },
+  {
+   "n": 10,
+   "titel": "Djur och människor",
+   "arc": "B",
+   "grammatik_fokus": "kan och vill + verb (utan 'att'!); vild och tam",
+   "file": "chapters/kap10.json"
+  },
+  {
+   "n": 11,
+   "titel": "Kroppen",
+   "arc": "B",
+   "grammatik_fokus": "måste, får (inte), behöver; har ont i + kroppsdel; känner sig; ögon/öron/händer/fötter",
+   "file": "chapters/kap11.json"
+  },
+  {
+   "n": 12,
+   "titel": "Året och månaderna",
+   "arc": "B",
+   "grammatik_fokus": "ordningstal (första, andra …); datum (den femte maj); årstider och tidsuttryck (på vintern, om sommaren)",
+   "file": "chapters/kap12.json"
+  },
+  {
+   "n": 13,
+   "titel": "En ny dag",
+   "arc": "C",
+   "grammatik_fokus": "klockan (halv, kvart i/över); stiger upp, klär på sig, skyndar sig; snabb → snabbt (adverb!)",
+   "file": "chapters/kap13.json"
+  },
+  {
+   "n": 14,
+   "titel": "I skolan",
+   "arc": "C",
+   "grammatik_fokus": "ordföljd: verbet är nummer två! (Nu räknar vi; I dag har klassen matematik); lär sig; skolans ord",
+   "file": "chapters/kap14.json"
+  },
+  {
+   "n": 15,
+   "titel": "Ovädret",
+   "arc": "C",
+   "grammatik_fokus": "det regnar/blåser/åskar; preteritum på -ade (regnade, tittade); var och hade; i går ↔ i dag",
+   "file": "chapters/kap15.json"
+  },
+  {
+   "n": 16,
+   "titel": "Vad hände i går?",
+   "arc": "C",
+   "grammatik_fokus": "preteritum -de/-te/-dde; starka verb byter vokal (kommer → kom, ser → såg); berätta om; minns ↔ glömmer",
+   "file": "chapters/kap16.json"
+  },
+  {
+   "n": 17,
+   "titel": "Vem har mest?",
+   "arc": "C",
+   "grammatik_fokus": "komparation (större/störst, äldre/äldst, bättre/bäst); än; mer/mest och fler/flest; hundra och tusen",
+   "file": "chapters/kap17.json"
+  },
+  {
+   "n": 18,
+   "titel": "Ett brev till farmor",
+   "arc": "C",
+   "grammatik_fokus": "perfekt (har + supinum: har varit, har skrivit); någonsin, aldrig, redan, just; att skriva brev",
+   "file": "chapters/kap18.json"
+  },
+  {
+   "n": 19,
+   "titel": "Resan till Stockholm",
+   "arc": "D",
+   "grammatik_fokus": "futurum: ska, kommer att, tänker; presens som futurum (tåget går klockan åtta); i går – i dag – i morgon",
+   "file": "chapters/kap19.json"
+  },
+  {
+   "n": 20,
+   "titel": "Hos farmor",
+   "arc": "D",
+   "grammatik_fokus": "bestämd form av adjektiv: den gamla staden, det stora slottet, de höga husen; hos",
+   "file": "chapters/kap20.json"
+  },
+  {
+   "n": 21,
+   "titel": "Bråket",
+   "arc": "D",
+   "grammatik_fokus": "att-satser (säger/tror/vet/tycker att …); bisatsordföljd: inte FÖRE verbet; förlåt och lova",
+   "file": "chapters/kap21.json"
+  },
+  {
+   "n": 22,
+   "titel": "Akta hunden!",
+   "arc": "D",
+   "grammatik_fokus": "imperativ (Kom! Gå! Sitt! Var lugn! Spring inte!); får/får inte; vågar; rädd för",
+   "file": "chapters/kap22.json"
+  },
+  {
+   "n": 23,
+   "titel": "Lasse och Maria",
+   "arc": "D",
+   "grammatik_fokus": "relativsatser med som (flickan som bor i Stockholm; kvinnan som Lasse älskar); älska, sakna, längta efter; kär — förlovad — gift",
+   "file": "chapters/kap23.json"
+  },
+  {
+   "n": 24,
+   "titel": "Den sjuka pojken",
+   "arc": "D",
+   "grammatik_fokus": "pluskvamperfekt (hade varit, hade regnat); tidsbisatser med när/medan/innan; bli (frisk → sjuk!)",
+   "file": "chapters/kap24.json"
+  },
+  {
+   "n": 25,
+   "titel": "Sagan om trollet i berget",
+   "arc": "E",
+   "grammatik_fokus": "sagans språk: det var en gång …; berättande preteritum; börja och sluta",
+   "file": "chapters/kap25.json"
+  },
+  {
+   "n": 26,
+   "titel": "Pojken som ville flyga",
+   "arc": "E",
+   "grammatik_fokus": "passiv på -s (kallades, byggdes, det sägs att …); skulle ('ska' i preteritum)",
+   "file": "chapters/kap26.json"
+  },
+  {
+   "n": 27,
+   "titel": "Midsommar",
+   "arc": "E",
+   "grammatik_fokus": "partikelverb med betonad partikel (ställer UPP, tar FRAM, håller PÅ med); hälsar på — och hälsar på!",
+   "file": "chapters/kap27.json"
+  },
+  {
+   "n": 28,
+   "titel": "Storm på sjön",
+   "arc": "E",
+   "grammatik_fokus": "om-satser (Om vinden ökar, måste vi vända!); passiv i handling (seglet tas ner); berättande med alla tempus",
+   "file": "chapters/kap28.json"
+  },
+  {
+   "n": 29,
+   "titel": "Man ska inte ge upp",
+   "arc": "E",
+   "grammatik_fokus": "generellt man (man ska inte ge upp!); ordspråk; både…och, varken…eller, antingen…eller; ju…desto",
+   "file": "chapters/kap29.json"
+  },
+  {
+   "n": 30,
+   "titel": "Festen",
+   "arc": "E",
+   "grammatik_fokus": "syntes — hela boken i ett kapitel; hålla tal och skåla; framtiden (nästa sommar …)",
+   "file": "chapters/kap30.json"
+  }
+ ],
+ "lasebok": [
+  {
+   "nummer": 1,
+   "titel": "En dag med Ludde",
+   "efter_kapitel": 7,
+   "typ": "vardag",
+   "file": "lasebok/lb01.json"
+  },
+  {
+   "nummer": 2,
+   "titel": "En morgon på gården",
+   "efter_kapitel": 9,
+   "typ": "vardag",
+   "file": "lasebok/lb02.json"
+  },
+  {
+   "nummer": 3,
+   "titel": "Elsa i affären",
+   "efter_kapitel": 12,
+   "typ": "vardag",
+   "file": "lasebok/lb03.json"
+  },
+  {
+   "nummer": 4,
+   "titel": "Fru Linds dag",
+   "efter_kapitel": 14,
+   "typ": "vardag",
+   "file": "lasebok/lb04.json"
+  },
+  {
+   "nummer": 5,
+   "titel": "Tomten på gården",
+   "efter_kapitel": 16,
+   "typ": "saga",
+   "file": "lasebok/lb05.json"
+  },
+  {
+   "nummer": 6,
+   "titel": "Morfars brev",
+   "efter_kapitel": 18,
+   "typ": "vardag",
+   "file": "lasebok/lb06.json"
+  },
+  {
+   "nummer": 7,
+   "titel": "Bill var liten en gång",
+   "efter_kapitel": 22,
+   "typ": "vardag",
+   "file": "lasebok/lb07.json"
+  },
+  {
+   "nummer": 8,
+   "titel": "Näcken i sjön",
+   "efter_kapitel": 27,
+   "typ": "saga",
+   "file": "lasebok/lb08.json"
+  },
+  {
+   "nummer": 9,
+   "titel": "Trollet och kyrkans klocka",
+   "efter_kapitel": 28,
+   "typ": "saga",
+   "file": "lasebok/lb09.json"
+  },
+  {
+   "nummer": 10,
+   "titel": "Kattens sak",
+   "efter_kapitel": 30,
+   "typ": "vardag",
+   "file": "lasebok/lb10.json"
+  }
+ ]
+}

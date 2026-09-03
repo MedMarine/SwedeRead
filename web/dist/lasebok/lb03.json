@@ -1,0 +1,23 @@
+{
+ "nummer": 3,
+ "titel": "Elsa i affären",
+ "efter_kapitel": 12,
+ "typ": "vardag",
+ "block": [
+  {
+   "typ": "narration",
+   "text": "På lördagar är Elsa i affären med sin mamma. Vad gör hon? Mycket! Män, kvinnor och barn kommer och köper: bröd, ost, mjölk och äpplen. Elsa säger \"hej\" och \"varsågod\" och \"tack\". Hon kan affärens saker: brödet kostar trettio kronor, och osten kostar åttio. Små barn vill ha godis — och deras mammor säger ofta nej!",
+   "audio": "audio/lb03/b000_884fc5e9d334.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "På vintern är det varmt och gott i affären. Om sommaren kommer alla och vill ha något kallt att dricka. Och på hösten? Då kommer regnet — och alla vill in i den varma affären!",
+   "audio": "audio/lb03/b001_ca4a565589f4.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "På kvällen är affären stängd. Elsa och hennes mamma sätter sig med mjölk och två bullar. – Du är affärens bästa flicka, säger fru Ek. Och Elsa får tio kronor — varje lördag. Tio kronor på en lördag: det är pengar, det!",
+   "audio": "audio/lb03/b002_7d2027c039ef.mp3"
+  }
+ ]
+}

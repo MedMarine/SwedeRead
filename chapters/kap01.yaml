@@ -1,0 +1,289 @@
+# KAPITEL 1 — Sverige och Norden
+# The map chapter. är/ligger; en/ett; predicative adjective agreement;
+# inte; questions; i/vid. Coda: letters, words and digits as objects.
+
+kapitel: 1
+titel: "Sverige och Norden"
+arc: A
+grammatik_fokus: "är/ligger; en/ett; stor/stort/stora; inte; frågor (Var…? Vad…? Är…? Ligger…?)"
+uttal_fokus: "å ä ö; alfabetet; lång och kort vokal"
+
+fokus: [land, stad, sjö, hav, ö, berg, ligga, stor, liten, svensk, bokstav, ord]
+stretch: [siffra, norr, söder]
+
+illustration: >-
+  A hand-drawn map of the Nordic countries in warm watercolor: Sweden, Norway,
+  Denmark, Finland, Iceland labeled; Stockholm, Oslo, Köpenhamn, Helsingfors
+  marked with dots; lakes Vänern/Vättern/Mälaren visible; a compass rose (norr
+  up); a tiny red dot in Småland labeled "Sjövik" with a magnifying-glass inset
+  showing a small town by a lake. Style: children's-atlas, clean lines.
+
+lasstycken:
+  - rubrik: "I. FEM LÄNDER"
+    block:
+      - typ: narration
+        text: >-
+          Sverige är ett land. Norge är också ett land. Sverige och Norge är
+          två länder. Danmark, Finland och Island är också länder. Sverige,
+          Norge, Danmark, Finland och Island är fem länder i Norden. Norden
+          ligger i Europa.
+        margin:
+          - "ett land — två länder"
+          - "Norden = Sverige + Norge + Danmark + Finland + Island"
+          - "🗺️ Europa"
+
+      - typ: narration
+        text: >-
+          Stockholm är en stad. Stockholm ligger i Sverige. Oslo är också en
+          stad. Ligger Oslo i Sverige? Nej, Oslo ligger inte i Sverige — Oslo
+          ligger i Norge. Köpenhamn ligger i Danmark, och Helsingfors ligger i
+          Finland. Stockholm, Oslo, Köpenhamn och Helsingfors är fyra städer.
+        margin:
+          - "en stad — två städer"
+          - "ligger i = är i (på kartan 🗺️)"
+          - "Ligger Oslo i Sverige? — Nej, Oslo ligger inte i Sverige."
+
+      - typ: narration
+        text: >-
+          Var ligger Göteborg? Göteborg ligger i Sverige. Malmö ligger också i
+          Sverige. Stockholm, Göteborg och Malmö är tre stora städer i Sverige.
+          Sjövik är också en stad i Sverige, men Sjövik är inte en stor stad —
+          Sjövik är en mycket liten stad. Sjövik ligger i Småland, och Sjövik
+          ligger vid en sjö.
+        margin:
+          - "stor ↔ liten"
+          - "Var ligger X? — X ligger i Y."
+          - "Sjövik: 🔍 en mycket liten stad i Småland"
+
+      - typ: narration
+        text: >-
+          Sverige är stort. Ryssland är också stort — Ryssland är mycket stort!
+          Danmark är inte stort. Danmark är ett litet land, men Ryssland är ett
+          mycket stort land. Är Sverige ett litet land? Nej, Sverige är inte
+          litet — Sverige är ett stort land i Norden.
+        margin:
+          - "Sverige är stort : ett stort land"
+          - "Danmark är litet : ett litet land"
+          - "Danmark ↔ Ryssland"
+
+  - rubrik: "II. SJÖAR, ÖAR OCH BERG"
+    block:
+      - typ: narration
+        text: >-
+          Vänern är en sjö. Vänern ligger i Sverige. Vättern är också en sjö.
+          Vänern och Vättern är två stora sjöar. Mälaren är också en stor sjö.
+          Mälaren ligger vid Stockholm. Vänern, Vättern och Mälaren är tre
+          stora sjöar i Sverige. I Sverige och i Finland ligger många sjöar —
+          mycket många!
+        margin:
+          - "en sjö — två sjöar 💧"
+          - "Vänern är stor : Vänern är en stor sjö"
+
+      - typ: narration
+        text: >-
+          Östersjön ligger vid Sverige. Är Östersjön en sjö? Nej! Östersjön är
+          inte en sjö — Östersjön är ett hav. Nordsjön är också ett hav.
+          Nordsjön ligger vid Norge och Danmark. Atlanten är ett mycket stort
+          hav. Atlanten ligger vid Norge och vid Island.
+        margin:
+          - "ett hav — två hav 🌊"
+          - "Östersjön och Nordsjön är hav, inte sjöar!"
+
+      - typ: narration
+        text: >-
+          Gotland är en ö. Gotland ligger i Östersjön. Öland är också en ö.
+          Gotland och Öland är två öar i Östersjön. Island är en stor ö i
+          Atlanten. Grönland är också en ö. Är Grönland en liten ö? Nej,
+          Grönland är inte en liten ö — Grönland är en mycket stor ö! I
+          Östersjön ligger också många små öar.
+        margin:
+          - "en ö — två öar 🏝️"
+          - "liten — litet — små"
+          - "Grönland: en mycket stor ö"
+
+      - typ: narration
+        text: >-
+          Kebnekaise är ett berg. Kebnekaise ligger i norr, i Sverige.
+          Galdhøpiggen är ett berg i Norge. I Norge ligger många stora berg.
+          I Sverige ligger också många berg, men i Danmark — nej! I Danmark
+          ligger inte många berg. Danmark ligger i söder, och Danmark är ett
+          litet land med många öar.
+        margin:
+          - "ett berg — två berg ⛰️"
+          - "norr ↑ · söder ↓ 🧭"
+
+      - typ: narration
+        text: >-
+          Var ligger Norden? Norden ligger i Europa, i norr. Vad är Vänern?
+          Vänern är en sjö. Vad är Gotland? Gotland är en ö. Är Helsingfors
+          ett land? Nej, Helsingfors är inte ett land — Helsingfors är en stad
+          i Finland. Är Atlanten en sjö eller ett hav? Atlanten är ett hav.
+          Ligger Kebnekaise i söder? Nej, Kebnekaise ligger i norr.
+        margin:
+          - "Vad är X? — X är en/ett …"
+          - "A eller B? — en av två"
+
+  - rubrik: "III. BOKSTÄVER OCH ORD"
+    block:
+      - typ: narration
+        text: >-
+          A och B är bokstäver. C är också en bokstav. A, B och C är tre
+          bokstäver. Å, Ä och Ö är också bokstäver. Å, Ä och Ö är svenska
+          bokstäver! "Land" och "stad" är inte bokstäver — "land" och "stad"
+          är ord. "Land" är ett svenskt ord, och "stad" är också ett svenskt
+          ord.
+        margin:
+          - "a b c … x y z å ä ö"
+          - "svensk — svenskt — svenska"
+          - "bokstäver → ord: s + t + a + d = stad"
+
+      - typ: narration
+        text: >-
+          "Stad" är ett ord med fyra bokstäver: S, T, A, D. "Sjö" är ett ord
+          med tre bokstäver. Och "ö"? "Ö" är en bokstav, men "ö" är också ett
+          ord — Gotland är en ö! "Ö" är ett mycket litet ord: ett ord med en
+          bokstav.
+        margin:
+          - "s-t-a-d : fyra bokstäver"
+          - "”ö” = en bokstav och ett ord!"
+
+      - typ: narration
+        text: >-
+          1, 2 och 3 är siffror. 5 är också en siffra. Siffror är inte
+          bokstäver, och siffror är inte ord. "Fem" är ett svenskt ord med tre
+          bokstäver — F, E, M — men 5 är en siffra.
+        margin:
+          - "1 2 3 4 5 : siffror"
+          - "fem = 5"
+
+      - typ: narration
+        text: >-
+          Sverige är ett stort land i Norden. I Sverige ligger många sjöar,
+          många öar och många stora berg. Stockholm är en stor stad, och
+          Göteborg är också en stor stad — men Sjövik är en mycket liten stad
+          vid en liten sjö i Småland. Vad ligger i Sjövik? Det är kapitel två!
+        margin:
+          - "🔍 Sjövik …?"
+
+grammatik:
+  - rubrik: "en och ett"
+    forklaring: >-
+      "Stad", "land", "sjö" och "hav" är substantiv. "Stad" är ett en-ord:
+      en stad. "Land" är ett ett-ord: ett land.
+    tabell:
+      head: ["en-ord", "ett-ord"]
+      rows:
+        - ["en stad", "ett land"]
+        - ["en sjö", "ett hav"]
+        - ["en ö", "ett berg"]
+        - ["en bokstav", "ett ord"]
+
+  - rubrik: "singular och plural"
+    forklaring: >-
+      "En stad" är singular (1). "Två städer" är plural (2, 3, 4 …).
+      Verbet "är" är samma i singular och plural: Sverige ÄR ett land.
+      Sverige och Norge ÄR två länder.
+    tabell:
+      head: ["singular", "plural"]
+      rows:
+        - ["en stad", "två städer"]
+        - ["en sjö", "två sjöar"]
+        - ["en ö", "två öar"]
+        - ["en bokstav", "två bokstäver"]
+        - ["ett land", "två länder"]
+        - ["ett hav", "två hav"]
+        - ["ett berg", "två berg"]
+        - ["ett ord", "två ord"]
+
+  - rubrik: "stor, stort, stora"
+    forklaring: >-
+      Adjektivet "stor" har tre former: stor (en-ord), stort (ett-ord),
+      stora (plural). Adjektivet "liten" har formerna liten, litet — och
+      i plural: små!
+    tabell:
+      head: ["", "en-ord", "ett-ord", "plural"]
+      rows:
+        - ["stor", "Vänern är stor — en stor sjö", "Sverige är stort — ett stort land", "två stora sjöar"]
+        - ["liten", "Sjövik är en liten stad", "Danmark är ett litet land", "många små öar"]
+
+  - rubrik: "frågor"
+    forklaring: >-
+      Ligger Oslo i Norge? — Ja. Ligger Oslo i Sverige? — Nej, Oslo ligger
+      inte i Sverige. Var ligger Oslo? — Oslo ligger i Norge. Vad är Gotland?
+      — Gotland är en ö.
+    tabell:
+      head: ["fråga", "svar"]
+      rows:
+        - ["Ligger X i Y?", "Ja. / Nej, X ligger inte i Y."]
+        - ["Är X …?", "Ja. / Nej, X är inte …"]
+        - ["Var ligger X?", "X ligger i …"]
+        - ["Vad är X?", "X är en/ett …"]
+
+uttal:
+  rubrik: "Å, Ä, Ö — och lång och kort vokal"
+  forklaring: >-
+    Svenska har tre bokstäver med prickar och ring: å, ä, ö. Lyssna! 👂🔊
+  grupper:
+    - namn: "å"
+      ord: [å, Småland, många]
+    - namn: "ä"
+      ord: [Vänern, Vättern, länder, städer]
+    - namn: "ö"
+      ord: [ö, öar, sjö, Öland, Malmö, Östersjön]
+    - namn: "lång vokal"
+      ord: [stad, sjö, stor, liten]
+    - namn: "kort vokal"
+      ord: [land, hav, berg, mycket]
+
+ovningar:
+  A:
+    instruktion: "Skriv rätt form: stor/stort/stora, liten/litet/små, en/ett — och plural."
+    items:
+      - q: "Sverige är ett {stort} land."
+      - q: "Vänern är en {stor} sjö."
+      - q: "Vänern och Vättern är två {stora} sjöar."
+      - q: "Danmark är ett {litet} land."
+      - q: "Sjövik är en {liten} stad."
+      - q: "I Östersjön ligger många {små} öar."
+      - q: "Stockholm är {en} stad."
+      - q: "Kebnekaise är {ett} berg."
+      - q: "Atlanten är {ett} stort hav."
+      - q: "Mälaren är {en} stor sjö."
+      - q: "ett land — två {länder}"
+      - q: "en stad — två {städer}"
+      - q: "en sjö — två {sjöar}"
+      - q: "en ö — två {öar}"
+      - q: "ett berg — två {berg}"
+  B:
+    instruktion: "Skriv ordet: land, stad, sjö, hav, ö, berg, ligger, bokstav, ord, siffra, svenska."
+    items:
+      - q: "Norge är ett {land} i Norden."
+      - q: "Helsingfors är en {stad} i Finland."
+      - q: "Vättern är en stor {sjö}."
+      - q: "Atlanten är ett mycket stort {hav}."
+      - q: "Gotland är en {ö} i Östersjön."
+      - q: "Kebnekaise är ett stort {berg} i norr."
+      - q: "Oslo {ligger} i Norge."
+      - q: "Å, ä och ö är {svenska} bokstäver."
+      - q: "'Sjö' är ett {ord} med tre bokstäver."
+      - q: "W är en {bokstav}."
+      - q: "7 är en {siffra}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Var ligger Sverige?"
+        model: "Sverige ligger i Norden, i Europa."
+      - q: "Är Oslo en stad i Sverige?"
+        model: "Nej, Oslo är inte en stad i Sverige — Oslo är en stad i Norge."
+      - q: "Vad är Vänern?"
+        model: "Vänern är en stor sjö i Sverige."
+      - q: "Är Östersjön en sjö?"
+        model: "Nej, Östersjön är inte en sjö — Östersjön är ett hav."
+      - q: "Är Grönland en liten ö?"
+        model: "Nej, Grönland är en mycket stor ö."
+      - q: "Var ligger många stora berg?"
+        model: "Många stora berg ligger i Norge och i Sverige."
+      - q: "Vad är Å, Ä och Ö?"
+        model: "Å, Ä och Ö är svenska bokstäver."
+      - q: "Är Sjövik en stor stad?"
+        model: "Nej, Sjövik är en mycket liten stad i Småland."

@@ -1,0 +1,630 @@
+{
+ "kapitel": 9,
+ "image": "images/kap09.jpg",
+ "titel": "På morfars gård",
+ "arc": "B",
+ "grammatik_fokus": "någon/något/några ↔ ingen/inget/inga; alla och varje; djurens plural",
+ "uttal_fokus": "r + d/n/t smälter ihop: gård, barn, korna, borta",
+ "fokus": [
+  "morfar",
+  "gård",
+  "djur",
+  "ko",
+  "häst",
+  "gris",
+  "höna",
+  "lamm",
+  "får_djur",
+  "gammal",
+  "leta",
+  "hitta"
+ ],
+ "stretch": [
+  "bonde",
+  "äng",
+  "gräs",
+  "brun"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. MORFARS DJUR",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Sven Karlsson är Karins pappa — barnens morfar. Han bor inte i Sjövik: han bor på en gård, inte långt från staden. Morfar är gammal, men han är inte trött! Sven är bonde: en man med en gård och många djur.",
+     "margin": [
+      "morfar = mammas pappa 👴",
+      "en gård 🚜",
+      "en bonde = en person med en gård",
+      "gammal ↔ ung (en gammal man, ett gammalt hus)"
+     ],
+     "audio": "audio/kap09/b000_7b05c9fb471a.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Familjen cyklar till gården. Vad finns på gården? Djur — många djur! Morfar har fyra kor. Korna är stora, och de äter gräs på ängen. Han har en häst: hästen heter Brunte, och den är brun. Morfar har också tre grisar och tio hönor. Grisarna äter allt! Och hönorna? De går här och där och letar mat.",
+     "margin": [
+      "en ko — fyra kor 🐄",
+      "en häst 🐎 (Brunte är brun 🟤)",
+      "en gris — grisar 🐖",
+      "en höna — hönor 🐔",
+      "en äng: grönt gräs 🌿"
+     ],
+     "audio": "audio/kap09/b001_cff06ce12898.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Och morfar har får — åtta får! Ett får, två får, åtta får: ordet är samma. Fåren äter gräs på ängen med korna. Ett får får mat av morfar: fåret får gräs. Får får gräs! Och små får? De heter lamm: ett lamm, två lamm. På gården finns tre lamm, och de är vita och små.",
+     "margin": [
+      "ett får — två får 🐑 (samma ord!)",
+      "djuret 'får' och verbet 'får': FÅR FÅR GRÄS! 😄",
+      "ett lamm = ett litet får"
+     ],
+     "audio": "audio/kap09/b002_e99bafe724dc.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Varje morgon får alla djuren mat: korna och fåren får gräs, grisarna får mycket mat, och hönorna letar själva. Alla djuren äter — och morfar ser på dem. – Alla är här, säger han. Men är alla här?",
+     "margin": [
+      "varje morgon = morgon, morgon, morgon …",
+      "alla = 100%!"
+     ],
+     "audio": "audio/kap09/b003_166212673371.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. ETT LAMM ÄR BORTA!",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Astrid ser på lammen. Ett lamm, två lamm … var är tre? – Morfar! ropar hon. Ett lamm är borta! Morfar kommer och ser: ja, ett lamm är borta. Ingen ser det. Är det på ängen? Nej, på ängen finns inget lamm — bara korna och fåren. Är det bakom huset? Nej, där är ingen. Var är lammet?",
+     "margin": [
+      "borta = inte här! 😨",
+      "ingen/inget/inga = 0",
+      "något lamm? — inget lamm!"
+     ],
+     "audio": "audio/kap09/b004_b5b20a81668f.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Alla letar. Oskar letar bakom huset. Nils letar på ängen. Karin och Anders letar vid vattnet — finns det något lamm där? Nej, inget. Astrid frågar hönorna: – Har ni något lamm? Men hönorna svarar inte. Och Ludde? Ludde springer här och där … och nu hör alla hunden: – Voff! Voff!",
+     "margin": [
+      "letar 🔍 = var är det?",
+      "– Voff! (så 'talar' en hund)"
+     ],
+     "audio": "audio/kap09/b005_c7d42da28932.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Ludde är vid ett gammalt träd på ängen, och där — där ligger lammet! Det sover i gräset. Ludde hittar lammet! – Bra, Ludde! säger morfar. Astrid tar lammet — det vaknar och säger: – Bä! Nu är alla djuren hemma: korna, hästen, grisarna, hönorna och alla fåren. Ingen är borta.",
+     "margin": [
+      "hittar = letar … och HÄR är det! ✓",
+      "– Bä! 🐑",
+      "– Bra, Ludde! 👍"
+     ],
+     "audio": "audio/kap09/b006_33efb68f0a42.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. MJÖLK FRÅN MORFARS KOR",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vem är Sven? Han är Karins pappa — barnens morfar, en gammal bonde med en gård. Hur många djur har han? Fyra kor, en häst, tre grisar, tio hönor och åtta får — och tre lamm! Vem hittar lammet? Ludde hittar det under ett gammalt träd: lammet sover i gräset. Får alla djuren mat varje morgon? Ja, alla — varje morgon.",
+     "margin": [
+      "4 + 1 + 3 + 10 + 8 + 3 = många djur!"
+     ],
+     "audio": "audio/kap09/b007_7fd5ba5ce568.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "På kvällen sätter sig familjen i morfars kök. Alla dricker mjölk — mjölken kommer från morfars kor! — och äter bröd med ost. Sedan cyklar familjen hem till Sjövik. – Hej då, morfar! Och kapitel tio? Kapitel tio: djuren — och vi!",
+     "margin": [
+      "mjölk 🥛 ← kor 🐄",
+      "🔍 djuren — och vi …?"
+     ],
+     "audio": "audio/kap09/b008_da377aad1a0f.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Morfar säljer äpplen",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "På morfars gård finns många träd med äpplen — röda och gula äpplen. Morfar säljer dem: tio äpplen kostar tjugo kronor, och det är billigt! Män och kvinnor från Sjövik kommer till gården och köper. De betalar, och morfar får pengarna. – Varsågod! säger morfar. Fru Ek köper också morfars äpplen — och säljer dem i affären. Där kostar tio äpplen trettio kronor: på gården är äpplena billiga, i affären är de inte billiga! Och några äpplen får hästen Brunte. Hästar äter äpplen! Brunte äter fem äpplen … och letar: finns det några äpplen till? Ja — men de är till affären!",
+    "audio": "audio/kap09/b009_42467a17cfb5.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "någon — ingen",
+   "forklaring": "Finns det något lamm på ängen? — Nej, det finns inget lamm. Ingen = inte någon = 0!",
+   "tabell": {
+    "head": [
+     "",
+     "någon …?",
+     "ingen!"
+    ],
+    "rows": [
+     [
+      "en-ord",
+      "någon höna",
+      "ingen höna"
+     ],
+     [
+      "ett-ord",
+      "något lamm",
+      "inget lamm"
+     ],
+     [
+      "plural",
+      "några djur",
+      "inga djur"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "alla och varje",
+   "forklaring": "Alla djuren äter (100%!). Varje morgon får de mat (morgon, morgon, morgon — alla morgnar!).",
+   "tabell": {
+    "head": [
+     "",
+     "exempel"
+    ],
+    "rows": [
+     [
+      "alla + plural",
+      "alla djuren, alla fåren"
+     ],
+     [
+      "varje + singular",
+      "varje morgon, varje dag"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "djurens plural",
+   "forklaring": "En ko — kor! Ett får — får! Ett lamm — lamm! Många små ord, många mönster.",
+   "tabell": {
+    "head": [
+     "singular",
+     "plural",
+     "bestämd plural"
+    ],
+    "rows": [
+     [
+      "en ko",
+      "kor",
+      "korna"
+     ],
+     [
+      "en häst",
+      "hästar",
+      "hästarna"
+     ],
+     [
+      "en gris",
+      "grisar",
+      "grisarna"
+     ],
+     [
+      "en höna",
+      "hönor",
+      "hönorna"
+     ],
+     [
+      "ett får",
+      "får",
+      "fåren"
+     ],
+     [
+      "ett lamm",
+      "lamm",
+      "lammen"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "får och får",
+   "forklaring": "\"Får\" är ett djur 🐑 — och \"får\" är ett verb (Misse får mjölk)! Samma ord, två saker: Fåret får gräs. Får får gräs. Får lamm mat? Ja, lamm får mat av får!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "djuret",
+      "ett får, två får, fåret, fåren"
+     ],
+     [
+      "verbet",
+      "jag får, du får, lammet får"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "R smälter ihop med d, n, t",
+  "forklaring": "I \"gård\" hör du inte r + d — de är ETT ljud! Samma i barn, korna, borta. Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "rd",
+    "ord": [
+     "gård",
+     "gården",
+     "bordet"
+    ]
+   },
+   {
+    "namn": "rn",
+    "ord": [
+     "barn",
+     "barnen",
+     "korna"
+    ]
+   },
+   {
+    "namn": "rt",
+    "ord": [
+     "borta",
+     "svart"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "gård": "audio/uttal/216aea3336ca.mp3",
+  "gården": "audio/uttal/8aa333b802df.mp3",
+  "bordet": "audio/uttal/0105408a5580.mp3",
+  "barn": "audio/uttal/d8cf7a6d4cb7.mp3",
+  "barnen": "audio/uttal/002e6edbceba.mp3",
+  "korna": "audio/uttal/652bce2e8908.mp3",
+  "borta": "audio/uttal/a59fb3503e59.mp3",
+  "svart": "audio/uttal/5c700afaf87f.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv någon/något/några eller ingen/inget/inga — och plural.",
+   "items": [
+    {
+     "q": "Finns det {något} lamm på ängen? (ett lamm)"
+    },
+    {
+     "q": "Nej, där finns {inget} lamm."
+    },
+    {
+     "q": "Har du {några} pengar? (pengar)"
+    },
+    {
+     "q": "Nej, jag har {inga} pengar."
+    },
+    {
+     "q": "Är {någon} hemma? (en person)"
+    },
+    {
+     "q": "Nej, {ingen} är hemma."
+    },
+    {
+     "q": "en ko — fyra {kor}"
+    },
+    {
+     "q": "en häst — två {hästar}"
+    },
+    {
+     "q": "en gris — tre {grisar}"
+    },
+    {
+     "q": "en höna — tio {hönor}"
+    },
+    {
+     "q": "ett får — åtta {får}"
+    },
+    {
+     "q": "ett lamm — tre {lamm}"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: morfar, gård, bonde, djur, kor, häst, grisar, hönor, får, lamm, äng, gräs, letar, hittar, gammal, borta, alla, varje.",
+   "items": [
+    {
+     "q": "Sven är barnens {morfar}."
+    },
+    {
+     "q": "Han bor på en {gård} med många djur."
+    },
+    {
+     "q": "Sven är {bonde}: han har kor, får och grisar."
+    },
+    {
+     "q": "Korna äter {gräs} på ängen."
+    },
+    {
+     "q": "Hästen Brunte är ett stort brunt {djur}."
+    },
+    {
+     "q": "Ett lamm är {borta}!"
+    },
+    {
+     "q": "Alla {letar} — var är lammet?"
+    },
+    {
+     "q": "Ludde {hittar} lammet under ett träd."
+    },
+    {
+     "q": "Morfar är {gammal}, men inte trött."
+    },
+    {
+     "q": "{Varje} morgon får djuren mat."
+    },
+    {
+     "q": "{Alla} djuren är hemma nu."
+    },
+    {
+     "q": "Ett litet får är ett {lamm}."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vem är Sven Karlsson?",
+     "model": "Han är Karins pappa — barnens morfar. Han är bonde och bor på en gård."
+    },
+    {
+     "q": "Hur många kor har morfar?",
+     "model": "Han har fyra kor."
+    },
+    {
+     "q": "Vad heter morfars häst?",
+     "model": "Den heter Brunte, och den är brun."
+    },
+    {
+     "q": "Vad är borta?",
+     "model": "Ett lamm är borta — ingen ser det!"
+    },
+    {
+     "q": "Vem hittar lammet, och var?",
+     "model": "Ludde hittar det under ett gammalt träd — lammet sover i gräset."
+    },
+    {
+     "q": "Vad säger lammet?",
+     "model": "Det säger: – Bä!"
+    },
+    {
+     "q": "Vad dricker familjen på kvällen?",
+     "model": "Alla dricker mjölk — den kommer från morfars kor."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "morfar": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "morfar",
+    "morfars"
+   ],
+   "sv": "mammas pappa 👴 (mor + far!)",
+   "en": "grandfather (mother's side)",
+   "tier": "focus"
+  },
+  "gård": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "gård",
+    "gården",
+    "gårdar",
+    "gårdarna",
+    "gårdens"
+   ],
+   "sv": "🚜 ett hus med djur och ängar — en bonde bor här",
+   "en": "farm",
+   "tier": "focus"
+  },
+  "djur": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "djur",
+    "djuret",
+    "djuren",
+    "djurets",
+    "djurens"
+   ],
+   "sv": "kor, hästar, hundar, katter — djur! (inte människor)",
+   "en": "animal",
+   "tier": "focus"
+  },
+  "ko": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "ko",
+    "kon",
+    "kor",
+    "korna",
+    "kons"
+   ],
+   "sv": "🐄 stor, äter gräs — mjölken kommer från kor!",
+   "en": "cow",
+   "tier": "focus"
+  },
+  "häst": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "häst",
+    "hästen",
+    "hästar",
+    "hästarna",
+    "hästens"
+   ],
+   "sv": "🐎 stort, snabbt djur — man kan sitta på den!",
+   "en": "horse",
+   "tier": "focus"
+  },
+  "gris": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "gris",
+    "grisen",
+    "grisar",
+    "grisarna",
+    "grisens"
+   ],
+   "sv": "🐖 rosa djur — äter allt!",
+   "en": "pig",
+   "tier": "focus"
+  },
+  "höna": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "höna",
+    "hönan",
+    "hönor",
+    "hönorna",
+    "hönans"
+   ],
+   "sv": "🐔 en fågel på gården — ägg kommer från hönor!",
+   "en": "hen",
+   "tier": "focus"
+  },
+  "lamm": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "lamm",
+    "lammet",
+    "lammen",
+    "lammets"
+   ],
+   "sv": "🐑 ett litet får — vitt och mjukt!",
+   "en": "lamb",
+   "tier": "focus"
+  },
+  "får_djur": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "får",
+    "fåret",
+    "fåren",
+    "fårets",
+    "fårens"
+   ],
+   "sv": "🐑 djuret med ull — ett får, två får (samma ord!). Och: får får gräs!",
+   "en": "sheep",
+   "tier": "focus"
+  },
+  "gammal": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "gammal",
+    "gammalt",
+    "gamla",
+    "äldre",
+    "äldst",
+    "äldsta"
+   ],
+   "sv": "morfar är gammal — sjuttio år! (↔ ung, ny)",
+   "en": "old",
+   "tier": "focus"
+  },
+  "leta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "letar",
+    "leta",
+    "letade",
+    "letat"
+   ],
+   "sv": "🔍 ser och ser: VAR är det?",
+   "en": "to search",
+   "tier": "focus"
+  },
+  "hitta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "hittar",
+    "hitta",
+    "hittade",
+    "hittat"
+   ],
+   "sv": "letar … och HÄR är det! ✓",
+   "en": "to find",
+   "tier": "focus"
+  },
+  "bonde": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "bonde",
+    "bonden",
+    "bondes",
+    "bönder",
+    "bönderna",
+    "bondens"
+   ],
+   "sv": "en man eller kvinna med en gård 🚜",
+   "en": "farmer",
+   "tier": "stretch"
+  },
+  "äng": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "äng",
+    "ängen",
+    "ängar",
+    "ängarna",
+    "ängens"
+   ],
+   "sv": "🌿 grönt 'golv' med gräs — korna äter här",
+   "en": "meadow",
+   "tier": "stretch"
+  },
+  "gräs": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "gräs",
+    "gräset",
+    "gräsets"
+   ],
+   "sv": "🌱 grönt — kor och får äter det!",
+   "en": "grass",
+   "tier": "stretch"
+  },
+  "brun": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "brun",
+    "brunt",
+    "bruna"
+   ],
+   "sv": "🟤 — hästen Brunte är brun!",
+   "en": "brown",
+   "tier": "stretch"
+  }
+ }
+}

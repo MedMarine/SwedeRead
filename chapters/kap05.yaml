@@ -1,0 +1,256 @@
+# KAPITEL 5 — Vems är bollen?
+# Possession: har; min/din/vår/er/deras; the sin-vs-hans crux, made
+# load-bearing by a ball dispute settled by colors.
+
+kapitel: 5
+titel: "Vems är bollen?"
+arc: A
+grammatik_fokus: "har; possessiva pronomen (min/mitt/mina …); sin/sitt/sina i kontrast mot hans/hennes; färger"
+uttal_fokus: "sj-ljudet (sju, sjö, Sjövik)"
+
+fokus: [ha, boll, cykel, bok, sak, leka, spela, ny, blå, gul, grön, vit]
+stretch: [snäll, svart, fin]
+
+illustration: >-
+  The garden as a lost-and-found: two boys mid-argument over a blue-and-yellow
+  ball, each pointing at himself; the little sister holding her doll and
+  pointing at the ball knowingly; the golden dog lying under the birch with a
+  different (blue-and-white) ball between his paws, extremely pleased; bikes
+  in four colors leaned against the red house. Watercolor children's-book.
+
+lasstycken:
+  - rubrik: "I. BARNENS SAKER"
+    block:
+      - typ: narration
+        text: >-
+          Oskar har en boll. Bollen är fin — blå och vit. Nils har också en
+          boll: hans boll är blå och gul. Astrid har inte en boll. Vad har
+          hon? Hon har Lisa, sin docka!
+        margin:
+          - "har 🤲 = det är X:s"
+          - "blå 🔵 · vit ⚪ · gul 🟡"
+          - "fin ✨"
+          - "sin docka = Astrids docka"
+
+      - typ: narration
+        text: >-
+          Oskar har en cykel. Hans cykel är röd. Nils cykel är svart, och
+          Astrids cykel är liten, grön och ny. Mamma och pappa har också
+          cyklar: Karins cykel är vit, och Anders cykel är stor och svart.
+        margin:
+          - "en cykel — två cyklar 🚲"
+          - "grön 🟢 · svart ⚫ · röd 🔴"
+          - "ny ↔ inte ny"
+
+      - typ: narration
+        text: >-
+          Nils har många böcker — stora böcker och små böcker. En ny bok
+          ligger på bordet i köket: det är Nils bok. Oskar har inte många
+          böcker! Astrid har en bok, en liten bok.
+        margin:
+          - "en bok — två böcker 📚 (o → ö!)"
+
+      - typ: narration
+        text: >-
+          En boll är en sak. En cykel och en bok är också saker. Barnen har
+          många saker: bollar, cyklar, böcker — och en docka. Vems saker är
+          det? Det är barnens saker!
+        margin:
+          - "en sak — två saker"
+          - "saker = bollar + cyklar + böcker + …"
+
+  - rubrik: "II. BOLLEN I TRÄDGÅRDEN"
+    block:
+      - typ: narration
+        text: >-
+          Trädgården är grön, och här leker barnen. Oskar och Nils spelar
+          boll vid huset — de spelar och spelar, och bollen är fin och ny.
+          Astrid leker med sin docka under björken. Ludde ser bollen … och
+          nu springer hunden med den! – Ludde! ropar pojkarna. Vi spelar
+          boll! Men Ludde är inte stygg — han är snäll: han leker!
+        margin:
+          - "leker 🤸 · spelar boll ⚽"
+          - "snäll 😊 ↔ stygg 😈"
+
+      - typ: narration
+        text: >-
+          Nu ligger en boll i trädgården, vid dörren. Oskar ser den och tar
+          den. – Det är min boll! säger han. – Nej! säger Nils. Det är inte
+          din boll — det är min! – Din boll? Nej, min boll! – Mamma! Oskar
+          tar min boll! Pojkarna spelar inte boll nu — de ropar.
+        margin:
+          - "min ↔ din"
+          - "– Det är MIN! (två pojkar, en boll …)"
+
+      - typ: narration
+        text: >-
+          Astrid kommer med sin docka. Hon ser bollen och skrattar: – Oskars
+          boll är blå och vit. Nils boll är blå och gul. Och bollen vid
+          dörren är blå och gul! – Det är din boll, Nils, säger Oskar. Nils
+          tar sin boll. Men var är Oskars boll? Ludde ligger under björken
+          med en blå och vit boll! – Ludde! Det är min boll! ropar Oskar.
+          Nu skrattar Astrid och Nils — och mamma skrattar i fönstret.
+        margin:
+          - "blå + gul = Nils boll!"
+          - "blå + vit = Oskars boll — och Ludde har den 🐕⚽"
+
+  - rubrik: "III. SIN ELLER HANS?"
+    block:
+      - typ: narration
+        text: >-
+          Nils tar sin boll. "Sin boll" = Nils boll! Oskar tar också sin
+          boll. "Sin boll" = Oskars boll! Men: Ludde har hans boll = Ludde
+          har Oskars boll. Och Astrid? Hon leker med sin docka — med
+          Astrids docka. Sin, sitt, sina — det är: min, min, min!
+        margin:
+          - "X tar SIN boll = X:s boll"
+          - "X tar HANS boll = en annan pojkes boll!"
+
+      - typ: narration
+        text: >-
+          – Är det din bok, Nils? – Ja, det är min bok. – Är det ert hus? –
+          Ja, det är vårt hus: mammas, pappas och barnens hus. – Är det er
+          trädgård? – Ja, det är vår trädgård, och den är grön och fin. –
+          Och Ludde, är det deras hund? – Ja! Ludde är barnens hund: deras
+          hund. Och Misse är Astrids katt: hennes katt.
+        margin:
+          - "min bok · mitt hus · mina saker"
+          - "vår trädgård · vårt hus · våra cyklar"
+          - "er → ni; deras → de"
+
+      - typ: narration
+        text: >-
+          Barnen har sina saker: bollar, cyklar, böcker och en docka. Ludde
+          har en boll — Oskars boll! — och Misse har en säng: Astrids säng.
+          Men nu springer Ludde från trädgården, och barnen springer med
+          honom. Till vad? Det är kapitel sex — och kapitel sex är nytt!
+        margin:
+          - "🔍 vart springer Ludde …?"
+
+grammatik:
+  - rubrik: "har"
+    forklaring: >-
+      Oskar har en boll: bollen är Oskars. Familjen har ett hus, en hund
+      och en katt. Vad har du?
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Jag har en bok.", "Vi har ett hus."]
+        - ["Har du en cykel?", "Ja, jag har en cykel. / Nej, jag har inte en cykel."]
+
+  - rubrik: "possessiva pronomen"
+    forklaring: >-
+      Min boll, mitt hus, mina saker — som en/ett/plural! Men hans, hennes
+      och deras har bara en form.
+    tabell:
+      head: ["", "en-ord", "ett-ord", "plural"]
+      rows:
+        - ["jag", "min boll", "mitt hus", "mina saker"]
+        - ["du", "din boll", "ditt hus", "dina saker"]
+        - ["vi", "vår boll", "vårt hus", "våra saker"]
+        - ["ni", "er boll", "ert hus", "era saker"]
+        - ["han", "hans …", "hans …", "hans …"]
+        - ["hon", "hennes …", "hennes …", "hennes …"]
+        - ["de", "deras …", "deras …", "deras …"]
+
+  - rubrik: "sin, sitt, sina — eller hans, hennes?"
+    forklaring: >-
+      Oskar tar SIN boll = Oskars boll. Oskar tar HANS boll = Nils boll
+      (inte Oskars!). Sin/sitt/sina = subjektets sak. Hans/hennes/deras =
+      en annan persons sak.
+    tabell:
+      head: ["mening", "vems sak?"]
+      rows:
+        - ["Oskar tar sin boll.", "Oskars boll"]
+        - ["Oskar tar hans boll.", "Nils boll!"]
+        - ["Astrid leker med sin docka.", "Astrids docka"]
+        - ["Nils ser hennes docka.", "Astrids docka (hon = Astrid)"]
+
+  - rubrik: "färger"
+    forklaring: >-
+      Röd, blå, gul, grön, vit, svart — och som alla adjektiv: en röd
+      cykel, ett rött hus, röda cyklar.
+    tabell:
+      head: ["färg", "en-ord", "ett-ord", "plural"]
+      rows:
+        - ["🔴", "röd", "rött", "röda"]
+        - ["🔵", "blå", "blått", "blåa"]
+        - ["🟡", "gul", "gult", "gula"]
+        - ["🟢", "grön", "grönt", "gröna"]
+        - ["⚪", "vit", "vitt", "vita"]
+        - ["⚫", "svart", "svart", "svarta"]
+
+uttal:
+  rubrik: "Sj-ljudet"
+  forklaring: >-
+    Sj är ett ljud — inte "s + j"! Lyssna på sju, sjö, Sjövik. Och lyssna
+    på s: ser, säger, syster. 👂🔊
+  grupper:
+    - namn: "sj"
+      ord: [sju, sjö, sjön, sjöar, Sjövik]
+    - namn: "s"
+      ord: [ser, säger, syster, sex]
+
+ovningar:
+  A:
+    instruktion: "Skriv rätt form: min/mitt/mina, vår/vårt/våra — och sin eller hans/hennes!"
+    items:
+      - q: "– Det är {min} boll! säger Oskar. (jag; en boll)"
+      - q: "– Det är inte {din} boll! säger Nils. (du; en boll)"
+      - q: "– {Mitt} rum är litet, säger Astrid. (jag; ett rum)"
+      - q: "– {Mina} böcker ligger på bordet, säger Nils. (jag; böcker)"
+      - q: "Det är {vårt} hus. (vi; ett hus)"
+      - q: "Det är {vår} trädgård. (vi; en trädgård)"
+      - q: "Barnen har {sina} saker. (de; saker)"
+      - q: "Astrid leker med {sin} docka — dockan är Astrids. (hon)"
+      - q: "Oskar tar {sin} boll — bollen är Oskars. (han)"
+      - q: "Ludde har {hans} boll — bollen är Oskars, inte Luddes! (han)"
+      - q: "ett {gult} hus (gul)"
+      - q: "en {grön} trädgård (grön)"
+      - q: "ett {nytt} kapitel (ny)"
+      - q: "två {svarta} cyklar (svart)"
+  B:
+    instruktion: "Skriv ordet: har, boll, cykel, bok, böcker, sak, saker, leker, spelar, ny, blå, gul, grön, vit, svart, snäll, fin."
+    items:
+      - q: "Oskar {har} en blå och vit {boll}."
+      - q: "Nils boll är blå och {gul}."
+      - q: "Anders cykel är stor och {svart}."
+      - q: "Astrids {cykel} är liten, grön och {ny}."
+      - q: "Nils har många {böcker}."
+      - q: "Barnen {leker} i trädgården."
+      - q: "Pojkarna {spelar} boll vid huset."
+      - q: "En boll och en bok är {saker}."
+      - q: "Karins cykel är {vit}."
+      - q: "Ludde är inte stygg — han är {snäll}."
+      - q: "Bollen är {fin} — blå och vit."
+      - q: "Trädgården är {grön}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vems boll är blå och gul?"
+        model: "Det är Nils boll."
+      - q: "Vad har Astrid — en boll eller en docka?"
+        model: "Hon har en docka. Den heter Lisa."
+      - q: "Vem springer med bollen i trädgården?"
+        model: "Ludde springer med bollen — han leker!"
+      - q: "Vems cykel är röd?"
+        model: "Oskars cykel är röd."
+      - q: "Är Ludde stygg?"
+        model: "Nej, han är snäll — han leker bara."
+      - q: "Oskar tar sin boll. Vems boll är det?"
+        model: "Det är Oskars boll — 'sin' är subjektets sak."
+      - q: "Har familjen många saker?"
+        model: "Ja: bollar, cyklar, böcker — och en docka."
+repetition:
+  rubrik: "Pojkarna och boken"
+  block:
+    - typ: narration
+      text: >-
+          Oskar retar Nils: – Böcker, böcker, böcker! Du leker inte — du
+          har bara böcker! – Retar du mig? frågar Nils. Min bok är fin, och
+          den är min. Oskar tar sin boll och springer till trädgården. Han
+          spelar boll med Ludde … men en hund är en hund: Ludde tar bollen
+          och springer! Nu kommer Oskar till Nils: – Nils … din bok — är den
+          fin? – Ja, svarar Nils. Kom! Och nu ser två pojkar i boken — två
+          bröder med en fin bok. Vems bok är det? Nils bok. Men Oskar retar
+          inte Nils nu!

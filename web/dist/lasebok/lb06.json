@@ -1,0 +1,23 @@
+{
+ "nummer": 6,
+ "titel": "Morfars brev",
+ "efter_kapitel": 18,
+ "typ": "vardag",
+ "block": [
+  {
+   "typ": "narration",
+   "text": "Ett brev kommer till huset vid sjön — och det är till barnen! Vem skriver till dem? Morfar! Morfar bor inte långt borta, men han skriver brev. – Gamla män skriver brev, säger han. Det har vi alltid gjort.",
+   "audio": "audio/lb06/b000_f947fad1b240.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Kära barn! Hur har ni det? På gården har mycket hänt. Lammet — ni minns lammet som Ludde hittade — är stort och tungt nu! Brunte har ätit för många äpplen och har ont i magen: hästar lär sig aldrig! Jag har köpt två nya hönor. De är bruna, och de springer snabbare än de gamla. Och i går regnade det — men i dag har vi sol. Kom till gården på lördag! Vi äter middag, och ni får se de nya hönorna. Hälsa mamma och pappa — och Ludde och Misse! Kramar, morfar.",
+   "audio": "audio/lb06/b001_4604e1b10c36.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Nils läser brevet för alla. – Har Brunte ont i magen? säger Astrid. Vi måste hälsa på honom! – På lördag, säger Karin. Och Nils skriver ett svar: \"Kära morfar! Tack för brevet! Vi kommer på lördag — alla! Kramar, barnen.\" Ett kort svar — men ett gott svar.",
+   "audio": "audio/lb06/b002_b641dfd6e54c.mp3"
+  }
+ ]
+}

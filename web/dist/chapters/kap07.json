@@ -1,0 +1,593 @@
+{
+ "kapitel": 7,
+ "image": "images/kap07.jpg",
+ "titel": "Astrid och Misse",
+ "arc": "B",
+ "grammatik_fokus": "ger/får (två objekt!); reflexiva verb (tvättar sig, lägger sig, sätter sig); vad gör X?",
+ "uttal_fokus": "lång eller kort vokal: mat — katt, äter — sätter",
+ "fokus": [
+  "ge",
+  "få",
+  "göra",
+  "mjölk",
+  "mat",
+  "äta",
+  "dricka",
+  "sova",
+  "vakna",
+  "tvätta",
+  "lägga",
+  "sätta"
+ ],
+ "stretch": [
+  "visa",
+  "morgon",
+  "kväll",
+  "trött"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. MORGON",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det är morgon i huset vid sjön. Astrid vaknar i sin säng — och vad ser hon? Misse! Katten ligger i sängen, och nu vaknar hon också. – God morgon, Misse! säger Astrid. – Mjau! säger katten.",
+     "margin": [
+      "morgon 🌅",
+      "vaknar: 😴 → 👀",
+      "God morgon! (= hej på morgonen)"
+     ],
+     "audio": "audio/kap07/b000_7be61449fd03.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Astrid tvättar sig med vatten. Och Misse? Misse tvättar sig också — men inte med vatten! Katter tvättar sig själva, och de tvättar sig och tvättar sig. Sedan går Astrid ner till köket, och katten går med henne.",
+     "margin": [
+      "tvättar SIG (sig = X själv!)",
+      "katten tvättar sig själv 🐈🧼"
+     ],
+     "audio": "audio/kap07/b001_1998f5e8a070.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Karin är i köket. Hon ger barnen mat. Astrid sätter sig vid bordet och äter. Hon dricker mjölk — mjölken är vit och god! Misse får också mjölk: Astrid ger katten mjölk. Misse dricker sin mjölk under bordet. Och Ludde? Ludde får mat och vatten. Hunden äter och äter — Ludde äter mycket, men Misse äter litet.",
+     "margin": [
+      "ger Misse mjölk = ger mjölk TILL Misse",
+      "får ← : Misse får mjölk av Astrid",
+      "mjölk 🥛 · mat 🍽",
+      "äter 😋 · dricker 🥛"
+     ],
+     "audio": "audio/kap07/b002_528086ee5c67.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Vem ger Misse mjölk? Astrid ger henne mjölk — katten får mjölk av Astrid. Vem får mat av Karin? Barnen och Ludde får mat av henne. Får Ludde Misses mjölk? Nej! Ludde får vatten, och Misse får mjölk. Och vad gör Ludde med maten? Han äter den!",
+     "margin": [
+      "ger ↔ får",
+      "Vad gör X? — X äter/sover/leker …"
+     ],
+     "audio": "audio/kap07/b003_836c731072d6.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. KATTEN ÄR HEMMA",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Sedan går Astrid till skolan med sina bröder. Men Misse går inte till skolan — katter går inte i skolan! Vad gör katten? Hon sover! Misse lägger sig i Astrids säng och sover. Katter sover mycket: de sover och sover.",
+     "margin": [
+      "lägger SIG = går och ligger! 🛏",
+      "sover 😴 'zzz'"
+     ],
+     "audio": "audio/kap07/b004_57a35ef1d070.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Misse vaknar och äter litet mat. Sedan går hon ut genom fönstret och upp i björken. Där ser katten långt: vägen, bron, skolan … Var är Astrid? Hon är i skolan. Misse går ner och in, lägger sig i sängen — och sover.",
+     "margin": [
+      "ut → upp → ner → in (kapitel sex!)"
+     ],
+     "audio": "audio/kap07/b005_3a81be80aecc.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. KVÄLL",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Astrid kommer hem från skolan. – Misse! Misse! ropar hon. Katten vaknar och kommer ner till henne. Astrid sätter sig på en stol i köket, och Misse sätter sig vid henne. Astrid visar Misse sin nya bok: – Ser du, Misse? Min bok! Men Misse ser inte på boken — katten ser på mjölken på bordet! Astrid skrattar och ger henne mjölk, och Misse dricker.",
+     "margin": [
+      "sätter SIG 🪑 (lägger sig 🛏)",
+      "visar = 'Se!' 👀"
+     ],
+     "audio": "audio/kap07/b006_371d8adcbd29.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Det är kväll. Familjen äter i köket; Anders och Karin sätter sig vid bordet med barnen, och maten är god. Sedan är barnen trötta. Astrid är mycket trött: hon tvättar sig och lägger sig i sin säng. Och vem kommer nu? Misse! Katten lägger sig vid Astrid. – Sov gott, Misse, säger Astrid.",
+     "margin": [
+      "kväll 🌆 (morgon ↔ kväll)",
+      "trött 😴 = 'jag vill sova!'",
+      "Sov gott! 🌙"
+     ],
+     "audio": "audio/kap07/b007_ebccc9d7df11.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Astrid sover — men Misse sover inte! Nu är katten inte trött. Hon ser ut genom fönstret … och går ut! Vart går Misse på kvällen? Ja, vart? Det är kattens sak! Men i kapitel åtta går Oskar och Nils till affären. Vad finns i affären — och vad gör pojkarna där? Det är kapitel åtta!",
+     "margin": [
+      "🔍 kattens sak … och affären!"
+     ],
+     "audio": "audio/kap07/b008_afaf75636c0a.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Kvällen i huset",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Det är kväll i huset vid sjön. Karin ger barnen mat, och barnen äter i köket. Ludde får mat, och Misse får mjölk — under bordet. Sedan tvättar barnen sig och lägger sig. Astrid visar Misse sin docka: – Sov gott, Lisa! Sov gott, Misse! Och huset sover: barnen sover, Ludde sover i köket, mamma och pappa sover. Men vem sover inte? Misse! Katten går ut genom fönstret. Vart går hon på kvällen? Det är kattens sak.",
+    "audio": "audio/kap07/b009_ea0161380ff5.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "ger och får — två objekt!",
+   "forklaring": "Astrid ger Misse mjölk: två objekt — till vem? (Misse) och vad? (mjölk). Och Misse får mjölk av Astrid. Ger ↔ får!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Astrid ger Misse mjölk.",
+      "= Astrid ger mjölk till Misse."
+     ],
+     [
+      "Misse får mjölk.",
+      "= Misse får mjölk av Astrid."
+     ],
+     [
+      "Karin ger barnen mat.",
+      "Barnen får mat av Karin."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "verb med sig",
+   "forklaring": "Misse tvättar sig = katten tvättar katten! Jag tvättar mig, du tvättar dig — men han, hon och de tvättar SIG.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "jag tvättar mig",
+      "vi tvättar oss"
+     ],
+     [
+      "du tvättar dig",
+      "ni tvättar er"
+     ],
+     [
+      "han/hon tvättar sig",
+      "de tvättar sig"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "ligger — lägger sig; sätter sig",
+   "forklaring": "Misse LIGGER i sängen: hon är där. Misse LÄGGER SIG i sängen: hon går dit — och nu ligger hon! Astrid SÄTTER SIG på stolen.",
+   "tabell": {
+    "head": [
+     "läge 📍",
+     "riktning →"
+    ],
+    "rows": [
+     [
+      "Misse ligger i sängen.",
+      "Misse lägger sig i sängen."
+     ],
+     [
+      "Astrid är på stolen.",
+      "Astrid sätter sig på stolen."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "morgon och kväll",
+   "forklaring": "På morgonen vaknar Astrid. På kvällen är hon trött och lägger sig. Morgon 🌅 ↔ kväll 🌆.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "på morgonen",
+      "Astrid vaknar och tvättar sig"
+     ],
+     [
+      "på kvällen",
+      "hon är trött och lägger sig"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Lång eller kort vokal?",
+  "forklaring": "Lyssna på a i mat (lååång!) och i katt (kort!). En vokal + två konsonanter = kort vokal. Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "lång vokal",
+    "ord": [
+     "mat",
+     "äter",
+     "sova",
+     "ger"
+    ]
+   },
+   {
+    "namn": "kort vokal",
+    "ord": [
+     "katt",
+     "sätter",
+     "mjölk",
+     "vaknar"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "mat": "audio/uttal/c98d20d17052.mp3",
+  "äter": "audio/uttal/f41bebe15bee.mp3",
+  "sova": "audio/uttal/072e94c24854.mp3",
+  "ger": "audio/uttal/ef52a28cf5a5.mp3",
+  "katt": "audio/uttal/3470a4671323.mp3",
+  "sätter": "audio/uttal/562912b3eec1.mp3",
+  "mjölk": "audio/uttal/c298c10e3538.mp3",
+  "vaknar": "audio/uttal/a06057914c66.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv rätt form: sig/mig/dig/oss — och verbet.",
+   "items": [
+    {
+     "q": "Astrid tvättar {sig} med vatten."
+    },
+    {
+     "q": "Jag tvättar {mig}."
+    },
+    {
+     "q": "Du tvättar {dig}."
+    },
+    {
+     "q": "Barnen lägger {sig} på kvällen."
+    },
+    {
+     "q": "Vi sätter {oss} vid bordet."
+    },
+    {
+     "q": "Astrid {ger} Misse mjölk. (ge)"
+    },
+    {
+     "q": "Misse {får} mjölk av Astrid. (få)"
+    },
+    {
+     "q": "Ludde {får} mat och vatten. (få)"
+    },
+    {
+     "q": "Astrid {visar} Misse sin nya bok. (visa)"
+    },
+    {
+     "q": "Misse {lägger} sig i Astrids säng. (lägga)"
+    },
+    {
+     "q": "Astrid {sätter} sig på en stol. (sätta)"
+    },
+    {
+     "q": "Astrid {vaknar} i sin säng. (vakna)"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: ger, får, visar, gör, mjölk, mat, äter, dricker, sover, vaknar, tvättar, lägger, sätter, morgon, kväll, trött.",
+   "items": [
+    {
+     "q": "Det är {morgon}: Astrid vaknar."
+    },
+    {
+     "q": "Misse {dricker} sin mjölk under bordet."
+    },
+    {
+     "q": "Ludde {äter} mycket mat."
+    },
+    {
+     "q": "Katter {tvättar} sig själva."
+    },
+    {
+     "q": "Misse {sover} mycket — hon sover och sover!"
+    },
+    {
+     "q": "Astrid dricker vit och god {mjölk}."
+    },
+    {
+     "q": "Karin ger barnen och Ludde {mat}."
+    },
+    {
+     "q": "Vad {gör} katten? Hon sover!"
+    },
+    {
+     "q": "På kvällen är Astrid {trött}."
+    },
+    {
+     "q": "Det är {kväll}: barnen lägger sig."
+    },
+    {
+     "q": "Astrid {visar} Misse sin bok."
+    },
+    {
+     "q": "Misse {får} mjölk av Astrid."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vem ligger i Astrids säng på morgonen?",
+     "model": "Misse ligger där — och hon vaknar med Astrid."
+    },
+    {
+     "q": "Tvättar sig Misse med vatten?",
+     "model": "Nej! Katter tvättar sig själva — inte med vatten."
+    },
+    {
+     "q": "Vad får Ludde av Karin?",
+     "model": "Han får mat och vatten."
+    },
+    {
+     "q": "Vad gör Misse hemma?",
+     "model": "Hon sover, äter litet mat — och går upp i björken."
+    },
+    {
+     "q": "Vad visar Astrid för Misse?",
+     "model": "Hon visar Misse sin nya bok — men katten ser på mjölken!"
+    },
+    {
+     "q": "Är Misse trött på kvällen?",
+     "model": "Nej! Astrid sover, men katten går ut genom fönstret."
+    },
+    {
+     "q": "Vem säger 'Sov gott'?",
+     "model": "Astrid säger det till Misse."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "ge": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "ger",
+    "ge",
+    "gav",
+    "gett",
+    "givit"
+   ],
+   "sv": "Astrid ger Misse mjölk → 🥛 → 🐈",
+   "en": "to give",
+   "tier": "focus"
+  },
+  "få": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "får",
+    "få",
+    "fick",
+    "fått"
+   ],
+   "sv": "Misse får mjölk av Astrid: 🥛 → 🐈 (ger ↔ får)",
+   "en": "to get, receive",
+   "tier": "focus"
+  },
+  "göra": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "gör",
+    "göra",
+    "gjorde",
+    "gjort"
+   ],
+   "sv": "Vad gör katten? Hon sover! (göra = äta, leka, sova …)",
+   "en": "to do, make",
+   "tier": "focus"
+  },
+  "mjölk": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "mjölk",
+    "mjölken",
+    "mjölks",
+    "mjölkens"
+   ],
+   "sv": "🥛 vit och god — från kor! (kapitel nio …)",
+   "en": "milk",
+   "tier": "focus"
+  },
+  "mat": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "mat",
+    "maten",
+    "mats",
+    "matens"
+   ],
+   "sv": "🍽 bröd, mjölk … — man äter mat!",
+   "en": "food",
+   "tier": "focus"
+  },
+  "äta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "äter",
+    "äta",
+    "åt",
+    "ätit",
+    "ät"
+   ],
+   "sv": "😋 äter mat (Ludde äter mycket!)",
+   "en": "to eat",
+   "tier": "focus"
+  },
+  "dricka": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "dricker",
+    "dricka",
+    "drack",
+    "druckit",
+    "drick"
+   ],
+   "sv": "🥛💧 dricker mjölk och vatten (äter mat, dricker mjölk!)",
+   "en": "to drink",
+   "tier": "focus"
+  },
+  "sova": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "sover",
+    "sova",
+    "sov",
+    "sovit"
+   ],
+   "sv": "😴 i sängen — 'zzz'. Katter sover mycket!",
+   "en": "to sleep",
+   "tier": "focus"
+  },
+  "vakna": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "vaknar",
+    "vakna",
+    "vaknade",
+    "vaknat"
+   ],
+   "sv": "😴 → 👀! sover … och vaknar på morgonen",
+   "en": "to wake up",
+   "tier": "focus"
+  },
+  "tvätta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "tvättar",
+    "tvätta",
+    "tvättade",
+    "tvättat"
+   ],
+   "sv": "🧼💧 tvättar sig med vatten (katter: inte med vatten!)",
+   "en": "to wash",
+   "tier": "focus"
+  },
+  "lägga": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "lägger",
+    "lägga",
+    "la",
+    "lade",
+    "lagt"
+   ],
+   "sv": "lägger sig i sängen = går och ligger! 🛏",
+   "en": "to lay; (lägga sig) lie down",
+   "tier": "focus"
+  },
+  "sätta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "sätter",
+    "sätta",
+    "satte",
+    "satt"
+   ],
+   "sv": "sätter sig på stolen = går och 'ligger' på en stol! 🪑",
+   "en": "to set; (sätta sig) sit down",
+   "tier": "focus"
+  },
+  "visa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "visar",
+    "visa",
+    "visade",
+    "visat"
+   ],
+   "sv": "– Se! 👀 Astrid visar Misse sin bok",
+   "en": "to show",
+   "tier": "stretch"
+  },
+  "morgon": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "morgon",
+    "morgonen",
+    "morgnar",
+    "morgnarna",
+    "morgonens"
+   ],
+   "sv": "🌅 solen kommer upp — god morgon!",
+   "en": "morning",
+   "tier": "stretch"
+  },
+  "kväll": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "kväll",
+    "kvällen",
+    "kvällar",
+    "kvällarna",
+    "kvällens"
+   ],
+   "sv": "🌆 solen går ner (morgon ↔ kväll)",
+   "en": "evening",
+   "tier": "stretch"
+  },
+  "trött": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "trött",
+    "trötta"
+   ],
+   "sv": "😴 trött = 'jag vill sova!'",
+   "en": "tired",
+   "tier": "stretch"
+  }
+ }
+}

@@ -1,0 +1,257 @@
+# KAPITEL 10 — Djur och människor
+# The classification chapter: modals I (kan, vill + bare infinitive);
+# wild vs tame; what only humans can do.
+
+kapitel: 10
+titel: "Djur och människor"
+arc: B
+grammatik_fokus: "kan och vill + verb (utan 'att'!); vild och tam"
+uttal_fokus: "accent 1 och accent 2 — svenska ord har melodi!"
+
+fokus: [människa, fågel, fisk, björn, älg, räv, varg, flyga, simma, tala, leva, skog]
+stretch: [vild, tam, stark]
+
+illustration: >-
+  Nils at the kitchen table with a big open animal book, lecturing with one
+  finger raised; around the pages, imagined animals come alive in watercolor
+  vignettes: a moose towering among pines, a red fox eyeing distant hens, a
+  brown bear, a wolf silhouette; through the window the real lake with fish
+  rings on the water and a bird overhead; Astrid holds the cat up to the book
+  as if to teach it to read. Warm evening light.
+
+lasstycken:
+  - rubrik: "I. VAD KAN DJUREN?"
+    block:
+      - typ: narration
+        text: >-
+          Det är kväll i huset vid sjön. Nils har en ny bok — en stor bok
+          med många djur: kor, hästar, björnar, vargar … – Ser ni? säger
+          Nils, och han visar boken. – Här är en björn, och här är en
+          varg! Astrid ser på björnen: den är stor och brun. Oskar vill se
+          vargen!
+        margin:
+          - "en björn 🐻"
+          - "en varg 🐺"
+          - "visar (kapitel sju!)"
+
+      - typ: narration
+        text: >-
+          Vad kan djur göra? Fåglar kan flyga. En höna är en fågel, men
+          hönor kan inte flyga långt! Fiskar kan simma: i Björksjön finns
+          många fiskar, och de simmar i vattnet. Kan en ko simma? Ja, en
+          ko kan simma — men kor vill inte simma!
+        margin:
+          - "kan + verb: kan flyga, kan simma"
+          - "en fågel 🐦 — fåglar"
+          - "en fisk 🐟 — fiskar"
+          - "flyga 🐦⬆ · simma 🏊"
+
+      - typ: narration
+        text: >-
+          Och människor? En man är en människa, och en kvinna är en
+          människa. Barn är små människor! Kan människor flyga? Nej —
+          människor kan inte flyga. Kan de simma? Ja, många människor kan
+          simma. Men en sak kan bara människor: de kan tala! Djur kan inte
+          tala. Hundar säger "voff", katter säger "mjau", får säger "bä" —
+          men de talar inte. Människor talar: de frågar och svarar, de
+          säger "god morgon" och "hej då".
+        margin:
+          - "en människa — människor 🧍"
+          - "tala 💬 = säga många ord"
+          - "djur talar inte!"
+
+      - typ: dialogue
+        speaker: Astrid
+        text: "Mamma! Kan Misse tala?"
+
+      - typ: dialogue
+        speaker: Karin
+        text: >-
+          Nej, Misse kan inte tala. Men hon kan säga "mjau" — och du kan
+          höra: vill katten ha mat, eller vill hon sova?
+
+      - typ: narration
+        text: >-
+          – Mjau! Mjau! säger Astrid. Jag kan tala med Misse! Alla
+          skrattar. Misse ser på dem … och säger inte "mjau". Katten går
+          ut.
+        margin:
+          - "😼 Misse svarar inte."
+
+  - rubrik: "II. I SKOGEN"
+    block:
+      - typ: narration
+        text: >-
+          Bakom Sjövik ligger en stor skog. I skogen lever många vilda
+          djur. En älg är ett mycket stort djur — älgar är stora, mycket
+          stora! En räv är röd, och den letar hönor — morfars hönor!
+          Björnar lever också i skogen: en björn är stor, brun och stark.
+          Och vargar? I Smålands skogar finns inte många vargar, men de
+          finns. Vargen vill äta får — men Ludde och morfar ser på fåren!
+        margin:
+          - "en skog 🌲🌲🌲 = många, många träd"
+          - "en älg 🫎 (mycket svensk!)"
+          - "en räv 🦊 — rävar"
+          - "stark 💪"
+
+      - typ: narration
+        text: >-
+          Björnar, vargar, rävar och älgar är vilda djur: de lever i
+          skogen, och ingen ger dem mat. Kor, hästar, grisar och hönor är
+          tama djur: de lever på gården, och de får mat av bonden. Är
+          Ludde vild? Nej! Hundar och katter är tama — de bor med
+          människor. Men på kvällen, i trädgården … då är Misse litet
+          vild!
+        margin:
+          - "vild ↔ tam"
+          - "vilda djur: skogen 🌲 · tama djur: gården 🚜"
+
+  - rubrik: "III. KAN OCH VILL"
+    block:
+      - typ: narration
+        text: >-
+          Ludde kan simma, och han vill simma: hunden springer ut i
+          vattnet! Misse kan också simma — alla katter kan — men hon vill
+          inte! Katter vill inte ha vatten. Oskar kan cykla till skolan,
+          men han vill inte: han vill leka. Astrid vill flyga — men
+          människor kan inte flyga. Kan och vill: det är inte samma sak!
+        margin:
+          - "KAN = ✓ det går!"
+          - "VILL = ❤ jag …!"
+          - "kan men vill inte · vill men kan inte"
+
+      - typ: narration
+        text: >-
+          Vad kan fåglar göra? De kan flyga. Kan hönor flyga långt? Nej!
+          Vad kan bara människor göra? Tala! Var lever vilda djur? I
+          skogen. Vad letar räven? Hönor! Vad vill vargen äta? Får! Var simmar fiskarna? I sjön.
+          Och kan Misse simma? Ja — men hon vill inte.
+        margin:
+          - "frågar → svarar (kapitel fyra!)"
+
+      - typ: narration
+        text: >-
+          Djur kan springa, simma och flyga. Människor kan tala — och de
+          kan gå till skolan! Men i kapitel elva vill Oskar inte gå till
+          skolan. Varför inte? Det är kapitel elva!
+        margin:
+          - "🔍 Oskar vill inte …?"
+
+grammatik:
+  - rubrik: "kan + verb"
+    forklaring: >-
+      Fåglar kan flyga. Kan du simma? — Ja, det kan jag! OBS: kan + verb
+      utan "att": kan flyga (inte "kan att flyga").
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Fåglar kan flyga.", "Fiskar kan simma."]
+        - ["Människor kan tala.", "Människor kan inte flyga."]
+        - ["Kan du simma?", "Ja, det kan jag. / Nej, det kan jag inte."]
+
+  - rubrik: "vill + verb"
+    forklaring: >-
+      Ludde vill simma (❤!). Misse vill inte simma. Och från kapitel
+      åtta: vill HA en bulle — vill ha + sak, vill + verb.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["vill + verb", "Ludde vill simma. Oskar vill leka."]
+        - ["vill ha + sak", "Jag vill ha en bulle, tack!"]
+
+  - rubrik: "kan ↔ vill"
+    forklaring: >-
+      Misse KAN simma (det går!) men VILL inte (nej tack!). Astrid VILL
+      flyga men KAN inte. Inte samma sak!
+    tabell:
+      head: ["", "kan?", "vill?"]
+      rows:
+        - ["Ludde och vattnet", "✓", "✓"]
+        - ["Misse och vattnet", "✓", "✗"]
+        - ["Astrid och flyga", "✗", "✓"]
+
+  - rubrik: "vild och tam"
+    forklaring: >-
+      Vilda djur lever i skogen — ingen ger dem mat. Tama djur lever med
+      människor.
+    tabell:
+      head: ["vilda 🌲", "tama 🚜"]
+      rows:
+        - ["björn, varg, räv, älg", "ko, häst, gris, höna"]
+        - ["(och fiskarna i sjön!)", "hund, katt, får"]
+
+uttal:
+  rubrik: "Accent 1 och accent 2"
+  forklaring: >-
+    Svenska ord har melodi! Korta ord har en melodi (accent 1): hus,
+    katt. Många ord med två stavelser har en annan melodi (accent 2):
+    flicka, talar. Lyssna på melodin! 👂🎵
+  grupper:
+    - namn: "accent 1"
+      ord: [hus, katt, sjö, skog]
+    - namn: "accent 2"
+      ord: [flicka, pojke, talar, simmar, flyga]
+
+ovningar:
+  A:
+    instruktion: "Skriv kan eller vill — och verbet i rätt form."
+    items:
+      - q: "Fåglar {kan} flyga."
+      - q: "Människor kan inte {flyga}. (flyga/flyger)"
+      - q: "Fiskar kan {simma}. (simma/simmar)"
+      - q: "Misse kan simma, men hon {vill} inte."
+      - q: "Oskar kan cykla, men han vill {leka}. (leka/leker)"
+      - q: "Bara människor kan {tala}. (tala/talar)"
+      - q: "Vilda djur {lever} i skogen. (leva)"
+      - q: "Kan du simma? Ja, det {kan} jag."
+      - q: "en fågel — många {fåglar}"
+      - q: "en fisk — många {fiskar}"
+      - q: "en älg — många {älgar}"
+      - q: "en människa — många {människor}"
+  B:
+    instruktion: "Skriv ordet: människa, fågel, fisk, björn, älg, räv, varg, flyger, simmar, talar, lever, skog, vild, tam, stark."
+    items:
+      - q: "En höna är en {fågel}, men hönor kan inte flyga långt."
+      - q: "I Björksjön {simmar} många fiskar."
+      - q: "Bara människor kan {tala}."
+      - q: "En {älg} är ett mycket stort djur."
+      - q: "{Räven} är röd och letar hönor."
+      - q: "En björn är brun och {stark}."
+      - q: "{Vargen} vill äta får."
+      - q: "Vilda djur {lever} i skogen."
+      - q: "Bakom Sjövik ligger en stor {skog}."
+      - q: "En man, en kvinna, ett barn — en {människa}!"
+      - q: "Björnar och vargar är {vilda} djur."
+      - q: "Kor och hundar är {tama} djur."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vad kan fåglar göra?"
+        model: "De kan flyga — men hönor kan inte flyga långt!"
+      - q: "Kan människor flyga?"
+        model: "Nej, människor kan inte flyga — men de kan tala!"
+      - q: "Kan Misse tala?"
+        model: "Nej, hon kan bara säga 'mjau'."
+      - q: "Var lever björnar och älgar?"
+        model: "De lever i skogen — de är vilda djur."
+      - q: "Vad vill vargen äta?"
+        model: "Den vill äta får — men Ludde och morfar ser på fåren!"
+      - q: "Kan Misse simma — och vill hon?"
+        model: "Hon kan simma, men hon vill inte: katter vill inte ha vatten."
+      - q: "Är Ludde ett vilt djur?"
+        model: "Nej, han är tam — hundar bor med människor."
+
+repetition:
+  rubrik: "Vilda och tama"
+  block:
+    - typ: narration
+      text: >-
+          Nils frågar, och alla svarar. – Kan en ko flyga? – NEJ! – Kan en
+          fågel simma? – Ja, många fåglar kan simma! – Är en räv tam? –
+          Nej, vild! – Är ett får vilt? – Nej! Fåret säger "bä" och får mat
+          av bonden: det är tamt. – Kan en björn tala? – Nej! Björnar kan
+          inte tala — men de kan springa och simma. – Och Ludde, kan Ludde
+          simma? – Ja! Och han VILL simma! Hunden hör dem … och springer
+          bort — till sjön! – Ludde! Nej! Men nu simmar hunden i sjön. Han
+          kommer upp från vattnet och springer till barnen — och barnen
+          springer bort, bort! Alla skrattar, och Ludde är glad.

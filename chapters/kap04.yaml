@@ -1,0 +1,278 @@
+# KAPITEL 4 — En stygg pojke
+# First action chapter and first dialogue. Presens of action verbs; object
+# pronouns; varför? – därför att. The doll-in-the-birch incident.
+
+kapitel: 4
+titel: "En stygg pojke"
+arc: A
+grammatik_fokus: "presens av handlingsverb (-ar/-er/korta); objektspronomen (mig, dig, honom, henne, oss, dem); varför? – därför att"
+uttal_fokus: "mjukt och hårt k (köket, Köpenhamn — katt, kommer)"
+
+fokus: [gråta, skratta, reta, ropa, komma, springa, se, höra, fråga, svara, ta, stygg]
+stretch: [docka, ledsen, arg]
+
+illustration: >-
+  The garden scene at peak drama: a small doll wedged high in the big white
+  birch; Astrid below in tears reaching up; Oskar caught mid-guilty-shrug;
+  Nils pointing at the tree, indignant; Karin arriving from the red house with
+  a raised eyebrow; the golden dog bouncing around them. Late-afternoon light,
+  watercolor children's-book style.
+
+lasstycken:
+  - rubrik: "I. DOCKAN I BJÖRKEN"
+    block:
+      - typ: narration
+        text: >-
+          Astrid är i trädgården. Här är också Astrids docka — en liten
+          docka. Dockan heter Lisa. Astrid och Lisa ligger under björken,
+          och Ludde ligger vid dem.
+        margin:
+          - "en docka 🪆"
+          - "vid dem = vid Astrid och Lisa"
+
+      - typ: narration
+        text: >-
+          Oskar kommer till trädgården. Han ser Astrid, och han ser dockan.
+          Oskar är en stor pojke — tolv år — men nu är han stygg: han tar
+          Lisa! Han springer med dockan till björken, och nu är Lisa i
+          björken. Oskar skrattar, men Astrid ser Lisa inte.
+        margin:
+          - "tar 👋"
+          - "springer 🏃 (springer, inte …!)"
+          - "stygg 😈"
+          - "skrattar 😄 ↔ gråter 😢"
+
+      - typ: narration
+        text: >-
+          Var är Lisa? Astrid ser och ser — och nu ser hon dockan: Lisa är i
+          björken! Astrid är liten, och björken är stor. Astrid gråter: —
+          Lisa! Lisa! Hon gråter och gråter.
+        margin:
+          - "gråter 😢"
+          - "ser 👀 — och ser dockan!"
+          - "– : X säger … (pratminus)"
+
+      - typ: narration
+        text: >-
+          Nils hör Astrid från huset. Han kommer till trädgården och ser
+          henne: hon gråter. Nils frågar:
+        margin:
+          - "hör 👂"
+          - "ser henne (hon → henne)"
+
+      - typ: dialogue
+        speaker: Nils
+        text: "Varför gråter du, Astrid?"
+        margin:
+          - "varför? ❓"
+
+      - typ: dialogue
+        speaker: Astrid
+        text: "Därför att Lisa är i björken! Oskar retar mig — han är stygg!"
+        margin:
+          - "därför att … (svar på 'varför?')"
+          - "retar mig (jag → mig)"
+
+      - typ: narration
+        text: >-
+          Nils ser dockan i björken. Nu är han också arg: Oskar är stygg!
+          Nils ropar: — Mamma! Mamma! Kom! Astrid gråter!
+        margin:
+          - "arg 😠"
+          - "ropar 📢"
+
+  - rubrik: "II. MAMMA KOMMER"
+    block:
+      - typ: narration
+        text: >-
+          Karin kommer från huset till trädgården. Hon hör Astrid, och hon
+          ser henne: flickan gråter och gråter. Mamma frågar:
+        margin:
+          - "kommer från huset (hus → trädgård)"
+
+      - typ: dialogue
+        speaker: Karin
+        text: "Vad är det med dig, Astrid? Varför gråter du?"
+        margin:
+          - "med dig (du → dig)"
+
+      - typ: dialogue
+        speaker: Astrid
+        text: "Därför att Oskar retar mig! Lisa är i björken, mamma!"
+
+      - typ: narration
+        text: >-
+          Karin ser dockan i trädet. Nu är mamma arg. Hon ropar: — Oskar!
+          Kom till oss! Oskar hör henne — mamma ropar! Han kommer till
+          trädgården och ser mamma: hon är arg på honom.
+        margin:
+          - "till oss (vi → oss)"
+          - "arg på honom (han → honom)"
+
+      - typ: dialogue
+        speaker: Karin
+        text: "Oskar! Varför är Lisa i björken?"
+
+      - typ: dialogue
+        speaker: Oskar
+        text: "Därför att … därför att jag … Astrid …"
+        margin:
+          - "Oskar svarar inte! 😳"
+
+      - typ: narration
+        text: >-
+          Oskar svarar inte. Han ser Astrid: hon är ledsen, och hon gråter.
+          Nu är Oskar inte stygg. Han springer till björken och tar dockan. — Här är Lisa,
+          säger han. Astrid tar Lisa. Nu gråter hon inte — hon skrattar!
+        margin:
+          - "ledsen 😢 → skrattar 😄"
+          - "– Här är Lisa, säger han."
+
+  - rubrik: "III. VARFÖR? DÄRFÖR ATT!"
+    block:
+      - typ: narration
+        text: >-
+          Varför gråter Astrid? Därför att Lisa är i björken. Vem tar dockan
+          till björken? Oskar tar den — han retar Astrid. Nils frågar: –
+          Varför gråter du? Och vad svarar Astrid? Hon svarar: därför att
+          Oskar retar henne! Mamma frågar Oskar: – Varför är Lisa i björken?
+          Men vad svarar han? Han svarar inte! Vem är arg? Nils är arg, och
+          mamma är arg på Oskar. Retar Oskar henne nu? Nej! Nu tar han Lisa
+          från björken, och Astrid skrattar.
+        margin:
+          - "frågar ❓ → svarar 💬"
+
+      - typ: narration
+        text: >-
+          Nu skrattar Astrid, Nils skrattar, och mamma skrattar också. Ludde
+          springer och springer i trädgården — skrattar en hund? Nej, men
+          Ludde är inte ledsen! Och Oskar? Oskar är inte stygg nu. Men vems,
+          vems, vems …? Det är kapitel fem!
+        margin:
+          - "🔍 vems …?"
+
+grammatik:
+  - rubrik: "verb i presens"
+    forklaring: >-
+      Vad gör Astrid nu? Hon gråter. Presens = nu! Många verb har -ar
+      (skrattar, frågar), många har -er (kommer, springer) — och några är
+      korta (ser, hör, bor, är).
+    tabell:
+      head: ["-ar", "-er", "korta"]
+      rows:
+        - ["skrattar", "kommer", "ser"]
+        - ["frågar", "springer", "hör"]
+        - ["svarar", "ligger", "bor"]
+        - ["ropar", "heter", "är"]
+        - ["retar", "", ""]
+
+  - rubrik: "objektspronomen"
+    forklaring: >-
+      Nils hör Astrid = Nils hör henne. Mamma är arg på Oskar = arg på
+      honom. Oskar retar mig! Kom till oss!
+    tabell:
+      head: ["subjekt", "objekt", "exempel"]
+      rows:
+        - ["jag", "mig", "Oskar retar mig!"]
+        - ["du", "dig", "Vad är det med dig?"]
+        - ["han", "honom", "Mamma är arg på honom."]
+        - ["hon", "henne", "Nils hör henne."]
+        - ["den/det", "den/det", "Oskar tar den."]
+        - ["vi", "oss", "Kom till oss!"]
+        - ["ni", "er", "(kapitel sex!)"]
+        - ["de", "dem", "Ludde ligger vid dem."]
+
+  - rubrik: "varför? – därför att"
+    forklaring: >-
+      Varför gråter Astrid? — Därför att dockan är i björken. Varför är
+      mamma arg? — Därför att Oskar retar Astrid. Fråga: varför? Svar:
+      därför att …
+    tabell:
+      head: ["fråga", "svar"]
+      rows:
+        - ["Varför gråter du?", "Därför att Lisa är i björken!"]
+        - ["Varför är mamma arg?", "Därför att Oskar är stygg."]
+
+  - rubrik: "pratminus (–)"
+    forklaring: >-
+      Dialog på svenska: – Varför gråter du? frågar Nils. – Därför att Lisa
+      är i björken! svarar Astrid. Ett litet streck (–), inte "…"!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["– Kom! ropar mamma.", "– Här är Lisa, säger Oskar."]
+
+uttal:
+  rubrik: "Mjukt och hårt k"
+  forklaring: >-
+    K är också två ljud! Mjukt k före e, i, y, ä, ö: köket, Köpenhamn.
+    Hårt k: katt, kommer, Karin. Lyssna! 👂🔊
+  grupper:
+    - namn: "mjukt k"
+      ord: [kök, köket, Köpenhamn]
+    - namn: "hårt k"
+      ord: [katt, kommer, Karin, kapitel]
+
+ovningar:
+  A:
+    instruktion: "Skriv verbet i presens — och rätt pronomen."
+    items:
+      - q: "Astrid {gråter} — hon är ledsen. (gråta)"
+      - q: "Nils {hör} henne från huset. (höra)"
+      - q: "Oskar {springer} till björken. (springa)"
+      - q: "Karin {kommer} från huset. (komma)"
+      - q: "Nils {ser} dockan i trädet. (se)"
+      - q: "Mamma {ropar}: – Oskar! Kom! (ropa)"
+      - q: "– Varför gråter du? {frågar} Nils. (fråga)"
+      - q: "– Lisa är i björken! {svarar} Astrid. (svara)"
+      - q: "Oskar {tar} dockan från björken. (ta)"
+      - q: "Nils hör Astrid → Nils hör {henne}."
+      - q: "Mamma är arg på Oskar → arg på {honom}."
+      - q: "Oskar ser Nils och Astrid → han ser {dem}."
+      - q: "Astrid: – Oskar retar {mig}! (jag)"
+      - q: "Karin: – Vad är det med {dig}, Astrid? (du)"
+  B:
+    instruktion: "Skriv ordet: gråter, skrattar, retar, ropar, kommer, springer, ser, hör, frågar, svarar, tar, stygg, arg, ledsen, docka."
+    items:
+      - q: "Lisa är Astrids {docka}."
+      - q: "Oskar {retar} Astrid — han är {stygg}!"
+      - q: "Astrid är {ledsen}: hon {gråter}."
+      - q: "Nils {ropar} på mamma."
+      - q: "Karin {kommer} till trädgården."
+      - q: "Mamma är {arg} på Oskar."
+      - q: "Oskar {tar} dockan från björken."
+      - q: "Nu gråter Astrid inte — hon {skrattar}!"
+      - q: "Nils {ser} dockan i trädet."
+      - q: "Karin {hör} Astrid från huset."
+      - q: "– Varför gråter du? {frågar} mamma."
+      - q: "Astrid {svarar}: – Lisa är i björken!"
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Varför gråter Astrid?"
+        model: "Därför att Lisa, Astrids docka, är i björken."
+      - q: "Vem är stygg?"
+        model: "Oskar är stygg — han tar Astrids docka och retar henne."
+      - q: "Vad heter Astrids docka?"
+        model: "Den heter Lisa."
+      - q: "Vem hör Astrid?"
+        model: "Nils hör henne — och mamma hör henne också."
+      - q: "Varför är Karin arg på Oskar?"
+        model: "Därför att han retar Astrid."
+      - q: "Vem tar dockan från björken?"
+        model: "Oskar tar den — och Astrid skrattar!"
+      - q: "Är Oskar stygg nu?"
+        model: "Nej, nu är han inte stygg."
+repetition:
+  rubrik: "Misse springer"
+  block:
+    - typ: narration
+      text: >-
+          Misse ligger på Oskars säng. Oskar kommer till sovrummet och ser
+          henne. – Det är Oskars säng! säger han. Katten hör honom — men
+          katten ligger. Oskar tar katten … nej! Katten springer! Hon
+          springer från sovrummet till köket, och Ludde springer med henne.
+          Karin hör dem och ropar: – Ludde! Kom! Hunden kommer till henne.
+          Och Misse? Misse ligger under Astrids säng. Astrid ser henne och
+          skrattar: – Stygga Misse! Men Astrid är inte arg — och nu ligger
+          katten i Astrids säng. Katter!

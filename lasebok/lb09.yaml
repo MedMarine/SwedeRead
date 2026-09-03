@@ -1,0 +1,38 @@
+# Läseboken 09 — Trollet och kyrkans klocka
+# Supplementary reading (Colloquia-Personarum style): ZERO new words,
+# everything unlocked by kapitel 28. Pure re-exposure.
+
+nummer: 9
+titel: "Trollet och kyrkans klocka"
+efter_kapitel: 28
+typ: saga
+
+block:
+  - typ: narration
+    text: >-
+        För länge, länge sedan — säger en annan gammal berättelse —
+        bodde ett troll i berget bakom Sjövik. Det var där före staden,
+        före husen, före allt. Trollet hade det lugnt: skogen var stor,
+        natten var lång och tyst, och trollet sov i hundra år … och
+        vaknade … och sov igen.
+  - typ: narration
+    text: >-
+        Men så kom människorna. De byggde hus, de byggde vägar — och de
+        byggde en kyrka. Och kyrkan fick en klocka. Varje söndag sa
+        klockan: BOM! BOM! BOM! Trollet vaknade och fick ont i öronen. –
+        Vad är DET?! ropade trollet. Det väntade: kanske slutar det? Men
+        nästa söndag: BOM! Och nästa: BOM! Klockan slutade aldrig.
+  - typ: narration
+    text: >-
+        Trollet provade allt. Det satte händerna på öronen: BOM! Det
+        gick långt ner i berget och la sig i sitt guld: BOM! Det sov på
+        dagen och vaknade på natten — men BOM kom varje söndag, år efter
+        år. Ett troll kan vänta i hundra år. Men den här klockan … den
+        kunde vänta längre!
+  - typ: narration
+    text: >-
+        Till slut tog trollet sitt guld och sitt silver och gick —
+        långt, långt bort, till de stora skogarna i norr. Och det kom
+        aldrig mer till Sjövik. Därför finns det inga troll bakom staden
+        — så säger berättelsen. Men lyssna en söndag, när kyrkans klocka
+        säger BOM … Långt borta i norr svarar något: bom … bom …

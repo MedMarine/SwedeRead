@@ -1,0 +1,260 @@
+# KAPITEL 2 — Familjen Berg
+# The family-tree chapter. heter; vem?/vems?; genitiv -s; han/hon/de;
+# hur många?; räkneord 1–10; plural -or/-ar/umlaut/zero.
+
+kapitel: 2
+titel: "Familjen Berg"
+arc: A
+grammatik_fokus: "heter; vem?/vems?; genitiv -s; han/hon/de; hur många?; plural (-or, -ar, omljud)"
+uttal_fokus: "betoning; plural -or uttalas /-ur/"
+
+fokus: [familj, man, kvinna, pojke, flicka, barn, mamma, pappa, son, dotter, hund, katt]
+stretch: [bror, syster, år]
+
+illustration: >-
+  A warm family-tree portrait: Anders (tall, beard, carpenter's shirt) and Karin
+  (calm, doctor's cardigan) at top; below them Oskar (12, grinning, untied shoe),
+  Nils (10, book under arm), Astrid (7, flower crown); a golden retriever (Ludde)
+  and a grey cat (Misse) at their feet. Small inset portraits to the sides:
+  Ingrid (grandmother, Stockholm skyline behind), Sven (grandfather, farm behind),
+  Lasse (young sailor, waves behind). Watercolor, children's-book warmth.
+
+lasstycken:
+  - rubrik: "I. EN SVENSK FAMILJ"
+    block:
+      - typ: narration
+        text: >-
+          Anders Berg är en man. Karin Berg är en kvinna. Oskar är en pojke.
+          Nils är också en pojke. Astrid är en flicka. Oskar, Nils och Astrid
+          är barn. Anders, Karin, Oskar, Nils och Astrid är familjen Berg —
+          en svensk familj i Sjövik.
+        margin:
+          - "en man — två män!"
+          - "en kvinna — två kvinnor"
+          - "en pojke — två pojkar"
+          - "en flicka — två flickor"
+          - "ett barn — två barn"
+          - "familjen = familj + -en (se kapitel 3!)"
+
+      - typ: narration
+        text: >-
+          Anders är en pappa. Anders är Oskars pappa, Nils pappa och Astrids
+          pappa. Karin är en mamma — Oskars, Nils och Astrids mamma. Oskar är
+          Anders och Karins son. Nils är också en son. Astrid är inte en son —
+          Astrid är en dotter! I familjen Berg är tre barn: två söner och en
+          dotter.
+        margin:
+          - "Oskar → Oskars, Astrid → Astrids (vems? -s!)"
+          - "Nils → Nils, Anders → Anders (s + s = s)"
+          - "en son — två söner"
+          - "en dotter — två döttrar"
+
+      - typ: narration
+        text: >-
+          Vem är Oskar? Han är en pojke — Anders och Karins son. Vem är
+          Astrid? Hon är en liten flicka, sju år. Vems son är Nils? Han är
+          Anders och Karins son. Är Karin en man? Nej! Hon är inte en man —
+          Karin är en kvinna. Och Anders? Han är en man.
+        margin:
+          - "Anders = han ♂"
+          - "Karin = hon ♀"
+          - "vem? — en person. vems? — Oskars, Karins …"
+
+      - typ: narration
+        text: >-
+          Hur många barn är i familjen Berg? Tre: Oskar, Nils och Astrid.
+          Oskar är tolv år, Nils är tio år, och Astrid är sju år. Astrid är
+          liten, men Oskar är stor — han är en stor pojke, tolv år!
+        margin:
+          - "hur många? — en, två, tre …"
+          - "år: Astrid är sju år (7 ⭐)"
+
+  - rubrik: "II. LUDDE OCH MISSE"
+    block:
+      - typ: narration
+        text: >-
+          I familjen Berg är också Ludde och Misse. Vad är Ludde? Ludde är en
+          hund — en stor hund. Och Misse? Är Misse också en hund? Nej, Misse
+          är inte en hund! Misse är en katt, en liten katt. Ludde är barnens
+          hund, och Misse är Astrids katt. De är två: en hund och en katt.
+        margin:
+          - "en hund — två hundar 🐕"
+          - "en katt — två katter 🐈"
+          - "barnens = Oskars och Nils och Astrids"
+          - "Ludde och Misse = de"
+
+      - typ: narration
+        text: >-
+          Oskar är Astrids bror. Nils är också Astrids bror — och Astrid är
+          Oskars och Nils syster. Oskar och Nils är bröder. Hur många systrar
+          är i familjen? En: Astrid. Hur många bröder? Två: Oskar och Nils.
+        margin:
+          - "en bror — två bröder"
+          - "en syster — två systrar"
+          - "bror + bror = bröder; bror + syster = barn i en familj"
+
+      - typ: narration
+        text: >-
+          Ingrid Berg är en kvinna i Stockholm. Hon är Anders mamma. Sven
+          Karlsson är Karins pappa. Sven är inte i Stockholm — han är i Småland, vid
+          Sjövik. Och Lasse? Lasse Berg är Anders bror. Var är han? Han är
+          inte i Sjövik, och han är inte i Stockholm. Lasse är på ett hav —
+          han är på Atlanten!
+        margin:
+          - "Ingrid: Anders mamma 👵"
+          - "Sven: Karins pappa 👴"
+          - "Anders och Lasse är bröder"
+          - "på Atlanten 🌊"
+
+  - rubrik: "III. HUR MÅNGA?"
+    block:
+      - typ: narration
+        text: >-
+          En, två, tre, fyra, fem — och sex, sju, åtta, nio, tio! I familjen
+          Berg är fem: en pappa, en mamma och tre barn. Fem och två är sju:
+          fem i familjen, en hund och en katt. Hur många pojkar är i familjen?
+          Två: Oskar och Nils. Hur många flickor? En: Astrid, Anders och
+          Karins dotter. Och hur många är tre barn och tre barn? Sex barn!
+        margin:
+          - "1 en/ett · 2 två · 3 tre · 4 fyra · 5 fem"
+          - "6 sex · 7 sju · 8 åtta · 9 nio · 10 tio"
+          - "5 + 2 = 7: fem och två är sju"
+
+      - typ: narration
+        text: >-
+          Familjen Berg är i Sjövik: Anders och Karin, Oskar, Nils och Astrid
+          — och Ludde och Misse. Men var i Sjövik är de? Vid sjön! Och vad är
+          vid sjön? Det är kapitel tre!
+        margin:
+          - "🔍 vid sjön …?"
+
+grammatik:
+  - rubrik: "heter"
+    forklaring: >-
+      Vad heter Oskars pappa? Han heter Anders. Vad heter Anders och Karins
+      dotter? Hon heter Astrid. "Heter" + namn!
+    tabell:
+      head: ["fråga", "svar"]
+      rows:
+        - ["Vad heter han?", "Han heter Anders."]
+        - ["Vad heter hon?", "Hon heter Karin."]
+        - ["Vad heter hunden?", "Ludde!"]
+
+  - rubrik: "genitiv: -s"
+    forklaring: >-
+      Vems katt är Misse? Misse är Astrids katt: Astrid + -s. Namn med -s
+      (Nils, Anders) är samma: Nils katt, Anders son — inte "Nilss"!
+    tabell:
+      head: ["namn", "genitiv"]
+      rows:
+        - ["Oskar", "Oskars hund"]
+        - ["Karin", "Karins son"]
+        - ["Astrid", "Astrids katt"]
+        - ["Nils", "Nils syster (s + s = s!)"]
+        - ["Anders", "Anders bror"]
+
+  - rubrik: "han, hon och de"
+    forklaring: >-
+      Anders är en man: han. Karin är en kvinna: hon. Oskar och Nils — två
+      pojkar: de. Ludde och Misse är också "de".
+    tabell:
+      head: ["", "pronomen"]
+      rows:
+        - ["Anders (en man)", "han"]
+        - ["Karin (en kvinna)", "hon"]
+        - ["Oskar och Nils (två)", "de"]
+
+  - rubrik: "plural"
+    forklaring: >-
+      Många substantiv har plural på -or eller -ar: en flicka — två flickor,
+      en pojke — två pojkar. Men: en man — två män, en son — två söner!
+      Och "barn" och "år" är samma i singular och plural.
+    tabell:
+      head: ["mönster", "singular", "plural"]
+      rows:
+        - ["-or", "en flicka, en kvinna, en mamma", "flickor, kvinnor, mammor"]
+        - ["-ar", "en pojke, en hund", "pojkar, hundar"]
+        - ["-er", "en katt", "katter"]
+        - ["omljud!", "en man, en son, en dotter, en bror", "män, söner, döttrar, bröder"]
+        - ["— (samma)", "ett barn, ett år", "barn, år"]
+
+uttal:
+  rubrik: "Betoning — och plural på -or"
+  forklaring: >-
+    Var är betoningen? MAM-ma, PAP-pa, POJ-ke — men fa-MILJ! Och plural -or
+    är "ur": flickor = "flick-ur". Lyssna! 👂🔊
+  grupper:
+    - namn: "betoning först"
+      ord: [mamma, pappa, pojke, flicka, syster, Oskar, Astrid]
+    - namn: "betoning sist"
+      ord: [familj, familjen]
+    - namn: "-or = 'ur'"
+      ord: [flickor, kvinnor, mammor, siffror]
+
+ovningar:
+  A:
+    instruktion: "Skriv plural — och genitiv med -s."
+    items:
+      - q: "en pojke — två {pojkar}"
+      - q: "en flicka — två {flickor}"
+      - q: "en kvinna — två {kvinnor}"
+      - q: "en man — två {män}"
+      - q: "en son — två {söner}"
+      - q: "en dotter — två {döttrar}"
+      - q: "en bror — två {bröder}"
+      - q: "en syster — två {systrar}"
+      - q: "ett barn — två {barn}"
+      - q: "en katt — två {katter}"
+      - q: "en hund — två {hundar}"
+      - q: "Karin är {Oskars} mamma. (Oskar)"
+      - q: "Misse är {Astrids} katt. (Astrid)"
+      - q: "Sven är {Karins} pappa. (Karin)"
+      - q: "Astrid är {Nils} syster. (Nils)"
+  B:
+    instruktion: "Skriv ordet: familj, man, kvinna, pojke, flicka, barn, mamma, pappa, son, dotter, bror, syster, hund, katt, år, heter."
+    items:
+      - q: "Karin är en {kvinna}, och Anders är en {man}."
+      - q: "Oskar, Nils och Astrid är tre {barn}."
+      - q: "Astrid är en {flicka}, och Nils är en {pojke}."
+      - q: "Nils är Anders och Karins {son}."
+      - q: "Astrid är inte en son — hon är en {dotter}."
+      - q: "Oskar är Astrids {bror}."
+      - q: "Astrid är Oskars och Nils {syster}."
+      - q: "Ludde är en stor {hund}."
+      - q: "Misse är Astrids {katt}."
+      - q: "Vad {heter} Oskars mamma? Hon heter Karin."
+      - q: "Oskar är tolv {år}."
+      - q: "Familjen Berg är en svensk {familj}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vad heter Oskars pappa?"
+        model: "Han heter Anders Berg."
+      - q: "Är Karin en man?"
+        model: "Nej, Karin är inte en man — hon är en kvinna."
+      - q: "Hur många barn är i familjen Berg?"
+        model: "Tre barn: Oskar, Nils och Astrid."
+      - q: "Vems syster är Astrid?"
+        model: "Astrid är Oskars och Nils syster."
+      - q: "Vad är Misse?"
+        model: "Misse är en katt — Astrids katt."
+      - q: "Hur många år är Nils?"
+        model: "Nils är tio år."
+      - q: "Vem är Lasse, och var är han?"
+        model: "Lasse är Anders bror. Han är på Atlanten, på ett stort hav."
+      - q: "Vems hund är Ludde?"
+        model: "Ludde är barnens hund."
+
+repetition:
+  rubrik: "Bokstäver och namn"
+  block:
+    - typ: narration
+      text: >-
+          O, S, K, A, R — fem bokstäver. Vad är det? Det är en pojke i
+          familjen Berg: Oskar! N, I, L, S är fyra bokstäver — och en pojke.
+          Vem är A, S, T, R, I, D? En flicka, sju år! "Mamma" och "pappa" är
+          ord med fem bokstäver. Och "Sverige"? Sju bokstäver — och ett stort
+          land i norr. Danmark ligger i söder: sju bokstäver, ett litet land!
+          En familj med två söner och en dotter, en hund med fem bokstäver —
+          L, U, D, D, E — och en katt med fem: M, I, S, S, E. Bokstäver,
+          siffror och en familj: det är kapitel ett och två!

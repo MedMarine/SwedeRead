@@ -1,0 +1,514 @@
+{
+ "kapitel": 19,
+ "image": "images/kap19.jpg",
+ "titel": "Resan till Stockholm",
+ "arc": "D",
+ "grammatik_fokus": "futurum: ska, kommer att, tänker; presens som futurum (tåget går klockan åtta); i går – i dag – i morgon",
+ "uttal_fokus": "reduktion i tal: 'kommer att' blir 'kommer å'",
+ "fokus": [
+  "resa_verb",
+  "resa_noun",
+  "packa",
+  "väska",
+  "biljett",
+  "tänka",
+  "framme",
+  "karta"
+ ],
+ "stretch": [
+  "spännande",
+  "granne",
+  "mata"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. I MORGON SKA VI RESA!",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det är fredag kväll. I morgon ska familjen resa till Stockholm! – Tåget går klockan åtta, säger Anders. Vi måste stiga upp klockan sex. – Klockan sex! säger Oskar. På en lördag! – Ja, säger mamma. I morgon ska vi inte sova länge. Astrid är glad: – I morgon ska jag se farmor! Och Nils tänker på tåget: trettio mil genom Sverige!",
+     "margin": [
+      "ska + verb = 🔮 framtid!",
+      "i morgon = dagen efter i dag ⏩",
+      "tåget GÅR klockan åtta (presens — men i morgon!)",
+      "tänker på = har i huvudet 🧠"
+     ],
+     "audio": "audio/kap19/b000_93eabef0528a.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Familjen packar. Karin packar en stor väska. Astrid packar en liten väska: Lisa ska också resa! Oskar packar snabbt — mycket snabbt: godis och en boll. – En boll? säger mamma. Nej, Oskar! Nils packar långsamt: böcker, papper, pennor — och en karta. – Kartan ska vi ha på tåget, säger han.",
+     "margin": [
+      "packar = lägger sakerna i väskan 🧳",
+      "en väska — väskor",
+      "en karta 🗺 (kapitel ett!)"
+     ],
+     "audio": "audio/kap19/b001_3966536934e1.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Men Ludde och Misse? Hundar och katter reser inte till Stockholm! Ludde ska bo hos morfar på gården — han kommer att leka med fåren en hel vecka! Och Misse ska stanna hemma. Elsa, flickan från affären, kommer att mata henne varje dag. – Tack, Elsa! säger Astrid. Du är en god granne.",
+     "margin": [
+      "kommer att + verb = det blir så! 🔮",
+      "mata = ge mat 🍽→🐈",
+      "en granne = bor nära dig"
+     ],
+     "audio": "audio/kap19/b002_2f3e6b74b1c7.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. PÅ TÅGET",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Lördag morgon, klockan halv åtta: familjen står på Sjöviks station, och väskorna står vid dem. Anders har biljetterna — fem biljetter till Stockholm. En biljett kostar trehundra kronor! – Är det dyrt? frågar Astrid. – Ja, säger pappa, men farmor väntar. Tåget kommer klockan åtta — och där är det! Det är långt, snabbt och grönt. Familjen stiger på tåget.",
+     "margin": [
+      "en biljett 🎫 — biljetter",
+      "stiger på tåget (och sedan: stiger av!)"
+     ],
+     "audio": "audio/kap19/b003_98f2515209d4.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Tåget går klockan åtta — och det går snabbt! Nils sitter med kartan. – Nu åker vi genom Småland, säger han. Här är skogar och sjöar … många sjöar! Efter en timme: – Nu kommer vi till Östergötland. Titta — stora ängar och gårdar! Astrid tittar ut genom fönstret: kor, hästar och små röda hus. Oskar äter godis och räknar sjöar: – Sjutton sjöar! Eller arton! Resan är lång — trettio mil — men den är spännande.",
+     "margin": [
+      "en resa 🚂 — resan",
+      "spännande ✨ = 'Oj! Vad kommer nu?!'",
+      "🗺 Småland → Östergötland → … → Stockholm"
+     ],
+     "audio": "audio/kap19/b004_fd8ffed47551.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Efter tre timmar säger Karin: – Nu är vi snart framme! Tåget åker in i Stockholm: här är höga hus, många bilar, broar och vatten. – Stockholm är stort! säger Astrid. Större än Sjövik! Alla skrattar. Tåget stannar: Stockholms centralstation. Familjen stiger av — och där, på stationen, står farmor! – Välkomna! ropar hon. Ni är framme!",
+     "margin": [
+      "framme = 📍 vid resans slut!",
+      "stiger av ↔ stiger på"
+     ],
+     "audio": "audio/kap19/b005_174118382fad.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. RESAN — OCH FRAMTIDEN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vart ska familjen resa? Till Stockholm — farmor har bjudit dem! När går tåget? Klockan åtta. Vem ska mata Misse? Elsa. Var ska Ludde bo? Hos morfar. Vad packar Nils? Böcker, pennor och en karta. Vad har pappa? Biljetterna! Vad tänker Nils på? Tåget och kartan. Hur lång är resan? Trettio mil — tre timmar. Och vem står på stationen? Farmor!",
+     "margin": [
+      "frågar → svarar"
+     ],
+     "audio": "audio/kap19/b006_17b933741bdd.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "I går packade familjen. I dag reser de — och nu är de framme! I morgon ska de se staden. Vad tänker barnen se? Allt! Farmors stad, den stora staden — det är kapitel tjugo.",
+     "margin": [
+      "i går ⏪ · i dag 📍 · i morgon ⏩",
+      "den storA stadEN — se kapitel tjugo!"
+     ],
+     "audio": "audio/kap19/b007_7be2a7e4604d.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Ett brev från tåget",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "På tåget skrev barnen ett litet brev till Elsa. \"Hej Elsa! Vi åker genom Sverige — från söder till norr! Tåget är snabbt, och Nils har kartan. Hälsa Misse! Oskar.\" Nils skrev adressen: Elsa Ek, affären, Sjövik. Ett frimärke fanns i mammas väska, och de skickade brevet från en station på vägen. – Får Elsa brevet? frågade Astrid. – Ja, om två dagar! Och svaret? Svaret väntade i Sjövik, i brevlådan: \"Tack för brevet! Misse har det bra — hon sover i din säng, Astrid. Hej då! Elsa.\"",
+    "audio": "audio/kap19/b008_42d60c18ded3.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "futurum: ska, kommer att, tänker",
+   "forklaring": "Tre vägar till i morgon! Ska = det är bestämt. Kommer att = det blir så. Tänker = det är min plan.",
+   "tabell": {
+    "head": [
+     "",
+     "exempel"
+    ],
+    "rows": [
+     [
+      "ska + verb",
+      "I morgon ska vi resa."
+     ],
+     [
+      "kommer att + verb",
+      "Elsa kommer att mata Misse."
+     ],
+     [
+      "tänker + verb",
+      "Jag tänker läsa på tåget."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "presens som futurum",
+   "forklaring": "På svenska kan presens vara framtid — när tiden står i meningen! Tåget går klockan åtta (i morgon!). Vi reser på lördag.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Tåget går klockan åtta.",
+      "= det SKA gå klockan åtta"
+     ],
+     [
+      "Vi reser på lördag.",
+      "= vi SKA resa på lördag"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "i går — i dag — i morgon",
+   "forklaring": "Tre dagar, tre tempus: preteritum, presens, futurum!",
+   "tabell": {
+    "head": [
+     "i går ⏪",
+     "i dag 📍",
+     "i morgon ⏩"
+    ],
+    "rows": [
+     [
+      "packade",
+      "packar",
+      "ska packa"
+     ],
+     [
+      "reste",
+      "reser",
+      "ska resa"
+     ],
+     [
+      "var",
+      "är",
+      "ska vara / kommer att vara"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "resans ord",
+   "forklaring": "Man packar väskan, köper en biljett, stiger på tåget — och till slut är man framme!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "packa väskan 🧳",
+      "köpa biljett 🎫"
+     ],
+     [
+      "stiga på tåget",
+      "stiga av tåget"
+     ],
+     [
+      "resan är lång …",
+      "… men snart är vi framme! 📍"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "'Kommer att' blir 'kommer å'",
+  "forklaring": "I snabbt tal säger svenskar inte \"kommer att\" — de säger \"kommer å\"! Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "futurum i tal",
+    "ord": [
+     "ska resa",
+     "kommer att gå",
+     "tänker läsa"
+    ]
+   },
+   {
+    "namn": "resans ord",
+    "ord": [
+     "biljett",
+     "station",
+     "resa",
+     "framme"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "ska resa": "audio/uttal/8e771144adb7.mp3",
+  "kommer att gå": "audio/uttal/5b5893a797f8.mp3",
+  "tänker läsa": "audio/uttal/5356c975bdd6.mp3",
+  "biljett": "audio/uttal/5191ed7afb81.mp3",
+  "station": "audio/uttal/967872d60f12.mp3",
+  "resa": "audio/uttal/9d1e37085e9b.mp3",
+  "framme": "audio/uttal/a6c36a994911.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv futurum — ska, kommer att, tänker — och resans ord.",
+   "items": [
+    {
+     "q": "I morgon {ska} familjen resa till Stockholm."
+    },
+    {
+     "q": "Tåget {kommer} att gå klockan åtta."
+    },
+    {
+     "q": "Vad {tänker} du göra i Stockholm? (tänka)"
+    },
+    {
+     "q": "I går {reste} de inte — de packade! (resa)"
+    },
+    {
+     "q": "Elsa ska {mata} Misse varje dag. (mata)"
+    },
+    {
+     "q": "Ludde ska {bo} hos morfar. (bo)"
+    },
+    {
+     "q": "Familjen stiger {på} tåget i Sjövik."
+    },
+    {
+     "q": "De stiger {av} i Stockholm."
+    },
+    {
+     "q": "Nu är vi snart {framme}!"
+    },
+    {
+     "q": "en väska — två {väskor}"
+    },
+    {
+     "q": "en biljett — fem {biljetter}"
+    },
+    {
+     "q": "i går — i dag — i {morgon}"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: reser, resa, packar, väska, biljett, tänker, framme, karta, spännande, granne, matar.",
+   "items": [
+    {
+     "q": "Familjen {packar} sina väskor på fredag kväll."
+    },
+    {
+     "q": "Astrid packar en liten {väska}: Lisa ska också resa!"
+    },
+    {
+     "q": "En {biljett} till Stockholm kostar trehundra kronor."
+    },
+    {
+     "q": "Nils sitter på tåget med sin {karta}."
+    },
+    {
+     "q": "{Resan} är trettio mil lång."
+    },
+    {
+     "q": "Resan är lång — men den är {spännande}!"
+    },
+    {
+     "q": "Elsa {matar} Misse varje dag."
+    },
+    {
+     "q": "Elsa är en god {granne}."
+    },
+    {
+     "q": "Efter tre timmar är familjen {framme}."
+    },
+    {
+     "q": "Nils {tänker} på tåget hela veckan."
+    },
+    {
+     "q": "Hundar och katter {reser} inte till Stockholm!"
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vart ska familjen resa, och varför?",
+     "model": "De ska resa till Stockholm — farmor har bjudit dem."
+    },
+    {
+     "q": "Vem ska mata Misse, och var ska Ludde bo?",
+     "model": "Elsa ska mata Misse, och Ludde ska bo hos morfar."
+    },
+    {
+     "q": "Vad packar Oskar — och vad säger mamma?",
+     "model": "Han packar godis och en boll. Mamma säger: – En boll? Nej, Oskar!"
+    },
+    {
+     "q": "Hur mycket kostar en biljett?",
+     "model": "Den kostar trehundra kronor."
+    },
+    {
+     "q": "Vad ser Astrid genom tågets fönster?",
+     "model": "Hon ser kor, hästar och små röda hus."
+    },
+    {
+     "q": "Hur många sjöar räknar Oskar?",
+     "model": "Sjutton — eller arton!"
+    },
+    {
+     "q": "Vem står på centralstationen?",
+     "model": "Farmor står där och ropar: – Välkomna!"
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "resa_verb": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "reser",
+    "resa",
+    "reste",
+    "rest"
+   ],
+   "sv": "🚂 åka långt — till en annan stad, ett annat land!",
+   "en": "to travel",
+   "tier": "focus"
+  },
+  "resa_noun": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "resa",
+    "resan",
+    "resor",
+    "resorna",
+    "resans"
+   ],
+   "sv": "🚂 vägen från A till B: resan till Stockholm är trettio mil!",
+   "en": "journey, trip",
+   "tier": "focus"
+  },
+  "packa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "packar",
+    "packa",
+    "packade",
+    "packat"
+   ],
+   "sv": "🧳 lägger sakerna i väskan — vi ska resa!",
+   "en": "to pack",
+   "tier": "focus"
+  },
+  "väska": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "väska",
+    "väskan",
+    "väskor",
+    "väskorna",
+    "väskans"
+   ],
+   "sv": "🧳 sakerna bor i den på resan",
+   "en": "bag, suitcase",
+   "tier": "focus"
+  },
+  "biljett": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "biljett",
+    "biljetten",
+    "biljetter",
+    "biljetterna",
+    "biljettens"
+   ],
+   "sv": "🎫 'du får åka!' — papperet som kostar pengar",
+   "en": "ticket",
+   "tier": "focus"
+  },
+  "tänka": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "tänker",
+    "tänka",
+    "tänkte",
+    "tänkt"
+   ],
+   "sv": "🧠 har i huvudet: Nils tänker på tåget. Tänker + verb = min plan!",
+   "en": "to think; to plan to",
+   "tier": "focus"
+  },
+  "framme": {
+   "pos": "adverb",
+   "gender": null,
+   "forms": [
+    "framme"
+   ],
+   "sv": "📍 vid resans slut: Nu är vi framme!",
+   "en": "arrived, there",
+   "tier": "focus"
+  },
+  "karta": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "karta",
+    "kartan",
+    "kartor",
+    "kartorna",
+    "kartans"
+   ],
+   "sv": "🗺 landet på ett papper — kapitel ett!",
+   "en": "map",
+   "tier": "focus"
+  },
+  "spännande": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "spännande"
+   ],
+   "sv": "✨ 'Oj! Vad kommer nu?!'",
+   "en": "exciting",
+   "tier": "stretch"
+  },
+  "granne": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "granne",
+    "grannen",
+    "grannar",
+    "grannarna",
+    "grannens"
+   ],
+   "sv": "en människa i huset nära ditt hus",
+   "en": "neighbour",
+   "tier": "stretch"
+  },
+  "mata": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "matar",
+    "mata",
+    "matade",
+    "matat"
+   ],
+   "sv": "ger mat 🍽→🐈: Elsa matar Misse",
+   "en": "to feed",
+   "tier": "stretch"
+  }
+ }
+}

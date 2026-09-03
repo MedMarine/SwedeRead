@@ -1,0 +1,248 @@
+# KAPITEL 28 — Storm på sjön
+# Real conditionals (om-satser); the kap 15 storm returns at sea; full
+# tense-range narrative. Seamanship, safety, and one speechless Oskar.
+
+kapitel: 28
+titel: "Storm på sjön"
+arc: E
+grammatik_fokus: "om-satser (Om vinden ökar, måste vi vända!); passiv i handling (seglet tas ner); berättande med alla tempus"
+uttal_fokus: "korta rop i storm: Håll fast! Vi vänder!"
+
+fokus: [segel, segla, mast, våg, öka, vända, strand, säker, äventyr]
+stretch: [flytväst, lugna]
+
+illustration: >-
+  Drama in two moods: top, the little white-sailed boat heeling on
+  slate-grey water, waves like moving hills, rain slanting, four figures in
+  bright life jackets — Lasse calm at the tiller pointing toward a small
+  wooded island; bottom, the after-calm — the boat pulled up on the island's
+  stony beach, four figures under a big tree watching the storm walk away
+  across the lake, one small girl wrapped in the sailor's jacket, sun
+  breaking through. Watercolor.
+
+lasstycken:
+  - rubrik: "I. EN FIN DAG FÖR ETT ÄVENTYR"
+    block:
+      - typ: narration
+        text: >-
+          Morfar har en gammal segelbåt — en liten båt med en mast och
+          ett vitt segel. Den ligger vid gårdens strand. – Vill ni segla?
+          frågar Lasse en morgon. Vinden är god i dag! – JA! ropar
+          barnen. Alla tar på sig flytvästar — det gör man alltid i en
+          båt — och Karin säger: – Om vädret blir dåligt, vänder ni hem.
+          – Klart, säger Lasse. Jag är sjöman!
+        margin:
+          - "en segelbåt: mast + segel ⛵"
+          - "en flytväst 🦺 — ALLTID i båten!"
+          - "OM vädret blir dåligt, … (om = kanske händer det!)"
+
+      - typ: narration
+        text: >-
+          Båten seglar ut på Björksjön. Vinden tar seglet, och det går
+          snabbt! – Ser ni? säger Lasse. Man seglar med vinden — vinden
+          arbetar, inte du. Nils får segla litet själv, och Oskar räknar
+          öar. Astrid sitter i båten och sjunger. Sjön är blå, solen är
+          varm — en fin dag för ett litet äventyr!
+        margin:
+          - "seglar = åker med segel och vind"
+          - "ett äventyr = något stort, nytt och spännande!"
+
+      - typ: narration
+        text: >-
+          Men vädret i Sverige är vädret i Sverige. Efter en timme
+          kommer moln över skogen — stora grå moln, som i kapitel
+          femton. Vinden ökar: den blir starkare och starkare, och vågorna blir så
+          höga att båten och masten går upp och ner, upp och ner! – Om
+          vinden ökar mer, måste vi vända! ropar Lasse. Och vinden ökar
+          mer. – Vi vänder! Håll fast, alla!
+        margin:
+          - "ökar 📈 = blir mer och mer"
+          - "en våg 🌊 = vattnets 'berg'"
+          - "Om X, (så) Y!"
+          - "vänder ↩ = mot hem igen"
+
+  - rubrik: "II. ÖN"
+    block:
+      - typ: narration
+        text: >-
+          Båten vänder — men vågorna är höga, och regnet kommer. Segla
+          hem? Det går inte: vinden står mot dem. – Ser ni ön där? ropar
+          Lasse. Om vi inte kan segla hem, seglar vi till ön! Seglet tas ner, och båten går långsamt mot den lilla ön, där
+          alla stiger ur vid stranden — våta och kalla, men säkra.
+        margin:
+          - "seglet TAS NER (passiv -s!)"
+          - "en strand 🏖"
+          - "säker = ingen fara ✓"
+
+      - typ: narration
+        text: >-
+          Under ett stort träd väntar de medan regnet går över ön. Astrid,
+          som är rädd och gråter litet, sätter sig hos Lasse, och han
+          lugnar henne: – Var inte rädd. Vi är säkra här.
+          Om ovädret går förbi — och det gör det — seglar vi hem. Han
+          berättar om stora oväder på Atlanten och om hamnar i andra
+          länder. Oskar säger ingenting. Oskar säger ingenting! Nils
+          tittar på honom: – Är du sjuk? Oskar är tyst … en hel timme.
+          Sedan går ovädret förbi, precis som Lasse sa.
+        margin:
+          - "lugnar 😌 = säger 'var inte rädd' — och det hjälper!"
+          - "Oskar är TYST?! 😲"
+          - "precis som Lasse sa!"
+
+      - typ: narration
+        text: >-
+          Solen kommer, vågorna blir små, och båten seglar hem över en
+          lugn och blå sjö, med sin mast mot himlen. Vid gårdens strand
+          står Karin, Anders och morfar — och Ludde, som skäller mot
+          båten. – Vi är hemma! ropar Astrid. Alla är säkra! Karin
+          kramar alla barnen — en lång, lång kram. Och Oskar? Nu talar
+          han igen: – Det var ett ÄVENTYR! Vågorna var höga som hus!
+          Nils skrattar: – De var höga som … Ludde. Men det var ett
+          äventyr — ett stort äventyr!
+        margin:
+          - "kramar 🤗 = armarna om dig!"
+          - "Oskar talar igen 😄 ('höga som hus!')"
+
+  - rubrik: "III. OM, OM, OM"
+    block:
+      - typ: narration
+        text: >-
+          Vad sa Karin före äventyret? Om vädret blir dåligt, vänder ni
+          hem! Vad ropade Lasse när vinden ökade? Om vinden ökar mer,
+          måste vi vända! Kunde de segla hem? Nej — vinden stod mot dem.
+          Vart seglade de? Till den lilla ön. Var alla säkra? Ja: de
+          hade flytvästar, och Lasse är sjöman. Och Oskar? Han var tyst
+          en hel timme — och det har aldrig hänt … aldrig!
+        margin:
+          - "om-satser: Om X, så Y!"
+
+      - typ: narration
+        text: >-
+          På kvällen sitter alla framför morfars hus och talar om dagen.
+          Morfar säger något klokt — morfar säger alltid något klokt.
+          Vad? Det är kapitel tjugonio!
+        margin:
+          - "🔍 morfars kloka ord …?"
+
+grammatik:
+  - rubrik: "om-satser"
+    forklaring: >-
+      Om = kanske händer det! Om X händer, (så) händer Y. OBS
+      ordföljden: efter om-satsen kommer verbet först!
+    tabell:
+      head: ["om-sats", "huvudsats (verbet först!)"]
+      rows:
+        - ["Om vädret blir dåligt,", "vänder ni hem."]
+        - ["Om vinden ökar mer,", "måste vi vända!"]
+        - ["Om vi inte kan segla hem,", "seglar vi till ön."]
+        - ["Om ovädret går förbi,", "seglar vi hem."]
+
+  - rubrik: "passiv i handling"
+    forklaring: >-
+      Mitt i äventyret — vem gör det är inte viktigt: seglet tas ner!
+      (Kapitel 26: kallades, byggdes — samma -s!)
+    tabell:
+      head: ["aktiv", "passiv"]
+      rows:
+        - ["Lasse tar ner seglet.", "Seglet tas ner."]
+        - ["Man ställer upp masten.", "Masten ställs upp."]
+
+  - rubrik: "alla tempus i en berättelse"
+    forklaring: >-
+      Ett äventyr behöver alla verbens 'hus': det som hade hänt, det som
+      hände, det som händer — och det som ska hända!
+    tabell:
+      head: ["tempus", "exempel"]
+      rows:
+        - ["pluskvamperfekt", "De hade seglat ut på morgonen."]
+        - ["preteritum", "Vinden ökade, och de vände."]
+        - ["perfekt", "Det har aldrig hänt att Oskar är tyst!"]
+        - ["presens", "Nu är alla hemma och säkra."]
+        - ["futurum", "Nästa gång ska de titta på molnen först!"]
+
+  - rubrik: "båtens ord"
+    forklaring: >-
+      En segelbåt har en mast och ett segel. Vinden tar seglet — och
+      båten seglar! Och alla i båten har flytväst.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["masten", "båtens 'träd'"]
+        - ["seglet ⛵", "båtens 'vinge'"]
+        - ["vågorna 🌊", "vattnets 'berg'"]
+        - ["flytvästen 🦺", "alltid på!"]
+
+uttal:
+  rubrik: "Korta rop i stormen"
+  forklaring: >-
+    I storm ropar man kort och starkt: Håll fast! Vi vänder! Lyssna på
+    de korta, starka orden! 👂📢
+  grupper:
+    - namn: "rop"
+      ord: ["Håll fast!", "Vi vänder!", "Ser ni ön?"]
+    - namn: "sjöns ord"
+      ord: [segel, mast, våg, strand]
+
+ovningar:
+  A:
+    instruktion: "Skriv om-satser — och passiv!"
+    items:
+      - q: "Om vädret blir dåligt, {vänder} ni hem. (vända)"
+      - q: "Om vinden ökar mer, {måste} vi vända!"
+      - q: "Om vi inte kan segla hem, {seglar} vi till ön. (segla)"
+      - q: "Lasse tar ner seglet. → Seglet {tas} ner."
+      - q: "Man ställer upp masten. → Masten {ställs} upp."
+      - q: "Vinden {ökar}: den blir starkare och starkare. (öka)"
+      - q: "Vågorna {blir} höga. (bli)"
+      - q: "Båten {vände} mot ön. (vända, preteritum)"
+      - q: "Alla har {seglat} hem — säkra! (segla, supinum)"
+      - q: "en våg — många {vågor}"
+      - q: "ett segel — {seglet}"
+      - q: "Lasse {lugnar} Astrid: – Var inte rädd! (lugna)"
+  B:
+    instruktion: "Skriv ordet: segel, seglar, mast, vågor, ökar, vänder, strand, säkra, äventyr, flytväst, lugnar."
+    items:
+      - q: "Morfars båt har en mast och ett vitt {segel}."
+      - q: "Alla tar på sig {flytväst} — det gör man alltid i en båt!"
+      - q: "Båten {seglar} ut på Björksjön."
+      - q: "Vinden {ökar} — den blir starkare och starkare."
+      - q: "{Vågorna} blir höga: upp och ner, upp och ner!"
+      - q: "– Vi {vänder}! ropar Lasse."
+      - q: "Vid {stranden} stiger alla ur båten."
+      - q: "Våta och kalla — men {säkra}!"
+      - q: "Lasse {lugnar} Astrid under trädet."
+      - q: "– Det var ett {äventyr}! säger Oskar."
+      - q: "Båten går upp och ner, och {masten} går mot himlen."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vad sa Karin innan de seglade ut?"
+        model: "Om vädret blir dåligt, vänder ni hem!"
+      - q: "Varför tar alla på sig flytvästar?"
+        model: "Därför att det gör man alltid i en båt — då är man säker."
+      - q: "Vad hände efter en timme på sjön?"
+        model: "Moln kom över skogen, vinden ökade, och vågorna blev höga."
+      - q: "Varför kunde de inte segla hem?"
+        model: "Därför att vinden stod mot dem."
+      - q: "Vad gjorde de på ön?"
+        model: "De väntade under ett stort träd medan ovädret gick förbi."
+      - q: "Vad gjorde Lasse när Astrid var rädd?"
+        model: "Han lugnade henne och berättade om oväder på Atlanten."
+      - q: "Vad säger Oskar om vågorna — och vad säger Nils?"
+        model: "Oskar säger att de var höga som hus. Nils säger: höga som Ludde!"
+
+repetition:
+  rubrik: "Efter midsommar"
+  block:
+    - typ: narration
+      text: >-
+          Efter midsommar står majstången på ängen i många veckor — grön
+          först, sedan brun. – Vi ställde upp den, alla — och den står till
+          augusti! säger morfar. I dag hjälper barnen honom med något
+          annat: de ska äta ute. Barnen dukar det långa bordet, och gäster
+          kommer: Elsa och fru Ek. Efter maten badar alla i sjön. Oskar
+          simmar långt ut. – Inte för långt! ropar Karin. Nils och Elsa
+          simmar vid stranden, och Astrid badar där vattnet är lågt. Ludde
+          simmar efter en boll: hundar kan alltid simma! Sedan äter alla
+          jordgubbar i gräset. – Vi firar sommaren, säger morfar. Varje
+          varm dag är en liten midsommar!

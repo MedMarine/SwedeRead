@@ -1,0 +1,239 @@
+# KAPITEL 15 — Ovädret
+# The past tense arrives: preteritum I (weak -ade), var/hade, and the
+# det-weather constructions. A storm hits Sjövik; the next morning, the
+# narrative looks backward for the first time.
+
+kapitel: 15
+titel: "Ovädret"
+arc: C
+grammatik_fokus: "det regnar/blåser/åskar; preteritum på -ade (regnade, tittade); var och hade; i går ↔ i dag"
+uttal_fokus: "gn säger 'ngn': regn, regnar, regnade"
+
+fokus: [väder, oväder, regna, blåsa, åska, vind, moln, himmel, våt, torr, stanna, titta]
+stretch: [blixt, paraply, plötsligt, grå]
+
+illustration: >-
+  Two-panel weather drama: top, the storm over Sjövik — bruised grey sky, a
+  white lightning fork over the lake, rain sheeting sideways, the birch
+  bending, three children's faces at a lit window, and Karin outside under an
+  umbrella scooping a soaked furious grey cat from the doorstep; bottom, the
+  next morning — washed blue sky, puddles mirroring sun, the same cat asleep
+  in a sunbeam, perfectly dry and dignified. Watercolor.
+
+lasstycken:
+  - rubrik: "I. OVÄDRET KOMMER"
+    block:
+      - typ: narration
+        text: >-
+          Vad är väder? Solen är väder. Regnet är väder. Vinden är väder!
+          I Sverige talar alla om vädret: – Fint väder i dag! – Ja, mycket
+          fint! Men vädret är inte alltid fint …
+        margin:
+          - "väder ☀🌧💨"
+          - "svenskar talar ALLTID om vädret! 😄"
+
+      - typ: narration
+        text: >-
+          Det är lördag morgon. Himlen är blå, och solen är uppe. Men vad
+          kommer där, över skogen? Moln — stora grå moln! Nu är solen
+          borta. Det blåser: vinden kommer från sjön, och den är stark.
+          Det blåser i björken. Plötsligt regnar det! Det regnar och
+          regnar. – Ett oväder! säger Nils. Barnen tittar ut genom
+          fönstret.
+        margin:
+          - "DET regnar · DET blåser · DET åskar"
+          - "ett moln — många moln ☁"
+          - "himlen ⬆ (blå eller grå!)"
+          - "plötsligt = nu, mycket snabbt! ⚡"
+
+      - typ: narration
+        text: >-
+          Nu åskar det också! Blixten kommer över himlen — vit och snabb —
+          och sedan åskar det. – Voff! Voff! säger Ludde. Han vill inte
+          höra åskan! Var är Misse? Ingen ser henne. – Misse är ute! ropar
+          Astrid. Ute i regnet!
+        margin:
+          - "en blixt ⚡ … och sedan åskan!"
+          - "åska = himlens stora 'voff'! 😄"
+
+      - typ: narration
+        text: >-
+          Familjen tittar ut. Det regnar mycket, och vinden är stark. –
+          Stanna inne, barn! säger Karin. Hon tar ett paraply och går ut.
+          – Misse! Misse! Hon letar i trädgården: inget. Hon tittar under
+          träden: inget! Då hör hon något vid dörren: – Mjau! Där sitter
+          Misse — en liten, våt katt! Karin tar henne in. Misse är våt,
+          mycket våt, och hon är inte glad.
+        margin:
+          - "ett paraply ☔"
+          - "våt 💧 ↔ torr"
+
+      - typ: narration
+        text: >-
+          På kvällen är ovädret borta. Det regnar inte, och det blåser
+          inte. Familjen sitter i köket, och barnen stannar inne hela
+          kvällen. Misse är torr nu — hon sitter vid fönstret och tvättar
+          sig. Himlen är grå, men regnet är borta.
+        margin:
+          - "hela kvällen = 100% av kvällen"
+
+  - rubrik: "II. I GÅR OCH I DAG"
+    block:
+      - typ: narration
+        text: >-
+          Det är söndag morgon, och solen är uppe igen. Familjen äter
+          frukost och talar om i går. – I går regnade det hela dagen!
+          säger Nils. – Ja, och det åskade, säger Astrid. Blixten var stor
+          och vit! – Vinden var stark, säger Oskar. Det var ett stort
+          oväder! – Och Misse var ute i regnet, säger Karin. Katten var
+          våt — mycket våt. Men i dag är hon torr, och hon sover i solen.
+        margin:
+          - "i går = dagen före i dag ⏪"
+          - "regnar → regnADE (i går!)"
+          - "är → VAR · har → HADE"
+
+      - typ: narration
+        text: >-
+          I går: det regnade, det åskade, och vinden var stark. Barnen
+          stannade inne hela dagen: de spelade och ritade. Astrid ritade
+          ett stort moln med en blixt. Oskar och Nils tittade ut genom
+          fönstren och räknade blixtarna: en, två, tre … åtta blixtar! Och
+          Karin? Hon letade i regnet och hittade en våt katt. Ja, i går
+          var en lång dag!
+        margin:
+          - "-ade: spelade, ritade, tittade, räknade, letade, hittade"
+          - "var en lång dag ⏪"
+
+      - typ: narration
+        text: >-
+          Hur var vädret i går? Det regnade och åskade, och vinden var
+          stark: det var ett oväder! Var var Misse? Hon var ute i regnet —
+          och hon var våt! Vem letade och hittade henne? Karin, med ett
+          paraply. Hur är vädret i dag? Solen är uppe, och det regnar
+          inte. Och Misse? Hon är torr och sover i solen.
+        margin:
+          - "i går: var, regnade ⏪ · i dag: är, regnar"
+
+      - typ: narration
+        text: >-
+          I går, i går, i går … Nu kan du tala om i går! Men Oskar talar
+          MYCKET om i går — och i hans ord var ovädret ett mycket, mycket
+          stort oväder. Vad säger de andra? Det är kapitel sexton!
+        margin:
+          - "🔍 Oskars stora oväder …?"
+
+grammatik:
+  - rubrik: "det-väder"
+    forklaring: >-
+      Vem regnar? Ingen! På svenska säger man DET: det regnar, det
+      blåser, det åskar, det är kallt.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Det regnar. 🌧", "Det blåser. 💨"]
+        - ["Det åskar. ⚡", "Det är kallt/varmt."]
+
+  - rubrik: "preteritum: -ade"
+    forklaring: >-
+      I dag regnar det — i går regnADE det! Många verb får -ade i
+      preteritum (= i går-form).
+    tabell:
+      head: ["presens (nu)", "preteritum (i går)"]
+      rows:
+        - ["det regnar", "det regnade"]
+        - ["barnen tittar", "barnen tittade"]
+        - ["de spelar", "de spelade"]
+        - ["Karin letar", "Karin letade"]
+        - ["hon hittar", "hon hittade"]
+
+  - rubrik: "var och hade"
+    forklaring: >-
+      "Är" och "har" är inte som de andra: är → var, har → hade.
+    tabell:
+      head: ["presens", "preteritum"]
+      rows:
+        - ["Det är ett oväder.", "Det var ett oväder."]
+        - ["Misse är våt.", "Misse var våt."]
+        - ["Vi har regn.", "Vi hade regn."]
+
+  - rubrik: "i går ↔ i dag"
+    forklaring: >-
+      I går = dagen före i dag. I går + preteritum; i dag + presens!
+    tabell:
+      head: ["i går ⏪", "i dag 📍"]
+      rows:
+        - ["I går regnade det.", "I dag regnar det inte."]
+        - ["I går var Misse våt.", "I dag är hon torr."]
+
+uttal:
+  rubrik: "GN säger 'ngn'"
+  forklaring: >-
+    I ordet "regn" hör du inte g + n — det är "ngn"! Lyssna: regn,
+    regnar, regnade. 👂🔊
+  grupper:
+    - namn: "gn"
+      ord: [regn, regnar, regnade, regnet]
+    - namn: "kort i"
+      ord: [vind, blixt, vinter]
+
+ovningar:
+  A:
+    instruktion: "Skriv preteritum (i går-formen)!"
+    items:
+      - q: "I dag regnar det. I går {regnade} det."
+      - q: "I dag tittar barnen ut. I går {tittade} de ut."
+      - q: "I dag spelar de. I går {spelade} de."
+      - q: "I dag letar Karin. I går {letade} hon."
+      - q: "I dag hittar hon katten. I går {hittade} hon katten."
+      - q: "I dag är det fint väder. I går {var} det oväder!"
+      - q: "I dag har vi sol. I går {hade} vi regn."
+      - q: "I dag åskar det inte. I går {åskade} det."
+      - q: "I dag stannar vi ute. I går {stannade} vi inne."
+      - q: "I dag ritar Astrid en sol. I går {ritade} hon ett moln."
+      - q: "Det {regnar} nu — ta ett paraply! (regna)"
+      - q: "Det {blåser} från sjön. (blåsa)"
+  B:
+    instruktion: "Skriv ordet: väder, oväder, regnar, blåser, åskar, vind, moln, himlen, våt, torr, stannar, tittar, blixt, paraply, plötsligt, grå."
+    items:
+      - q: "I Sverige talar alla om {vädret}."
+      - q: "Stora {moln} kommer över skogen."
+      - q: "Det {blåser}: vinden är stark."
+      - q: "{Plötsligt} regnar det!"
+      - q: "Först kommer {blixten} — sedan åskar det."
+      - q: "Regn + vind + åska = ett {oväder}!"
+      - q: "Misse var ute i regnet: hon var {våt}."
+      - q: "Karin tar ett {paraply} och går ut."
+      - q: "– Stanna inne! Barnen {stannar} inne hela dagen."
+      - q: "Barnen {tittar} ut genom fönstret."
+      - q: "I dag är himlen blå — i går var den {grå}."
+      - q: "På kvällen är Misse {torr} igen."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar — i preteritum!"
+    items:
+      - q: "Hur var vädret i går?"
+        model: "Det regnade och åskade, och vinden var stark — det var ett oväder!"
+      - q: "Var var Misse?"
+        model: "Hon var ute i regnet, och hon var mycket våt."
+      - q: "Vem letade i trädgården — och vad hittade hon?"
+        model: "Karin letade med ett paraply, och hon hittade en våt katt vid dörren."
+      - q: "Vad gjorde barnen hela dagen?"
+        model: "De stannade inne: de spelade och ritade."
+      - q: "Vad ritade Astrid?"
+        model: "Hon ritade ett stort moln med en blixt."
+      - q: "Hur många blixtar räknade pojkarna?"
+        model: "De räknade åtta blixtar."
+      - q: "Hur är vädret i dag?"
+        model: "Solen är uppe igen, och det regnar inte."
+
+repetition:
+  rubrik: "Regn över skolan"
+  block:
+    - typ: narration
+      text: >-
+          Det regnar — och klassen har matematik. Ute regnar det och
+          blåser, men inne räknar eleverna. – Fyrtio och fem? frågar fru
+          Lind. – Fyrtiofem! svarar Elsa snabbt, och läraren är glad. På
+          rasten kan eleverna inte vara ute: det regnar för mycket! Klassen
+          stannar i klassrummet, och Nils läser en bok om språk: svenska,
+          engelska och andra språk. Efter skolan går eleverna hem i regnet
+          — våta elever, våta lärare! Men hemma finns varm mjölk.

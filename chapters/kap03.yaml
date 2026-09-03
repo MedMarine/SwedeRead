@@ -1,0 +1,250 @@
+# KAPITEL 3 — Huset vid sjön
+# The definiteness chapter: -en/-et taught by pointing at the family's own
+# house. det finns; den/det as pronouns; room prepositions.
+
+kapitel: 3
+titel: "Huset vid sjön"
+arc: A
+grammatik_fokus: "bestämd form singular (-en/-et); det finns; den/det som pronomen; under/över/bakom/framför/mellan"
+uttal_fokus: "mjukt g (Sverige, Göteborg, berget) mot hårt g (ligger, trädgård)"
+
+fokus: [hus, rum, kök, sovrum, dörr, fönster, bord, stol, säng, trädgård, träd, bo]
+stretch: [lampa, röd, björk]
+
+illustration: >-
+  Cutaway view of a classic falu-red Swedish cottage by a small lake: kitchen
+  with table, four chairs and a lamp; three small bedrooms; the grey cat asleep
+  in a child's bed; the golden dog in front of the door; behind the house a
+  garden with one big white birch; a compass-rose and the lake (Björksjön) in
+  front. Watercolor children's-atlas style, labeled rooms.
+
+lasstycken:
+  - rubrik: "I. HUSET"
+    block:
+      - typ: narration
+        text: >-
+          Vid en liten sjö i Sjövik ligger ett hus. Sjön heter Björksjön, och
+          huset vid Björksjön är rött — ett rött hus! Huset är inte stort,
+          och det är inte litet. I huset bor familjen Berg: Anders, Karin,
+          Oskar, Nils och Astrid. Ludde och Misse bor också i huset. Det är
+          familjen Bergs hus.
+        margin:
+          - "ett hus → husET"
+          - "en sjö → sjöN"
+          - "röd — rött — röda 🔴"
+          - "bo: X bor i Y (Y = X:s hus)"
+          - "det = huset"
+
+      - typ: narration
+        text: >-
+          I huset finns fem rum: ett kök, tre sovrum med tre sängar, och ett
+          stort rum. Finns det många rum i huset? Nej, fem rum är inte många
+          — men det är familjens hus, och familjen bor här!
+        margin:
+          - "ett rum → rummET (m + m!)"
+          - "det finns X = X är här"
+          - "här 📍"
+
+      - typ: narration
+        text: >-
+          Här är köket! I köket finns ett bord och fyra stolar — och över
+          bordet finns en lampa. Var är Misse? Misse ligger under bordet. Och
+          var är Ludde? Han ligger framför dörren. Under bordet finns en
+          katt, och framför dörren ligger en stor hund!
+        margin:
+          - "ett bord → bordET · en dörr → dörrEN"
+          - "under ⬇ · över ⬆"
+          - "framför → · bakom ←"
+          - "en lampa 💡"
+
+      - typ: narration
+        text: >-
+          I huset finns tre sovrum. Anders och Karins sovrum är stort. Oskars
+          och Nils sovrum är litet — och Astrids rum är också litet. I
+          Astrids rum finns en säng, en stol och ett fönster. I sängen ligger
+          en katt. Det är Misse — Misse ligger i Astrids säng!
+        margin:
+          - "ett sovrum = ett rum med en säng 🛏"
+          - "en säng → sängEN"
+          - "ett fönster → fönstrET"
+
+      - typ: narration
+        text: >-
+          Framför huset finns en dörr, och bakom huset finns också en dörr —
+          två dörrar. I huset finns många fönster. Fönstret i köket är stort,
+          men fönstret i Astrids rum är litet.
+        margin:
+          - "en dörr — två dörrar 🚪"
+          - "ett fönster — två fönster 🪟"
+
+  - rubrik: "II. TRÄDGÅRDEN OCH SJÖN"
+    block:
+      - typ: narration
+        text: >-
+          Bakom huset finns en trädgård. Trädgården ligger mellan huset och
+          Björksjön. I trädgården finns ett stort träd — trädet är en björk,
+          ett svenskt träd. Under björken ligger Ludde. I trädgården finns
+          också små träd, men björken är mycket stor.
+        margin:
+          - "en trädgård: träd och 🌷 vid ett hus"
+          - "ett träd — två träd 🌳"
+          - "en björk = ett svenskt träd"
+          - "mellan A och B: A ⟷ B"
+
+      - typ: narration
+        text: >-
+          Var är katten? Den ligger i köket, under bordet. Var är hunden? Den
+          ligger i trädgården, under björken. Var är huset? Det ligger vid
+          sjön. Katten och hunden: den. Huset och trädet: det. Och
+          trädgården? Den!
+        margin:
+          - "en katt → katten = DEN"
+          - "ett hus → huset = DET"
+
+      - typ: narration
+        text: >-
+          Framför huset ligger Björksjön. Den är inte stor, och den är inte
+          liten. Finns det många hus vid sjön? Nej, det finns inte många hus
+          — Sjövik är en liten stad! Var ligger trädgården? Den ligger mellan
+          huset och sjön. Var är köket? Det är i huset. I köket finns fyra
+          stolar, men Misse ligger inte på en stol — Misse ligger i Astrids
+          säng!
+        margin:
+          - "Finns det …? — Ja, det finns … / Nej, det finns inte …"
+
+      - typ: narration
+        text: >-
+          Huset vid Björksjön är familjen Bergs hus. Här bor Anders och
+          Karin, Oskar, Nils och Astrid — och Ludde och Misse. Familjen bor
+          vid sjön, och det är ett rött hus med en trädgård och en stor
+          björk. Men Oskar! Vad är det med Oskar? Det är kapitel fyra!
+        margin:
+          - "🔍 Oskar …?"
+
+grammatik:
+  - rubrik: "bestämd form: -en och -et"
+    forklaring: >-
+      Ett hus — ett av många hus. Huset — familjen Bergs hus, och vi vet
+      vilket! En-ord: dörr → dörren. Ett-ord: bord → bordet.
+    tabell:
+      head: ["en-ord", "bestämd form", "ett-ord", "bestämd form"]
+      rows:
+        - ["en dörr", "dörren", "ett bord", "bordet"]
+        - ["en stol", "stolen", "ett hus", "huset"]
+        - ["en säng", "sängen", "ett kök", "köket"]
+        - ["en sjö", "sjön", "ett träd", "trädet"]
+        - ["en trädgård", "trädgården", "ett fönster", "fönstret"]
+        - ["en katt", "katten", "ett rum", "rummet (m+m!)"]
+
+  - rubrik: "det finns"
+    forklaring: >-
+      I huset finns fem rum. Finns det en katt i köket? Ja, det finns en
+      katt under bordet! Finns det många hus vid sjön? Nej, det finns inte
+      många hus.
+    tabell:
+      head: ["fråga", "svar"]
+      rows:
+        - ["Finns det …?", "Ja, det finns …"]
+        - ["", "Nej, det finns inte …"]
+
+  - rubrik: "den och det"
+    forklaring: >-
+      Var är katten? DEN ligger under bordet. Var är huset? DET ligger vid
+      sjön. En-ord: den. Ett-ord: det.
+    tabell:
+      head: ["", "pronomen"]
+      rows:
+        - ["katten, sjön, trädgården (en-ord)", "den"]
+        - ["huset, trädet, köket (ett-ord)", "det"]
+
+  - rubrik: "prepositioner"
+    forklaring: >-
+      Misse ligger under bordet. Lampan är över bordet. Ludde ligger framför
+      dörren. Trädgården är bakom huset — och den ligger mellan huset och
+      sjön.
+    tabell:
+      head: ["preposition", "exempel"]
+      rows:
+        - ["i", "i huset, i köket"]
+        - ["på", "på bordet, på en stol"]
+        - ["vid", "vid sjön, vid fönstret"]
+        - ["under ⬇", "under bordet"]
+        - ["över ⬆", "över bordet"]
+        - ["framför →", "framför dörren"]
+        - ["bakom ←", "bakom huset"]
+        - ["mellan ⟷", "mellan huset och sjön"]
+
+uttal:
+  rubrik: "Mjukt och hårt g"
+  forklaring: >-
+    G är två ljud! Mjukt g = "j": Sverige, Göteborg, berget. Hårt g = "g":
+    ligger, trädgård, Gotland. Lyssna! 👂🔊
+  grupper:
+    - namn: "mjukt g (= j)"
+      ord: [Sverige, Norge, Göteborg, berget]
+    - namn: "hårt g"
+      ord: [ligger, trädgård, Gotland, gammal]
+
+ovningar:
+  A:
+    instruktion: "Skriv bestämd form: -en eller -et?"
+    items:
+      - q: "ett hus → {huset}"
+      - q: "en dörr → {dörren}"
+      - q: "ett kök → {köket}"
+      - q: "en säng → {sängen}"
+      - q: "ett bord → {bordet}"
+      - q: "en stol → {stolen}"
+      - q: "ett fönster → {fönstret}"
+      - q: "en trädgård → {trädgården}"
+      - q: "ett träd → {trädet}"
+      - q: "en sjö → {sjön}"
+      - q: "Misse ligger under {bordet}. (ett bord)"
+      - q: "Ludde ligger framför {dörren}. (en dörr)"
+      - q: "Familjen bor i {huset} vid sjön. (ett hus)"
+  B:
+    instruktion: "Skriv ordet: hus, rum, kök, sovrum, dörr, fönster, bord, stol, säng, trädgård, träd, bor, finns, under, mellan."
+    items:
+      - q: "Familjen Berg {bor} i ett rött hus."
+      - q: "Det {finns} fem rum i huset."
+      - q: "I köket finns ett {bord} och fyra stolar."
+      - q: "Misse ligger {under} bordet."
+      - q: "I Astrids rum finns en {säng}."
+      - q: "Trädgården ligger {mellan} huset och sjön."
+      - q: "I trädgården finns ett stort {träd} — en björk."
+      - q: "Ett rum med en säng är ett {sovrum}."
+      - q: "Framför huset finns en {dörr}."
+      - q: "{Fönstret} i köket är stort."
+      - q: "Bakom huset finns en {trädgård}."
+      - q: "I huset finns fem {rum}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Var ligger familjen Bergs hus?"
+        model: "Det ligger vid Björksjön, i Sjövik."
+      - q: "Hur många rum finns det i huset?"
+        model: "Det finns fem rum: ett kök, tre sovrum och ett stort rum."
+      - q: "Var ligger Misse?"
+        model: "Misse ligger under bordet i köket — eller i Astrids säng!"
+      - q: "Vad finns det i köket?"
+        model: "I köket finns ett bord, fyra stolar och en lampa."
+      - q: "Var ligger trädgården?"
+        model: "Den ligger mellan huset och sjön."
+      - q: "Vad är trädet i trädgården?"
+        model: "Det är en björk — ett stort svenskt träd."
+      - q: "Är Björksjön en stor sjö?"
+        model: "Nej, den är inte stor, och den är inte liten."
+      - q: "Vem ligger framför dörren?"
+        model: "Ludde ligger framför dörren."
+repetition:
+  rubrik: "Var ligger familjen?"
+  block:
+    - typ: narration
+      text: >-
+          Anders och Karins sovrum är stort: här finns en stor säng. Oskar
+          och Nils är söner i familjen — de bor i ett litet rum med två
+          sängar. Astrids rum är litet, med ett stort fönster. Och Misse?
+          Katten ligger i Astrids säng — under lampan! Ludde ligger i köket,
+          vid dörren. I huset finns tre sovrum och fyra sängar. En säng är
+          Astrids — men katten ligger i den! Vems säng är det? Astrids säng
+          … och kattens säng. Ja: det är kattens hus — och familjens hus!

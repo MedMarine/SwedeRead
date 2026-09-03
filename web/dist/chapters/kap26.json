@@ -1,0 +1,537 @@
+{
+ "kapitel": 26,
+ "image": "images/kap26.jpg",
+ "titel": "Pojken som ville flyga",
+ "arc": "E",
+ "grammatik_fokus": "passiv på -s (kallades, byggdes, det sägs att …); skulle ('ska' i preteritum)",
+ "uttal_fokus": "passivens -s mot genitivens -s: kallas — Pelles",
+ "fokus": [
+  "vinge",
+  "fjäder",
+  "bygga",
+  "kalla",
+  "falla",
+  "varna",
+  "lyssna",
+  "modig",
+  "prova"
+ ],
+ "stretch": [
+  "örn",
+  "luft"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. FÅGEL-PELLE",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Nästa kväll sitter morfar i det stora rummet. – Nu berättar JAG, säger han. Mammas saga var fin — men min är sann! – Sann? säger Nils. – Kanske, säger morfar och skrattar. Lyssna nu. Det var en gång, för länge, länge sedan …",
+     "margin": [
+      "morfar berättar — och sagan är sann? 🤔",
+      "Lyssna! 👂"
+     ],
+     "audio": "audio/kap26/b000_d8f6e4b68e93.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "I en liten stad vid ett stort berg bodde en pojke som hette Pelle och som älskade fåglar mer än allt annat: varje dag tittade han på hur de flög över berget och ner mot sjön. – Människor kan inte flyga, sa alla. Men Pelle sa: – Jag ska flyga. En dag ska jag flyga! Folk skrattade, och pojken kallades \"Fågel-Pelle\" i hela staden.",
+     "margin": [
+      "kallades = folk sa så om honom! (passiv -s)",
+      "mot sjön = i riktning → sjön"
+     ],
+     "audio": "audio/kap26/b001_459d940bb493.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Pelle började bygga vingar. En vinge, två vingar — som en fågel har! Vingarna byggdes av ljust trä och hundra fjädrar — stora fjädrar från örnar och små från hönor — som Pelle hittade i skogen och på gårdarna. Han byggde och byggde, hela vintern och hela våren, och det sades i staden att Fågel-Pelle var dum. Men Pelle lyssnade inte på det.",
+     "margin": [
+      "en vinge — två vingar 🪽",
+      "en fjäder 🪶 — fjädrar",
+      "byggdes av = man byggde den av …",
+      "en örn 🦅 = en stor, stark fågel",
+      "det sades att … = folk sa att …"
+     ],
+     "audio": "audio/kap26/b002_334760fd0c43.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "I staden bodde en gammal klok kvinna. Hon varnade honom: – Du ska flyga, pojke, det ser jag. Men lyssna nu: flyg inte för högt — över berget är vinden för stark. Och flyg inte för lågt — över sjön blir fjädrarna våta och tunga. Inte för högt, inte för lågt. Kan du minnas det? – Ja, sa Pelle. Och han var klok: han lyssnade — och han mindes.",
+     "margin": [
+      "varnade ⚠ = sa 'akta dig!' före det hände",
+      "för högt = mer än bra är!",
+      "inte för högt, inte för lågt!"
+     ],
+     "audio": "audio/kap26/b003_fcac1791b1a6.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. FLYGTUREN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Först provade Pelle från ett litet berg. Han sprang, vingarna tog vinden — och Pelle föll! Han föll ner i gräset och skrattade. Han provade igen … och föll igen. Men tredje gången föll han inte: han flög! Tre steg över gräset — som en stor, långsam höna. Folk skrattade, men Pelle var glad: han hade flugit!",
+     "margin": [
+      "provar 🔬 = gör det och ser: går det?",
+      "faller ⬇ (föll — har fallit)",
+      "tre steg — men han FLÖG!"
+     ],
+     "audio": "audio/kap26/b004_3ec68800f2aa.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "En morgon i juni, när vinden var god och himlen blå, steg Pelle upp på det stora berget. Han hade sagt till alla att han skulle flyga från berget den dagen — och nu stod han där. Han sprang — och vingarna tog honom! Pelle flög! Han flög över träden, över gårdarna, mot sjön, högre och högre upp i luften. Han var modig — men var han för modig? Just när vinden över honom blev stark och kall mindes han den kloka kvinnan: inte för högt! Pelle var modig OCH klok: han gick ner, lägre och lägre, och till slut föll han långsamt ner i det varma gräset vid sjön. Vingarna var sönder — men Pelle levde, och han skrattade mot himlen.",
+     "margin": [
+      "skulle = 'ska' i preteritum! (han sa att han SKULLE flyga)",
+      "modig 💪 — men för modig?",
+      "luften = fåglarnas 'hav'!",
+      "modig OCH klok!"
+     ],
+     "audio": "audio/kap26/b005_c3b356f5aa74.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Pelle flög aldrig igen — vingarna var sönder, och han byggde inga nya. Men han sa alltid: – Människor kan inte flyga som fåglar. Men en pojke som lyssnar kan flyga litet — och leva! Morfar är tyst en liten tid. Sedan säger han: – Och den pojken, barn … den pojken var min morfar. – DIN morfar?! ropar barnen. – Ja. Min morfar — och han kallades Fågel-Pelle hela tiden, av alla. Det sägs att en vinge ligger på ett museum i Växjö. – Är det sant? frågar Nils. Morfar skrattar: – Det är en saga. Och sagor är litet sanna — alltid!",
+     "margin": [
+      "det sägs att … = folk säger att …",
+      "morfars morfar!! 😲"
+     ],
+     "audio": "audio/kap26/b006_5356d3c376bf.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. DET SÄGS ATT …",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vad ville Pelle göra? Flyga! Vad kallades han i staden? Fågel-Pelle. Vad byggdes vingarna av? Ljust trä och hundra fjädrar — från örnar och hönor. Vem varnade honom? En gammal klok kvinna: inte för högt, inte för lågt! Föll Pelle? Ja, många gånger — men han provade igen. Flög han? Ja — över träden, högt upp i luften! Varför föll han inte i sjön? Därför att han lyssnade och mindes varningen. Var Pelle modig? Ja — modig och klok! Och vem var pojken? Morfars morfar!",
+     "margin": [
+      "kallades · byggdes · sades · sägs — passiv -s!"
+     ],
+     "audio": "audio/kap26/b007_d3a940a8e91d.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Två sagor på två kvällar! Men nu kommer något som inte är en saga: årets längsta och ljusaste dag. Det är kapitel tjugosju!",
+     "margin": [
+      "🔍 årets längsta dag …?"
+     ],
+     "audio": "audio/kap26/b008_989d708aa752.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Barnen leker sagan",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Barnen leker sagan i trädgården: Elsa är prinsessan, Oskar är trollet, och Nils är kungen. Björken är berget! – Min dotter har försvunnit! ropar kungen. Prinsessan vandrar genom \"skogen\" — genom trädgården — och trollet sitter bakom björken med sitt guld: tre gula bollar. – Vad vill du ha, lilla människa? säger trollet långsamt. – En vän! svarar prinsessan. Men Oskar vill vara ett farligt troll: – NEJ! GULD! – Du gör det fel, säger Elsa. Trollet är snällt! – MITT troll är farligt! Och nu bråkar trollet och prinsessan … Då säger kungen: – I sagan blir de vänner. Det är det som är sagan! – Och finns det björnar i skogen? frågar trollet. – Nej, säger kungen. Bara en räv — och en björn bor långt, långt borta! De provar igen, och nu är det spännande — och sagan slutar rätt: trollet får en vän. Ludde är också med: han är trollets hund.",
+    "audio": "audio/kap26/b009_d922a0d2d71b.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "passiv: -s",
+   "forklaring": "Vem gjorde det? Vi vet inte — eller det är inte viktigt! Då får verbet -s: pojken kallades Fågel-Pelle (= folk kallade honom så). Vingarna byggdes av trä (= någon byggde dem).",
+   "tabell": {
+    "head": [
+     "aktiv",
+     "passiv (-s)"
+    ],
+    "rows": [
+     [
+      "Folk kallade honom Fågel-Pelle.",
+      "Han kallades Fågel-Pelle."
+     ],
+     [
+      "Pelle byggde vingarna av trä.",
+      "Vingarna byggdes av trä."
+     ],
+     [
+      "Folk sa att han var dum.",
+      "Det sades att han var dum."
+     ],
+     [
+      "Folk säger att …",
+      "Det sägs att …"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "skulle",
+   "forklaring": "Ska har ett preteritum: skulle! Han säger att han SKA flyga (nu → framtid). Han sa att han SKULLE flyga (då → framtid i dåtid).",
+   "tabell": {
+    "head": [
+     "nu",
+     "då"
+    ],
+    "rows": [
+     [
+      "Han säger att han ska flyga.",
+      "Han sa att han skulle flyga."
+     ],
+     [
+      "Jag ska resa i morgon.",
+      "Jag visste att jag skulle resa."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "lyssna — och höra",
+   "forklaring": "Höra = ljudet kommer till örat. Lyssna = du GER örat till ljudet! (Som se och titta: titta = se med fokus.)",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "höra 👂",
+      "Han hörde vinden."
+     ],
+     [
+      "lyssna 👂❗",
+      "Han lyssnade på den kloka kvinnan."
+     ],
+     [
+      "se 👀",
+      "Han såg fåglarna."
+     ],
+     [
+      "titta 👀❗",
+      "Han tittade på dem varje dag."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "modig — och klok",
+   "forklaring": "Modig = vågar mycket. Klok = förstår mycket. Pelle var modig OCH klok: han flög — men han lyssnade på varningen!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "bara modig",
+      "flyger för högt … och faller i sjön!"
+     ],
+     [
+      "modig och klok",
+      "flyger — och lever!"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Passivens -s",
+  "forklaring": "Kallas, byggdes, sägs — passivens -s sitter på verbet. Pelles, morfars — genitivens -s sitter på namnet! Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "passiv -s",
+    "ord": [
+     "kallas",
+     "kallades",
+     "byggdes",
+     "sägs"
+    ]
+   },
+   {
+    "namn": "genitiv -s",
+    "ord": [
+     "Pelles",
+     "morfars",
+     "stadens"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "kallas": "audio/uttal/736c70447dc4.mp3",
+  "kallades": "audio/uttal/2269fd514e11.mp3",
+  "byggdes": "audio/uttal/7ac9311b9ad2.mp3",
+  "sägs": "audio/uttal/6e5cef49ba60.mp3",
+  "Pelles": "audio/uttal/4416ee445e3a.mp3",
+  "morfars": "audio/uttal/1ba0d3d2df67.mp3",
+  "stadens": "audio/uttal/e606d177e4d5.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv passiv med -s — och skulle!",
+   "items": [
+    {
+     "q": "Folk kallade honom Fågel-Pelle. → Han {kallades} Fågel-Pelle."
+    },
+    {
+     "q": "Pelle byggde vingarna av trä. → Vingarna {byggdes} av trä."
+    },
+    {
+     "q": "Folk sa att han var dum. → Det {sades} att han var dum."
+    },
+    {
+     "q": "Folk säger att vingen ligger på ett museum. → Det {sägs} att vingen ligger på ett museum."
+    },
+    {
+     "q": "Han säger att han ska flyga. → Han sa att han {skulle} flyga."
+    },
+    {
+     "q": "Jag ska resa. → Jag visste att jag {skulle} resa."
+    },
+    {
+     "q": "Pelle {byggde} vingar hela vintern. (bygga)"
+    },
+    {
+     "q": "Han {föll} ner i gräset — och skrattade! (falla)"
+    },
+    {
+     "q": "Den kloka kvinnan {varnade} honom. (varna)"
+    },
+    {
+     "q": "Pelle {lyssnade} på henne. (lyssna)"
+    },
+    {
+     "q": "Han {provade} igen och igen. (prova)"
+    },
+    {
+     "q": "en vinge — två {vingar}"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: vinge, vingar, fjäder, fjädrar, byggde, kallades, faller, föll, varnade, lyssnade, modig, provade, örn, luften.",
+   "items": [
+    {
+     "q": "En fågel flyger med sina {vingar}."
+    },
+    {
+     "q": "En {fjäder} är lätt — mycket lätt!"
+    },
+    {
+     "q": "Pelle {byggde} vingarna av trä och fjädrar."
+    },
+    {
+     "q": "Pojken {kallades} 'Fågel-Pelle' i hela staden."
+    },
+    {
+     "q": "Stora fjädrar kom från en {örn}."
+    },
+    {
+     "q": "Den kloka kvinnan {varnade} honom: inte för högt!"
+    },
+    {
+     "q": "Pelle {lyssnade} — och han mindes."
+    },
+    {
+     "q": "Första gången {föll} han i gräset."
+    },
+    {
+     "q": "Han {provade} igen — och flög!"
+    },
+    {
+     "q": "Pelle flög högre och högre upp i {luften}."
+    },
+    {
+     "q": "Han var {modig} — och klok!"
+    },
+    {
+     "q": "Den som flyger kan också {falla}."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vad kallades Pelle i staden — och varför?",
+     "model": "Han kallades Fågel-Pelle, därför att han ville flyga som fåglarna."
+    },
+    {
+     "q": "Vad byggdes vingarna av?",
+     "model": "De byggdes av ljust trä och hundra fjädrar."
+    },
+    {
+     "q": "Vad sa den kloka kvinnan?",
+     "model": "Hon varnade honom: flyg inte för högt, och flyg inte för lågt!"
+    },
+    {
+     "q": "Vad hände de första gångerna Pelle provade?",
+     "model": "Han föll — men han provade igen, och tredje gången flög han!"
+    },
+    {
+     "q": "Varför gick Pelle ner när han flög över träden?",
+     "model": "Därför att han mindes varningen: vinden över berget var för stark."
+    },
+    {
+     "q": "Flög Pelle igen efter den stora flygturen?",
+     "model": "Nej, aldrig — vingarna var sönder, och han byggde inga nya."
+    },
+    {
+     "q": "Vem var pojken i sagan?",
+     "model": "Morfars morfar — Fågel-Pelle!"
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "vinge": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "vinge",
+    "vingen",
+    "vingar",
+    "vingarna",
+    "vingens"
+   ],
+   "sv": "🪽 fåglarnas 'armar' — med dem flyger de!",
+   "en": "wing",
+   "tier": "focus"
+  },
+  "fjäder": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "fjäder",
+    "fjädern",
+    "fjädrar",
+    "fjädrarna",
+    "fjäderns"
+   ],
+   "sv": "🪶 fåglarnas 'hår' — lätt, lätt, lätt!",
+   "en": "feather",
+   "tier": "focus"
+  },
+  "bygga": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "bygger",
+    "bygga",
+    "byggde",
+    "byggt",
+    "byggs",
+    "byggdes",
+    "byggts"
+   ],
+   "sv": "🔨 gör ett hus, en båt, vingar — av trä och andra saker!",
+   "en": "to build",
+   "tier": "focus"
+  },
+  "kalla": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "kallar",
+    "kalla",
+    "kallade",
+    "kallat",
+    "kallas",
+    "kallades",
+    "kallats"
+   ],
+   "sv": "pojken kallades 'Fågel-Pelle' = folk sa så om honom!",
+   "en": "to call (name)",
+   "tier": "focus"
+  },
+  "falla": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "faller",
+    "falla",
+    "föll",
+    "fallit"
+   ],
+   "sv": "⬇ går ner — snabbt och utan att vilja! Pelle föll i gräset.",
+   "en": "to fall",
+   "tier": "focus"
+  },
+  "varna": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "varnar",
+    "varna",
+    "varnade",
+    "varnat",
+    "varning",
+    "varningen"
+   ],
+   "sv": "⚠ säger 'akta dig!' FÖRE det händer",
+   "en": "to warn",
+   "tier": "focus"
+  },
+  "lyssna": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "lyssnar",
+    "lyssna",
+    "lyssnade",
+    "lyssnat"
+   ],
+   "sv": "👂 hör — med fokus! (som titta är för ögonen!)",
+   "en": "to listen",
+   "tier": "focus"
+  },
+  "modig": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "modig",
+    "modigt",
+    "modiga"
+   ],
+   "sv": "💪 vågar mycket — är inte rädd!",
+   "en": "brave",
+   "tier": "focus"
+  },
+  "prova": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "provar",
+    "prova",
+    "provade",
+    "provat"
+   ],
+   "sv": "🔬 gör det — och ser: går det? Prova igen!",
+   "en": "to try",
+   "tier": "focus"
+  },
+  "örn": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "örn",
+    "örnen",
+    "örnar",
+    "örnarna",
+    "örnens"
+   ],
+   "sv": "🦅 en stor, stark fågel — himlens kung!",
+   "en": "eagle",
+   "tier": "stretch"
+  },
+  "luft": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "luft",
+    "luften",
+    "luftens"
+   ],
+   "sv": "det du inte ser — men fåglarna flyger i den, och du drar den i näsan!",
+   "en": "air",
+   "tier": "stretch"
+  }
+ }
+}

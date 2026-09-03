@@ -1,0 +1,622 @@
+{
+ "kapitel": 27,
+ "image": "images/kap27.jpg",
+ "titel": "Midsommar",
+ "arc": "E",
+ "grammatik_fokus": "partikelverb med betonad partikel (ställer UPP, tar FRAM, håller PÅ med); hälsar på — och hälsar på!",
+ "uttal_fokus": "betonad partikel: ställer UPP, tar FRAM — rytmen som betyder något!",
+ "fokus": [
+  "midsommar",
+  "majstång",
+  "blomma",
+  "krans",
+  "sill",
+  "potatis",
+  "jordgubbe",
+  "dansa",
+  "sjunga",
+  "fira",
+  "ställa",
+  "hålla"
+ ],
+ "stretch": [
+  "duka",
+  "gäst",
+  "grädde",
+  "lek",
+  "hjälpa"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. ÅRETS LÄNGSTA DAG",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det är midsommar — årets längsta dag och ljusaste natt! Midsommar firas i hela Sverige: man är ute, man äter gott, och man dansar. I dag firar familjen Berg midsommar på morfars gård, och redan på morgonen åker de dit — Ludde springer först in genom grinden, för han har bott här en vecka, och nu är HAN hemma!",
+     "margin": [
+      "midsommar ☀🌸 = årets längsta dag",
+      "firas i HELA Sverige!",
+      "fira 🎉 = ha en stor, glad dag"
+     ],
+     "audio": "audio/kap27/b000_2aef53b2303d.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Mitt på ängen ligger majstången. Den är lång — längre än tre män! Gäster kommer till gården: fru Ek och Elsa, herr Holm — och Bill! Först tar alla fram blommor och små gröna björkar. Alla hjälper, och majstången blir grön, vit och gul av björkar och blommor.",
+     "margin": [
+      "en majstång 🎏 — midsommarens 'träd'",
+      "tar FRAM = tar — och nu ser alla det!",
+      "hjälper 🤝 = gör det tillsammans",
+      "en gäst = kommer till festen!"
+     ],
+     "audio": "audio/kap27/b001_664f3d9706fb.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "– Nu ställer vi upp majstången! ropar morfar. Alla står runt den: män, kvinnor och barn. – Håll fast! ropar morfar. Alla håller. – Ett, två, TRE! Och upp går den — högre och högre — och nu står den! Majstången står mitt på ängen, grön mot den blåa himlen. Alla ropar: – Hurra!",
+     "margin": [
+      "ställer UPP = från liggande till stående!",
+      "runt ⭕",
+      "– Hurra! 🎉"
+     ],
+     "audio": "audio/kap27/b002_9e35b95b56b6.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Astrid och Elsa sitter i gräset och gör kransar: små blommor blir en rund \"ring\" — en krans! — som man har på huvudet. Astrid gör en krans till Lisa också … och en krans till Ludde. Och Ludde? Han äter den!",
+     "margin": [
+      "en krans 🌸⭕ på huvudet",
+      "Ludde äter kransen 🐕😄"
+     ],
+     "audio": "audio/kap27/b003_e4dcc81ee063.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. SILL, JORDGUBBAR — OCH MARIA!",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Sedan dukar alla det långa bordet ute på ängen — maten ställs fram: sill och potatis, bröd och ost — och till slut jordgubbar med grädde! Sill är fisk, liten fisk från havet, och den äter man på midsommar: sill och den första potatisen. Jordgubbar är röda och mycket goda, och grädde är vit och kommer från mjölken. – Mer jordgubbar, tack! säger alla barn.",
+     "margin": [
+      "dukar = ställer maten på bordet 🍽",
+      "sill 🐟 + potatis 🥔 = midsommarens mat",
+      "jordgubbar 🍓 med grädde!"
+     ],
+     "audio": "audio/kap27/b004_8668698a8b3e.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Då hör alla en bil på vägen. Vem kommer? Lasse! Och han är inte ensam: ur bilen kommer en ung kvinna med långt brunt hår och glada ögon. – Det är Maria! ropar Astrid. Flickan från fotografiet! Maria hälsar på alla: – Hej! Jag har hört så mycket om er. Och nu förstår du två ord som är samma — nästan: när Lasse hälsar PÅ familjen, kommer han hit. När Maria hälsar på Anders, säger hon hej. Samma ord — två saker! Betoningen gör ordet.",
+     "margin": [
+      "Maria!! ❤",
+      "hälsar PÅ (kommer hit!) ↔ hälsar på (säger hej!)",
+      "betoningen gör ordet!"
+     ],
+     "audio": "audio/kap27/b005_af67d197fccb.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Efter maten dansar alla runt majstången — gamla danser som alla kan. Man sjunger och dansar, runt och runt — och sjunger igen: stora och små, morfar och Astrid, Lasse och Maria. Sedan håller barnen på med lekar på ängen, där de springer och leker till kvällen — men kvällen blir aldrig mörk, för solen går nästan inte ner: det är årets ljusaste natt. Klockan tolv är himlen ljus — och barnen sover inte än!",
+     "margin": [
+      "dansar runt majstången ⭕🎶",
+      "sjunger 🎶",
+      "håller PÅ med = gör och gör och gör!",
+      "årets ljusaste natt ☀🌙"
+     ],
+     "audio": "audio/kap27/b006_95816d5a6299.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. MIDSOMMARENS ORD",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vad firar familjen? Midsommar — årets längsta dag. Vad ställer alla upp? Majstången! Vad gör flickorna av blommorna? Kransar. Vad äter man på midsommar? Sill och potatis — och jordgubbar med grädde! Vad håller barnen på med hela kvällen? Lekar! Vem kommer med Lasse? Maria, flickan från fotografiet! Alla sjunger, alla dansar, och ingen vill sova.",
+     "margin": [
+      "frågar → svarar"
+     ],
+     "audio": "audio/kap27/b007_ede6ebbe8583.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Och ringen? Sch — den ligger i Lasses väska … än! I kapitel tjugoåtta åker Lasse och barnen ut på sjön, och där väntar något stort. Det är kapitel tjugoåtta!",
+     "margin": [
+      "🔍 ut på sjön …?"
+     ],
+     "audio": "audio/kap27/b008_fb3f25e68ae0.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Vingar till Lisa",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Efter morfars saga vill Oskar bygga vingar. – Som pojken i sagan! – Nej, säger mamma. Pojkar flyger inte! Men små vingar till en docka … det går. Oskar och Nils bygger två små vingar av papper och fjädrar — fjädrar från morfars hönor, inte från örnar! Lisa får vingarna. – Nu provar vi, säger Oskar. Från bordet! – Jag varnar dig, säger Nils. Dockor kan inte flyga. – Lisa är modig, säger Astrid. Och dockan \"flyger\" — från bordet, genom luften … ner. – Hon flög! ropar Astrid. Litet! Alla skrattar. Att bygga vingar är lätt; att flyga är inte lätt. Det visste pojken i sagan också.",
+    "audio": "audio/kap27/b009_19db79236500.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "partikelverb",
+   "forklaring": "Ett litet ord efter verbet — och verbet blir nytt! Tar FRAM, ställer UPP, håller PÅ. Partikeln är alltid betonad: man hör den starkt!",
+   "tabell": {
+    "head": [
+     "partikelverb",
+     "= vad?"
+    ],
+    "rows": [
+     [
+      "tar FRAM",
+      "tar — och nu ser alla det"
+     ],
+     [
+      "ställer UPP",
+      "sätter den att stå"
+     ],
+     [
+      "håller PÅ (med)",
+      "gör och gör och gör"
+     ],
+     [
+      "stiger PÅ / stiger AV",
+      "in i tåget / ut ur tåget (kapitel 19!)"
+     ],
+     [
+      "klär PÅ sig",
+      "kläder på kroppen (kapitel 13!)"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "hälsar på — och hälsar på!",
+   "forklaring": "Samma ord, två saker — betoningen gör ordet! Hälsar PÅ (partikeln betonad) = kommer till dig. Hälsar på (utan betonad partikel) = säger hej.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Lasse hälsar PÅ familjen.",
+      "= han kommer till dem! 🏠"
+     ],
+     [
+      "Maria hälsar på Anders.",
+      "= hon säger hej! 👋"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "midsommarens dag",
+   "forklaring": "Så firar man midsommar: majstången ställs upp, kransar görs, sill och jordgubbar äts — och alla dansar till den ljusa natten!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "🎏 majstången",
+      "ställs upp mitt på ängen"
+     ],
+     [
+      "🌸 kransar",
+      "blommor — på huvudet!"
+     ],
+     [
+      "🐟🥔🍓 maten",
+      "sill, potatis, jordgubbar med grädde"
+     ],
+     [
+      "💃🎶 dansen",
+      "runt och runt, till den ljusa natten"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "hjälpa",
+   "forklaring": "Hjälpa = göra det tillsammans med någon. Alla hjälper med majstången! Och \"Hjälp!\" = kom och hjälp mig — nu!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Alla hjälper morfar.",
+      "Kan du hjälpa mig?"
+     ],
+     [
+      "Hjälp!",
+      "= kom — nu!"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Betonad partikel",
+  "forklaring": "Lyssna på rytmen: ställer UPP, tar FRAM, håller PÅ — det lilla ordet är starkt! Och: hälsar PÅ (kommer) mot hälsar på (säger hej). 👂🎵",
+  "grupper": [
+   {
+    "namn": "partikeln är stark!",
+    "ord": [
+     "ställer upp",
+     "tar fram",
+     "håller på",
+     "stiger av"
+    ]
+   },
+   {
+    "namn": "två 'hälsar på'",
+    "ord": [
+     "hälsar på familjen",
+     "hälsar på och säger hej"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "ställer upp": "audio/uttal/f1f0cb8cfe0a.mp3",
+  "tar fram": "audio/uttal/0865a2c84290.mp3",
+  "håller på": "audio/uttal/a683405ec618.mp3",
+  "stiger av": "audio/uttal/bac9734c1d78.mp3",
+  "hälsar på familjen": "audio/uttal/60307addc56e.mp3",
+  "hälsar på och säger hej": "audio/uttal/d33d29278f65.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv partikeln — eller verbet!",
+   "items": [
+    {
+     "q": "Alla tar {fram} blommor och björkar."
+    },
+    {
+     "q": "– Nu ställer vi {upp} majstången!"
+    },
+    {
+     "q": "Barnen håller {på} med lekar hela kvällen."
+    },
+    {
+     "q": "Familjen stiger {av} tåget i Stockholm. (kapitel 19!)"
+    },
+    {
+     "q": "Astrid klär {på} sig — långsamt! (kapitel 13!)"
+    },
+    {
+     "q": "Alla {dansar} runt majstången. (dansa)"
+    },
+    {
+     "q": "Man {sjunger} gamla danser och sånger. (sjunga)"
+    },
+    {
+     "q": "Familjen {firar} midsommar på gården. (fira)"
+    },
+    {
+     "q": "Alla {hjälper} morfar med majstången. (hjälpa)"
+    },
+    {
+     "q": "Flickorna {gör} kransar av blommor. (göra)"
+    },
+    {
+     "q": "Alla {dukar} det långa bordet. (duka)"
+    },
+    {
+     "q": "en blomma — många {blommor}"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: midsommar, majstången, blommor, krans, sill, potatis, jordgubbar, grädde, dansar, sjunger, firar, gäster, lekar, hjälper.",
+   "items": [
+    {
+     "q": "{Midsommar} är årets längsta dag."
+    },
+    {
+     "q": "Alla ställer upp {majstången} mitt på ängen."
+    },
+    {
+     "q": "Astrid gör en {krans} av små blommor."
+    },
+    {
+     "q": "På midsommar äter man {sill} och den första {potatisen}."
+    },
+    {
+     "q": "Till slut: {jordgubbar} med {grädde}!"
+    },
+    {
+     "q": "Alla {dansar} runt majstången och {sjunger}."
+    },
+    {
+     "q": "Familjen {firar} midsommar på morfars gård."
+    },
+    {
+     "q": "{Gäster} kommer: fru Ek, Elsa och herr Holm."
+    },
+    {
+     "q": "Barnen håller på med {lekar} på ängen."
+    },
+    {
+     "q": "Alla {hjälper} — och majstången blir grön och fin."
+    },
+    {
+     "q": "Majstången är full av {blommor}."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vad är midsommar?",
+     "model": "Årets längsta dag och ljusaste natt — Sveriges stora sommardag!"
+    },
+    {
+     "q": "Vad gör alla med majstången?",
+     "model": "De tar fram blommor och björkar — och sedan ställer alla upp den!"
+    },
+    {
+     "q": "Vad händer med Luddes krans?",
+     "model": "Han äter den!"
+    },
+    {
+     "q": "Vad äter man på midsommar?",
+     "model": "Sill och potatis — och jordgubbar med grädde."
+    },
+    {
+     "q": "Vem kommer ur bilen med Lasse?",
+     "model": "Maria — flickan från fotografiet!"
+    },
+    {
+     "q": "Vad betyder 'hälsar PÅ' — med stark partikel?",
+     "model": "Det betyder att man kommer till någon — inte bara säger hej!"
+    },
+    {
+     "q": "Varför blir kvällen aldrig mörk?",
+     "model": "Därför att det är årets ljusaste natt — solen går nästan inte ner."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "midsommar": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "midsommar",
+    "midsommaren",
+    "midsommarens"
+   ],
+   "sv": "☀🌸 årets längsta dag — Sveriges stora sommardag!",
+   "en": "midsummer",
+   "tier": "focus"
+  },
+  "majstång": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "majstång",
+    "majstången",
+    "majstångens"
+   ],
+   "sv": "🎏 midsommarens höga gröna 'träd' — man dansar runt den!",
+   "en": "maypole",
+   "tier": "focus"
+  },
+  "blomma": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "blomma",
+    "blomman",
+    "blommor",
+    "blommorna",
+    "blommans"
+   ],
+   "sv": "🌸 röd, gul, vit — står i gräset om sommaren!",
+   "en": "flower",
+   "tier": "focus"
+  },
+  "krans": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "krans",
+    "kransen",
+    "kransar",
+    "kransarna",
+    "kransens"
+   ],
+   "sv": "🌸⭕ blommornas 'ring' — på huvudet på midsommar!",
+   "en": "wreath, flower crown",
+   "tier": "focus"
+  },
+  "sill": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "sill",
+    "sillen",
+    "sillens"
+   ],
+   "sv": "🐟 liten fisk från havet — midsommarens mat!",
+   "en": "herring",
+   "tier": "focus"
+  },
+  "potatis": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "potatis",
+    "potatisen",
+    "potatisar",
+    "potatisarna"
+   ],
+   "sv": "🥔 från jorden — sill och den första potatisen!",
+   "en": "potato",
+   "tier": "focus"
+  },
+  "jordgubbe": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "jordgubbe",
+    "jordgubben",
+    "jordgubbar",
+    "jordgubbarna"
+   ],
+   "sv": "🍓 röd, söt, god — sommarens bästa!",
+   "en": "strawberry",
+   "tier": "focus"
+  },
+  "dansa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "dansar",
+    "dansa",
+    "dansade",
+    "dansat",
+    "dans",
+    "dansen",
+    "danser"
+   ],
+   "sv": "💃 kroppen 'leker' till musiken — runt majstången!",
+   "en": "to dance",
+   "tier": "focus"
+  },
+  "sjunga": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "sjunger",
+    "sjunga",
+    "sjöng",
+    "sjungit"
+   ],
+   "sv": "🎶 'talar' med melodi!",
+   "en": "to sing",
+   "tier": "focus"
+  },
+  "fira": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "firar",
+    "fira",
+    "firade",
+    "firat",
+    "firas"
+   ],
+   "sv": "🎉 har en stor, glad dag: firar midsommar, firar födelsedag!",
+   "en": "to celebrate",
+   "tier": "focus"
+  },
+  "ställa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "ställer",
+    "ställa",
+    "ställde",
+    "ställt",
+    "ställs",
+    "ställdes"
+   ],
+   "sv": "sätter den att STÅ: ställer upp majstången!",
+   "en": "to put, stand (something)",
+   "tier": "focus"
+  },
+  "hålla": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "håller",
+    "hålla",
+    "höll",
+    "hållit",
+    "håll"
+   ],
+   "sv": "🤲 har i handen — och: håller på med = gör och gör och gör!",
+   "en": "to hold",
+   "tier": "focus"
+  },
+  "duka": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "dukar",
+    "duka",
+    "dukade",
+    "dukat",
+    "dukas",
+    "dukades"
+   ],
+   "sv": "ställer maten på bordet — bordet blir klart! 🍽",
+   "en": "to set the table",
+   "tier": "stretch"
+  },
+  "gäst": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "gäst",
+    "gästen",
+    "gäster",
+    "gästerna",
+    "gästens"
+   ],
+   "sv": "en människa som kommer till din fest! 🎉",
+   "en": "guest",
+   "tier": "stretch"
+  },
+  "grädde": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "grädde",
+    "grädden",
+    "gräddens"
+   ],
+   "sv": "vit, god — mjölkens 'guld', på jordgubbar! 🍓",
+   "en": "cream",
+   "tier": "stretch"
+  },
+  "lek": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "lek",
+    "leken",
+    "lekar",
+    "lekarna",
+    "lekens"
+   ],
+   "sv": "det man leker! Barnens lekar på ängen 🤸",
+   "en": "game",
+   "tier": "stretch"
+  },
+  "hjälpa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "hjälper",
+    "hjälpa",
+    "hjälpte",
+    "hjälpt",
+    "hjälp"
+   ],
+   "sv": "🤝 gör det tillsammans med dig — Hjälp! = kom och hjälp mig!",
+   "en": "to help",
+   "tier": "stretch"
+  }
+ }
+}

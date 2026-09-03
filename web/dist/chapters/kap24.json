@@ -1,0 +1,568 @@
+{
+ "kapitel": 24,
+ "image": "images/kap24.jpg",
+ "titel": "Den sjuka pojken",
+ "arc": "D",
+ "grammatik_fokus": "pluskvamperfekt (hade varit, hade regnat); tidsbisatser med när/medan/innan; bli (frisk → sjuk!)",
+ "uttal_fokus": "viskad prosodi — läsning i sjukrummet, tyst och lugnt",
+ "fokus": [
+  "bli",
+  "hosta",
+  "hals",
+  "medicin",
+  "termometer",
+  "filt",
+  "kudde",
+  "vila",
+  "orolig",
+  "dröm",
+  "drömma"
+ ],
+ "stretch": [
+  "sked",
+  "mörk",
+  "somna"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. NILS BLIR SJUK",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det hade regnat i tre dagar, och Nils hade varit ute vid sjön med Lasse — de hade tittat på båtar, och Nils hade inte haft något paraply. När han kom hem var han våt och kall, och nu, på kvällen, är han sjuk: han är varm, mycket varm, och han hostar.",
+     "margin": [
+      "HADE varit, HADE regnat = pluskvamperfekt (⏪ före ⏪!)",
+      "hostar: host, host! 😷"
+     ],
+     "audio": "audio/kap24/b000_85d614377e95.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Karin kommer med termometern, för en termometer säger hur varm kroppen är. – Trettionio! säger mamma. Du har feber, Nils. Nils känner sig dålig: han har ont i huvudet och i halsen, han hostar och hostar, och när Karin tittar i hans hals ser hon att den är röd. Oskar var \"sjuk\" en morgon i kapitel elva — men Nils är sjuk nu, och alla vet det.",
+     "margin": [
+      "en termometer 🌡 (39 = feber!)",
+      "ont i halsen (halsen: mellan huvudet och kroppen)"
+     ],
+     "audio": "audio/kap24/b001_a10abb61ef66.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "I går var Nils frisk, men sedan blev han sjuk — och han blev sjuk därför att han hade varit våt och kall hela dagen. Att bli = från A till B: frisk → sjuk, torr → våt, liten → stor! Karin ger honom medicin på en sked. Medicinen är inte god — usch! — men sjuka barn behöver medicin. Nils får en stor filt och en god kudde. Han ligger i sängen under filten, med huvudet på kudden.",
+     "margin": [
+      "blir = A → B! (frisk → sjuk)",
+      "medicin 💊: inte god — men bra!",
+      "en sked 🥄 · en filt · en kudde"
+     ],
+     "audio": "audio/kap24/b002_b583213aedf2.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. NATTEN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det blir natt, och natten är mörk. Innan Nils somnar dricker han litet varmt vatten, och medan han sedan sover sitter mamma vid sängen och är orolig — mammor är alltid oroliga när barnen är sjuka, och en läkare vet att feber kan bli farlig. Klockan tolv känner hon på hans huvud: varmt. Klockan två: varmt. Huset är tyst och mörkt, och alla sover — men inte Karin.",
+     "margin": [
+      "innan = FÖRE i tiden",
+      "medan = i SAMMA tid",
+      "somnar 😴 ↔ vaknar",
+      "orolig 😟 = 'är allt bra?!'",
+      "mörk 🌑 ↔ ljus"
+     ],
+     "audio": "audio/kap24/b003_c12563ce1492.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Nils drömmer, och i drömmen ser han en stor karta — Sveriges karta, kartan som han hade haft på tåget — men nu är kartan levande: sjöarna är blåa och våta, tågen åker över papperet, och en stor älg står i Småland och ser på honom. – Var ligger Sjövik? frågar älgen. Nils vill svara, men i drömmen kan han inte tala … Älgen väntar och väntar … men då kommer Ludde in i drömmen och skäller, och älgen går sin väg.",
+     "margin": [
+      "drömmer 🌙 (en dröm — drömmen!)",
+      "levande = den lever!",
+      "kartan från kapitel nitton — nu levande!"
+     ],
+     "audio": "audio/kap24/b004_1c891803fe23.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "När Nils vaknar på morgonen känner han sig … bra! Mamma känner på hans huvud: det är inte varmt. Termometern säger trettiosju — febern är borta! – Du hade feber i natt, säger Karin, men nu är den borta. Du måste vila i dag och i morgon — men du blir frisk. I dörren står Oskar, som har varit orolig hela natten — och nu ger han Nils något: sitt godis! – Du är sjuk, säger Oskar. Du behöver det. Nils ligger på sin kudde och skrattar … och hostar … och skrattar igen.",
+     "margin": [
+      "vila = ligga och sova, inte springa!",
+      "trettiosju = 37: ingen feber ✓",
+      "Oskar ger sitt godis!! ❤"
+     ],
+     "audio": "audio/kap24/b005_88fa3903d543.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. FÖRE OCH EFTER",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Varför blev Nils sjuk? Därför att han hade varit ute i regnet — våt och kall hela dagen. Vad hade han inte haft? Paraply! Var hade han ont? I huvudet och i halsen. Vad fick han på en sked? Medicin — usch! Vad gjorde Karin medan Nils sov? Hon satt vid sängen och var orolig. Vad drömde Nils? Han drömde om en levande karta — och om en älg som frågade om Sjövik. En dröm är bara en dröm, men Nils berättar om drömmen hela dagen! Vad sa termometern på morgonen? Trettiosju. Nu vilar Nils i två dagar under sin filt, och sedan blir han frisk igen.",
+     "margin": [
+      "hade varit ⏪⏪ → blev sjuk ⏪ → är frisk 📍"
+     ],
+     "audio": "audio/kap24/b006_3bf134e614b7.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Nils vilar i sängen, och alla är snälla. Astrid sitter hos honom. – Berätta något! säger Nils. – Jag? säger Astrid. Nej — mamma berättar! På kvällen kommer Karin med något som barnen älskar: en berättelse från för länge sedan. Det är kapitel tjugofem!",
+     "margin": [
+      "🔍 en berättelse från för länge sedan …?"
+     ],
+     "audio": "audio/kap24/b007_a9cfaf91ac97.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Marias brev",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Ett brev kom till Lasse — från Maria. \"Jag saknar dig! Stockholm är stort, men jag längtar efter dig och efter Sjövik. När träffar jag din familj? Snart, säger du — men snart är långt borta …\" Lasse läste brevet många gånger. Han satt vid fönstret och tänkte på henne. – Saknar du henne? frågade Astrid. – Ja, sa Lasse. När man älskar någon, är hjärtat där hon är. – Då är ditt hjärta i Stockholm! sa Astrid. – Ja, sa Lasse och skrattade. Just där! Och den kvällen somnade han med brevet i handen och drömde om fartyg — och om Maria.",
+    "audio": "audio/kap24/b008_894590b16750.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "pluskvamperfekt: hade + supinum",
+   "forklaring": "Perfekt: han HAR varit våt (→ nu). Pluskvamperfekt: han HADE varit våt (→ då, före något annat!). Nils blev sjuk därför att han HADE varit våt.",
+   "tabell": {
+    "head": [
+     "perfekt (→ nu)",
+     "pluskvamperfekt (→ då)"
+    ],
+    "rows": [
+     [
+      "Han har varit våt.",
+      "Han hade varit våt (i går)."
+     ],
+     [
+      "Det har regnat.",
+      "Det hade regnat i tre dagar."
+     ],
+     [
+      "Han har inte haft paraply.",
+      "Han hade inte haft paraply."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "när, medan, innan",
+   "forklaring": "Tre små tidsord! När = i den tiden. Medan = i samma tid. Innan = före i tiden.",
+   "tabell": {
+    "head": [
+     "",
+     "exempel"
+    ],
+    "rows": [
+     [
+      "när",
+      "När barnen är sjuka, är mamma orolig."
+     ],
+     [
+      "medan",
+      "Medan han sover, sitter mamma vid sängen."
+     ],
+     [
+      "innan",
+      "Innan han somnar, dricker han vatten."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "bli",
+   "forklaring": "Bli = från A till B! I går var Nils frisk. Han blev sjuk. Nu blir han frisk igen. Barn blir stora, dagar blir korta — allt blir!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "frisk → sjuk",
+      "Nils blev sjuk i natt."
+     ],
+     [
+      "sjuk → frisk",
+      "Han blir frisk igen!"
+     ],
+     [
+      "dag → natt",
+      "Det blir natt — och mörkt."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "det sjuka barnets ord",
+   "forklaring": "Feber, hosta, ont i halsen — och vad man behöver: termometer, medicin, filt, kudde och vila!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "🌡 termometern",
+      "39 = feber, 37 = ingen feber"
+     ],
+     [
+      "💊 medicin på en sked",
+      "usch — men bra!"
+     ],
+     [
+      "filt + kudde",
+      "varm och god i sängen"
+     ],
+     [
+      "vila",
+      "ligga och sova — och bli frisk!"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Tyst och lugnt — sjukrummets röst",
+  "forklaring": "Läs det här tyst och långsamt, som vid en säng där någon sover: \"Huset är tyst och mörkt.\" Lyssna på den lugna rösten! 👂🌙",
+  "grupper": [
+   {
+    "namn": "tyst röst",
+    "ord": [
+     "Huset är tyst.",
+     "Alla sover.",
+     "Var lugn."
+    ]
+   },
+   {
+    "namn": "sjukrummets ord",
+    "ord": [
+     "feber",
+     "medicin",
+     "termometer",
+     "filt"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "Huset är tyst.": "audio/uttal/e07ad2a4b51c.mp3",
+  "Alla sover.": "audio/uttal/92b5dd1f8b01.mp3",
+  "Var lugn.": "audio/uttal/1480947466cd.mp3",
+  "feber": "audio/uttal/7150c70715c3.mp3",
+  "medicin": "audio/uttal/99273be1a650.mp3",
+  "termometer": "audio/uttal/78d37acdd3ed.mp3",
+  "filt": "audio/uttal/1c9af7bcba09.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv pluskvamperfekt (hade + supinum) — och bli!",
+   "items": [
+    {
+     "q": "Han {hade} varit våt hela dagen."
+    },
+    {
+     "q": "Det hade {regnat} i tre dagar. (regna)"
+    },
+    {
+     "q": "Han hade inte {haft} paraply. (ha)"
+    },
+    {
+     "q": "De hade {tittat} på båtar vid sjön. (titta)"
+    },
+    {
+     "q": "Nils {blev} sjuk i natt. (bli)"
+    },
+    {
+     "q": "Han {blir} frisk igen! (bli)"
+    },
+    {
+     "q": "Det {blev} natt, och natten var mörk. (bli)"
+    },
+    {
+     "q": "{Innan} han somnar, dricker han vatten. (före i tiden)"
+    },
+    {
+     "q": "{Medan} han sover, sitter mamma vid sängen. (i samma tid)"
+    },
+    {
+     "q": "{När} barnen är sjuka, är mamma orolig."
+    },
+    {
+     "q": "Nils {somnade} klockan tio. (somna)"
+    },
+    {
+     "q": "Han måste {vila} i två dagar. (vila)"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: blev, hostar, halsen, medicin, termometer, filt, kudde, vilar, orolig, dröm, drömmer, sked, mörk, somnar.",
+   "items": [
+    {
+     "q": "Nils {hostar} och hostar — host, host!"
+    },
+    {
+     "q": "Han har ont i {halsen}."
+    },
+    {
+     "q": "{Termometern} säger trettionio: feber!"
+    },
+    {
+     "q": "Karin ger honom {medicin} på en {sked}."
+    },
+    {
+     "q": "Nils ligger under en varm {filt}."
+    },
+    {
+     "q": "Huvudet ligger på en god {kudde}."
+    },
+    {
+     "q": "Mamma är {orolig} hela natten."
+    },
+    {
+     "q": "Natten är {mörk} och tyst."
+    },
+    {
+     "q": "Nils {somnar} — och {drömmer} om en levande karta."
+    },
+    {
+     "q": "I {drömmen} står en stor älg i Småland."
+    },
+    {
+     "q": "Nils {blev} sjuk — men han blir frisk igen!"
+    },
+    {
+     "q": "Han {vilar} i sängen i två dagar."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna — med pluskvamperfekt när det passar!",
+   "items": [
+    {
+     "q": "Varför blev Nils sjuk?",
+     "model": "Därför att han hade varit ute i regnet — våt och kall hela dagen."
+    },
+    {
+     "q": "Vad sa termometern på kvällen?",
+     "model": "Trettionio — Nils hade feber."
+    },
+    {
+     "q": "Vad gjorde Karin medan Nils sov?",
+     "model": "Hon satt vid sängen hela natten — hon var orolig."
+    },
+    {
+     "q": "Vad drömde Nils om?",
+     "model": "Om en levande karta — och en älg som frågade var Sjövik ligger."
+    },
+    {
+     "q": "Vem kom in i drömmen och skällde?",
+     "model": "Ludde! Och då gick älgen."
+    },
+    {
+     "q": "Vad gav Oskar till Nils?",
+     "model": "Sitt godis — han hade varit orolig hela natten."
+    },
+    {
+     "q": "Vad måste Nils göra nu?",
+     "model": "Han måste vila i två dagar — sedan blir han frisk igen."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "bli": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "blir",
+    "bli",
+    "blev",
+    "blivit"
+   ],
+   "sv": "A → B! frisk → sjuk: han BLEV sjuk. liten → stor: barn blir stora!",
+   "en": "to become",
+   "tier": "focus"
+  },
+  "hosta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "hostar",
+    "hosta",
+    "hostade",
+    "hostat",
+    "hostan"
+   ],
+   "sv": "😷 host, host! — halsen och bröstet 'ropar'",
+   "en": "to cough",
+   "tier": "focus"
+  },
+  "hals": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "hals",
+    "halsen",
+    "halsar",
+    "halsens"
+   ],
+   "sv": "mellan huvudet och kroppen — ont i halsen! 😖",
+   "en": "throat, neck",
+   "tier": "focus"
+  },
+  "medicin": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "medicin",
+    "medicinen",
+    "mediciner",
+    "medicinens"
+   ],
+   "sv": "💊 inte god — men bra! Sjuka barn behöver den.",
+   "en": "medicine",
+   "tier": "focus"
+  },
+  "termometer": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "termometer",
+    "termometern",
+    "termometrar",
+    "termometerns"
+   ],
+   "sv": "🌡 säger hur varm kroppen är: 37 ✓, 39 = feber!",
+   "en": "thermometer",
+   "tier": "focus"
+  },
+  "filt": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "filt",
+    "filten",
+    "filtar",
+    "filtarna",
+    "filtens"
+   ],
+   "sv": "varm och mjuk — över dig i sängen!",
+   "en": "blanket",
+   "tier": "focus"
+  },
+  "kudde": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "kudde",
+    "kudden",
+    "kuddar",
+    "kuddarna",
+    "kuddens"
+   ],
+   "sv": "under huvudet i sängen — mjuk och god!",
+   "en": "pillow",
+   "tier": "focus"
+  },
+  "vila": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "vilar",
+    "vila",
+    "vilade",
+    "vilat"
+   ],
+   "sv": "ligga, sova, INTE springa — kroppen blir frisk!",
+   "en": "to rest",
+   "tier": "focus"
+  },
+  "orolig": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "orolig",
+    "oroligt",
+    "oroliga"
+   ],
+   "sv": "😟 'är allt bra?!' — mammor är oroliga när barnen är sjuka",
+   "en": "worried",
+   "tier": "focus"
+  },
+  "dröm": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "dröm",
+    "drömmen",
+    "drömmar",
+    "drömmarna",
+    "drömmens"
+   ],
+   "sv": "🌙 en 'film' i huvudet när du sover!",
+   "en": "dream",
+   "tier": "focus"
+  },
+  "drömma": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "drömmer",
+    "drömma",
+    "drömde",
+    "drömt"
+   ],
+   "sv": "🌙 ser 'filmen' i sömnen: Nils drömmer om en älg!",
+   "en": "to dream",
+   "tier": "focus"
+  },
+  "sked": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "sked",
+    "skeden",
+    "skedar",
+    "skedarna"
+   ],
+   "sv": "🥄 man äter med den — och tar medicin!",
+   "en": "spoon",
+   "tier": "stretch"
+  },
+  "mörk": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "mörk",
+    "mörkt",
+    "mörka",
+    "mörkare",
+    "mörkast"
+   ],
+   "sv": "🌑 utan ljus — natten är mörk!",
+   "en": "dark",
+   "tier": "stretch"
+  },
+  "somna": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "somnar",
+    "somna",
+    "somnade",
+    "somnat"
+   ],
+   "sv": "😴 går in i sömnen (somnar ↔ vaknar!)",
+   "en": "to fall asleep",
+   "tier": "stretch"
+  }
+ }
+}

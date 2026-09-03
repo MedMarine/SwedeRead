@@ -1,0 +1,243 @@
+# KAPITEL 16 — Vad hände i går?
+# Preteritum II: -de/-te/-dde and the core strong verbs (kom, såg, gick,
+# fick, åt, drack, sa, gjorde, stod, steg). The storm retold at Sunday
+# dinner — three versions, one confession, and morfar's tale from long ago.
+
+kapitel: 16
+titel: "Vad hände i går?"
+arc: C
+grammatik_fokus: "preteritum -de/-te/-dde; starka verb byter vokal (kommer → kom, ser → såg); berätta om; minns ↔ glömmer"
+uttal_fokus: "kort vokal i starka preteritum: drack, satt, sprang — lång: åt, tog, stod"
+
+fokus: [hända, berätta, minnas, glömma, stå, middag, hämta, tid]
+stretch: [tyst]
+
+illustration: >-
+  Sunday dinner at the long kitchen table, morfar at the head: Nils
+  recounting with precise fingers counting to eight; above Oskar a thought
+  bubble of an apocalyptic storm with a hundred lightning bolts and himself
+  heroically at a window; Astrid holding up the cat as evidence; Karin's
+  knowing look; through the window, the actual calm sunny lake. Watercolor,
+  warm lamplight.
+
+lasstycken:
+  - rubrik: "I. VID MIDDAGEN"
+    block:
+      - typ: narration
+        text: >-
+          Det är söndag, och morfar kommer till huset vid sjön: familjen
+          äter middag. Middag är dagens stora mat — i dag äter de fisk
+          från sjön. – Berätta om ovädret! säger morfar. Vad hände i går?
+        margin:
+          - "middag 🍽 = dagens stora mat"
+          - "berätta = säga en lång sak 💬📖"
+          - "Vad hände? ⏪"
+
+      - typ: narration
+        text: >-
+          Nils berättade först: – I går kom ett oväder. Först såg vi stora
+          grå moln. Sedan blåste det, och regnet kom. Det åskade, och vi
+          såg åtta blixtar. Vi stannade inne och spelade. Till slut gick
+          ovädret bort. – Bra, sa morfar. Och vad hände sedan?
+        margin:
+          - "kom (av 'kommer') ⏪"
+          - "såg (av 'ser') ⏪"
+          - "gick (av 'går') ⏪"
+          - "sa (av 'säger') ⏪"
+          - "till slut = sist av allt"
+
+      - typ: narration
+        text: >-
+          Nu berättade Oskar: – Det var ett STORT oväder! Vinden tog
+          björken — nästan! Jag stod vid fönstret hela tiden, och jag
+          drack mjölk och åt bröd och tittade på blixtarna. Vi såg hundra
+          blixtar! – Åtta, sa Nils. Vi såg åtta blixtar. Jag räknade dem.
+          – Hundra! sa Oskar. – Åtta. – … Många! sa Oskar till slut. Alla
+          skrattade.
+        margin:
+          - "stod (av 'står') ⏪"
+          - "drack, åt (av 'dricker', 'äter') ⏪"
+          - "hela tiden = 100% av tiden"
+          - "Oskars oväder: STORT! Nils oväder: åtta blixtar 😄"
+
+      - typ: narration
+        text: >-
+          Astrid berättade om Misse: – Misse var ute i regnet! Mamma
+          hämtade henne med paraplyet. – Ja, jag hämtade en mycket arg
+          katt, sa Karin. Och vem glömde katten ute? Det var tyst i köket … – Jag,
+          sa Oskar långsamt. Jag glömde Misse i trädgården. Jag minns nu:
+          hon sov under björken, och jag gick in … och glömde henne. – Ja,
+          sa Karin. Men du minns i dag — och Misse sover i solen. Allt är
+          bra igen.
+        margin:
+          - "hämtade = gick ut, tog, kom in med!"
+          - "glömmer ↔ minns"
+          - "tyst 🤫 = inga ord"
+
+  - rubrik: "II. FÖR LÄNGE SEDAN"
+    block:
+      - typ: narration
+        text: >-
+          Sedan berättade morfar: – För länge sedan, när jag var en pojke,
+          kom ett mycket stort oväder till Sjövik. Det regnade och åskade
+          i tre dagar! Vattnet i Björksjön steg och steg — det kom nästan
+          upp till husen. Vi stod vid fönstren och tittade, en lång tid.
+          Min pappa sa: "Vattnet stannar." Och det stannade — till slut. –
+          Och sedan? frågade barnen. – Sedan kom solen, sa morfar, och vi
+          badade i sjön en hel vecka!
+        margin:
+          - "för länge sedan = många, många år ⏪⏪"
+          - "steg (av 'stiger') ⏪"
+          - "nästan = 95%!"
+
+      - typ: narration
+        text: >-
+          Vad hände i går? Ett oväder kom. Vem berättade först? Nils.
+          Vems oväder var stort — mycket, mycket stort? Oskars! Hur många
+          blixtar såg familjen — åtta eller hundra? Åtta: Nils räknade
+          dem. Vem glömde Misse ute? Oskar — men han minns i dag! Vem
+          hämtade henne? Mamma. Och vad gjorde morfar för länge sedan?
+          Han stod vid fönstret och tittade — i tre dagar.
+        margin:
+          - "gjorde (av 'gör') ⏪"
+
+      - typ: narration
+        text: >-
+          I dag är det söndag: solen är uppe, familjen äter middag, och
+          morfar berättar. I går var det lördag: det regnade, och barnen
+          stannade inne. Verben har två "hus": regnar — regnade, kommer —
+          kom, ser — såg, går — gick, är — var. Tiden går: i går, i dag …
+          Nu kan du berätta om i går, och om för länge sedan!
+        margin:
+          - "presens 📍 · preteritum ⏪"
+
+      - typ: narration
+        text: >-
+          Familjen åt middag och talade länge. Men i kapitel sjutton
+          räknar Oskar och Nils sina pengar. Hundra kronor — eller
+          femtio? Det är kapitel sjutton!
+        margin:
+          - "🔍 pojkarnas pengar …?"
+
+grammatik:
+  - rubrik: "preteritum: -de, -te, -dde"
+    forklaring: >-
+      Många verb får -de eller -te: hörde, glömde — läste, köpte, lekte,
+      åkte. Korta verb får -dde: bodde, klädde.
+    tabell:
+      head: ["presens", "preteritum"]
+      rows:
+        - ["hör, glömmer", "hörde, glömde"]
+        - ["läser, köper", "läste, köpte"]
+        - ["leker, åker", "lekte, åkte"]
+        - ["bor, klär", "bodde, klädde"]
+
+  - rubrik: "starka verb — de byter vokal!"
+    forklaring: >-
+      Starka verb har inget -de: de byter vokal! Kommer — kom, ser — såg,
+      dricker — drack.
+    tabell:
+      head: ["presens", "preteritum", "presens", "preteritum"]
+      rows:
+        - ["kommer", "kom", "ser", "såg"]
+        - ["går", "gick", "får", "fick"]
+        - ["äter", "åt", "dricker", "drack"]
+        - ["säger", "sa", "gör", "gjorde"]
+        - ["tar", "tog", "ger", "gav"]
+        - ["står", "stod", "stiger", "steg"]
+        - ["sover", "sov", "sitter", "satt"]
+        - ["ligger", "låg", "springer", "sprang"]
+
+  - rubrik: "berätta om"
+    forklaring: >-
+      – Berätta om ovädret! Nils berättade om blixtarna, Astrid berättade
+      om Misse, och morfar berättade om för länge sedan.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["berätta om + sak", "Berätta om ovädret!"]
+        - ["berätta för + person", "Morfar berättade för barnen."]
+
+  - rubrik: "minns och glömmer"
+    forklaring: >-
+      Minns = har det i huvudet. Glömmer = har det inte! OBS: "minns" har
+      -s, men det är inte plural — ordet är så!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Jag minns i går.", "Jag glömde katten!"]
+        - ["Minns du ovädret?", "Glöm inte paraplyet!"]
+
+uttal:
+  rubrik: "Vokalen i starka preteritum"
+  forklaring: >-
+    Kort vokal: drack, satt, sprang, fick, gick. Lång vokal: åt, tog,
+    stod, gav. Lyssna! 👂🔊
+  grupper:
+    - namn: "kort vokal"
+      ord: [drack, satt, sprang, fick, gick]
+    - namn: "lång vokal"
+      ord: [åt, tog, stod, gav, såg]
+
+ovningar:
+  A:
+    instruktion: "Skriv preteritum!"
+    items:
+      - q: "I dag kommer morfar. I går {kom} han."
+      - q: "I dag ser vi solen. I går {såg} vi blixtar."
+      - q: "I dag går barnen ut. I går {gick} de inte ut."
+      - q: "I dag äter de fisk. I går {åt} de bröd."
+      - q: "I dag dricker Oskar mjölk. I går {drack} han mjölk."
+      - q: "I dag säger Oskar 'många'. I går {sa} han 'hundra'!"
+      - q: "I dag gör de middag. I går {gjorde} de frukost."
+      - q: "I dag står morfar vid fönstret. För länge sedan {stod} han där i tre dagar."
+      - q: "I dag får Misse mjölk. I går {fick} hon regn!"
+      - q: "I dag läser Nils. I går {läste} han också."
+      - q: "I dag köper vi bröd. I går {köpte} vi bullar."
+      - q: "I dag bor de vid sjön. För länge sedan {bodde} morfar där."
+  B:
+    instruktion: "Skriv ordet: hände, berättar, berättade, minns, glömde, står, stod, middag, hämtade, tid, tyst."
+    items:
+      - q: "Vad {hände} i går? Ett oväder kom!"
+      - q: "Nils {berättade} först — om åtta blixtar."
+      - q: "Familjen äter {middag}: fisk från sjön."
+      - q: "Karin {hämtade} Misse med paraplyet."
+      - q: "Oskar {glömde} katten i trädgården."
+      - q: "– Jag {minns} nu, sa Oskar."
+      - q: "Det var {tyst} i köket."
+      - q: "Oskar {stod} vid fönstret hela tiden — sa han!"
+      - q: "Morfar {berättar} om för länge sedan."
+      - q: "Hela {tiden} tittade Oskar på blixtarna."
+  C:
+    instruktion: "Svara på frågorna — i preteritum!"
+    items:
+      - q: "Vad åt familjen till middag?"
+        model: "De åt fisk från sjön."
+      - q: "Hur många blixtar såg familjen — och vem räknade dem?"
+        model: "De såg åtta blixtar. Nils räknade dem."
+      - q: "Vad sa Oskar om blixtarna?"
+        model: "Han sa hundra! Men till slut sa han 'många'."
+      - q: "Vem glömde Misse ute?"
+        model: "Oskar glömde henne i trädgården — men han minns i dag."
+      - q: "Vad hände i Sjövik för länge sedan?"
+        model: "Ett stort oväder kom: det regnade och åskade i tre dagar, och vattnet i sjön steg."
+      - q: "Vad sa morfars pappa om vattnet?"
+        model: "Han sa: 'Vattnet stannar.' Och det stannade till slut."
+      - q: "Vad gjorde familjen efter morfars oväder?"
+        model: "De badade i sjön en hel vecka!"
+
+repetition:
+  rubrik: "Morfar berättar om vädret"
+  block:
+    - typ: narration
+      text: >-
+          Vid middagen berättade morfar om vädret för länge sedan: – När
+          jag var barn, var vintrarna långa! Snön kom i november och
+          stannade i fem månader. Vi gick till skolan i snö — en timme
+          varje morgon! – En timme! sa Oskar. – Ja. Och på hösten regnade
+          det i veckor. Men somrarna … somrarna var varma och långa. Varje
+          årstid var stor, sa morfar. – Och nu? frågade Nils. – Nu är jag
+          gammal, sa morfar och skrattade, och vintern är liten! Karin
+          hämtade mjölk till barnen, och morfar berättade och berättade —
+          om snö, om regn, om gamla somrar. Till slut sa Astrid: – Berätta
+          om ovädret igen! Och det gjorde han.

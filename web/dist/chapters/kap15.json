@@ -1,0 +1,586 @@
+{
+ "kapitel": 15,
+ "image": "images/kap15.jpg",
+ "titel": "Ovädret",
+ "arc": "C",
+ "grammatik_fokus": "det regnar/blåser/åskar; preteritum på -ade (regnade, tittade); var och hade; i går ↔ i dag",
+ "uttal_fokus": "gn säger 'ngn': regn, regnar, regnade",
+ "fokus": [
+  "väder",
+  "oväder",
+  "regna",
+  "blåsa",
+  "åska",
+  "vind",
+  "moln",
+  "himmel",
+  "våt",
+  "torr",
+  "stanna",
+  "titta"
+ ],
+ "stretch": [
+  "blixt",
+  "paraply",
+  "plötsligt",
+  "grå"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. OVÄDRET KOMMER",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vad är väder? Solen är väder. Regnet är väder. Vinden är väder! I Sverige talar alla om vädret: – Fint väder i dag! – Ja, mycket fint! Men vädret är inte alltid fint …",
+     "margin": [
+      "väder ☀🌧💨",
+      "svenskar talar ALLTID om vädret! 😄"
+     ],
+     "audio": "audio/kap15/b000_d6cdf7199a07.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Det är lördag morgon. Himlen är blå, och solen är uppe. Men vad kommer där, över skogen? Moln — stora grå moln! Nu är solen borta. Det blåser: vinden kommer från sjön, och den är stark. Det blåser i björken. Plötsligt regnar det! Det regnar och regnar. – Ett oväder! säger Nils. Barnen tittar ut genom fönstret.",
+     "margin": [
+      "DET regnar · DET blåser · DET åskar",
+      "ett moln — många moln ☁",
+      "himlen ⬆ (blå eller grå!)",
+      "plötsligt = nu, mycket snabbt! ⚡"
+     ],
+     "audio": "audio/kap15/b001_511b39a05c82.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Nu åskar det också! Blixten kommer över himlen — vit och snabb — och sedan åskar det. – Voff! Voff! säger Ludde. Han vill inte höra åskan! Var är Misse? Ingen ser henne. – Misse är ute! ropar Astrid. Ute i regnet!",
+     "margin": [
+      "en blixt ⚡ … och sedan åskan!",
+      "åska = himlens stora 'voff'! 😄"
+     ],
+     "audio": "audio/kap15/b002_ba74d144081e.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Familjen tittar ut. Det regnar mycket, och vinden är stark. – Stanna inne, barn! säger Karin. Hon tar ett paraply och går ut. – Misse! Misse! Hon letar i trädgården: inget. Hon tittar under träden: inget! Då hör hon något vid dörren: – Mjau! Där sitter Misse — en liten, våt katt! Karin tar henne in. Misse är våt, mycket våt, och hon är inte glad.",
+     "margin": [
+      "ett paraply ☔",
+      "våt 💧 ↔ torr"
+     ],
+     "audio": "audio/kap15/b003_15d5b4281a6d.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "På kvällen är ovädret borta. Det regnar inte, och det blåser inte. Familjen sitter i köket, och barnen stannar inne hela kvällen. Misse är torr nu — hon sitter vid fönstret och tvättar sig. Himlen är grå, men regnet är borta.",
+     "margin": [
+      "hela kvällen = 100% av kvällen"
+     ],
+     "audio": "audio/kap15/b004_6fe72958411f.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. I GÅR OCH I DAG",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det är söndag morgon, och solen är uppe igen. Familjen äter frukost och talar om i går. – I går regnade det hela dagen! säger Nils. – Ja, och det åskade, säger Astrid. Blixten var stor och vit! – Vinden var stark, säger Oskar. Det var ett stort oväder! – Och Misse var ute i regnet, säger Karin. Katten var våt — mycket våt. Men i dag är hon torr, och hon sover i solen.",
+     "margin": [
+      "i går = dagen före i dag ⏪",
+      "regnar → regnADE (i går!)",
+      "är → VAR · har → HADE"
+     ],
+     "audio": "audio/kap15/b005_8b33bd920098.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "I går: det regnade, det åskade, och vinden var stark. Barnen stannade inne hela dagen: de spelade och ritade. Astrid ritade ett stort moln med en blixt. Oskar och Nils tittade ut genom fönstren och räknade blixtarna: en, två, tre … åtta blixtar! Och Karin? Hon letade i regnet och hittade en våt katt. Ja, i går var en lång dag!",
+     "margin": [
+      "-ade: spelade, ritade, tittade, räknade, letade, hittade",
+      "var en lång dag ⏪"
+     ],
+     "audio": "audio/kap15/b006_32a6684ecda8.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Hur var vädret i går? Det regnade och åskade, och vinden var stark: det var ett oväder! Var var Misse? Hon var ute i regnet — och hon var våt! Vem letade och hittade henne? Karin, med ett paraply. Hur är vädret i dag? Solen är uppe, och det regnar inte. Och Misse? Hon är torr och sover i solen.",
+     "margin": [
+      "i går: var, regnade ⏪ · i dag: är, regnar"
+     ],
+     "audio": "audio/kap15/b007_19d16d0859ec.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "I går, i går, i går … Nu kan du tala om i går! Men Oskar talar MYCKET om i går — och i hans ord var ovädret ett mycket, mycket stort oväder. Vad säger de andra? Det är kapitel sexton!",
+     "margin": [
+      "🔍 Oskars stora oväder …?"
+     ],
+     "audio": "audio/kap15/b008_f71e2eff660e.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Regn över skolan",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Det regnar — och klassen har matematik. Ute regnar det och blåser, men inne räknar eleverna. – Fyrtio och fem? frågar fru Lind. – Fyrtiofem! svarar Elsa snabbt, och läraren är glad. På rasten kan eleverna inte vara ute: det regnar för mycket! Klassen stannar i klassrummet, och Nils läser en bok om språk: svenska, engelska och andra språk. Efter skolan går eleverna hem i regnet — våta elever, våta lärare! Men hemma finns varm mjölk.",
+    "audio": "audio/kap15/b009_725360f80cbc.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "det-väder",
+   "forklaring": "Vem regnar? Ingen! På svenska säger man DET: det regnar, det blåser, det åskar, det är kallt.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Det regnar. 🌧",
+      "Det blåser. 💨"
+     ],
+     [
+      "Det åskar. ⚡",
+      "Det är kallt/varmt."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "preteritum: -ade",
+   "forklaring": "I dag regnar det — i går regnADE det! Många verb får -ade i preteritum (= i går-form).",
+   "tabell": {
+    "head": [
+     "presens (nu)",
+     "preteritum (i går)"
+    ],
+    "rows": [
+     [
+      "det regnar",
+      "det regnade"
+     ],
+     [
+      "barnen tittar",
+      "barnen tittade"
+     ],
+     [
+      "de spelar",
+      "de spelade"
+     ],
+     [
+      "Karin letar",
+      "Karin letade"
+     ],
+     [
+      "hon hittar",
+      "hon hittade"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "var och hade",
+   "forklaring": "\"Är\" och \"har\" är inte som de andra: är → var, har → hade.",
+   "tabell": {
+    "head": [
+     "presens",
+     "preteritum"
+    ],
+    "rows": [
+     [
+      "Det är ett oväder.",
+      "Det var ett oväder."
+     ],
+     [
+      "Misse är våt.",
+      "Misse var våt."
+     ],
+     [
+      "Vi har regn.",
+      "Vi hade regn."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "i går ↔ i dag",
+   "forklaring": "I går = dagen före i dag. I går + preteritum; i dag + presens!",
+   "tabell": {
+    "head": [
+     "i går ⏪",
+     "i dag 📍"
+    ],
+    "rows": [
+     [
+      "I går regnade det.",
+      "I dag regnar det inte."
+     ],
+     [
+      "I går var Misse våt.",
+      "I dag är hon torr."
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "GN säger 'ngn'",
+  "forklaring": "I ordet \"regn\" hör du inte g + n — det är \"ngn\"! Lyssna: regn, regnar, regnade. 👂🔊",
+  "grupper": [
+   {
+    "namn": "gn",
+    "ord": [
+     "regn",
+     "regnar",
+     "regnade",
+     "regnet"
+    ]
+   },
+   {
+    "namn": "kort i",
+    "ord": [
+     "vind",
+     "blixt",
+     "vinter"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "regn": "audio/uttal/a196e0ae66c9.mp3",
+  "regnar": "audio/uttal/4574eb5d7422.mp3",
+  "regnade": "audio/uttal/250a7f69be9f.mp3",
+  "regnet": "audio/uttal/78375a32a122.mp3",
+  "vind": "audio/uttal/a58f238ae9a5.mp3",
+  "blixt": "audio/uttal/2133ff120c6f.mp3",
+  "vinter": "audio/uttal/b5df3d8dff73.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv preteritum (i går-formen)!",
+   "items": [
+    {
+     "q": "I dag regnar det. I går {regnade} det."
+    },
+    {
+     "q": "I dag tittar barnen ut. I går {tittade} de ut."
+    },
+    {
+     "q": "I dag spelar de. I går {spelade} de."
+    },
+    {
+     "q": "I dag letar Karin. I går {letade} hon."
+    },
+    {
+     "q": "I dag hittar hon katten. I går {hittade} hon katten."
+    },
+    {
+     "q": "I dag är det fint väder. I går {var} det oväder!"
+    },
+    {
+     "q": "I dag har vi sol. I går {hade} vi regn."
+    },
+    {
+     "q": "I dag åskar det inte. I går {åskade} det."
+    },
+    {
+     "q": "I dag stannar vi ute. I går {stannade} vi inne."
+    },
+    {
+     "q": "I dag ritar Astrid en sol. I går {ritade} hon ett moln."
+    },
+    {
+     "q": "Det {regnar} nu — ta ett paraply! (regna)"
+    },
+    {
+     "q": "Det {blåser} från sjön. (blåsa)"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: väder, oväder, regnar, blåser, åskar, vind, moln, himlen, våt, torr, stannar, tittar, blixt, paraply, plötsligt, grå.",
+   "items": [
+    {
+     "q": "I Sverige talar alla om {vädret}."
+    },
+    {
+     "q": "Stora {moln} kommer över skogen."
+    },
+    {
+     "q": "Det {blåser}: vinden är stark."
+    },
+    {
+     "q": "{Plötsligt} regnar det!"
+    },
+    {
+     "q": "Först kommer {blixten} — sedan åskar det."
+    },
+    {
+     "q": "Regn + vind + åska = ett {oväder}!"
+    },
+    {
+     "q": "Misse var ute i regnet: hon var {våt}."
+    },
+    {
+     "q": "Karin tar ett {paraply} och går ut."
+    },
+    {
+     "q": "– Stanna inne! Barnen {stannar} inne hela dagen."
+    },
+    {
+     "q": "Barnen {tittar} ut genom fönstret."
+    },
+    {
+     "q": "I dag är himlen blå — i går var den {grå}."
+    },
+    {
+     "q": "På kvällen är Misse {torr} igen."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar — i preteritum!",
+   "items": [
+    {
+     "q": "Hur var vädret i går?",
+     "model": "Det regnade och åskade, och vinden var stark — det var ett oväder!"
+    },
+    {
+     "q": "Var var Misse?",
+     "model": "Hon var ute i regnet, och hon var mycket våt."
+    },
+    {
+     "q": "Vem letade i trädgården — och vad hittade hon?",
+     "model": "Karin letade med ett paraply, och hon hittade en våt katt vid dörren."
+    },
+    {
+     "q": "Vad gjorde barnen hela dagen?",
+     "model": "De stannade inne: de spelade och ritade."
+    },
+    {
+     "q": "Vad ritade Astrid?",
+     "model": "Hon ritade ett stort moln med en blixt."
+    },
+    {
+     "q": "Hur många blixtar räknade pojkarna?",
+     "model": "De räknade åtta blixtar."
+    },
+    {
+     "q": "Hur är vädret i dag?",
+     "model": "Solen är uppe igen, och det regnar inte."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "väder": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "väder",
+    "vädret",
+    "vädrets"
+   ],
+   "sv": "☀🌧💨 sol, regn, vind — svenskar talar alltid om vädret!",
+   "en": "weather",
+   "tier": "focus"
+  },
+  "oväder": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "oväder",
+    "ovädret",
+    "ovädrets"
+   ],
+   "sv": "⛈ MYCKET arg väder: regn + vind + åska! (o- = inte bra!)",
+   "en": "storm",
+   "tier": "focus"
+  },
+  "regna": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "regnar",
+    "regna",
+    "regnade",
+    "regnat"
+   ],
+   "sv": "🌧 det regnar = regn kommer från himlen",
+   "en": "to rain",
+   "tier": "focus"
+  },
+  "blåsa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "blåser",
+    "blåsa",
+    "blåste",
+    "blåst"
+   ],
+   "sv": "💨 det blåser = vinden går!",
+   "en": "to blow (wind)",
+   "tier": "focus"
+  },
+  "åska": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "åskar",
+    "åska",
+    "åskade",
+    "åskat",
+    "åskan",
+    "åskans"
+   ],
+   "sv": "⚡ himlens stora 'voff'! Först blixten, sedan åskan",
+   "en": "to thunder; (åskan) thunder",
+   "tier": "focus"
+  },
+  "vind": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "vind",
+    "vinden",
+    "vindar",
+    "vindarna",
+    "vindens"
+   ],
+   "sv": "💨 'springande' luft — det blåser!",
+   "en": "wind",
+   "tier": "focus"
+  },
+  "moln": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "moln",
+    "molnet",
+    "molnen",
+    "molnets"
+   ],
+   "sv": "☁ vitt eller grått, uppe på himlen — regnet bor där!",
+   "en": "cloud",
+   "tier": "focus"
+  },
+  "himmel": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "himmel",
+    "himlen",
+    "himlar",
+    "himlens"
+   ],
+   "sv": "⬆ blå (eller grå!) — här är solen, molnen och fåglarna",
+   "en": "sky",
+   "tier": "focus"
+  },
+  "våt": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "våt",
+    "vått",
+    "våta"
+   ],
+   "sv": "💧 med vatten på sig — Misse i regnet! (↔ torr)",
+   "en": "wet",
+   "tier": "focus"
+  },
+  "torr": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "torr",
+    "torrt",
+    "torra"
+   ],
+   "sv": "utan vatten (↔ våt)",
+   "en": "dry",
+   "tier": "focus"
+  },
+  "stanna": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "stannar",
+    "stanna",
+    "stannade",
+    "stannat"
+   ],
+   "sv": "går inte bort: barnen stannar inne (regnet!)",
+   "en": "to stay; to stop",
+   "tier": "focus"
+  },
+  "titta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "tittar",
+    "titta",
+    "tittade",
+    "tittat"
+   ],
+   "sv": "👀 ser — med fokus! Titta ut genom fönstret!",
+   "en": "to look",
+   "tier": "focus"
+  },
+  "blixt": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "blixt",
+    "blixten",
+    "blixtar",
+    "blixtarna",
+    "blixtens"
+   ],
+   "sv": "⚡ vitt, snabbt 'ljus' på himlen — sedan åskar det!",
+   "en": "lightning",
+   "tier": "stretch"
+  },
+  "paraply": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "paraply",
+    "paraplyet",
+    "paraplyer",
+    "paraplyerna"
+   ],
+   "sv": "☔ litet 'tak' i handen — mot regnet!",
+   "en": "umbrella",
+   "tier": "stretch"
+  },
+  "plötsligt": {
+   "pos": "adverb",
+   "gender": null,
+   "forms": [
+    "plötsligt",
+    "plötslig",
+    "plötsliga"
+   ],
+   "sv": "⚡ nu — mycket snabbt, ingen ser det komma!",
+   "en": "suddenly",
+   "tier": "stretch"
+  },
+  "grå": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "grå",
+    "grått",
+    "gråa"
+   ],
+   "sv": "☁ inte vit, inte svart — som regnmoln (och Misse!)",
+   "en": "grey",
+   "tier": "stretch"
+  }
+ }
+}

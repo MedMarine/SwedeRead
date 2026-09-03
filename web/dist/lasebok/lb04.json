@@ -1,0 +1,23 @@
+{
+ "nummer": 4,
+ "titel": "Fru Linds dag",
+ "efter_kapitel": 14,
+ "typ": "vardag",
+ "block": [
+  {
+   "typ": "narration",
+   "text": "Fru Lind är lärare i Sjöviks skola. Hur är en lärares dag? Den är lång! Klockan sex stiger fru Lind upp. Hon äter frukost, tar sina papper och går till skolan. Klockan åtta kommer eleverna — tjugo elever, och alla talar!",
+   "audio": "audio/lb04/b000_7c57cee38e2d.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Klassen har svenska och matematik. Fru Lind skriver stora ord, frågar och svarar, läser och räknar med eleverna. På rasten sitter hon en kvart i klassrummet — inga elever, ingen talar: en lärares bästa kvart! Sedan kommer eleverna in, och klassen läser.",
+   "audio": "audio/lb04/b001_fa3b6f01a77a.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Klockan tre går barnen hem — men inte fru Lind. Hon sitter i skolan och läser elevernas papper: tjugo elever skriver, och läraren läser allt! På kvällen går hon hem och äter. Och vad gör hon sedan? Hon läser — en bok! Lärare läser mycket, säger fru Lind. Det är därför de kan så mycket.",
+   "audio": "audio/lb04/b002_8481923f6eec.mp3"
+  }
+ ]
+}

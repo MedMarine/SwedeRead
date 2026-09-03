@@ -1,0 +1,636 @@
+{
+ "kapitel": 8,
+ "image": "images/kap08.jpg",
+ "titel": "I affären",
+ "arc": "B",
+ "grammatik_fokus": "den här/det här/de här; hur mycket kostar…?; räkneord 10–100; vill ha",
+ "uttal_fokus": "räkneord i snabbt tal: tjugo ('tjuge'), fyrtio ('förti')",
+ "fokus": [
+  "köpa",
+  "sälja",
+  "kosta",
+  "betala",
+  "pengar",
+  "krona",
+  "bröd",
+  "ost",
+  "äpple",
+  "godis",
+  "dyr",
+  "billig"
+ ],
+ "stretch": [
+  "glad",
+  "öppen",
+  "stängd",
+  "bulle"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. AFFÄREN VID BRON",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "I Sjövik finns en affär — affären vid bron. Här finns mat: bröd, ost, äpplen och mjölk. Här finns också godis och bullar! Affären är fru Eks affär. Hon säljer bröd, hon säljer mjölk och godis — fru Ek säljer mycket, och Sjöviks familjer köper. Affären är öppen nu: kom in! Men på kvällen är den stängd.",
+     "margin": [
+      "en affär 🏪 (kapitel sex!)",
+      "säljer ↔ köper",
+      "öppen 🔓 ↔ stängd 🔒",
+      "fru Ek = kvinnan med affären"
+     ],
+     "audio": "audio/kap08/b000_ae7597acdb21.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Vad kostar maten? Ett bröd kostar trettio kronor. Osten är dyr: den kostar åttio kronor! Ett äpple kostar fem kronor — äpplen är billiga. En bulle kostar femton kronor, och godis kostar tio kronor. Dyr eller billig? Osten är dyr, äpplena är billiga, och bullarna är inte dyra.",
+     "margin": [
+      "kostar 💰 … kronor",
+      "en krona — kronor (svenska pengar!)",
+      "dyr ↔ billig",
+      "en bulle 🥐",
+      "30 trettio · 80 åttio · 15 femton"
+     ],
+     "audio": "audio/kap08/b001_c5b4c8f1566a.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Oskar och Nils får femtio kronor av pappa. – Tack, pappa! Pojkarna cyklar till affären. Femtio kronor — det är pengar! Vad köper de? Godis? Bullar? Ett äpple till Astrid? De vill ha mycket — men femtio kronor är inte hundra kronor!",
+     "margin": [
+      "pengar 💰 = kronor",
+      "vill ha X = 'X, tack!'",
+      "50 femtio · 100 hundra"
+     ],
+     "audio": "audio/kap08/b002_088fa931261e.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. POJKARNA KÖPER",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "I affären är fru Ek — och Elsa, hennes dotter. Elsa är tolv år, och hon köper godis. – Hej, Oskar! säger hon. – Hej, Elsa! svarar Oskar. Fru Ek ser pojkarna och frågar:",
+     "margin": [
+      "Elsa Ek: fru Eks dotter",
+      "– Hej! 👋"
+     ],
+     "audio": "audio/kap08/b003_ab53d03ad607.mp3"
+    },
+    {
+     "typ": "dialogue",
+     "speaker": "Fru Ek",
+     "text": "Hej, pojkar! Vad vill ni ha?",
+     "audio": "audio/kap08/b004_8c2aa1859d05.mp3"
+    },
+    {
+     "typ": "dialogue",
+     "speaker": "Oskar",
+     "text": "Vi vill ha fyra bullar, tack. Hur mycket kostar de?",
+     "audio": "audio/kap08/b005_812b81b0064b.mp3"
+    },
+    {
+     "typ": "dialogue",
+     "speaker": "Fru Ek",
+     "text": "En bulle kostar femton kronor. Fyra bullar — det är sextio kronor.",
+     "margin": [
+      "15 + 15 + 15 + 15 = 60 sextio"
+     ],
+     "audio": "audio/kap08/b006_32fbf724f96a.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Sextio kronor! Men pojkarna har bara femtio. Vad gör de nu? Nils ser på bullarna, och han ser på äpplena …",
+     "margin": [
+      "60 > 50 … 😳"
+     ],
+     "audio": "audio/kap08/b007_2c191aeba511.mp3"
+    },
+    {
+     "typ": "dialogue",
+     "speaker": "Nils",
+     "text": "Vi tar tre bullar, tack — och ett äpple till Astrid. Tre bullar kostar fyrtiofem kronor, och äpplet kostar fem: femtio kronor!",
+     "margin": [
+      "15 + 15 + 15 = 45 fyrtiofem",
+      "45 + 5 = 50 ✓"
+     ],
+     "audio": "audio/kap08/b008_6732f66bc34f.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "– Varsågod! säger fru Ek. Oskar betalar femtio kronor, och fru Ek får pengarna. Pojkarna tar bullarna och äpplet. – Tack! Hej då! Och Elsa? Hon betalar tio kronor och går hem med sitt godis.",
+     "margin": [
+      "betalar = ger pengarna 💰→",
+      "– Varsågod! – Tack! – Hej då!"
+     ],
+     "audio": "audio/kap08/b009_24b908a9dbcd.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. HEMMA MED BULLARNA",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Hemma visar pojkarna sina saker. – Den här bullen är till dig, mamma! Det här äpplet är till Astrid. De här bullarna är till pappa och till oss. Astrid är glad: hon får ett stort rött äpple! Karin är också glad — bullar är goda. – Men Oskar, säger mamma, var är din bulle? Oskar svarar inte mycket: han äter sin bulle!",
+     "margin": [
+      "DEN här bullen (en-ord)",
+      "DET här äpplet (ett-ord)",
+      "DE här bullarna (plural)",
+      "glad 😊 ↔ ledsen"
+     ],
+     "audio": "audio/kap08/b010_d91da5c8abbb.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Vad säljer fru Ek? Hon säljer mat: bröd, ost, äpplen och mjölk — och godis och bullar. Är osten billig? Nej, den är dyr: åttio kronor! Äpplena är billiga. Vad vill pojkarna ha? De vill ha fyra bullar, men de köper tre — och ett äpple. Vem betalar? Oskar betalar: han ger fru Ek pengarna, femtio kronor. Är affären öppen på kvällen? Nej, då är den stängd.",
+     "margin": [
+      "då = på kvällen (i den tiden)"
+     ],
+     "audio": "audio/kap08/b011_ce380a0ee537.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Bullarna är goda, och familjen är glad. Men i kapitel nio åker familjen till Sven, Karins pappa. Sven bor inte i Sjövik, och han bor inte i en stad. Var bor han — och vad har han? Det är kapitel nio!",
+     "margin": [
+      "🔍 Sven …?"
+     ],
+     "audio": "audio/kap08/b012_2d649f58648b.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "En ny lampa",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "I affären finns inte bara mat — där finns också lampor! Astrid vill ha en ny lampa till sitt rum. – Den här! säger hon. Den blåa! Lampan kostar nittio kronor. Är det dyrt? Det är inte billigt — men mamma säger ja. Karin betalar, och fru Ek får pengarna. – Varsågod! säger fru Ek. Och Astrid går hem med en ny blå lampa. På kvällen sover Astrid — och Misse — under den nya blåa lampan.",
+    "audio": "audio/kap08/b013_51b4f402bd59.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "den här, det här, de här",
+   "forklaring": "Den här bullen = bullen HÄR, vid mig! En-ord: den här. Ett-ord: det här. Plural: de här. Och substantivet har bestämd form!",
+   "tabell": {
+    "head": [
+     "",
+     "exempel"
+    ],
+    "rows": [
+     [
+      "den här + en-ord",
+      "den här bullen, den här affären"
+     ],
+     [
+      "det här + ett-ord",
+      "det här äpplet, det här brödet"
+     ],
+     [
+      "de här + plural",
+      "de här bullarna, de här äpplena"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "hur mycket kostar …?",
+   "forklaring": "– Hur mycket kostar osten? – Den kostar åttio kronor. – Hur mycket kostar de här äpplena? – Fem kronor.",
+   "tabell": {
+    "head": [
+     "fråga",
+     "svar"
+    ],
+    "rows": [
+     [
+      "Hur mycket kostar X?",
+      "X kostar … kronor."
+     ],
+     [
+      "Hur mycket är det?",
+      "Det är femtio kronor."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "vill ha",
+   "forklaring": "– Vad vill du ha? – Jag vill ha en bulle, tack! \"Vill ha X\" = ge mig X, tack! I affären, i köket — mycket, mycket svenskt.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Jag vill ha …",
+      "Vi vill ha fyra bullar, tack."
+     ],
+     [
+      "Vad vill du ha?",
+      "frågar fru Ek."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "räkneord 10–100",
+   "forklaring": "Tio, tjugo, trettio … hundra! Och femton = fem + ton.",
+   "tabell": {
+    "head": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "10 tio",
+      "20 tjugo",
+      "30 trettio",
+      "40 fyrtio"
+     ],
+     [
+      "50 femtio",
+      "60 sextio",
+      "70 sjuttio",
+      "80 åttio"
+     ],
+     [
+      "90 nittio",
+      "100 hundra",
+      "15 femton",
+      "45 fyrtiofem"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Räkneord i snabbt tal",
+  "forklaring": "Svenskar säger räkneorden snabbt: tjugo = \"tjuge\", fyrtio = \"förti\"! Och sju, sjuttio har sj-ljudet. Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "tjugo, fyrtio",
+    "ord": [
+     "tjugo",
+     "fyrtio",
+     "trettio",
+     "femtio"
+    ]
+   },
+   {
+    "namn": "sj-ljud",
+    "ord": [
+     "sju",
+     "sjuttio",
+     "tjugosju"
+    ]
+   },
+   {
+    "namn": "mjukt k",
+    "ord": [
+     "köper",
+     "kronor",
+     "köket"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "tjugo": "audio/uttal/15f6539fd3b1.mp3",
+  "fyrtio": "audio/uttal/02f83602c0fe.mp3",
+  "trettio": "audio/uttal/0fa0c564fd3b.mp3",
+  "femtio": "audio/uttal/e1726c9bfb8a.mp3",
+  "sju": "audio/uttal/8f33b361edec.mp3",
+  "sjuttio": "audio/uttal/e43393e7e52c.mp3",
+  "tjugosju": "audio/uttal/60213d4efaf9.mp3",
+  "köper": "audio/uttal/717ab9b766d5.mp3",
+  "kronor": "audio/uttal/335b71255f45.mp3",
+  "köket": "audio/uttal/1ffdf522ff2c.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv den här / det här / de här — och rätt form av adjektivet.",
+   "items": [
+    {
+     "q": "{Den} här bullen är god. (en bulle)"
+    },
+    {
+     "q": "{Det} här äpplet är rött. (ett äpple)"
+    },
+    {
+     "q": "{De} här bullarna är till pappa. (bullar)"
+    },
+    {
+     "q": "Äpplen kostar fem kronor — de är {billiga}. (billig)"
+    },
+    {
+     "q": "Osten kostar åttio kronor — den är {dyr}. (dyr)"
+    },
+    {
+     "q": "Godiset är inte {dyrt}. (dyr)"
+    },
+    {
+     "q": "Affären är {öppen} nu. (öppen)"
+    },
+    {
+     "q": "På kvällen är affären {stängd}. (stängd)"
+    },
+    {
+     "q": "15 = {femton}"
+    },
+    {
+     "q": "30 = {trettio}"
+    },
+    {
+     "q": "50 = {femtio}"
+    },
+    {
+     "q": "100 = {hundra}"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: köper, säljer, kostar, betalar, pengar, kronor, bröd, ost, äpple, godis, dyr, billig, bulle, glad, öppen, stängd, vill.",
+   "items": [
+    {
+     "q": "Fru Ek {säljer} mat i affären."
+    },
+    {
+     "q": "Pojkarna {köper} tre bullar."
+    },
+    {
+     "q": "Hur mycket {kostar} osten?"
+    },
+    {
+     "q": "Oskar {betalar} femtio kronor."
+    },
+    {
+     "q": "Femtio kronor — det är {pengar}!"
+    },
+    {
+     "q": "Ett {bröd} kostar trettio kronor."
+    },
+    {
+     "q": "Astrid får ett rött {äpple}."
+    },
+    {
+     "q": "Elsa köper {godis}."
+    },
+    {
+     "q": "Osten är {dyr}: åttio kronor!"
+    },
+    {
+     "q": "En {bulle} kostar femton kronor."
+    },
+    {
+     "q": "– Vad {vill} ni ha? frågar fru Ek."
+    },
+    {
+     "q": "Astrid är {glad}: hon får ett äpple."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vad säljer fru Ek i affären?",
+     "model": "Hon säljer mat: bröd, ost, äpplen, mjölk — och godis och bullar."
+    },
+    {
+     "q": "Hur mycket kostar en bulle?",
+     "model": "Den kostar femton kronor."
+    },
+    {
+     "q": "Hur mycket pengar får pojkarna av pappa?",
+     "model": "De får femtio kronor."
+    },
+    {
+     "q": "Varför köper pojkarna inte fyra bullar?",
+     "model": "Därför att fyra bullar kostar sextio kronor — och de har bara femtio."
+    },
+    {
+     "q": "Vad får Astrid?",
+     "model": "Hon får ett stort rött äpple."
+    },
+    {
+     "q": "Vem är Elsa?",
+     "model": "Elsa är fru Eks dotter. Hon är tolv år, och hon köper godis."
+    },
+    {
+     "q": "Är affären öppen på kvällen?",
+     "model": "Nej, då är den stängd."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "köpa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "köper",
+    "köpa",
+    "köpte",
+    "köpt"
+   ],
+   "sv": "ger pengar → får saken! (köper ↔ säljer)",
+   "en": "to buy",
+   "tier": "focus"
+  },
+  "sälja": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "säljer",
+    "sälja",
+    "sålde",
+    "sålt"
+   ],
+   "sv": "ger saken → får pengar! (säljer ↔ köper)",
+   "en": "to sell",
+   "tier": "focus"
+  },
+  "kosta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "kostar",
+    "kosta",
+    "kostade",
+    "kostat"
+   ],
+   "sv": "💰 Hur mycket kostar bullen? — Femton kronor.",
+   "en": "to cost",
+   "tier": "focus"
+  },
+  "betala": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "betalar",
+    "betala",
+    "betalade",
+    "betalat"
+   ],
+   "sv": "ger pengarna: Oskar betalar femtio kronor 💰→",
+   "en": "to pay",
+   "tier": "focus"
+  },
+  "pengar": {
+   "pos": "substantiv",
+   "gender": null,
+   "forms": [
+    "pengar",
+    "pengarna",
+    "pengars"
+   ],
+   "sv": "💰 kronor! Man köper med pengar.",
+   "en": "money",
+   "tier": "focus"
+  },
+  "krona": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "krona",
+    "kronan",
+    "kronor",
+    "kronorna"
+   ],
+   "sv": "svenska pengar: 1 krona, 50 kronor 👑",
+   "en": "crown (Swedish currency)",
+   "tier": "focus"
+  },
+  "bröd": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "bröd",
+    "brödet",
+    "bröden",
+    "bröds"
+   ],
+   "sv": "🍞 mat — man äter bröd med ost!",
+   "en": "bread",
+   "tier": "focus"
+  },
+  "ost": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "ost",
+    "osten",
+    "ostar",
+    "ostarna"
+   ],
+   "sv": "🧀 gul mat av mjölk — god på bröd!",
+   "en": "cheese",
+   "tier": "focus"
+  },
+  "äpple": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "äpple",
+    "äpplet",
+    "äpplen",
+    "äpplena"
+   ],
+   "sv": "🍎 rött eller grönt — gott och billigt!",
+   "en": "apple",
+   "tier": "focus"
+  },
+  "godis": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "godis",
+    "godiset"
+   ],
+   "sv": "🍬 mycket gott — men inte god mat!",
+   "en": "candy, sweets",
+   "tier": "focus"
+  },
+  "dyr": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "dyr",
+    "dyrt",
+    "dyra",
+    "dyrare",
+    "dyrast"
+   ],
+   "sv": "kostar MYCKET: åttio kronor! (↔ billig)",
+   "en": "expensive",
+   "tier": "focus"
+  },
+  "billig": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "billig",
+    "billigt",
+    "billiga",
+    "billigare",
+    "billigast"
+   ],
+   "sv": "kostar litet: fem kronor (↔ dyr)",
+   "en": "cheap",
+   "tier": "focus"
+  },
+  "glad": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "glad",
+    "glatt",
+    "glada"
+   ],
+   "sv": "😊 glad ↔ ledsen",
+   "en": "happy, glad",
+   "tier": "stretch"
+  },
+  "öppen": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "öppen",
+    "öppet",
+    "öppna"
+   ],
+   "sv": "🔓 kom in! (↔ stängd)",
+   "en": "open",
+   "tier": "stretch"
+  },
+  "stängd": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "stängd",
+    "stängt",
+    "stängda"
+   ],
+   "sv": "🔒 dörren är stängd (↔ öppen)",
+   "en": "closed",
+   "tier": "stretch"
+  },
+  "bulle": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "bulle",
+    "bullen",
+    "bullar",
+    "bullarna"
+   ],
+   "sv": "🥐 litet, runt, gott bröd — mycket svenskt!",
+   "en": "bun",
+   "tier": "stretch"
+  }
+ }
+}

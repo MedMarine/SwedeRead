@@ -1,0 +1,593 @@
+{
+ "kapitel": 22,
+ "image": "images/kap22.jpg",
+ "titel": "Akta hunden!",
+ "arc": "D",
+ "grammatik_fokus": "imperativ (Kom! Gå! Sitt! Var lugn! Spring inte!); får/får inte; vågar; rädd för",
+ "uttal_fokus": "imperativens korta, starka ton: Sitt! Kom! Vänta!",
+ "fokus": [
+  "skylt",
+  "grind",
+  "farlig",
+  "våga",
+  "rädd",
+  "skälla",
+  "bita",
+  "lugn",
+  "klappa",
+  "svans",
+  "vakta",
+  "vifta"
+ ],
+ "stretch": [
+  "staket",
+  "morra",
+  "slicka"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. SKYLTEN PÅ GRINDEN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vid vägen till skolan, bakom kyrkan, bor herr Holm. Han är en gammal man med ett stort hus, ett staket och en grind. På grinden sitter en skylt: AKTA HUNDEN! Bakom staketet bor Bill — herr Holms hund. Bill är stor. Nej: Bill är STOR — större än Ludde, större än alla hundar i Sjövik. När folk går förbi, hör de honom skälla: VOFF! VOFF! Och alla går snabbt.",
+     "margin": [
+      "en skylt 🪧 = ett litet 'brev' som alla ser",
+      "en grind = en 'dörr' i staketet",
+      "AKTA HUNDEN! = hunden är kanske farlig!"
+     ],
+     "audio": "audio/kap22/b000_69f95e10903a.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "– Har du sett skylten? frågar Nils. \"Akta hunden\"! Är Bill farlig? – Jag tror det, säger Elsa. Han skäller på alla. Och kanske bits han! – Hundar som skäller biter inte, säger Oskar. Det vet alla! – Jag är inte rädd, säger Astrid. – Vågar du gå in och klappa honom? frågar Elsa. Oskar är tyst en liten tid. – Jag … ja! Jag vågar!",
+     "margin": [
+      "farlig ⚠ = kan göra dig ont!",
+      "bits = biter! (hundar som bits …)",
+      "vågar = är inte rädd att göra det! 💪"
+     ],
+     "audio": "audio/kap22/b001_d205b6bd2e19.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Barnen står vid grinden. VOFF! VOFF! Bill står bakom grinden och skäller — och han morrar: grrr! – Han är arg! säger Nils. Gå inte in! – Var lugn, säger Oskar … men han går inte in. Då kommer herr Holm från huset. – God dag, barn! Vill ni hälsa på Bill? – Är han inte farlig? frågar Nils. Herr Holm skrattar: – Farlig? Bill?",
+     "margin": [
+      "morrar = grrr! 😾",
+      "Gå inte in! (imperativ + inte!)",
+      "Var lugn! = var inte rädd!"
+     ],
+     "audio": "audio/kap22/b002_165f0f6e7113.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. DEN STORA HUNDEN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "– Sitt, Bill! säger herr Holm. Bill sitter. – Kom hit! Bill kommer. Och nu ser barnen: Bill är gammal — en mycket gammal hund med ett stort huvud och goda ögon. – Klappa honom! säger herr Holm. Men var lugna, och spring inte. Astrid är inte rädd: hon går först och klappar det stora huvudet. Bill viftar med svansen … och slickar hennes hand! – Han är snäll! ropar Astrid. – Ja, säger herr Holm. Bill är den snällaste hunden i Sjövik. Men det vet inte alla — och det är bra: Bill vaktar huset!",
+     "margin": [
+      "Sitt! Kom! Klappa! Spring inte!",
+      "viftar med svansen 🐕💓",
+      "slickar 👅 = 'tvättar' din hand",
+      "vaktar = ser på huset — och skäller!"
+     ],
+     "audio": "audio/kap22/b003_929bbc2e762a.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Nu klappar alla barnen Bill — Nils också. Och Oskar? Oskar står vid grinden. – Kom, Oskar! ropar Elsa. Vågar du inte? – Klart jag vågar! Oskar går in, långsamt … och klappar Bill snabbt, en gång. VOFF! säger Bill glatt. Oskar springer bort — tre snabba steg! Alla skrattar, och Bill viftar med svansen. – Han är inte farlig, säger Oskar. Jag visste det hela tiden!",
+     "margin": [
+      "Vågar du inte? 😏",
+      "'Jag visste det hela tiden!' — Oskar 😄"
+     ],
+     "audio": "audio/kap22/b004_0eed971861c3.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Herr Holm berättar om Bill: – Han har bott hos mig i fjorton år. Han var liten en gång — liten och snabb! Nu är han gammal, och han sover mycket. Men varje natt vaktar han huset och trädgården. Ni får komma hit och hälsa på Bill — men fråga först, och spring inte vid grinden: Bill är gammal, och han behöver lugn. – Vi lovar! säger barnen.",
+     "margin": [
+      "får = ✓ det är OK!",
+      "får inte = ✗ förbjudet!",
+      "behöver lugn (lugn = också ett substantiv!)"
+     ],
+     "audio": "audio/kap22/b005_46f7502ba7ad.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Hemma väntar Ludde. Han känner Bill på barnens händer — hundar \"ser\" allt med näsan! Ludde är inte glad: hans barn har klappat en annan hund! Astrid tar hans stora huvud: – Var lugn, Ludde. Du är vår hund — och du är också snäll! Ludde viftar med svansen. Allt är bra igen.",
+     "margin": [
+      "hundar 'ser' med näsan 👃",
+      "en annan hund = inte samma hund"
+     ],
+     "audio": "audio/kap22/b006_8036a6111901.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. FARLIG ELLER SNÄLL?",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vad sitter på herr Holms grind? En skylt: AKTA HUNDEN! Är Bill farlig? Nej — han är den snällaste hunden i Sjövik, men han skäller, och han vaktar huset varje natt. Biter han? Nej — han slickar! Vem klappar honom först? Astrid: hon är inte rädd. Vågar Oskar? Ja … till slut! Vad får barnen göra — och vad får de inte? De får komma och hälsa på Bill, men de får inte springa vid grinden. Och Ludde? Han är barnens hund — nummer ett!",
+     "margin": [
+      "rädd för hunden — men Astrid är inte rädd!"
+     ],
+     "audio": "audio/kap22/b007_dc96eb5b2185.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "I kapitel tjugotre kommer Lasse hem från havet — och han har något med sig i väskan. Vad — och VEM? Det är kapitel tjugotre!",
+     "margin": [
+      "🔍 Lasse kommer hem …?"
+     ],
+     "audio": "audio/kap22/b008_7aa3e9a49726.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Vänner igen",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Bråket om klockan på cykeln är slut — och nu lånar Elsa cykeln när hon vill: hon frågar först, och Oskar säger ja. – Får jag låna cykeln? – Klart! Och den nya klockan på cykeln säger \"pling\": Oskar köpte den själv, med sina pengar. – Jag tycker att du är snäll, säger Elsa. – Jag är alltid snäll! – Nu ljuger du, säger Elsa och skrattar. Men ofta är du snäll! De skrattar. Ovänner? Aldrig mer. Och om Oskar en dag är sur — då väntar Elsa: sura pojkar är snart glada igen, det vet hon. Att förlåta är inte lätt, men det är bra — det vet Oskar och Elsa nu. Egentligen, säger Karin, är de bästa vänner.",
+    "audio": "audio/kap22/b009_a4e557141cac.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "imperativ",
+   "forklaring": "Imperativ = \"gör det!\" Kom! Gå! Sitt! Vänta! Titta! Verb på -ar: imperativ = utan -r (klappa!). Korta verb: som de är (kom! gå! se!). Och med inte: Spring inte! Gå inte in!",
+   "tabell": {
+    "head": [
+     "verb",
+     "imperativ"
+    ],
+    "rows": [
+     [
+      "kommer",
+      "Kom!"
+     ],
+     [
+      "går",
+      "Gå!"
+     ],
+     [
+      "sitter",
+      "Sitt!"
+     ],
+     [
+      "klappar",
+      "Klappa!"
+     ],
+     [
+      "väntar",
+      "Vänta!"
+     ],
+     [
+      "är",
+      "Var lugn!"
+     ],
+     [
+      "springer",
+      "Spring inte!"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "får och får inte",
+   "forklaring": "Får = det är OK (✓). Får inte = förbjudet (✗)! Ni får hälsa på Bill — men ni får inte springa vid grinden.",
+   "tabell": {
+    "head": [
+     "✓ får",
+     "✗ får inte"
+    ],
+    "rows": [
+     [
+      "Ni får komma hit.",
+      "Ni får inte springa här."
+     ],
+     [
+      "Du får klappa honom.",
+      "Du får inte gå in utan att fråga."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "vågar — och rädd för",
+   "forklaring": "Vågar du? = är du inte rädd? Astrid vågar — hon är inte rädd för hundar!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Vågar du klappa honom?",
+      "Klart jag vågar!"
+     ],
+     [
+      "Är du rädd för hundar?",
+      "Nej, jag är inte rädd!"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "hundens språk",
+   "forklaring": "En hund talar inte — men han säger mycket! Skäller (voff!), morrar (grrr — arg!), viftar med svansen (glad!), slickar din hand (mycket glad!).",
+   "tabell": {
+    "head": [
+     "hunden gör",
+     "hunden 'säger'"
+    ],
+    "rows": [
+     [
+      "skäller: VOFF!",
+      "'Någon kommer!'"
+     ],
+     [
+      "morrar: grrr",
+      "'Jag är arg — akta dig!'"
+     ],
+     [
+      "viftar med svansen",
+      "'Jag är glad!'"
+     ],
+     [
+      "slickar din hand",
+      "'Du är min vän!'"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Imperativens korta ton",
+  "forklaring": "Imperativ är kort och stark: Sitt! Kom! Vänta! Lyssna på tonen! 👂📢",
+  "grupper": [
+   {
+    "namn": "imperativ",
+    "ord": [
+     "Sitt!",
+     "Kom!",
+     "Vänta!",
+     "Var lugn!"
+    ]
+   },
+   {
+    "namn": "med inte",
+    "ord": [
+     "Spring inte!",
+     "Gå inte in!"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "Sitt!": "audio/uttal/029d72fc5254.mp3",
+  "Kom!": "audio/uttal/ce45c03995fa.mp3",
+  "Vänta!": "audio/uttal/44d413c632e8.mp3",
+  "Var lugn!": "audio/uttal/f657a0077c66.mp3",
+  "Spring inte!": "audio/uttal/8552168f8ab9.mp3",
+  "Gå inte in!": "audio/uttal/a1277cf9dd4f.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv imperativ — och får/får inte, rädd/vågar.",
+   "items": [
+    {
+     "q": "kommer → {Kom} hit!"
+    },
+    {
+     "q": "sitter → {Sitt}, Bill!"
+    },
+    {
+     "q": "väntar → {Vänta} vid grinden!"
+    },
+    {
+     "q": "klappar → {Klappa} honom — men var lugn!"
+    },
+    {
+     "q": "är → {Var} lugn, Ludde!"
+    },
+    {
+     "q": "springer → {Spring} inte!"
+    },
+    {
+     "q": "Ni {får} komma hit och hälsa på Bill. (✓)"
+    },
+    {
+     "q": "Ni {får} inte springa vid grinden! (✗)"
+    },
+    {
+     "q": "Astrid är inte {rädd} för hundar."
+    },
+    {
+     "q": "– {Vågar} du klappa honom? (våga)"
+    },
+    {
+     "q": "Bill {viftar} med svansen — han är glad! (vifta)"
+    },
+    {
+     "q": "Bill {vaktar} huset varje natt. (vakta)"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: skylt, grind, staket, farlig, vågar, rädd, skäller, biter, morrar, lugn, klappar, svans, vaktar, viftar, slickar.",
+   "items": [
+    {
+     "q": "På grinden sitter en {skylt}: AKTA HUNDEN!"
+    },
+    {
+     "q": "Bakom {staketet} bor en stor hund."
+    },
+    {
+     "q": "Barnen står vid {grinden} och tittar."
+    },
+    {
+     "q": "Bill {skäller}: VOFF! VOFF!"
+    },
+    {
+     "q": "En arg hund {morrar}: grrr!"
+    },
+    {
+     "q": "Är Bill {farlig}? Nej — han är snäll!"
+    },
+    {
+     "q": "Astrid är inte {rädd}: hon går först."
+    },
+    {
+     "q": "Hon {klappar} det stora huvudet."
+    },
+    {
+     "q": "Bill viftar med {svansen} — och {slickar} hennes hand!"
+    },
+    {
+     "q": "– Var {lugn}, säger herr Holm."
+    },
+    {
+     "q": "Bill {vaktar} huset varje natt."
+    },
+    {
+     "q": "Oskar {vågar} — till slut!"
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vad sitter på herr Holms grind?",
+     "model": "En skylt: AKTA HUNDEN!"
+    },
+    {
+     "q": "Varför går alla snabbt förbi herr Holms hus?",
+     "model": "Därför att Bill skäller — och han är större än alla hundar i Sjövik!"
+    },
+    {
+     "q": "Vem klappar Bill först?",
+     "model": "Astrid — hon är inte rädd för hundar."
+    },
+    {
+     "q": "Vad gör Bill när Astrid klappar honom?",
+     "model": "Han viftar med svansen och slickar hennes hand."
+    },
+    {
+     "q": "Är Bill farlig?",
+     "model": "Nej, han är den snällaste hunden i Sjövik — men han vaktar huset!"
+    },
+    {
+     "q": "Vad får barnen inte göra?",
+     "model": "De får inte springa vid grinden — Bill behöver lugn."
+    },
+    {
+     "q": "Varför är Ludde inte glad?",
+     "model": "Därför att hans barn har klappat en annan hund!"
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "skylt": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "skylt",
+    "skylten",
+    "skyltar",
+    "skyltarna",
+    "skyltens"
+   ],
+   "sv": "🪧 ett litet 'brev' som alla ser: AKTA HUNDEN!",
+   "en": "sign",
+   "tier": "focus"
+  },
+  "grind": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "grind",
+    "grinden",
+    "grindar",
+    "grindarna",
+    "grindens"
+   ],
+   "sv": "en 'dörr' i staketet 🚪🪵",
+   "en": "gate",
+   "tier": "focus"
+  },
+  "farlig": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "farlig",
+    "farligt",
+    "farliga"
+   ],
+   "sv": "⚠ kan göra dig ont! En arg hund är farlig — kanske!",
+   "en": "dangerous",
+   "tier": "focus"
+  },
+  "våga": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "vågar",
+    "våga",
+    "vågade",
+    "vågat"
+   ],
+   "sv": "💪 gör det — är inte rädd! Vågar du klappa Bill?",
+   "en": "to dare",
+   "tier": "focus"
+  },
+  "rädd": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "rädd",
+    "rädda"
+   ],
+   "sv": "😨 'jag vill springa bort!' — rädd för hunden",
+   "en": "afraid",
+   "tier": "focus"
+  },
+  "skälla": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "skäller",
+    "skälla",
+    "skällde",
+    "skällt"
+   ],
+   "sv": "🐕📢 hunden 'säger' VOFF! VOFF!",
+   "en": "to bark",
+   "tier": "focus"
+  },
+  "bita": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "biter",
+    "bita",
+    "bet",
+    "bitit",
+    "bits"
+   ],
+   "sv": "🦷 tar med tänderna — aj!",
+   "en": "to bite",
+   "tier": "focus"
+  },
+  "lugn": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "lugn",
+    "lugnt",
+    "lugna"
+   ],
+   "sv": "😌 inte arg, inte rädd, inte snabb — lugn! (Var lugn!)",
+   "en": "calm",
+   "tier": "focus"
+  },
+  "klappa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "klappar",
+    "klappa",
+    "klappade",
+    "klappat"
+   ],
+   "sv": "🖐🐕 handen — mjukt, mjukt — på hundens huvud",
+   "en": "to pat, pet",
+   "tier": "focus"
+  },
+  "svans": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "svans",
+    "svansen",
+    "svansar",
+    "svansarna",
+    "svansens"
+   ],
+   "sv": "hundens 'arm' där bak — den viftar när han är glad!",
+   "en": "tail",
+   "tier": "focus"
+  },
+  "vakta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "vaktar",
+    "vakta",
+    "vaktade",
+    "vaktat"
+   ],
+   "sv": "👀🏠 ser på huset — och skäller när någon kommer!",
+   "en": "to guard",
+   "tier": "focus"
+  },
+  "vifta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "viftar",
+    "vifta",
+    "viftade",
+    "viftat"
+   ],
+   "sv": "🐕💓 svansen går hit och dit — glad hund!",
+   "en": "to wag",
+   "tier": "focus"
+  },
+  "staket": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "staket",
+    "staketet",
+    "staketen",
+    "staketets"
+   ],
+   "sv": "🪵🪵🪵 trädgårdens 'väggar' — med en grind!",
+   "en": "fence",
+   "tier": "stretch"
+  },
+  "morra": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "morrar",
+    "morra",
+    "morrade",
+    "morrat"
+   ],
+   "sv": "grrr! 😾 — en arg hund morrar",
+   "en": "to growl",
+   "tier": "stretch"
+  },
+  "slicka": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "slickar",
+    "slicka",
+    "slickade",
+    "slickat"
+   ],
+   "sv": "👅 'tvättar' din hand med tungan — glad hund!",
+   "en": "to lick",
+   "tier": "stretch"
+  }
+ }
+}

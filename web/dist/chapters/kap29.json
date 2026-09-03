@@ -1,0 +1,534 @@
+{
+ "kapitel": 29,
+ "image": "images/kap29.jpg",
+ "titel": "Man ska inte ge upp",
+ "arc": "E",
+ "grammatik_fokus": "generellt man (man ska inte ge upp!); ordspråk; både…och, varken…eller, antingen…eller; ju…desto",
+ "uttal_fokus": "ordspråkens rytm — korta ord, stor sanning",
+ "fokus": [
+  "ordspråk",
+  "betyda",
+  "öva",
+  "försöka",
+  "lyckas",
+  "misslyckas",
+  "sanning",
+  "tålamod",
+  "råd",
+  "viktig"
+ ],
+ "stretch": [
+  "mod",
+  "värd"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. MORFARS ORDSPRÅK",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Efter äventyret på sjön sitter alla framför morfars hus i den varma, ljusa kvällen. – I dag lärde ni er något, säger morfar. Vet ni vad? – Att segla? säger Nils. – Att vända, säger morfar. Den som är klok vänder i tid. Det är nästan ett ordspråk. Ett ordspråk är en liten, liten berättelse: bara en mening — men i meningen bor en stor sanning.",
+     "margin": [
+      "ett ordspråk = en mening med en stor sanning i!",
+      "en sanning = det som är sant",
+      "vänder i tid ↩⏰"
+     ],
+     "audio": "audio/kap29/b000_0103c8591ebf.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Morfar talar ofta med ordet \"man\". Man ska inte ge upp. Man vet aldrig. Man lär sig varje dag. Vem är \"man\"? Alla! Du och jag och alla människor. När morfar säger \"man ska inte ge upp\", menar han: ingen ska ge upp — inte du, inte jag, ingen.",
+     "margin": [
+      "MAN = alla människor (du + jag + alla!)",
+      "ge upp = sluta försöka ✗"
+     ],
+     "audio": "audio/kap29/b001_c25481944512.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "– Säg ett ordspråk till! säger Astrid. Morfar tänker. – Borta bra, men hemma bäst. – Vad betyder det? – Vad tror du? Astrid tänker på Stockholm … och på huset vid sjön. – Att det är bra att resa — men bäst att komma hem! – Precis, säger morfar. Och ni kom hem i dag — från ön! Alla skrattar.",
+     "margin": [
+      "betyder = vad ordet vill säga",
+      "Borta bra, men hemma bäst 🏠"
+     ],
+     "audio": "audio/kap29/b002_9b2e1921dcdf.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "– Och det här, säger morfar: Ju mer man övar, desto bättre blir man. Nils förstår: – Som Fågel-Pelle! Han försökte och föll, försökte och föll — och till slut lyckades han! – Ja, säger morfar. Den som aldrig försöker, misslyckas aldrig — men lyckas aldrig! Att misslyckas är inte farligt. Att ge upp — det är farligt. Man behöver mod — mod och tålamod. Och tålamod är guld värt. – Vad betyder DET? frågar Astrid. – Öva, öva, öva, säger morfar. Och vänta!",
+     "margin": [
+      "ju mer …, desto bättre!",
+      "övar 🔁 → blir bättre",
+      "lyckas ✓ ↔ misslyckas ✗ (båda har -s!)",
+      "mod 💪 + tålamod ⏳",
+      "guld värt = mer värt än guld!"
+     ],
+     "audio": "audio/kap29/b003_255a69b1905f.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "– Är ordspråk sanna? frågar Nils. – Både ja och nej, säger morfar. Ett ordspråk är varken alltid sant eller alltid fel. Det är ett råd — ett gott råd från gamla människor till unga. Antingen lyssnar man på rådet, eller så lär man sig själv — och det tar längre tid! Både morfar och farmor har många råd, och de är viktiga: gamla människor har sett mycket, och i varje gott råd bor en liten sanning. Råd är viktiga — och tålamod är viktigast av allt!",
+     "margin": [
+      "både A och B = A + B",
+      "varken A eller B = inte A, inte B",
+      "antingen A eller B = en av två",
+      "ett råd = kloka ord: 'gör så!'",
+      "viktig = stor för hjärtat och huvudet"
+     ],
+     "audio": "audio/kap29/b004_212279f8d340.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. LASSE LYSSNAR PÅ ETT RÅD",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Då stiger Lasse upp. – Jag har lyssnat på ett råd i kväll, säger han. Man ska inte ge upp — och man ska inte vänta för länge! Sven, Anders … i kväll frågar jag Maria. Det blir tyst. Sedan säger morfar långsamt: – Den som väntar på något gott väntar aldrig för länge. Men gå nu, pojke! Och Lasse går — ner mot sjön, där Maria står i den ljusa kvällen.",
+     "margin": [
+      "😲🤫 (barnen VET om ringen!)",
+      "Den som väntar på något gott … ❤"
+     ],
+     "audio": "audio/kap29/b005_b0b0838a5bc1.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Familjen väntar framför huset. Ingen talar. Ludde är tyst. Efter en lång, lång tid — tjugo minuter, säger Nils; hundra år, säger Astrid — kommer två människor upp från sjön. De går hand i hand, och Maria har något på handen som inte var där före kvällen: en ring! – JA! ropar Astrid. Hon sa JA! Alla ropar hurra, Ludde skäller, och det blir en stor, glad kväll på gården. Lasse och Maria är förlovade!",
+     "margin": [
+      "hand i hand ❤",
+      "– Hon sa JA! 💍🎉"
+     ],
+     "audio": "audio/kap29/b006_e5c61ce4c5fe.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. STORA SANNINGAR",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vad är ett ordspråk? En mening med en stor sanning i. Vad betyder \"borta bra, men hemma bäst\"? Att det är bra att resa — men bäst att komma hem. Vad behöver den som övar? Mod och tålamod! Lyckas man alltid? Nej — man misslyckas också, och det är inte farligt. Men den som aldrig försöker, lyckas aldrig. Vad är viktigt? Att försöka! Gav Lasse upp? Nej! Han frågade Maria, och hon sa ja: nu är de förlovade. Och vad kommer efter förlovad? Det största av allt — och alla är bjudna! Det är kapitel trettio.",
+     "margin": [
+      "🔍 det största av allt …?"
+     ],
+     "audio": "audio/kap29/b007_0518253aef54.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Nils skriver om äventyret",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Nils skriver om äventyret i sin bok: \"Vi seglade ut på morgonen. Vinden var god, och seglet var vitt mot den blåa himlen. Men plötsligt ökade vinden, och vågorna blev höga. Vi ville vända — men det gick inte: vinden stod mot oss. Vi seglade till en liten ö. Där väntade vi på stranden, säkra men våta. Vi tog ner seglet från masten, och jag höll det. Alla hade flytvästar — därför var vi säkra. Sjön är djup, sa Lasse, men den som har flytväst och tålamod kommer hem. Och vi kom hem!\" Nils läser för familjen. – Bra berättat! säger morfar. – En sak är fel, säger Oskar. Vågorna var höga som HUS. – De var höga, skriver Nils. Det är sant — och sant är bäst.",
+    "audio": "audio/kap29/b008_fde5cd84a415.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "man",
+   "forklaring": "Man = alla människor, du och jag! Man ska inte ge upp. Man vet aldrig. I affären säger man \"tack\". OBS: \"man\" (alla) och \"en man\" (↔ kvinna) är två ord!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Man ska inte ge upp.",
+      "= ingen ska ge upp!"
+     ],
+     [
+      "Man äter sill på midsommar.",
+      "= alla gör det!"
+     ],
+     [
+      "Vad säger man?",
+      "= vad säger folk?"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "både, varken, antingen",
+   "forklaring": "Både A och B = A + B. Varken A eller B = inte A, inte B! Antingen A eller B = en av två.",
+   "tabell": {
+    "head": [
+     "",
+     "exempel"
+    ],
+    "rows": [
+     [
+      "både … och",
+      "Både morfar och farmor har många råd."
+     ],
+     [
+      "varken … eller",
+      "Ordspråk är varken alltid sanna eller alltid fel."
+     ],
+     [
+      "antingen … eller",
+      "Antingen lyssnar man — eller lär man sig själv!"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "ju … desto",
+   "forklaring": "Mer av A ger mer av B! Ju mer man övar, desto bättre blir man.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Ju mer man övar,",
+      "desto bättre blir man."
+     ],
+     [
+      "Ju äldre man blir,",
+      "desto mer förstår man."
+     ],
+     [
+      "Ju längre man väntar,",
+      "desto bättre blir bullarna? Nej!"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "ordspråk att minnas",
+   "forklaring": "Fyra ordspråk från den här boken — de är dina nu!",
+   "tabell": {
+    "head": [
+     "ordspråk",
+     "= sanningen"
+    ],
+    "rows": [
+     [
+      "Man ska inte ge upp.",
+      "försök igen!"
+     ],
+     [
+      "Borta bra, men hemma bäst.",
+      "res — och kom hem!"
+     ],
+     [
+      "Ju mer man övar, desto bättre blir man.",
+      "öva! 🔁"
+     ],
+     [
+      "Den som väntar på något gott väntar aldrig för länge.",
+      "tålamod ⏳❤"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Ordspråkens rytm",
+  "forklaring": "Ordspråk har melodi — korta ord, stor rytm: BORta BRA, men HEMma BÄST. Lyssna — och säg dem själv! 👂🎵",
+  "grupper": [
+   {
+    "namn": "ordspråk",
+    "ord": [
+     "Borta bra, men hemma bäst.",
+     "Man ska inte ge upp."
+    ]
+   },
+   {
+    "namn": "-s-verb",
+    "ord": [
+     "lyckas",
+     "misslyckas",
+     "minns"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "Borta bra, men hemma bäst.": "audio/uttal/2e4df8876a89.mp3",
+  "Man ska inte ge upp.": "audio/uttal/9b7915972585.mp3",
+  "lyckas": "audio/uttal/fa600e10368e.mp3",
+  "misslyckas": "audio/uttal/709c4a11f5cc.mp3",
+  "minns": "audio/uttal/c54a020f94cf.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv man, både/varken/antingen, ju/desto — och verben med -s!",
+   "items": [
+    {
+     "q": "{Man} ska inte ge upp!"
+    },
+    {
+     "q": "{Både} morfar och farmor har många råd."
+    },
+    {
+     "q": "Ordspråk är {varken} alltid sanna eller alltid fel."
+    },
+    {
+     "q": "{Antingen} lyssnar man på rådet, eller så lär man sig själv."
+    },
+    {
+     "q": "{Ju} mer man övar, {desto} bättre blir man."
+    },
+    {
+     "q": "Pelle försökte och försökte — och till slut {lyckades} han!"
+    },
+    {
+     "q": "Den som aldrig försöker, {misslyckas} aldrig — men lyckas aldrig!"
+    },
+    {
+     "q": "Vad {betyder} det här ordspråket? (betyda)"
+    },
+    {
+     "q": "Man behöver mod och {tålamod}."
+    },
+    {
+     "q": "Tålamod är guld {värt}. (värd)"
+    },
+    {
+     "q": "Gamla människors råd är {viktiga}. (viktig)"
+    },
+    {
+     "q": "Lasse {försöker} inte vänta längre! (försöka)"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: ordspråk, betyder, övar, försöker, lyckas, misslyckas, sanning, tålamod, råd, viktig, mod, värd.",
+   "items": [
+    {
+     "q": "Ett {ordspråk} är en mening med en stor sanning i."
+    },
+    {
+     "q": "– Vad {betyder} det? frågar Astrid."
+    },
+    {
+     "q": "Ju mer man {övar}, desto bättre blir man."
+    },
+    {
+     "q": "Den som {försöker} kan lyckas — eller misslyckas!"
+    },
+    {
+     "q": "Att {misslyckas} är inte farligt — att ge upp är farligt."
+    },
+    {
+     "q": "I varje ordspråk bor en stor {sanning}."
+    },
+    {
+     "q": "{Tålamod} är guld värt."
+    },
+    {
+     "q": "Ett gott {råd} kommer från gamla till unga."
+    },
+    {
+     "q": "Morfars ord är {viktiga}."
+    },
+    {
+     "q": "Man behöver {mod} — och tålamod!"
+    },
+    {
+     "q": "Vad är det {värd}? Mer än guld!"
+    },
+    {
+     "q": "Till slut {lyckas} den som inte ger upp."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vad är ett ordspråk?",
+     "model": "En liten mening med en stor sanning i — ett råd från gamla till unga."
+    },
+    {
+     "q": "Vem är 'man' i 'man ska inte ge upp'?",
+     "model": "Alla människor — du och jag och alla!"
+    },
+    {
+     "q": "Vad betyder 'borta bra, men hemma bäst'?",
+     "model": "Att det är bra att resa — men bäst att komma hem."
+    },
+    {
+     "q": "Vad händer med den som aldrig försöker?",
+     "model": "Den misslyckas aldrig — men lyckas aldrig!"
+    },
+    {
+     "q": "Vilket råd lyssnade Lasse på?",
+     "model": "Man ska inte ge upp — och inte vänta för länge!"
+    },
+    {
+     "q": "Vad svarade Maria?",
+     "model": "Hon sa ja! Nu är Lasse och Maria förlovade."
+    },
+    {
+     "q": "Vad säger morfar om den som väntar på något gott?",
+     "model": "Den som väntar på något gott väntar aldrig för länge."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "ordspråk": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "ordspråk",
+    "ordspråket",
+    "ordspråken",
+    "ordspråkets"
+   ],
+   "sv": "en mening med en stor sanning i — från gamla till unga!",
+   "en": "proverb",
+   "tier": "focus"
+  },
+  "betyda": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "betyder",
+    "betyda",
+    "betydde",
+    "betytt"
+   ],
+   "sv": "vad ordet vill säga: Vad betyder 'tålamod'?",
+   "en": "to mean",
+   "tier": "focus"
+  },
+  "öva": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "övar",
+    "öva",
+    "övade",
+    "övat",
+    "övning",
+    "övningen",
+    "övningar"
+   ],
+   "sv": "🔁 gör det igen och igen — och blir bättre! (Övning A, B, C!)",
+   "en": "to practise",
+   "tier": "focus"
+  },
+  "försöka": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "försöker",
+    "försöka",
+    "försökte",
+    "försökt"
+   ],
+   "sv": "provar med hela hjärtat — igen och igen!",
+   "en": "to try, attempt",
+   "tier": "focus"
+  },
+  "lyckas": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "lyckas",
+    "lyckades",
+    "lyckats"
+   ],
+   "sv": "✓ det gick! Pelle försökte — och lyckades! (ordet har -s!)",
+   "en": "to succeed",
+   "tier": "focus"
+  },
+  "misslyckas": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "misslyckas",
+    "misslyckades",
+    "misslyckats"
+   ],
+   "sv": "✗ det gick inte … den här gången! (↔ lyckas)",
+   "en": "to fail",
+   "tier": "focus"
+  },
+  "sanning": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "sanning",
+    "sanningen",
+    "sanningar",
+    "sanningarna",
+    "sanningens"
+   ],
+   "sv": "det som är sant — ordspråkens 'guld'!",
+   "en": "truth",
+   "tier": "focus"
+  },
+  "tålamod": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "tålamod",
+    "tålamodet",
+    "tålamodets"
+   ],
+   "sv": "⏳ kan vänta länge utan att bli arg — tålamod är guld värt!",
+   "en": "patience",
+   "tier": "focus"
+  },
+  "råd": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "råd",
+    "rådet",
+    "råden",
+    "rådets"
+   ],
+   "sv": "kloka ord till dig: 'gör så!' — gamla människor har många råd",
+   "en": "advice",
+   "tier": "focus"
+  },
+  "viktig": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "viktig",
+    "viktigt",
+    "viktiga",
+    "viktigare",
+    "viktigast"
+   ],
+   "sv": "stor för hjärtat och huvudet — inte liten!",
+   "en": "important",
+   "tier": "focus"
+  },
+  "mod": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "mod",
+    "modet",
+    "modets"
+   ],
+   "sv": "💪 det den modiga har! Mod och tålamod!",
+   "en": "courage",
+   "tier": "stretch"
+  },
+  "värd": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "värd",
+    "värt",
+    "värda"
+   ],
+   "sv": "guld värt = mer 'stort' än guld! Vad är det värt?",
+   "en": "worth",
+   "tier": "stretch"
+  }
+ }
+}

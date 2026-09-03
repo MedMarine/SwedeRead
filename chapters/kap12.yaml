@@ -1,0 +1,253 @@
+# KAPITEL 12 — Året och månaderna
+# The Swedish year as a wheel: months, seasons, weekdays, ordinals, dates.
+# Ends Arc B with Astrid's birthday and sets the seasonal clock.
+
+kapitel: 12
+titel: "Året och månaderna"
+arc: B
+grammatik_fokus: "ordningstal (första, andra …); datum (den femte maj); årstider och tidsuttryck (på vintern, om sommaren)"
+uttal_fokus: "accent 2 i sammansatta ord: födelsedag, årstid, trädgård"
+
+fokus: [månad, vecka, dag, årstid, vinter, vår_arstid, sommar, höst, kall, varm, snö, sol]
+stretch: [bada, regn, födelsedag, natt]
+
+illustration: >-
+  The year as a great painted wheel: twelve segments labeled with the months,
+  the wheel quartered into seasons — snowy Sjövik with sledding children
+  (winter), the birch budding green over melting lake ice (spring), swimmers
+  and sun over Björksjön (summer), red-gold trees and rain (autumn). Small
+  cake icons mark the family birthdays at their dates; the red house sits at
+  the hub. Watercolor almanac style.
+
+lasstycken:
+  - rubrik: "I. ÅRETS TOLV MÅNADER"
+    block:
+      - typ: narration
+        text: >-
+          Ett år har tolv månader. Månaderna heter januari, februari, mars,
+          april, maj, juni, juli, augusti, september, oktober, november och
+          december. Januari är den första månaden, och december är den
+          tolfte — den sista! Februari är den andra månaden. Vad är den
+          femte? Maj!
+        margin:
+          - "ett år = 12 månader 📅"
+          - "den första (1), den andra (2), den tredje (3) …"
+          - "sista = nummer 12 av 12!"
+
+      - typ: narration
+        text: >-
+          Året har fyra årstider: vinter, vår, sommar och höst. På vintern
+          är det kallt i Sverige. Det finns snö — vit, kall snö! — och
+          barnen leker i snön. På vintern finns det inte mycket sol.
+        margin:
+          - "en årstid = en 'del' av året (4!)"
+          - "vinter ❄ · vår 🌱 · sommar ☀ · höst 🍂"
+          - "kall ↔ varm"
+          - "snö ❄"
+
+      - typ: narration
+        text: >-
+          På våren kommer solen, och snön är borta. Träden är gröna, och
+          fåglarna kommer. Sedan kommer sommaren! Om sommaren är det
+          varmt. Solen är uppe länge, och barnen badar i Björksjön.
+          Vattnet är varmt — ja, litet varmt! I juli har barnen inte
+          skola.
+        margin:
+          - "på våren · om sommaren (= på sommaren)"
+          - "badar 🏊 i sjön"
+          - "länge = lång tid ⏳"
+
+      - typ: narration
+        text: >-
+          På hösten är det kallt, och regnet kommer: regn, regn, regn!
+          Träden är inte gröna på hösten — de är gula och röda, och de är
+          fina! Och sedan kommer vintern med snö. Året går, och varje
+          årstid kommer och går: vinter, vår, sommar, höst … och vinter.
+        margin:
+          - "regn 🌧"
+          - "höstens träd: gula och röda 🍂"
+          - "året går 🔄"
+
+  - rubrik: "II. VECKAN, DAGEN OCH NATTEN"
+    block:
+      - typ: narration
+        text: >-
+          En vecka har sju dagar: måndag, tisdag, onsdag, torsdag, fredag,
+          lördag och söndag. Måndag till fredag går barnen till skolan.
+          Men på lördagar och söndagar har de inte skola: då leker de,
+          cyklar de och badar de i sjön! En månad har fyra veckor, och ett
+          år har tolv månader — och många, många dagar.
+        margin:
+          - "en vecka = 7 dagar 📅"
+          - "måndag → söndag"
+          - "lördag och söndag: inte skola! 🎉"
+
+      - typ: narration
+        text: >-
+          Efter dagen kommer natten. På dagen är solen uppe: du är ute, du
+          leker och äter. På natten sover du — och solen är borta. Men
+          Misse? Misse sover på dagen och är ute på natten!
+        margin:
+          - "dag ☀ ↔ natt 🌙"
+          - "på dagen · på natten"
+
+  - rubrik: "III. FÖDELSEDAGAR"
+    block:
+      - typ: narration
+        text: >-
+          Alla har en födelsedag. Astrid har födelsedag den femte maj — på
+          våren! Oskar har födelsedag den tolfte oktober, och Nils den
+          andra februari. När har mamma födelsedag? Den tredje juni. Och
+          pappa? Den sjunde december — på vintern, med snö!
+        margin:
+          - "en födelsedag 🎂"
+          - "den femte maj = 5/5"
+
+      - typ: narration
+        text: >-
+          Det är den femte maj — Astrids födelsedag! Hon är åtta år nu. –
+          Grattis, Astrid! säger alla. Astrid får en ny docka av mamma och
+          pappa, och godis av Oskar och Nils. Ingrid kommer med tåget från
+          Stockholm, och hon har en fin bok till Astrid. – Tack, tack!
+          säger Astrid. Det är en god dag — en mycket god dag!
+        margin:
+          - "– Grattis! 🎉 (säger man på födelsedagen)"
+          - "🎂 åtta år!"
+
+      - typ: narration
+        text: >-
+          Hur många månader har ett år? Tolv. Hur många årstider? Fyra!
+          Vad heter den första månaden? Januari. Hur många dagar har en
+          vecka? Sju. När är det kallt — och när badar barnen? På vintern
+          är det kallt; om sommaren badar de i sjön, och då är vattnet
+          varmt. När har Astrid
+          födelsedag? Den femte maj. Och vad kommer efter dagen? Natten!
+        margin:
+          - "frågar → svarar"
+
+      - typ: narration
+        text: >-
+          Året går: månad efter månad, vecka efter vecka, dag efter dag.
+          Och en ny dag — vad har den? Det är kapitel tretton: en ny dag,
+          från morgon till kväll!
+        margin:
+          - "🔍 en ny dag …?"
+
+grammatik:
+  - rubrik: "månaderna och ordningstalen"
+    forklaring: >-
+      Januari är den första månaden (1), februari den andra (2) …
+      december den tolfte (12).
+    tabell:
+      head: ["", "", "", ""]
+      rows:
+        - ["1 första — januari", "2 andra — februari", "3 tredje — mars", "4 fjärde — april"]
+        - ["5 femte — maj", "6 sjätte — juni", "7 sjunde — juli", "8 åttonde — augusti"]
+        - ["9 nionde — september", "10 tionde — oktober", "11 elfte — november", "12 tolfte — december"]
+
+  - rubrik: "årstiderna"
+    forklaring: >-
+      På vintern, på våren, på hösten — men: om sommaren (eller på
+      sommaren)!
+    tabell:
+      head: ["årstid", "väder", "tidsuttryck"]
+      rows:
+        - ["vinter ❄", "kallt, snö", "på vintern"]
+        - ["vår 🌱", "solen kommer", "på våren"]
+        - ["sommar ☀", "varmt — barnen badar!", "om sommaren"]
+        - ["höst 🍂", "regn, gula träd", "på hösten"]
+
+  - rubrik: "veckans dagar"
+    forklaring: >-
+      Måndag, tisdag, onsdag, torsdag, fredag — skola! Lördag och söndag
+      — inte skola!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["måndag–fredag", "barnen går till skolan"]
+        - ["lördag, söndag", "de leker, cyklar och badar"]
+
+  - rubrik: "datum"
+    forklaring: >-
+      När har du födelsedag? — Den femte maj. Datum = den + ordningstal +
+      månad.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["den femte maj", "Astrids födelsedag 🎂"]
+        - ["den tolfte oktober", "Oskars födelsedag"]
+        - ["den andra februari", "Nils födelsedag"]
+
+uttal:
+  rubrik: "Accent 2 i sammansatta ord"
+  forklaring: >-
+    Långa ord av två små ord (födelse + dag) har alltid accent 2 — melodin
+    går upp och ner! Lyssna! 👂🎵
+  grupper:
+    - namn: "sammansatta ord"
+      ord: [födelsedag, årstid, trädgård, sovrum, huvudstad]
+    - namn: "månader"
+      ord: [januari, februari, augusti, december]
+
+ovningar:
+  A:
+    instruktion: "Skriv ordningstal, årstider och plural."
+    items:
+      - q: "Januari är den {första} månaden."
+      - q: "Februari är den {andra} månaden."
+      - q: "Mars är den {tredje} månaden."
+      - q: "Maj är den {femte} månaden."
+      - q: "December är den {tolfte} månaden."
+      - q: "På {vintern} är det kallt, och det finns snö. (vinter)"
+      - q: "Om {sommaren} badar barnen i sjön. (sommar)"
+      - q: "På {hösten} är träden gula och röda. (höst)"
+      - q: "På {våren} kommer solen och fåglarna. (vår)"
+      - q: "en dag — två {dagar}"
+      - q: "en vecka — fyra {veckor}"
+      - q: "en månad — tolv {månader}"
+  B:
+    instruktion: "Skriv ordet: månad, vecka, dag, natt, årstid, vinter, vår, sommar, höst, kall, varm, snö, sol, regn, badar, födelsedag."
+    items:
+      - q: "Ett år har tolv {månader}."
+      - q: "En {vecka} har sju dagar."
+      - q: "Vinter, vår, sommar och höst — fyra {årstider}!"
+      - q: "På vintern finns det {snö} — vit och kall!"
+      - q: "Om sommaren är det {varmt}."
+      - q: "På hösten kommer {regnet}."
+      - q: "Barnen {badar} i Björksjön om sommaren."
+      - q: "På natten är {solen} borta."
+      - q: "Efter dagen kommer {natten}."
+      - q: "Astrid har {födelsedag} den femte maj."
+      - q: "December, januari och februari är {vintern}."
+      - q: "På vintern är vattnet i sjön {kallt}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Hur många månader har ett år — och vad heter den första?"
+        model: "Ett år har tolv månader, och den första heter januari."
+      - q: "Vad heter årets fyra årstider?"
+        model: "De heter vinter, vår, sommar och höst."
+      - q: "När badar barnen i Björksjön?"
+        model: "Om sommaren — då är vattnet varmt. Ja, litet varmt!"
+      - q: "Hur många dagar har en vecka?"
+        model: "En vecka har sju dagar: måndag till söndag."
+      - q: "När har Astrid födelsedag, och hur många år är hon nu?"
+        model: "Den femte maj — och nu är hon åtta år."
+      - q: "Vad får Astrid på födelsedagen?"
+        model: "Hon får en ny docka, godis och en fin bok."
+      - q: "Vad gör Misse på natten?"
+        model: "Hon är ute — katten sover på dagen!"
+
+repetition:
+  rubrik: "Månaderna — en fråge-lek"
+  block:
+    - typ: narration
+      text: >-
+          Nils frågar: – Vad är den fjärde månaden? – April! – Den sjätte?
+          – Juni: då kommer sommaren! – Den åttonde? – Augusti. – Den
+          nionde? – September, höstens första månad. – Den tionde? –
+          Oktober: Oskars månad! Oskar har födelsedag den tolfte oktober. –
+          Och den elfte? – November: regn, regn, regn! – Och den sista
+          månaden? – December, den tolfte: vinter och snö! Astrid frågar: –
+          Och vad är årets bästa månad? – Maj! säger hon själv. Den femte
+          månaden — med den femte maj, min födelsedag!

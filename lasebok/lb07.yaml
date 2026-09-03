@@ -1,0 +1,31 @@
+# Läseboken 07 — Bill var liten en gång
+# Supplementary reading (Colloquia-Personarum style): ZERO new words,
+# everything unlocked by kapitel 22. Pure re-exposure.
+
+nummer: 7
+titel: "Bill var liten en gång"
+efter_kapitel: 22
+typ: vardag
+
+block:
+  - typ: narration
+    text: >-
+        Bill är gammal nu — stor, långsam och mycket lugn. Men herr Holm
+        berättar: – En gång var Bill liten! En liten, snabb, stygg hund.
+        Han åt en av mina böcker. Han sprang efter alla katter i Sjövik.
+        Och han skällde på allt: på bilar, på regnet — och på sin svans!
+        Han sprang efter sin svans … och svansen sprang från honom!
+  - typ: narration
+    text: >-
+        – En dag var han borta. Jag letade i trädgården, på vägen, vid
+        sjön: ingen hund. Hela Sjövik letade! Två dagar — inget. Jag var
+        rädd, säger herr Holm. Var min lilla hund borta? Men på den
+        tredje dagen kom fru Lind till min grind: – Herr Holm … er hund
+        sover i skolan! Och där var han: Bill sov i klassrummet, vid fru
+        Linds bord.
+  - typ: narration
+    text: >-
+        Nu är Bill gammal. Han springer inte efter katter, och han äter
+        inte böcker. Men när han sover, springer hans ben — springer,
+        springer! Herr Holm ser det och skrattar: – Den gamla hunden är
+        en liten hund igen — när han sover.

@@ -1,0 +1,129 @@
+# Svenska per se illustrata — cast, voices, register discipline
+#
+# Dialogue register is tracked per character. A character's signature words are
+# unlocked in dialogue from their first appearance (character_voice exemption),
+# even before their staircase home — the same rule that let Moominmamma be polite
+# from ch1. Use sparingly; each exemption is listed under `voice_lexicon`.
+
+people:
+  anders:
+    name: "Anders Berg"
+    role: "pappa; snickare (carpenter)"
+    age: 41
+    voice: "calm, concrete, few words; explains by doing. Speaks in short main clauses."
+    voice_lexicon: []          # no early unlocks; Anders is deliberately plain
+    register_arc: "plain throughout; his kap 30 speech is his one long utterance — the contrast IS the payoff"
+
+  karin:
+    name: "Karin Berg"
+    role: "mamma; läkare"
+    age: 39
+    voice: "warm, precise, gently ironic; asks diagnostic questions. The family's narrator-in-dialogue."
+    voice_lexicon: []
+    register_arc: "neutral standard; storyteller register unlocked in kap 25 (sagan)"
+
+  oskar:
+    name: "Oskar Berg"
+    role: "son, 12 år; the puer improbus"
+    age: 12
+    voice: "fast, boastful, exclamatory. Short sentences, many utrop. First to use slangless intensifiers."
+    voice_lexicon: [jättebra, kolla]   # colloquial intensifier + 'look!' from kap 4 dialogue
+    register_arc: "unchanged energy; vocabulary widens; kap 28 renders him briefly speechless"
+
+  nils:
+    name: "Nils Berg"
+    role: "son, 10 år; the careful one"
+    age: 10
+    voice: "precise, curious, corrective ('Det är inte sant, det var i tisdags'). Asks the questions the learner would ask."
+    voice_lexicon: [egentligen]        # his signature adverb, from kap 4 dialogue
+    register_arc: "the book's proxy learner; his questions cue grammar explanations"
+
+  astrid:
+    name: "Astrid Berg"
+    role: "dotter, 7 år"
+    age: 7
+    voice: "simple sentences, repetition, songs. May use child-morphology ONLY as flagged, corrected by others."
+    voice_lexicon: []
+    register_arc: "sentence length grows with the book — she is the staircase made audible"
+
+  farmor:
+    name: "Ingrid Berg (farmor)"
+    role: "Anders mor; bor i Stockholm"
+    age: 70
+    voice: "slightly formal, complete sentences, letter-writer's cadence; says 'kära ni'."
+    voice_lexicon: [kära]
+    register_arc: "her letters (kap 18–19) model written register before the learner writes"
+
+  morfar:
+    name: "Sven Karlsson (morfar)"
+    role: "Karins far; bonde utanför Sjövik"
+    age: 73
+    voice: "laconic; proverbs and weather-lore; long pauses rendered as '…'. Rural plainness, no dialect spelling."
+    voice_lexicon: [jaså, nåja]
+    register_arc: "proverb register saved for kap 26 (tale) and kap 29 (ordspråk)"
+
+  lasse:
+    name: "Lars 'Lasse' Berg"
+    role: "Anders lillebror; sjöman"
+    age: 28
+    voice: "cheerful, seafaring vocabulary, storyteller; teases Oskar as an equal."
+    voice_lexicon: [ombord]
+    register_arc: "absent presence (letters, photo) until kap 23; carries the sea and romance arcs"
+
+  maria:
+    name: "Maria Söderberg"
+    role: "Lasses flickvän; bor i Stockholm"
+    age: 26
+    voice: "direct, warm, laughs easily; a Stockholmer who finds Sjövik charming."
+    voice_lexicon: []
+    register_arc: "introduced by photograph (kap 23), in person kap 27; bride kap 30"
+
+  elsa:
+    name: "Elsa Ek"
+    role: "grannflicka; Oskars vän/ovän/vän"
+    age: 12
+    voice: "matches Oskar beat for beat; the only one who out-argues him."
+    voice_lexicon: [kolla]
+    register_arc: "dialogue-heavy chapters (kap 21 bråket); models peer speech"
+
+  fru_lind:
+    name: "Fru Lind"
+    role: "lärare i Sjöviks skola"
+    age: 55
+    voice: "classroom imperatives, inclusive vi-forms ('Nu räknar vi!'); infinite patience, one raised eyebrow."
+    voice_lexicon: []
+    register_arc: "classroom register is her domain (kap 14, 21)"
+
+  herr_holm:
+    name: "Herr Holm"
+    role: "granne med stor hund (Bill)"
+    age: 67
+    voice: "gruff exterior two sentences deep; then endless dog anecdotes."
+    voice_lexicon: []
+    register_arc: "kap 22 only, plus party cameo kap 30"
+
+animals:
+  ludde:
+    name: "Ludde"
+    species: "hund (gyllene, stor, dum-snäll)"
+    function: "motion verbs, imperatives, comic relief; barks at thunder, wolves, and bees"
+  misse:
+    name: "Misse"
+    species: "katt (grå, självständig)"
+    function: "reflexive verbs (tvättar sig), prepositions of hiding; disapproves of everything"
+  bill:
+    name: "Bill"
+    species: "hund (enorm, gammal, ofarlig)"
+    function: "kap 22 — the feared thing that turns out gentle"
+
+places:
+  sjovik:
+    name: "Sjövik"
+    what: "fictional small town by a lake in Småland; walkable geography fixed in kap 6"
+    landmarks: [huset vid sjön, bron, affären, kyrkan, skolan, herr Holms hus]
+  garden:
+    name: "morfars gård"
+    what: "farm outside Sjövik; animals, seasons, midsummer"
+  stockholm:
+    name: "Stockholm"
+    what: "real city; farmor's flat, Gamla stan, slottet, vattnet (kap 19–20)"

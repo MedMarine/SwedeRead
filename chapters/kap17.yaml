@@ -1,0 +1,248 @@
+# KAPITEL 17 — Vem har mest?
+# Comparison: -are/-ast, the umlaut set (större/störst, äldre/äldst),
+# mer/mest vs fler/flest, än. Sibling economics and the kap 1 map revisited.
+
+kapitel: 17
+titel: "Vem har mest?"
+arc: C
+grammatik_fokus: "komparation (större/störst, äldre/äldst, bättre/bäst); än; mer/mest och fler/flest; hundra och tusen"
+uttal_fokus: "melodin i komparation: stor — större — störst"
+
+fokus: [jämföra, spara, hög, låg_adj, tung, lätt, kort, ung, dålig]
+stretch: [djup, mil]
+
+illustration: >-
+  Two piles of coins on the kitchen table — one tall and neat (Nils, smug,
+  85 kr), one tiny beside a heap of candy wrappers (Oskar, unrepentant,
+  14 kr); Astrid measuring everyone against the doorframe with pencil marks;
+  in the background a wall map of Sweden with lakes and one mountain circled;
+  the heavy golden dog sitting on a bathroom scale while the light grey cat
+  watches from above. Watercolor.
+
+lasstycken:
+  - rubrik: "I. STÖRRE OCH STÖRST"
+    block:
+      - typ: narration
+        text: >-
+          Astrid jämför allt. – Oskar är stor, säger hon, men pappa är
+          större! Och morfar? – Morfar är inte större än pappa, säger
+          Nils. Pappa är längst i familjen: han är en lång man. Men morfar
+          är äldst: han är äldre än pappa och mamma. Vem är yngst? Astrid!
+          Hon är åtta år — hon är yngre än Nils, och Nils är yngre än
+          Oskar.
+        margin:
+          - "jämför ⚖ = ser på A och B: vem är mer?"
+          - "stor → större → störst!"
+          - "A är större ÄN B"
+          - "gammal → äldre → äldst · ung → yngre → yngst"
+
+      - typ: narration
+        text: >-
+          Nils jämför länder och sjöar — med sin bok. Sverige är stort:
+          större än Danmark, mycket större! Men Ryssland är störst.
+          Vänern är större än Vättern: Vänern är Sveriges största sjö.
+          Men Vättern är djupare! Och bergen? Kebnekaise är Sveriges
+          högsta berg — det är högre än alla andra berg i Sverige. Men
+          Galdhøpiggen i Norge är högre än Kebnekaise. Och Danmark?
+          Danmark är ett lågt land: där finns inga höga berg!
+        margin:
+          - "hög → högre → högst ⛰"
+          - "djup 💧⬇ — Vättern är djup!"
+          - "störstA sjön, högstA berget"
+          - "🗺 kapitel ett — minns du?"
+
+      - typ: narration
+        text: >-
+          Ludde är tyngre än Misse — mycket tyngre! En katt är lätt, men
+          en stor hund är tung. Och vem är lättast i familjen? Astrid!
+          Vägen till skolan är lång, men vägen till affären är kortare.
+          En timme är lång för Astrid — och kort för mamma! Året har
+          långa dagar om sommaren och korta dagar på vintern.
+        margin:
+          - "tung ⚓ ↔ lätt 🪶"
+          - "lång ↔ kort · kortare, kortast"
+
+  - rubrik: "II. POJKARNAS PENGAR"
+    block:
+      - typ: narration
+        text: >-
+          Oskar och Nils får tio kronor varje vecka. Nils sparar sina
+          pengar: krona efter krona, vecka efter vecka. Oskar sparar inte
+          — han köper godis! Nu räknar pojkarna. Nils har åttiofem
+          kronor: han sparade i många veckor. Oskar har … fjorton kronor.
+          – Jag har fler kronor än du, säger Nils. – Men jag åt mer godis
+          än du! säger Oskar. Vem har mest pengar? Nils. Vem åt mest
+          godis? Oskar!
+        margin:
+          - "sparar 💰 = köper inte — pengarna stannar!"
+          - "fler kronor (man räknar: 1, 2, 3 …)"
+          - "mer godis (man räknar inte!)"
+          - "mest = 🥇 av alla"
+
+      - typ: narration
+        text: >-
+          Och bra? Nils bok är bra. Oskars bok är bättre — säger Oskar!
+          Vems bok är bäst? Och dåligt? Regn är dåligt väder; oväder är
+          sämre — och åska med blixtar är sämst, säger Misse! Bra,
+          bättre, bäst — dålig, sämre, sämst.
+        margin:
+          - "bra → bättre → bäst 🥇"
+          - "dålig → sämre → sämst"
+
+      - typ: narration
+        text: >-
+          Hur långt är det till Stockholm? Många mil! En mil är tio
+          kilometer — en svensk mil är lång. Från Sjövik till Stockholm
+          är det över trettio mil. Och tusen? Tusen är tio hundra: ett
+          stort nummer! I Sverige finns tusen sjöar — nej, många tusen
+          sjöar!
+        margin:
+          - "en mil = 10 kilometer!"
+          - "tusen = 1000"
+
+  - rubrik: "III. MER ELLER MINDRE"
+    block:
+      - typ: narration
+        text: >-
+          Vem är äldst i familjen — och vem är yngst? Morfar är äldst;
+          Astrid är yngst. Vad är Sveriges största sjö? Vänern — men
+          Vättern är djupare. Är Kebnekaise högt? Ja, men Galdhøpiggen är
+          högre — och Danmark är lågt, mycket lågt! Vem sparade sina
+          pengar? Nils — han har mest. Vem åt mest godis? Oskar! Är
+          dagarna korta på vintern? Ja, korta och kalla. Är regn bra
+          väder? Nej, dåligt! Är en katt tyngre än en hund? Nej — Misse
+          är lättare än Ludde. Astrid jämför och jämför … och vad är
+          bäst: sol eller regn? Fråga Misse!
+        margin:
+          - "frågar → svarar"
+
+      - typ: narration
+        text: >-
+          Nils har åttiofem kronor, och han vill köpa något fint. Men
+          först vill barnen skriva till Ingrid — Anders mamma — i
+          Stockholm. De har mycket att berätta! Det är kapitel arton.
+        margin:
+          - "🔍 skriva till Ingrid …?"
+
+grammatik:
+  - rubrik: "komparation: -are, -ast"
+    forklaring: >-
+      Många adjektiv får -are och -ast: kort, kortare, kortast.
+    tabell:
+      head: ["", "-are", "-ast"]
+      rows:
+        - ["kort", "kortare", "kortast"]
+        - ["kall", "kallare", "kallast"]
+        - ["varm", "varmare", "varmast"]
+        - ["snabb", "snabbare", "snabbast"]
+        - ["lätt", "lättare", "lättast"]
+
+  - rubrik: "komparation med omljud — och nya ord!"
+    forklaring: >-
+      De stora små orden byter vokal — eller byter ord!
+    tabell:
+      head: ["", "komparativ", "superlativ"]
+      rows:
+        - ["stor", "större", "störst"]
+        - ["liten", "mindre", "minst"]
+        - ["gammal", "äldre", "äldst"]
+        - ["ung", "yngre", "yngst"]
+        - ["lång", "längre", "längst"]
+        - ["hög", "högre", "högst"]
+        - ["tung", "tyngre", "tyngst"]
+        - ["bra", "bättre", "bäst"]
+        - ["dålig", "sämre", "sämst"]
+
+  - rubrik: "än"
+    forklaring: >-
+      A är större än B. Pappa är längre än Oskar. Oskar åt mer godis än
+      Nils!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Sverige är större än Danmark.", "Vättern är djupare än Vänern."]
+        - ["Morfar är äldre än pappa.", "Misse är lättare än Ludde."]
+
+  - rubrik: "mer/mest — fler/flest"
+    forklaring: >-
+      Man räknar kronor: fler kronor, flest kronor. Man räknar inte
+      mjölk och godis: mer mjölk, mest godis!
+    tabell:
+      head: ["räknar (1, 2, 3 …)", "räknar inte"]
+      rows:
+        - ["fler kronor", "mer godis"]
+        - ["flest sjöar", "mest vatten"]
+
+uttal:
+  rubrik: "Melodin i komparation"
+  forklaring: >-
+    Lyssna på melodin: stor (accent 1) — större, störst! Och gammal —
+    äldre — äldst. 👂🎵
+  grupper:
+    - namn: "stor"
+      ord: [stor, större, störst]
+    - namn: "gammal"
+      ord: [gammal, äldre, äldst]
+    - namn: "bra"
+      ord: [bra, bättre, bäst]
+
+ovningar:
+  A:
+    instruktion: "Skriv komparativ eller superlativ!"
+    items:
+      - q: "Pappa är stor — större än Oskar. Men Ryssland är {störst}!"
+      - q: "Morfar är gammal: han är {äldre} än pappa."
+      - q: "Astrid är ung: hon är {yngst} i familjen."
+      - q: "Kebnekaise är högt — men Galdhøpiggen är {högre}."
+      - q: "Vänern är Sveriges {största} sjö."
+      - q: "En katt är {lättare} än en hund. (lätt)"
+      - q: "Ludde är {tyngre} än Misse. (tung)"
+      - q: "Vägen till affären är {kortare} än vägen till skolan. (kort)"
+      - q: "Nils har {fler} kronor än Oskar. (många)"
+      - q: "Oskar åt {mer} godis än Nils. (mycket)"
+      - q: "Solen är bra, sommaren är {bättre} — men födelsedagen är {bäst}!"
+      - q: "Regn är dåligt, men oväder är {sämre}."
+  B:
+    instruktion: "Skriv ordet: jämför, sparar, hög, högsta, låg, tung, lätt, kort, ung, dålig, djup, mil, tusen."
+    items:
+      - q: "Astrid {jämför} allt: vem är störst, vem är äldst?"
+      - q: "Nils {sparar} sina pengar — krona efter krona."
+      - q: "Kebnekaise är Sveriges {högsta} berg."
+      - q: "Vättern är mycket {djup}."
+      - q: "En stor hund är {tung}, men en katt är {lätt}."
+      - q: "Om vintern är dagarna {korta}."
+      - q: "Astrid är {ung} — bara åtta år."
+      - q: "Regn är {dåligt} väder."
+      - q: "En svensk {mil} är tio kilometer."
+      - q: "I Sverige finns många {tusen} sjöar."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vem är längst i familjen Berg?"
+        model: "Anders är längst — han är en lång man."
+      - q: "Är Sverige större än Ryssland?"
+        model: "Nej, Sverige är mindre än Ryssland — Ryssland är störst."
+      - q: "Vad är Sveriges största sjö — och vad är djupare?"
+        model: "Vänern är störst, men Vättern är djupare."
+      - q: "Varför har Nils fler kronor än Oskar?"
+        model: "Därför att Nils sparar sina pengar — Oskar köper godis!"
+      - q: "Hur många kronor har pojkarna?"
+        model: "Nils har åttiofem kronor, och Oskar har fjorton."
+      - q: "Vad är en svensk mil?"
+        model: "En mil är tio kilometer."
+      - q: "Vem är tyngst — Ludde eller Misse?"
+        model: "Ludde är tyngst; Misse är mycket lättare."
+
+repetition:
+  rubrik: "Räkna rätt!"
+  block:
+    - typ: narration
+      text: >-
+          Nils frågar, och alla svarar. – Tio och tre? – Tretton! – Rätt!
+          Tio och nio? – Nitton! – Rätt igen! – Sextio och tio? – Sjuttio!
+          – Åttio och tio? – Nittio! – Vem i familjen är äldst? – Morfar:
+          han är över sjuttio år! – Vem har flest böcker? – Nils! – Vem har
+          flest bollar? – Oskar … nej, Ludde! Alla skrattar. – Är Oskar och
+          Elsa lika gamla? – Ja, lika gamla: tolv år. – Och vem räknar
+          bäst? – Elsa! säger Nils. – Nej, du! säger Elsa. – Ni är lika
+          bra, säger Karin — och det är rätt!

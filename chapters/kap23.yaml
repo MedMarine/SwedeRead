@@ -1,0 +1,260 @@
+# KAPITEL 23 — Lasse och Maria
+# Relative som-clauses carry the romance subplot; emotion verbs (älska,
+# sakna, längta efter); the ring and the secret.
+
+kapitel: 23
+titel: "Lasse och Maria"
+arc: D
+grammatik_fokus: "relativsatser med som (flickan som bor i Stockholm; kvinnan som Lasse älskar); älska, sakna, längta efter; kär — förlovad — gift"
+uttal_fokus: "stumt h: hjärta säger 'järta'!"
+
+fokus: [sjöman, fartyg, hamn, älska, sakna, längta, träffa, kär, förlovad, ring, fotografi, arbeta]
+stretch: [ombord, gifta, hjärta, hemlighet]
+
+illustration: >-
+  Uncle Lasse in the kitchen, sea-bag open, gifts spilling out; the three
+  children leaning in as he holds a small photograph of a laughing young
+  woman with brown hair; ghosted above, a memory-vignette: a big ship
+  gliding into a harbour, a young man and woman talking on the quay. In his
+  other hand, half-hidden, a tiny ring box. The cat inspects the sea-bag.
+  Watercolor, warm lamplight.
+
+lasstycken:
+  - rubrik: "I. SJÖMANNEN KOMMER HEM"
+    block:
+      - typ: narration
+        text: >-
+          Lasse Berg är sjöman: han arbetar på ett fartyg — ett stort
+          fartyg som åker över haven. Ett fartyg är en mycket stor båt!
+          Lasse har arbetat ombord i fem år, och han har sett många
+          länder och många hamnar. En hamn är en "station" för båtar:
+          fartygen kommer in och ligger i hamnen, och sedan åker de igen.
+        margin:
+          - "en sjöman ⚓ = en man som arbetar på havet"
+          - "ett fartyg 🚢 = en MYCKET stor båt"
+          - "ombord = på fartyget"
+          - "en hamn ⚓ = båtarnas 'station'"
+
+      - typ: narration
+        text: >-
+          Nu är Lasses fartyg i Göteborgs hamn, och Lasse kommer till
+          Sjövik! Han har en stor väska med saker från många länder:
+          godis som barnen aldrig har sett, en liten båt till Nils och en
+          ny fin docka till Astrid. – Tack, Lasse! Men Oskar ser något
+          mer i väskan: ett fotografi.
+        margin:
+          - "godis SOM barnen aldrig har sett!"
+          - "ett fotografi 📷"
+
+      - typ: narration
+        text: >-
+          – Vem är det? frågar Oskar. På fotografiet står en ung kvinna
+          som skrattar. Hon har långt brunt hår och glada ögon. Lasse tar
+          fotografiet och är tyst en liten tid. – Det är Maria, säger
+          han. Flickan som jag … flickan som bor i Stockholm. – Flickan
+          som du VAD? frågar Oskar. Lasse skrattar: – Flickan som jag
+          älskar.
+        margin:
+          - "kvinnan SOM skrattar (= hon skrattar!)"
+          - "flickan SOM Lasse älskar (= han älskar henne!)"
+          - "älskar ❤❤❤"
+
+  - rubrik: "II. FLICKAN PÅ FOTOGRAFIET"
+    block:
+      - typ: narration
+        text: >-
+          Lasse berättar: – Jag träffade Maria i Stockholm för två år
+          sedan. Hennes bror arbetar i hamnen, och Maria var där en dag
+          när mitt fartyg kom in. Vi talade … och talade … och sedan var
+          jag kär! – Kär? frågar Astrid. – Ja, kär. När man är kär,
+          tänker man på en människa hela tiden. Hjärtat säger: hon, hon,
+          hon! Nu älskar vi varandra, Maria och jag.
+        margin:
+          - "träffade = såg och talade med — första gången!"
+          - "kär 💘 — hjärtat säger: hon, hon, hon!"
+          - "ett hjärta ❤"
+          - "älskar varandra = ❤ + ❤"
+
+      - typ: narration
+        text: >-
+          – Men Maria bor i Stockholm, säger Nils, och du är på havet. En
+          sjöman är borta länge! – Ja, säger Lasse. Ombord saknar jag
+          henne varje dag — och hon saknar mig. Jag längtar efter henne,
+          och hon längtar efter mig. Vi skriver brev, många brev. Men brev är inte Maria!
+          Ett fotografi är inte Maria. – Det är inte lätt, säger Karin. –
+          Nej, säger Lasse. Och därför …
+        margin:
+          - "saknar 💔 = hon är inte här, och det gör ont"
+          - "längtar efter = vill, vill, VILL se henne!"
+
+      - typ: narration
+        text: >-
+          Lasse tittar på barnen. – Kan ni ha en hemlighet? En stor
+          hemlighet? – Ja! säger alla tre. Lasse tar en mycket liten sak
+          från väskan: en ring. En fin, fin ring. – Ringen är till Maria,
+          säger han. Jag vill fråga henne om en stor sak. Vi är kära —
+          och kanske, kanske ska vi gifta oss! Då är vi förlovade. –
+          Gifta er! ropar Astrid. – Sch! säger Lasse. Det är en
+          hemlighet! Först måste jag fråga Maria. Kanske säger hon nej …
+          – Hon säger ja, säger Astrid. Jag vet det.
+        margin:
+          - "en hemlighet 🤫 = bara DU vet det!"
+          - "en ring 💍"
+          - "gifta sig = bli man och fru 💒"
+          - "Sch! 🤫"
+
+  - rubrik: "III. KÄR — FÖRLOVAD — GIFT"
+    block:
+      - typ: narration
+        text: >-
+          När en man och en kvinna vill gifta sig, är de förlovade: de
+          har sagt JA till varandra, och de har ringar. Är Lasse och
+          Maria förlovade? Inte än! Lasse har ringen i väskan och frågan
+          i hjärtat. Vad ska Maria svara? Barnen tror att hon säger ja.
+          Karin tror det också: hon har sett fotografiet, och på
+          fotografiet är Maria glad och snäll.
+        margin:
+          - "kär 💘 → förlovad 💍 → gift 💒"
+          - "inte än — först: frågan!"
+
+      - typ: narration
+        text: >-
+          Vem är Lasse? Anders bror — en sjöman som arbetar på ett stort
+          fartyg. Vem är Maria? Kvinnan som Lasse älskar. Var träffade
+          han henne? I Stockholm, i hamnen. Vad saknar Lasse ombord?
+          Maria — han längtar efter henne varje dag. Vad har han i
+          väskan? En ring … och en hemlighet! Och när träffar familjen
+          Maria? Kanske snart!
+        margin:
+          - "frågar → svarar"
+
+      - typ: narration
+        text: >-
+          Men i kapitel tjugofyra händer något hemma i Sjövik: Nils är
+          inte frisk. Han har varit våt och kall — och nu … Det är
+          kapitel tjugofyra!
+        margin:
+          - "🔍 Nils …?"
+
+grammatik:
+  - rubrik: "relativsatser med som"
+    forklaring: >-
+      "Som" tar en mening in i en annan! Maria bor i Stockholm → Maria
+      är flickan SOM bor i Stockholm. Lasse älskar Maria → Maria är
+      kvinnan SOM Lasse älskar.
+    tabell:
+      head: ["två meningar", "en mening med som"]
+      rows:
+        - ["Flickan skrattar. Lasse ser flickan.", "Lasse ser flickan som skrattar."]
+        - ["Maria bor i Stockholm.", "Maria är flickan som bor i Stockholm."]
+        - ["Lasse älskar Maria.", "Maria är kvinnan som Lasse älskar."]
+        - ["Fartyget åker över haven.", "Lasse arbetar på ett fartyg som åker över haven."]
+
+  - rubrik: "hjärtats verb"
+    forklaring: >-
+      Älskar = ❤❤❤. Saknar = hon är inte här, och det gör ont. Längtar
+      efter = vill, vill, VILL se henne!
+    tabell:
+      head: ["", "exempel"]
+      rows:
+        - ["älska ❤", "De älskar varandra."]
+        - ["sakna 💔", "Ombord saknar Lasse Maria."]
+        - ["längta efter", "Hon längtar efter honom."]
+        - ["vara kär i 💘", "Lasse är kär i Maria."]
+
+  - rubrik: "kär — förlovad — gift"
+    forklaring: >-
+      Först träffas man. Sedan är man kär. Sedan — kanske! — förlovad,
+      med ringar. Och till slut: gift, man och fru!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["träffas 🤝", "Lasse träffade Maria i hamnen."]
+        - ["kär 💘", "Hjärtat säger: hon, hon, hon!"]
+        - ["förlovad 💍", "De har sagt ja till varandra."]
+        - ["gift 💒", "Man och fru!"]
+
+  - rubrik: "varandra"
+    forklaring: >-
+      Lasse älskar Maria + Maria älskar Lasse = de älskar VARANDRA! De
+      skriver brev till varandra och längtar efter varandra.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["De älskar varandra.", "De skriver till varandra."]
+        - ["De saknar varandra.", "De längtar efter varandra."]
+
+uttal:
+  rubrik: "Stumt h: hjärta"
+  forklaring: >-
+    I "hjärta" hör du inget h — ordet säger "järta"! Lyssna! 👂🔊
+  grupper:
+    - namn: "hj = j"
+      ord: [hjärta, hjärtat]
+    - namn: "mjukt g = j"
+      ord: [Göteborg, Sverige, berget]
+
+ovningar:
+  A:
+    instruktion: "Skriv som-satser — och hjärtats verb."
+    items:
+      - q: "Maria bor i Stockholm. → Maria är flickan {som} bor i Stockholm."
+      - q: "Lasse älskar Maria. → Maria är kvinnan som Lasse {älskar}."
+      - q: "Fartyget åker över haven. → Lasse arbetar på ett fartyg {som} åker över haven."
+      - q: "Lasse {saknar} Maria varje dag. (sakna)"
+      - q: "Han {längtar} efter henne. (längta)"
+      - q: "Lasse {träffade} Maria för två år sedan. (träffa)"
+      - q: "Lasse är {kär} i Maria."
+      - q: "De älskar {varandra}."
+      - q: "Ringen är till kvinnan {som} Lasse älskar."
+      - q: "en ring — två {ringar}"
+      - q: "ett fartyg — två {fartyg}"
+      - q: "Kanske ska de {gifta} sig!"
+  B:
+    instruktion: "Skriv ordet: sjöman, fartyg, hamn, älskar, saknar, längtar, träffade, kär, förlovade, ring, fotografi, arbetar, ombord, hjärta, hemlighet."
+    items:
+      - q: "Lasse är {sjöman}: han arbetar på havet."
+      - q: "Ett {fartyg} är en mycket stor båt."
+      - q: "Fartygen ligger i {hamnen}."
+      - q: "Lasse {arbetar} ombord — i fem år nu!"
+      - q: "På {fotografiet} står en ung kvinna som skrattar."
+      - q: "Lasse {träffade} Maria i Stockholm."
+      - q: "Han är {kär} i henne — hjärtat säger: hon, hon, hon!"
+      - q: "Ombord {saknar} han Maria varje dag."
+      - q: "Hon {längtar} efter honom."
+      - q: "I väskan finns en fin {ring}."
+      - q: "Ringen är en stor {hemlighet}!"
+      - q: "De har sagt ja till varandra: de är {förlovade}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vad arbetar Lasse med?"
+        model: "Han är sjöman — han arbetar på ett stort fartyg som åker över haven."
+      - q: "Vem är kvinnan på fotografiet?"
+        model: "Det är Maria — flickan som Lasse älskar. Hon bor i Stockholm."
+      - q: "Var träffade Lasse Maria?"
+        model: "I Stockholm — hon var i hamnen när hans fartyg kom in."
+      - q: "Vad gör Lasse ombord när han saknar Maria?"
+        model: "Han skriver brev — många brev — och längtar efter henne."
+      - q: "Vad är hemligheten i väskan?"
+        model: "En ring! Lasse vill fråga Maria om de ska gifta sig."
+      - q: "Vad tror Astrid att Maria svarar?"
+        model: "Hon tror att Maria säger ja — 'Jag vet det', säger hon!"
+      - q: "Vad är 'förlovad'?"
+        model: "När två människor har sagt ja till varandra och har ringar — men inte är gifta än."
+
+repetition:
+  rubrik: "Lasse hälsar på Bill"
+  block:
+    - typ: narration
+      text: >-
+          Lasse och barnen går till herr Holms hus. På grinden sitter
+          skylten: AKTA HUNDEN! Bill står bakom staketet och skäller. – En
+          stor hund! säger Lasse. Vågar ni klappa honom? – JAG vågar, säger
+          Astrid. Bill morrar litet … och sedan viftar han med svansen: han
+          minns barnen! Lasse klappar det stora huvudet, och Bill slickar
+          hans hand. – Biter han aldrig? frågar Lasse. – Aldrig, säger herr
+          Holm. Han skäller och vaktar, men han är tam som ett lamm! En bra
+          granne, en bra hund. På vägen hem säger Lasse: – På fartyget hade
+          vi en katt. Hon vaktade maten! Alla skrattar. Och hemma väntar
+          Misse — som aldrig vaktar något. Hon sover.

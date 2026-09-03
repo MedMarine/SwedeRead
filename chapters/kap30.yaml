@@ -1,0 +1,270 @@
+# KAPITEL 30 — Festen
+# The finale: Lasse and Maria's wedding by the lake. The whole cast, the
+# whole grammar, Anders' one long speech (built-in review of the book) —
+# and a last page that mirrors the first.
+
+kapitel: 30
+titel: "Festen"
+arc: E
+grammatik_fokus: "syntes — hela boken i ett kapitel; hålla tal och skåla; framtiden (nästa sommar …)"
+uttal_fokus: "högtidligt tal och vardagstal — samma ord, två röster"
+
+fokus: [bröllop, fest, tal_noun, brud, brudgum, tårta, musik, minne, tacka, lycklig]
+stretch: [framtid, präst]
+
+illustration: >-
+  The grand finale at golden hour: long white tables on the meadow between
+  the red house and the lake; the bride in a white-flower crown and the
+  sailor groom dancing; every character from the book present and busy —
+  grandmother with the teacher, the two old men laughing, two twelve-
+  year-olds dancing a truce, a small girl asleep in her father's arms
+  clutching a doll; two dogs in flower wreaths; a towering white cream cake;
+  and on the still lake, the whole scene mirrored. Watercolor, warm and
+  wide.
+
+lasstycken:
+  - rubrik: "I. BRÖLLOPET"
+    block:
+      - typ: narration
+        text: >-
+          Det är en lördag i augusti, och i dag är det bröllop i Sjövik:
+          Lasse och Maria gifter sig! I kyrkan sitter alla: familjen
+          Berg, farmor Ingrid som har kommit med tåget, morfar Sven, fru
+          Ek och Elsa, fru Lind, herr Holm — och vid dörren väntar Bill
+          och Ludde, med kransar om halsen!
+        margin:
+          - "ett bröllop 💒 = dagen när två gifter sig"
+          - "ALLA är här — hela boken!"
+
+      - typ: narration
+        text: >-
+          Maria är brud, och Lasse är brudgum. Bruden har en krans av
+          små vita blommor i håret, och brudgummen — sjömannen! — står
+          och väntar, och han är inte lugn. Prästen talar, och det är
+          tyst och fint i kyrkan. Sedan säger Lasse JA, och Maria säger
+          JA — och nu är de gifta! Man och fru! Alla ropar hurra, och
+          vid dörren skäller Bill och Ludde — deras "hurra"!
+        margin:
+          - "brud 👰 + brudgum 🤵"
+          - "en präst talar i kyrkan"
+          - "JA + JA = gifta! 💍💍"
+
+      - typ: narration
+        text: >-
+          Festen — bröllopets stora fest! — är på ängen vid Björksjön:
+          vid vattnet, precis som allt i den här boken. Långa bord dukas,
+          och det finns mat från hela sommaren: sill och potatis, bröd
+          och ost, jordgubbar med grädde — och en stor vit tårta, hög och god, med
+          en liten brud och en liten brudgum högst upp! Det finns musik, och alla dansar på ängen — precis
+          som på midsommar, men finare.
+        margin:
+          - "en fest 🎉"
+          - "en tårta 🎂 — festens vita 'hus'!"
+          - "musik 🎶 och dans"
+
+  - rubrik: "II. ANDERS HÅLLER TAL"
+    block:
+      - typ: narration
+        text: >-
+          Sedan står Anders upp och håller ett tal. Ett tal! Anders, som
+          aldrig säger många ord! Alla blir tysta.
+        margin:
+          - "håller ett tal 🗣 = står upp och talar till alla"
+          - "Anders talar!! 😲"
+
+      - typ: dialogue
+        speaker: Anders
+        text: >-
+          Kära Lasse, kära Maria — kära alla. Jag talar inte mycket. Men
+          i dag talar jag, därför att i dag är en viktig dag. Lasse är
+          min bror — pojken som ville se havet, och som såg det. Maria
+          är kvinnan som han älskar, flickan från fotografiet — och nu
+          vår syster. Det har varit ett stort år: vi har haft oväder och
+          äventyr, vi har varit sjuka och friska, vi har rest till
+          Stockholm och kommit hem igen — för borta är bra, men hemma är
+          bäst! Nu börjar något nytt. Lasse och Maria: vi älskar er. Var
+          lyckliga tillsammans! Skål!
+        margin:
+          - "hela boken i ett tal! 📖"
+          - "Skål! 🥂"
+          - "lycklig ☀❤ = mycket, MYCKET glad"
+
+      - typ: narration
+        text: >-
+          – SKÅL! ropar alla och dricker. Alla tackar Anders för talet —
+          många ord, och alla var goda! Sedan står Lasse upp och tackar:
+          – Tack, Anders. Tack, alla vänner. Och tack, Sjövik! Maria och
+          jag ska bo här — i ett litet rött hus vid vattnet, nära er
+          alla. Barnen ropar hurra: Lasse och Maria ska bo i Sjövik! De
+          är gifta, de är hemma, och de är lyckliga.
+        margin:
+          - "tackar = säger tack — fint och länge"
+          - "de ska bo i Sjövik! 🏠❤"
+
+  - rubrik: "III. VID SJÖN"
+    block:
+      - typ: narration
+        text: >-
+          Kvällen blir ljus och lång, och festen blir längre. Medan
+          musiken spelar och spelar, tackar farmor för maten och berättar
+          för fru Lind om barnens brev; morfar och herr Holm talar om
+          gamla hundar, och Elsa och Oskar dansar till musiken — och
+          bråkar inte! Astrid, som har ätit mycket tårta, sover till
+          slut i pappas armar, med Lisa i handen. Och Nils? Nils sitter
+          med sin karta och ritar: en väg från Stockholm, en väg från
+          gården, en väg från havet — alla vägar går till Sjövik i
+          kväll. – Det här är ett minne nu, säger han. En dag ska jag
+          berätta om det — precis som morfar berättar om för länge
+          sedan. Kvällen blir ett minne för alla — en lycklig kväll.
+        margin:
+          - "ett minne 🧠❤ = en dag som bor i huvudet för alltid"
+          - "alla vägar → Sjövik 🗺"
+
+      - typ: narration
+        text: >-
+          Vad händer i framtiden — nästa sommar? Ingen vet. Kanske
+          kommer ett nytt äventyr. Kanske blir det ett nytt oväder — och
+          ny sol efter ovädret. Men något vet vi: Sverige är ett land i
+          Norden. Sjövik är en liten stad vid en liten sjö. Vid sjön
+          ligger ett rött hus, och i huset bor familjen Berg — och nu, i
+          ett annat litet hus vid vattnet, bor Lasse och Maria. Solen
+          går ner över Björksjön. Ludde sover. Misse är ute — det är
+          kattens sak. Och du? Du har läst en hel bok på svenska:
+          trettio kapitel, från "Sverige är ett land" till ett bröllop
+          vid sjön. Boken är slut, och den är ett minne nu — ditt
+          minne. Men svenskan är din också. Grattis — och tack!
+        margin:
+          - "framtiden ⏩ — ingen vet!"
+          - "kapitel ett: 'Sverige är ett land …' — minns du? 🗺"
+          - "📖 trettio kapitel — DU läste dem!"
+          - "Boken är slut. Tack! ❤"
+
+grammatik:
+  - rubrik: "hålla tal — och skåla"
+    forklaring: >-
+      På en fest står man upp och håller tal: "Kära vänner …". Och talet
+      slutar med "Skål!" — då dricker alla tillsammans.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Kära Lasse, kära alla …", "så börjar ett tal"]
+        - ["Var lyckliga tillsammans!", "talets stora ord"]
+        - ["Skål!", "🥂 — och alla dricker"]
+        - ["Tack för talet!", "och man tackar"]
+
+  - rubrik: "bröllopets ord"
+    forklaring: >-
+      Kär → förlovad → gift (kapitel 23!) — och dagen när det händer är
+      ett bröllop, med brud, brudgum, tårta och fest!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["bruden 👰", "kvinnan — med krans i håret"]
+        - ["brudgummen 🤵", "mannen — inte lugn!"]
+        - ["prästen", "talar i kyrkan: JA + JA!"]
+        - ["festen 🎉", "mat, musik, dans, tårta — och tal!"]
+
+  - rubrik: "hela bokens tempus — i ett kapitel"
+    forklaring: >-
+      Nu kan du allt: det som hände, det som har hänt, det som händer —
+      och det som ska hända!
+    tabell:
+      head: ["tempus", "från kapitlet"]
+      rows:
+        - ["preteritum", "Lasse sa JA, och alla ropade hurra."]
+        - ["perfekt", "Det har varit ett stort år."]
+        - ["pluskvamperfekt", "Farmor hade kommit med tåget."]
+        - ["presens", "Alla dansar på ängen."]
+        - ["futurum", "Lasse och Maria ska bo i Sjövik."]
+
+  - rubrik: "boken — och du"
+    forklaring: >-
+      Trettio kapitel: en familj, en stad, ett år — och nästan tusen
+      svenska ord som nu är dina. Läs boken igen om du vill: den blir
+      lättare varje gång. Och sedan? Läs mer svenska — svenskan är din
+      nu!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["kapitel 1", "Sverige är ett land …"]
+        - ["kapitel 30", "… ett bröllop vid sjön!"]
+        - ["och nu?", "Läs mer — svenskan är din! 📖"]
+
+uttal:
+  rubrik: "Två röster — samma ord"
+  forklaring: >-
+    Ett tal är högtidligt: långsamt, stort, fint. Vardagstal är snabbt
+    och litet. Lyssna på samma ord i två röster! 👂🎭
+  grupper:
+    - namn: "högtidligt 🗣"
+      ord: ["Kära vänner …", "Var lyckliga tillsammans!", "Skål!"]
+    - namn: "vardag 💬"
+      ord: ["Hej!", "Tack!", "Hej då!"]
+
+ovningar:
+  A:
+    instruktion: "Hela bokens grammatik — en sista övning!"
+    items:
+      - q: "Lasse och Maria {gifter} sig i kyrkan. (gifta)"
+      - q: "Farmor {hade} kommit med tåget. (pluskvamperfekt!)"
+      - q: "Det {har} varit ett stort år. (perfekt!)"
+      - q: "Lasse och Maria {ska} bo i Sjövik. (futurum!)"
+      - q: "Anders håller ett {tal} — och alla blir tysta."
+      - q: "Maria är kvinnan {som} Lasse älskar. (kapitel 23!)"
+      - q: "Anders säger att han {inte} talar mycket. (BIFF!)"
+      - q: "Långa bord {dukas} på ängen. (passiv -s!)"
+      - q: "Om det kommer ett oväder, {kommer} det ny sol efter det. (om-sats!)"
+      - q: "{Man} ska inte ge upp — och man ska inte vänta för länge! (kapitel 29!)"
+      - q: "en brud — {bruden} (bestämd form!)"
+      - q: "ett minne — många {minnen}"
+  B:
+    instruktion: "Skriv ordet: bröllop, fest, tal, brud, brudgum, präst, tårta, musik, minne, tackar, lyckliga, framtiden."
+    items:
+      - q: "I dag är det {bröllop} i Sjövik!"
+      - q: "Maria är {brud}, och Lasse är {brudgum}."
+      - q: "{Prästen} talar i kyrkan — och sedan: JA + JA!"
+      - q: "{Festen} är på ängen vid Björksjön."
+      - q: "På bordet står en stor vit {tårta}."
+      - q: "Alla dansar till {musiken}."
+      - q: "Anders håller ett långt {tal} — Anders!"
+      - q: "Lasse {tackar} alla vännerna."
+      - q: "– Var {lyckliga} tillsammans! säger Anders."
+      - q: "Kvällen blir ett {minne} för alla."
+      - q: "Vad händer i {framtiden}? Ingen vet!"
+      - q: "Efter festen är boken slut — men svenskan är din!"
+  C:
+    instruktion: "Svara på frågorna — och en sista fråga till dig!"
+    items:
+      - q: "Vad händer i Sjöviks kyrka?"
+        model: "Lasse och Maria gifter sig — de säger JA, och nu är de man och fru!"
+      - q: "Var är festen?"
+        model: "På ängen vid Björksjön — vid vattnet, precis som allt i den här boken."
+      - q: "Varför blir alla tysta när Anders står upp?"
+        model: "Därför att Anders aldrig säger många ord — och nu håller han ett tal!"
+      - q: "Vad säger Anders om året?"
+        model: "Att det har varit ett stort år: oväder och äventyr, resor och hemkomster."
+      - q: "Var ska Lasse och Maria bo?"
+        model: "I ett litet rött hus vid vattnet — i Sjövik!"
+      - q: "Vad ritar Nils på kvällen?"
+        model: "Alla vägar som går till Sjövik — från Stockholm, gården och havet."
+      - q: "Och du — hur många kapitel har du läst på svenska?"
+        model: "Trettio kapitel — en hel bok! Grattis!"
+
+repetition:
+  rubrik: "Efter festen"
+  block:
+    - typ: narration
+      text: >-
+          Efter festen frågar Astrid: – Vad betyder "lycklig"? – Att
+          hjärtat skrattar, säger mamma. Nils skriver i sin bok — han övar
+          varje dag: den som vill skriva bra måste öva! Han skriver om
+          året: om ovädret och äventyret, om sagorna och bröllopet, om alla
+          gästerna. Många gånger misslyckas en mening — då provar han igen,
+          och till slut lyckas den. Ju mer han skriver, desto bättre blir
+          det: det är sant, precis som morfars ordspråk. – Och prästen?
+          frågar Astrid. Var han glad på bröllopet? – Mycket glad, säger
+          mamma. Han åt mest tårta av alla! Vad händer i framtiden? Ingen
+          vet. Men morfar ger ett sista råd — och ett gott råd är guld värt: – Var tillsammans, var glada —
+          och ge aldrig upp. Det är hela sanningen, menar han. Och Nils
+          skriver den sista meningen i sin bok: "Sverige är ett land.
+          Sjövik är en liten stad. Och här bor vi — tillsammans."

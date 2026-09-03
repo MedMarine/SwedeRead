@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+
+# Local working
+.claude/
+
+# Method reference PDFs — large, third-party; keep local only
+reference/
+
+# Generated assets ARE committed: GitHub Pages serves the repo contents, so
+# the mp3 clips and jpg illustrations must live in git. They are cheap to
+# regenerate (tools/generate_audio.py, tools/generate_images.py) and their
+# filenames are content-hashed, so stale clips are inert, not wrong.
+# Batch-job state files are transient:
+tools/.batch-state/

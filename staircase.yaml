@@ -1,0 +1,412 @@
+# Svenska per se illustrata — Del I: Familjen Berg
+# Grammar + vocabulary staircase. 30 chapters, 5 arcs.
+#
+# THE CONTRACT
+#   - grammar_focus marks what a chapter FOREGROUNDS pedagogically, not what is
+#     mechanically permitted. Correct, natural Swedish word order (V2 etc.) is used
+#     from kap 1; it is *named* only when its chapter comes.
+#   - Vocabulary is budgeted. Tiers below are enforced by lib/linter.py.
+#   - Every sentence must be idiomatic Swedish. The staircase constrains what is
+#     SAID, never licenses broken Swedish.
+#
+# BUDGET TIERS
+#   unlocked:  lemma introduced (focus or stretch) in a prior chapter — free
+#   focus:     8-12 new lemmas per chapter; each recurs >= 3x in >= 2 contexts
+#              (waivable per-lemma with 'restraint' marker + justification)
+#   stretch:   margin-glossed extras; cap graduated by arc (A:3 B:4 C:4 D:5 E:6);
+#              auto-promoted to unlocked for the next chapter
+#   freebies:  function words, tracked in lib/lexicon.yaml (intro + tier) —
+#              the lexicon is the single source of truth for all tiers
+#   proper:    names of people/places — tracked, never budgeted
+#   off-budget: anything else -> linter ERROR (gloss it, promote it, or cut it)
+
+meta:
+  title: "Svenska per se illustrata — Del I: Familjen Berg"
+  chapters: 30
+  # actual outcome: ~420 content lemmas (focus+stretch) + ~230 function
+  # words; vocab_plan fields below are the original PLAN — chapter files
+  # and lib/lexicon.yaml are the truth (drift is documented in docs/PLAN.md)
+  new_focus_per_chapter: [8, 12]
+  focus_recurrence_min: 3
+  focus_contexts_min: 2
+  grammar_hits_min: 6
+
+rules:
+  stretch_cap_by_arc: {A: 3, B: 4, C: 4, D: 5, E: 6}
+  arcs:
+    A: {chapters: [1, 6],   name: "Hemma i Sjövik"}
+    B: {chapters: [7, 12],  name: "Dagar och djur"}
+    C: {chapters: [13, 18], name: "Skola och tid"}
+    D: {chapters: [19, 24], name: "Ut i världen"}
+    E: {chapters: [25, 30], name: "Berättelser och fester"}
+  # Density: unique new-lemma types / content tokens, informational warning only.
+  density_warn: 0.05
+
+
+chapters:
+  # ============== ARC A — Hemma i Sjövik ==============
+  - n: 1
+    arc: A
+    title: "Sverige och Norden"
+    grammar_focus: "är/ligger; en/ett; predikativ adjektivkongruens (stor/stort/stora); inte; frågor (Var…? Vad…? Är…? Ligger…?); i/på"
+    patterns:
+      - "X är ett land / en stad / en sjö"
+      - "X ligger i Y"
+      - "X är inte …, X är …"
+      - "Var ligger X? Ligger X i Y? Vad är X?"
+      - "X är stort/stor; X och Y är stora"
+    uttal: "å ä ö; alfabetet; lång och kort vokal"
+    vocab_plan: [land, stad, huvudstad, sjö, hav, ö, berg, stor, liten, ligger, är, heter_preview, bokstav, siffra, ord, svensk, norr, söder]
+    canon_beat: "The map of Norden. Sweden among its neighbors; lakes, seas, islands, mountains. Coda: letters and numbers as objects — å ä ö are Swedish letters."
+
+  - n: 2
+    arc: A
+    title: "Familjen Berg"
+    grammar_focus: "heter; vem?/vems?; genitiv -s; han/hon/de; hur många?; räkneord 1–10; plural -or/-ar/oböjligt"
+    patterns:
+      - "X heter Y / Vad heter X?"
+      - "Vem är X? Vems är X? X:s mamma"
+      - "Hur många barn …? … tre barn"
+      - "en pojke – två pojkar; en flicka – två flickor"
+    uttal: "betoning; plural-or uttalas /-ur/"
+    vocab_plan: [familj, man, kvinna, pojke, flicka, barn, mamma, pappa, son, dotter, bror, syster, hund, katt, gammal, ung, år]
+    canon_beat: "Portraits and the family tree: Anders, Karin, Oskar, Nils, Astrid; Ludde and Misse; the grandparents named; Lasse the sailor uncle at sea."
+
+  - n: 3
+    arc: A
+    title: "Huset vid sjön"
+    grammar_focus: "bestämd form singular (-en/-et); det finns; den/det som pronomen; rumsprepositioner (under, över, vid, bakom, framför)"
+    patterns:
+      - "ett kök → köket; en dörr → dörren"
+      - "Det finns X i Y / Finns det …?"
+      - "Var är katten? Den är under bordet."
+    uttal: "mjukt g före mjuk vokal (Göteborg, Sverige)"
+    vocab_plan: [hus, rum, kök, sovrum, vardagsrum, badrum, trädgård, träd, dörr, fönster, bord, stol, säng, lampa, golv, tak, bor]
+    canon_beat: "Room-by-room tour of the red house by the lake; who sleeps where; Misse hides under things; the garden and the birch."
+
+  - n: 4
+    arc: A
+    title: "En stygg pojke"
+    grammar_focus: "presens av handlingsverb (-ar/-er/korta); objektspronomen (mig, dig, honom, henne, oss, er, dem); varför? – därför att"
+    patterns:
+      - "X retar Y; Y gråter; Z ropar på X"
+      - "Varför gråter du? – Därför att …"
+      - "Mamma ser honom/henne/dem"
+    uttal: "tj-ljudet; mjukt k (kär, kök i återblick)"
+    vocab_plan: [gråter, skrattar, retar, ropar, kommer, springer, ser, hör, frågar, svarar, arg, glad, ledsen, stygg, snäll]
+    canon_beat: "Oskar hides Astrid's doll high in the birch; Astrid cries; Nils tells; Karin arbitrates; Ludde barks at everyone. Restorative ending."
+
+  - n: 5
+    arc: A
+    title: "Vems är bollen?"
+    grammar_focus: "possessiva pronomen (min/mitt/mina, din, vår, er, deras); sin/sitt/sina i kontrast mot hans/hennes"
+    patterns:
+      - "Det är min boll! – Nej, det är inte din boll."
+      - "Oskar tar sin boll (= Oskars) / hans boll (= Nils boll)"
+      - "Barnen har sina saker"
+    uttal: "sj-ljudet (sju, sjö, själv)"
+    vocab_plan: [boll, cykel, bok, sak, leker, spelar, tar, har, ny, röd, blå, gul, grön, vit, svart]
+    canon_beat: "A ball-ownership dispute escalates through the whole family's possessions; colors sort out whose is whose; sin vs hans decides the case."
+
+  - n: 6
+    arc: A
+    title: "Vägen till skolan"
+    grammar_focus: "rörelseverb (går, åker, kommer); riktning/befintlighet (här/hit, där/dit, hemma/hem, inne/in, ute/ut, uppe/upp, nere/ner); bestämd form plural (-na)"
+    patterns:
+      - "Oskar går till skolan; han är i skolan; han går hem; han är hemma"
+      - "Kom hit! Gå dit! Ludde är ute; Ludde vill in"
+      - "vägarna, husen, träden"
+    uttal: "skj/stj/sk före mjuk vokal — sje-ljudets stavningar"
+    vocab_plan: [väg, skola, bro, affär, kyrka, buss, tåg, går, åker, cyklar, långt, nära, sedan, först]
+    canon_beat: "The morning walk mapped: the house, the bridge, the shop, the church, the school. Ludde follows and must be sent hem. Sjövik's geography fixed."
+
+  # ============== ARC B — Dagar och djur ==============
+  - n: 7
+    arc: B
+    title: "Astrid och Misse"
+    grammar_focus: "överföringsverb (ger, får, visar, tar emot_preview); indirekt objekt; reflexiva verb (tvättar sig, lägger sig, sätter sig)"
+    patterns:
+      - "Astrid ger Misse mjölk; Misse får mjölk"
+      - "Misse tvättar sig; Astrid lägger sig"
+    uttal: "gj/hj/lj — stumma bokstäver (hjärta, ljus)"
+    vocab_plan: [ger, får_verb, visar, mjölk, mat, äter, dricker, sover, vaknar, tvättar, lägger, sätter, morgon, kväll, natt, trött]
+    canon_beat: "A day in the parallel lives of the youngest child and the cat; feeding, washing, napping; evening: both asleep in the same armchair."
+
+  - n: 8
+    arc: B
+    title: "I affären"
+    grammar_focus: "den här/det här/de här; hur mycket kostar…?; räkneord 10–100; vill ha"
+    patterns:
+      - "Hur mycket kostar den här boken? Den kostar femtio kronor."
+      - "Jag vill ha ett bröd, tack."
+      - "dyr/dyrt/dyra ↔ billig"
+    uttal: "räkneord i snabbt tal (sju, tjugo, fyrtio)"
+    vocab_plan: [affär_promote, köper, säljer, kostar, betalar, pengar, krona, bröd, ost, äpple, godis, dyr, billig, öppen, stängd]
+    canon_beat: "Oskar and Nils with 100 kronor at the Sjövik shop; wants exceed budget; arithmetic is destiny; the shopkeeper's patience."
+
+  - n: 9
+    arc: B
+    title: "På morfars gård"
+    grammar_focus: "någon/något/några ↔ ingen/inget/inga; alla/varje; fler pluralmönster (-er)"
+    patterns:
+      - "Finns det någon …? Det finns ingen …"
+      - "Ett lamm är borta! Ingen ser det."
+      - "alla djuren; varje morgon"
+    uttal: "retroflexer: rt rd rn rs rl (barn, förstår, korna)"
+    vocab_plan: [gård, bonde, djur, ko, häst, gris, höna, lamm, får_noun, äng, gräs, letar, hittar, ligger_promote, bakom_promote]
+    canon_beat: "Morfar Sven's farm; the animal census; a lamb missing; search across meadow and barn; found asleep behind the well. Får/får wordplay in margin."
+
+  - n: 10
+    arc: B
+    title: "Djur och människor"
+    grammar_focus: "modala hjälpverb I: kan, vill + infinitiv utan att"
+    patterns:
+      - "Fåglar kan flyga; fiskar kan simma; människor kan tala"
+      - "Ludde vill springa; Misse vill sova"
+      - "Kan du…? Ja, det kan jag."
+    uttal: "accent 1 och accent 2 finns (anden/anden, tomten/tomten)"
+    vocab_plan: [människa, fågel, fisk, björn, älg, räv, varg, flyger, simmar, talar, lever, vild, tam, skog_promote, äter_promote]
+    canon_beat: "Nils's classification of the living world, from the farm outward to forest animals; what each can and cannot do; the wolf exists mainly in stories — for now."
+
+  - n: 11
+    arc: B
+    title: "Kroppen"
+    grammar_focus: "modala hjälpverb II: måste, får (inte), behöver; har ont i + kroppsdel; känner sig"
+    patterns:
+      - "Jag har ont i huvudet/magen"
+      - "Du måste stanna hemma; du får inte gå ut"
+      - "Oskar känner sig sjuk (eller…?)"
+    uttal: "lång/kort vokal i minimala par (vit/vitt, tak/tack)"
+    vocab_plan: [kropp, huvud, mage, hand, arm, ben, fot, öga, öra, mun, näsa, hår, sjuk, frisk, feber, läkare]
+    canon_beat: "Oskar claims illness on test day; Karin the physician runs the full-body inspection; miraculous 3 pm recovery is professionally noted."
+
+  - n: 12
+    arc: B
+    title: "Året och månaderna"
+    grammar_focus: "ordningstal; datum; månader/veckodagar/årstider; tidsuttryck (på våren, i januari, om sommaren)"
+    patterns:
+      - "Året har tolv månader; den första månaden heter januari"
+      - "På vintern är det kallt; om sommaren badar barnen"
+      - "Astrid fyller år den femte maj"
+    uttal: "accent 2 i sammansättningar (sommarlov, veckodag)"
+    vocab_plan: [år_promote, månad, vecka, dag, vinter, vår_season, sommar, höst, kall, varm, snö, regn, sol, badar, fyller, födelsedag]
+    canon_beat: "The Swedish year as a wheel: snow to midsummer light to autumn dark; each family member's birthday placed; the seasonal clock the book will run on."
+
+  # ============== ARC C — Skola och tid ==============
+  - n: 13
+    arc: C
+    title: "En ny dag"
+    grammar_focus: "klockan (halv åtta, kvart i, kvart över, fem i halv); morgonrutinens verb med partiklar (stiger upp, klär på sig)"
+    patterns:
+      - "Hur mycket är klockan? Klockan är halv åtta."
+      - "Nils vaknar kvart i sju och stiger upp"
+      - "Astrid klär på sig — långsamt"
+    uttal: "reprise: sje-ljud i tidsord (sju, sjutton)"
+    vocab_plan: [timme, minut, frukost, borstar, tänder_noun, kammar, klär, skyndar, långsam, snabb, tidig, sen, väcker]
+    canon_beat: "One school morning, minute by minute; the Swedish clock drilled by a family perpetually five minutes late; Ludde alone has no schedule."
+
+  - n: 14
+    arc: C
+    title: "I skolan"
+    grammar_focus: "V2 och inversion efter fundament (Nu läser barnen; I dag har de matematik); skolans ord; lär sig"
+    patterns:
+      - "I dag har klassen matematik → inversion drilled with fronted time/place"
+      - "På svenska heter det X"
+      - "Fru Lind säger: 'Nu räknar vi!'"
+    uttal: "betoning i sammansatta skolord (klassrum, matsal)"
+    vocab_plan: [lärare, elev, klass, klassrum, läser, skriver, räknar, ritar, lär, ämne, matematik, svenska_noun, engelska, rast, matsal, penna, papper]
+    canon_beat: "Fru Lind's classroom; the book turns self-aware ('på svenska heter det…'); Oskar draws wolves in the margin of his math."
+
+  - n: 15
+    arc: C
+    title: "Ovädret"
+    grammar_focus: "preteritum I: svaga verb på -ade; var/hade; det-konstruktioner (det regnar, det blåser, det åskar)"
+    patterns:
+      - "I går sken solen. I dag regnar det."
+      - "Det blåste hårt; träden vajade; regnet slog mot fönstren"
+      - "Var är Misse? Misse var ute!"
+    uttal: "supradentaler i väderord (regn uttal, åskan)"
+    vocab_plan: [väder, oväder, regnar, blåser, åskar, blixt, vind, moln, himmel, våt, torr, paraply, stannar, tittar, plötsligt]
+    canon_beat: "The first storm; the narrative looks backward for the first time; Misse missing in the rain; found soaked and furious under the porch."
+
+  - n: 16
+    arc: C
+    title: "Vad hände i går?"
+    grammar_focus: "preteritum II: -de/-te/-dde + starka kärnverb (gick, kom, såg, fick, åt, drack, sa, gjorde)"
+    patterns:
+      - "Först …, sedan …, till slut …"
+      - "Vad gjorde du i går? – Jag gick…, jag såg…"
+      - "weak vs strong laid side by side in margin"
+    uttal: "kort a i starka preteritum (drack, satt) mot lång (åt, kom)"
+    vocab_plan: [hände, gick, kom_pret, såg, fick, åt, drack, sa, gjorde, satt, stod, låg, berättar, minns, glömmer]
+    canon_beat: "The storm day retold at the kitchen table, each person's version; Oskar's account grows heroic; Nils supplies corrections; narrative sequencing words."
+
+  - n: 17
+    arc: C
+    title: "Vem har mest?"
+    grammar_focus: "komparation (större/störst, mer/mest, bättre/bäst, äldre/äldst); än; högre räkneord (hundra, tusen)"
+    patterns:
+      - "Oskar är äldre än Astrid; Anders är äldst… nej, morfar är äldst!"
+      - "Vem har mest pengar? Nils har fler kronor än Oskar."
+      - "Vänern är större än Vättern (kap 1 återbesök)"
+    uttal: "accentväxling i komparation (stor–större)"
+    vocab_plan: [jämför, sparar, större, mindre, äldre, yngre, bättre, sämre, längre, kortare, hög, låg_adj, tung, lätt, nästan]
+    canon_beat: "Sibling economics: saved crowns counted and compared; superlatives settle and unsettle disputes; ch1's lakes return as comparison fodder."
+
+  - n: 18
+    arc: C
+    title: "Ett brev till farmor"
+    grammar_focus: "perfekt (har + supinum); någonsin/aldrig/redan/just"
+    patterns:
+      - "Vi har haft en storm; Misse har varit ute i regnet"
+      - "Har du någonsin sett en älg? Jag har aldrig…"
+      - "preteritum vs perfekt contrasted in margin"
+    uttal: "obetonat 'har' i snabbt tal"
+    vocab_plan: [brev, skickar, berättat, hänt, varit, gjort, sett, fått, skrivit, läst, kär_hälsning, hälsar, kram, frimärke, brevlåda]
+    canon_beat: "The children compose a letter to farmor in Stockholm summarizing the year so far (built-in review); the letter is posted; a reply arrives with an invitation."
+
+  # ============== ARC D — Ut i världen ==============
+  - n: 19
+    arc: D
+    title: "Resan till Stockholm"
+    grammar_focus: "futurum: ska, kommer att, tänker; reseord"
+    patterns:
+      - "I morgon ska familjen resa; tåget kommer att gå klockan åtta"
+      - "Vad tänker du göra i Stockholm?"
+      - "Live geography: the ch1 map traversed by rail"
+    uttal: "reduktion: 'ska' och 'kommer att' i tal (kommer å)"
+    vocab_plan: [resa, tåg_promote, station, biljett, packar, väska, karta, huvudstad_promote, timmar, framme, fönsterplats, spännande]
+    canon_beat: "Packing chaos; the train north through named real geography; Nils narrates the map; arrival at Stockholms centralstation into farmor's arms."
+
+  - n: 20
+    arc: D
+    title: "Hos farmor"
+    grammar_focus: "bestämd form av adjektiv (den stora staden, det gamla huset, de höga husen); hos"
+    patterns:
+      - "en gammal stad → den gamla staden (double definiteness drilled)"
+      - "Slottet är stort. Det stora slottet ligger vid vattnet."
+      - "hemma hos farmor"
+    uttal: "accent i bestämd adjektivfras"
+    vocab_plan: [slott, gata, torg, museum, båt_preview, vatten, bro_promote, trappa, våning, hiss, gamla_stan_vocab, turist, glass, folk]
+    canon_beat: "Stockholm through small-town eyes: Gamla stan's narrow streets, the palace, boats on the water; farmor's fifth-floor flat with the elevator Astrid loves."
+
+  - n: 21
+    arc: D
+    title: "Bråket"
+    grammar_focus: "att-satser; bisatsordföljd — inte före verbet (BIFF); säger/tror/vet/tycker att"
+    patterns:
+      - "Han säger att han inte gjorde det"
+      - "Elsa tror att Oskar ljuger; Oskar vet att det inte är sant"
+      - "huvudsats vs bisats word order side by side in margin"
+    uttal: "satsmelodi i påstående vs fråga"
+    vocab_plan: [bråk, bråkar, ljuger, sant, fel_adj, lovar, förlåt, förlåter, sur, vän_promote, ovän, menar, egentligen, till_sist]
+    canon_beat: "Back home: Oskar and Elsa's friendship fractures over a broken bike bell and competing accounts; reported speech carries the whole plot; reconciliation by förlåt."
+
+  - n: 22
+    arc: D
+    title: "Akta hunden!"
+    grammar_focus: "imperativ (full paradigm: kom! gå! spring! var! ät!); får/får inte (tillåtelse); vågar; rädd för"
+    patterns:
+      - "Akta dig! Spring inte! Var försiktig!"
+      - "Man får inte gå in — herr Holm's gate sign"
+      - "Vågar du? Jag är inte rädd för hundar!"
+    uttal: "imperativ intonation; kort vokal i utrop"
+    vocab_plan: [skylt, grind, staket, farlig, vågar, rädd, skäller, biter, morrar, lugn, klappar, svans, viftar, vaktar]
+    canon_beat: "Herr Holm's enormous dog Bill and the sign on the gate; Oskar's dare, Astrid's fearlessness; Bill is revealed to be an elderly softie; Ludde is unimpressed."
+
+  - n: 23
+    arc: D
+    title: "Lasse och Maria"
+    grammar_focus: "relativsatser med som; känsloverb (älskar, saknar, längtar efter); förlovad/gift"
+    patterns:
+      - "flickan som Lasse älskar bor i Stockholm"
+      - "brevet som kom i går är från Maria"
+      - "Lasse längtar efter Maria; Maria saknar Lasse"
+    uttal: "obetonat 'som'; frasering i längre meningar"
+    vocab_plan: [sjöman, fartyg, hamn, älskar, saknar, längtar, träffar, kär, förlovad, gift, ring, hjärta, fotografi, ombord]
+    canon_beat: "Uncle Lasse's ship comes in; the photograph in his cabin; the girl who — relative clauses stitch the romance; he confides in the children: a ring, a plan."
+
+  - n: 24
+    arc: D
+    title: "Den sjuka pojken"
+    grammar_focus: "pluskvamperfekt (hade + supinum); tidsbisatser (när, medan, innan, efter att)"
+    patterns:
+      - "Nils hade varit våt hela dagen; nu hade han feber"
+      - "När Karin kom in, sov han; medan han sov, satt mamma vid sängen"
+      - "perfekt vs pluskvamperfekt in margin"
+    uttal: "viskad/tyst prosodi — läsning i sjukrummet"
+    vocab_plan: [hosta, halsont, medicin, sked, termometer, filt, kudde, vilar, orolig, bättre_promote, natten_igenom, dröm, drömmer, feber_promote]
+    canon_beat: "Nils — who never fakes — is truly ill after the rain; a night vigil narrative in layered past tenses; fever dream of the map of Sweden; morning brings the fever down."
+
+  # ============== ARC E — Berättelser och fester ==============
+  - n: 25
+    arc: E
+    title: "Sagan om trollet i berget"
+    grammar_focus: "sagoberättande: preteritum-mästring; 'det var en gång'; berättande konnektiv (då, till slut, långt borta)"
+    patterns:
+      - "Det var en gång …"
+      - "folk-tale frame: mamma berättar, barnen frågar, sagan svarar"
+      - "archaic-flavored formulas flagged in margin as sagospråk"
+    uttal: "berättarröst: rytm och pauser"
+    vocab_plan: [saga, troll, berg_promote, guld, silver, prinsessa, kung, mörk, ljus_adj, ensam, vandrar, försvinner, lovar_promote, klok, dum]
+    canon_beat: "Fever-recovered Nils demands a story; Karin tells an original folktale: the troll in the mountain who hoards gold but wants a friend; the children argue about the moral."
+
+  - n: 26
+    arc: E
+    title: "Pojken som ville flyga"
+    grammar_focus: "passiv på -s (kallas, byggdes, sägs); skulle (framtid i dåtid / konditionalis)"
+    patterns:
+      - "pojken kallades Vinge; vingarna byggdes av fjädrar"
+      - "det sägs att …"
+      - "han skulle flyga högre än fåglarna — men…"
+    uttal: "s-passivens uttal mot genitiv-s"
+    vocab_plan: [vinge, fjäder, bygger, byggdes, kallas, faller, stiger_promote, högt, modig, varnar, lyssnar, vind_promote, mot, ändå]
+    canon_beat: "Morfar counters with his own tale: the boy who built wings to fly over the forest; a northern Icarus who — being Swedish — listens to the warning halfway and survives, humbler. Passive voice carries the tale-telling register."
+
+  - n: 27
+    arc: E
+    title: "Midsommar"
+    grammar_focus: "partikelverb med betonad partikel (ställer upp, tar fram, slår upp, håller på, ger sig av); medan/innan i festens kronologi"
+    patterns:
+      - "particle verbs staged as physical actions around the maypole"
+      - "margin contrasts: hälsar på (visits) vs hälsar på (greets)"
+      - "Nu ställer alla upp majstången!"
+    uttal: "betonad partikel — rytmen som betyder något"
+    vocab_plan: [midsommar, majstång, blomma, krans, sill, potatis, jordgubbe, grädde, dansar, sjunger, firar, dukar, bjuder, gäst, lek]
+    canon_beat: "Midsummer at the farm: raising the maypole (physically enacting particle verbs), flower crowns, herring and strawberries, dancing till the sun barely sets; Lasse arrives with Maria — first meeting with the whole family."
+
+  - n: 28
+    arc: E
+    title: "Storm på sjön"
+    grammar_focus: "villkorssatser med om (reala); passiv i handling; berättande syntes av alla tempus"
+    patterns:
+      - "Om vinden ökar, måste vi vända"
+      - "seglet revs; båten drevs mot ön"
+      - "full tense range in one narrative"
+    uttal: "prosodi under stress: korta rop (Håll i dig!)"
+    vocab_plan: [segel, mast, våg, ror, ökar, vänder, ropar_promote, håller, fast, räddar, simmar_promote, strand, säker, lugnar, äventyr]
+    canon_beat: "Lasse takes the children sailing on the lake; the ch15 storm returns with waves; seamanship and conditionals; safe on the island beach until it passes; Oskar is — briefly — speechless."
+
+  - n: 29
+    arc: E
+    title: "Man ska inte ge upp"
+    grammar_focus: "generellt man; ordspråk; både…och / varken…eller / antingen…eller; ju…desto"
+    patterns:
+      - "Man ska inte ge upp; man vet aldrig"
+      - "Ju mer man övar, desto bättre blir man"
+      - "morfar's proverb collection, one per beat"
+    uttal: "ordspråkens rytm; accent 2 i fasta uttryck"
+    vocab_plan: [ordspråk, betyder, övar, ger_upp, försöker, lyckas, misslyckas, mod, sanning, tålamod, erfarenhet, råd, viktig, värd]
+    canon_beat: "Post-adventure reflection on morfar's porch; proverbs traded and tested against the summer's events; Lasse asks morfar and Anders for their blessing — he will propose at the party."
+
+  - n: 30
+    arc: E
+    title: "Festen"
+    grammar_focus: "syntes; talregister (hålla tal, skåla); framtidsutblick"
+    patterns:
+      - "the whole staircase deployed in one long festive narrative"
+      - "Anders håller tal; alla skålar"
+      - "Nästa sommar ska … — the book ends looking forward"
+    uttal: "högtidligt tal vs vardagstal — samma ord, två röster"
+    vocab_plan: [bröllop, fest, tal_noun, brud, brudgum, tårta, musik, orkester_stretch, dansgolv, minne, framtid, tackar, lycklig, tillsammans, slut]
+    canon_beat: "Lasse and Maria's wedding by the lake at Sjövik; every named character returns; Anders's speech reviews the book's own story (built-in final review); the map of ch1 reappears as the guests' journeys; the last line mirrors the first, at the lake."

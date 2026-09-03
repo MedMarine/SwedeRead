@@ -1,0 +1,28 @@
+{
+ "nummer": 10,
+ "titel": "Kattens sak",
+ "efter_kapitel": 30,
+ "typ": "vardag",
+ "block": [
+  {
+   "typ": "narration",
+   "text": "Vart går Misse på kvällen? – Det är kattens sak, säger familjen. Så har det varit i hela den här boken. Men nu är boken slut — och till dig, som har läst alla trettio kapitel, kommer här sanningen. Sch! Det är en hemlighet.",
+   "audio": "audio/lb10/b000_8c6abffa7d0d.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "När huset sover, går Misse ut genom fönstret och upp i björken. Där sitter hon en lång tid och lyssnar på natten. Sedan går hon ner, genom trädgården, ut på vägen — och till bron. På bron sitter hon och tittar på det mörka vattnet. Sjunger någon där? Katten vet. Men katter berättar ingenting. Vid affären stannar hon: vid dörren står mjölk! Fru Ek ställer fram den varje kväll. Till Misse? Till en tomte? Fru Ek vet inte — men mjölken är alltid borta på morgonen.",
+   "audio": "audio/lb10/b001_bcd206e9c1b0.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Från affären går katten genom staden. Hon sitter en kvart på skolans trappa — skolan sover också. Hon går förbi kyrkan, och kyrkans klocka säger ingenting: klockor sover på natten (fråga trollet!). Vid stationen står ett tåg och sover — tåg sover på natten, precis som barn. Misse ser på allt. Staden är hennes på natten: varje väg, varje trädgård, varje trappa. En liten grå katt — och en hel stad.",
+   "audio": "audio/lb10/b002_d116b245951c.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Sedan går Misse till herr Holms grind. Där sitter Bill. En katt och en hund — ovänner? Nej: gamla vänner. De sitter tillsammans i tio minuter och säger ingenting. Det är så gamla vänner gör. Och när himlen blir ljus, går Misse hem: in genom fönstret, ner i Astrids säng. Där sover hon hela dagen. Vad gör Misse på natten? Nu vet du. Men säg det inte till familjen. Det är kattens sak — och din.",
+   "audio": "audio/lb10/b003_21b0b15a8b87.mp3"
+  }
+ ]
+}

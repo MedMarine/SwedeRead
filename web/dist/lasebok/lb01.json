@@ -1,0 +1,23 @@
+{
+ "nummer": 1,
+ "titel": "En dag med Ludde",
+ "efter_kapitel": 7,
+ "typ": "vardag",
+ "block": [
+  {
+   "typ": "narration",
+   "text": "Ludde är familjens hund — en stor, snäll hund. Vad gör en hund från morgon till kväll? Mycket! På morgonen vaknar Ludde i köket. Han hör familjen och springer till dem: hundens \"god morgon\" är stort! Sedan får han mat. Ludde äter mycket — och han äter det på en, två, tre. Misse dricker sin mjölk under bordet, och Ludde ser på henne: har katten mat? Nej — mjölk är kattens sak.",
+   "audio": "audio/lb01/b000_9c7c8179f835.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Sedan går barnen till skolan, och huset sover. Vad gör Ludde? Han sover. Han går ut i trädgården och in i köket. Han ligger vid dörren och ser på den: kommer barnen? Inte nu … inte nu … Och sedan — de kommer! Och Ludde springer, springer, springer till dem: en stor hund, tre barn och en stor, stor \"god morgon\"!",
+   "audio": "audio/lb01/b001_2d4bd0169df8.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Misse tvättar sig — katter tvättar sig själva. Tvättar Ludde sig? Nej! Karin tvättar honom i trädgården med mycket vatten, och Ludde springer från henne, ut i trädgården. På kvällen får han mat och vatten. Han lägger sig i köket och sover. Vad gör en hund? Han äter, han springer, han sover — och han är familjens stora, snälla hund.",
+   "audio": "audio/lb01/b002_2384c40766a5.mp3"
+  }
+ ]
+}

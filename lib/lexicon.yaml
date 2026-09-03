@@ -1,0 +1,3701 @@
+# Svenska per se illustrata — the morphology ledger.
+#
+# Every lemma the book uses, with all inflected surface forms the linter should
+# accept, a Swedish-first gloss (what the reader sees on tap), an optional English
+# emergency-exit gloss, the chapter that introduces it (intro), and its tier:
+#   focus | stretch | freebie | proper (proper nouns live in the `proper:` map)
+#
+# Conventions:
+#   - keys are the dictionary citation form (substantiv: indefinite singular;
+#     verb: infinitive; adjektiv: en-form)
+#   - forms MUST include every surface the prose actually uses
+#   - gloss_sv is written with vocabulary already unlocked at intro time wherever
+#     possible; pictures/emoji may stand in where words would run ahead
+
+lemmas:
+
+  # ---------- step-0 freebies (kap 1) ----------
+  och:      {pos: konjunktion, forms: [och], gloss_sv: "A och B = A + B", gloss_en: "and", intro: 1, tier: freebie}
+  men:      {pos: konjunktion, forms: [men], gloss_sv: "A men inte B", gloss_en: "but", intro: 1, tier: freebie}
+  inte:     {pos: adverb, forms: [inte], gloss_sv: "nej: är inte = ✗", gloss_en: "not", intro: 1, tier: freebie}
+  också:    {pos: adverb, forms: [också], gloss_sv: "A är X. B är X också.", gloss_en: "also, too", intro: 1, tier: freebie}
+  i:        {pos: preposition, forms: [i], gloss_sv: "Stockholm ligger i Sverige", gloss_en: "in", intro: 1, tier: freebie}
+  vid:      {pos: preposition, forms: [vid], gloss_sv: "Sjövik ligger vid en sjö: 🏘️〰️ (inte i sjön!)", gloss_en: "by, next to", intro: 1, tier: freebie}
+  med:      {pos: preposition, forms: [med], gloss_sv: "ett ord med fyra bokstäver: s-t-a-d", gloss_en: "with", intro: 1, tier: freebie}
+  en:       {pos: artikel, forms: [en], gloss_sv: "en stad, en sjö (en-ord)", gloss_en: "a/an; one", intro: 1, tier: freebie}
+  ett:      {pos: artikel, forms: [ett], gloss_sv: "ett land, ett hav (ett-ord)", gloss_en: "a/an; one", intro: 1, tier: freebie}
+  vara:     {pos: verb, forms: [är, vara, var, varit], gloss_sv: "Sverige ÄR ett land (=). (var, varit: kapitel 15 och 18!)", gloss_en: "to be (är = is/are)", intro: 1, tier: freebie}
+  var_q:    {pos: frågeord, forms: [var], gloss_sv: "Var ligger X? — X ligger i …", gloss_en: "where?", intro: 1, tier: freebie}
+  vad:      {pos: frågeord, forms: [vad], gloss_sv: "Vad är X? — X är en …", gloss_en: "what?", intro: 1, tier: freebie}
+  ja:       {pos: interjektion, forms: [ja], gloss_sv: "✓", gloss_en: "yes", intro: 1, tier: freebie}
+  nej:      {pos: interjektion, forms: [nej], gloss_sv: "✗", gloss_en: "no", intro: 1, tier: freebie}
+  eller:    {pos: konjunktion, forms: [eller], gloss_sv: "A eller B? Ja eller nej!", gloss_en: "or", intro: 1, tier: freebie}
+  mycket:   {pos: adverb, forms: [mycket], gloss_sv: "mycket stor = stor stor stor!", gloss_en: "very; much", intro: 1, tier: freebie}
+  många:    {pos: pronomen, forms: [många], gloss_sv: "många = 10, 20, 100 …", gloss_en: "many", intro: 1, tier: freebie}
+  det:      {pos: pronomen, forms: [det], gloss_sv: "Vad är det? Det är en ö.", gloss_en: "it, that", intro: 1, tier: freebie}
+  två:      {pos: räkneord, forms: [två], gloss_sv: "2", gloss_en: "two", intro: 1, tier: freebie}
+  tre:      {pos: räkneord, forms: [tre], gloss_sv: "3", gloss_en: "three", intro: 1, tier: freebie}
+  fyra:     {pos: räkneord, forms: [fyra], gloss_sv: "4", gloss_en: "four", intro: 1, tier: freebie}
+  fem:      {pos: räkneord, forms: [fem], gloss_sv: "5", gloss_en: "five", intro: 1, tier: freebie}
+  kapitel:  {pos: substantiv, gender: ett, forms: [kapitel, kapitlet, kapitlen], gloss_sv: "kapitel 1, kapitel 2, kapitel 3 … 📖", gloss_en: "chapter", intro: 1, tier: freebie}
+
+  # ---------- kap 1 focus ----------
+  land:
+    pos: substantiv
+    gender: ett
+    forms: [land, landet, länder, länderna, lands, landets, länders, ländernas]
+    gloss_sv: "Sverige, Norge och Danmark är länder"
+    gloss_en: "country"
+    intro: 1
+    tier: focus
+  stad:
+    pos: substantiv
+    gender: en
+    forms: [stad, staden, stan, städer, städerna, stads, stadens, städers, städernas]
+    gloss_sv: "🏙 Stockholm och Göteborg är städer!"
+    gloss_en: "city, town"
+    intro: 1
+    tier: focus
+  sjö:
+    pos: substantiv
+    gender: en
+    forms: [sjö, sjön, sjöar, sjöarna, sjös, sjöns, sjöars, sjöarnas]
+    gloss_sv: "💧 Vänern och Vättern är sjöar (inte hav 🌊!)"
+    gloss_en: "lake"
+    intro: 1
+    tier: focus
+  hav:
+    pos: substantiv
+    gender: ett
+    forms: [hav, havet, haven, havs, havets, havens]
+    gloss_sv: "🌊 Atlanten är ett hav — mycket, MYCKET stort! (en sjö är liten)"
+    gloss_en: "sea, ocean"
+    intro: 1
+    tier: focus
+  ö:
+    pos: substantiv
+    gender: en
+    forms: [ö, ön, öar, öarna, ös, öns, öars, öarnas]
+    gloss_sv: "Gotland är en ö — land i havet 🏝️"
+    gloss_en: "island"
+    intro: 1
+    tier: focus
+  berg:
+    pos: substantiv
+    gender: ett
+    forms: [berg, berget, bergen, bergs, bergets, bergens]
+    gloss_sv: "⛰️ Kebnekaise är ett berg!"
+    gloss_en: "mountain"
+    intro: 1
+    tier: focus
+  ligga:
+    pos: verb
+    forms: [ligger, ligga, låg, legat]
+    gloss_sv: "X ligger i Y = X är i Y 🗺"
+    gloss_en: "to lie, be located"
+    intro: 1
+    tier: focus
+  stor:
+    pos: adjektiv
+    forms: [stor, stort, stora, större, störst, största]
+    gloss_sv: "stor ↔ liten. Ryssland är stort, Danmark är litet."
+    gloss_en: "big"
+    intro: 1
+    tier: focus
+  liten:
+    pos: adjektiv
+    forms: [liten, litet, lilla, små, mindre, minst, minsta]
+    gloss_sv: "liten ↔ stor"
+    gloss_en: "small"
+    intro: 1
+    tier: focus
+  svensk:
+    pos: adjektiv
+    forms: [svensk, svenskt, svenska, svenskan]
+    gloss_sv: "svensk = Sveriges: å, ä och ö är svenska bokstäver!"
+    gloss_en: "Swedish"
+    intro: 1
+    tier: focus
+  bokstav:
+    pos: substantiv
+    gender: en
+    forms: [bokstav, bokstaven, bokstäver, bokstäverna, bokstavs, bokstavens]
+    gloss_sv: "A, B, C … är bokstäver"
+    gloss_en: "letter (of the alphabet)"
+    intro: 1
+    tier: focus
+  ord:
+    pos: substantiv
+    gender: ett
+    forms: [ord, ordet, orden, ords, ordets, ordens]
+    gloss_sv: "’land’ och ’stad’ är ord: l + a + n + d!"
+    gloss_en: "word"
+    intro: 1
+    tier: focus
+
+  # ---------- kap 1 stretch ----------
+  siffra:
+    pos: substantiv
+    gender: en
+    forms: [siffra, siffran, siffror, siffrorna]
+    gloss_sv: "1, 2, 3 … är siffror"
+    gloss_en: "digit, numeral"
+    intro: 1
+    tier: stretch
+  norr:
+    pos: substantiv
+    forms: [norr]
+    gloss_sv: "norr ↑ (söder ↓) 🧭"
+    gloss_en: "north"
+    intro: 1
+    tier: stretch
+  söder:
+    pos: substantiv
+    forms: [söder]
+    gloss_sv: "söder ↓ (norr ↑) 🧭"
+    gloss_en: "south"
+    intro: 1
+    tier: stretch
+
+  # ---------- kap 2 freebies ----------
+  heta:     {pos: verb, forms: [heter, heta, hette, hetat], gloss_sv: "Vad heter pojken? — Han heter Oskar!", gloss_en: "to be called/named", intro: 2, tier: freebie}
+  vem:      {pos: frågeord, forms: [vem], gloss_sv: "Vem är X? — X är Oskar. (person!)", gloss_en: "who?", intro: 2, tier: freebie}
+  vems:     {pos: frågeord, forms: [vems], gloss_sv: "Vems katt? — Astrids katt!", gloss_en: "whose?", intro: 2, tier: freebie}
+  han:      {pos: pronomen, forms: [han], gloss_sv: "Anders = han ♂", gloss_en: "he", intro: 2, tier: freebie}
+  hon:      {pos: pronomen, forms: [hon], gloss_sv: "Karin = hon ♀", gloss_en: "she", intro: 2, tier: freebie}
+  de:       {pos: pronomen, forms: [de], gloss_sv: "Oskar och Nils = de (två, tre …)", gloss_en: "they", intro: 2, tier: freebie}
+  hur:      {pos: frågeord, forms: [hur], gloss_sv: "Hur många? — en, två, tre …", gloss_en: "how?", intro: 2, tier: freebie}
+  hans:     {pos: pronomen, forms: [hans], gloss_sv: "hans = Oskars! (han → hans)", gloss_en: "his", intro: 2, tier: freebie}
+  hennes:   {pos: pronomen, forms: [hennes], gloss_sv: "hennes katt = flickans katt (hon → hennes)", gloss_en: "her(s)", intro: 2, tier: freebie}
+  på:       {pos: preposition, forms: [på], gloss_sv: "på Atlanten, på ett hav", gloss_en: "on", intro: 2, tier: freebie}
+  sex:      {pos: räkneord, forms: [sex], gloss_sv: "6", gloss_en: "six", intro: 2, tier: freebie}
+  sju:      {pos: räkneord, forms: [sju], gloss_sv: "7", gloss_en: "seven", intro: 2, tier: freebie}
+  åtta:     {pos: räkneord, forms: [åtta], gloss_sv: "8", gloss_en: "eight", intro: 2, tier: freebie}
+  nio:      {pos: räkneord, forms: [nio], gloss_sv: "9", gloss_en: "nine", intro: 2, tier: freebie}
+  tio:      {pos: räkneord, forms: [tio], gloss_sv: "10", gloss_en: "ten", intro: 2, tier: freebie}
+  tolv:     {pos: räkneord, forms: [tolv], gloss_sv: "12", gloss_en: "twelve", intro: 2, tier: freebie}
+  elva:     {pos: räkneord, forms: [elva], gloss_sv: "11", gloss_en: "eleven", intro: 2, tier: freebie}
+
+  # ---------- kap 2 focus ----------
+  familj:
+    pos: substantiv
+    gender: en
+    forms: [familj, familjen, familjer, familjerna, familjs, familjens]
+    gloss_sv: "mamma + pappa + barn = en familj 👨‍👩‍👧‍👦"
+    gloss_en: "family"
+    intro: 2
+    tier: focus
+  man:
+    pos: substantiv
+    gender: en
+    forms: [man, mannen, män, männen, mans, mannens, mäns]
+    gloss_sv: "Anders är en man ♂ (↔ kvinna)"
+    gloss_en: "man"
+    intro: 2
+    tier: focus
+  kvinna:
+    pos: substantiv
+    gender: en
+    forms: [kvinna, kvinnan, kvinnor, kvinnorna, kvinnas, kvinnans]
+    gloss_sv: "Karin är en kvinna ♀ (↔ man)"
+    gloss_en: "woman"
+    intro: 2
+    tier: focus
+  pojke:
+    pos: substantiv
+    gender: en
+    forms: [pojke, pojken, pojkar, pojkarna, pojkes, pojkens, pojkars]
+    gloss_sv: "Oskar och Nils är pojkar — små män!"
+    gloss_en: "boy"
+    intro: 2
+    tier: focus
+  flicka:
+    pos: substantiv
+    gender: en
+    forms: [flicka, flickan, flickor, flickorna, flickas, flickans, flickors]
+    gloss_sv: "Astrid är en flicka — en liten kvinna!"
+    gloss_en: "girl"
+    intro: 2
+    tier: focus
+  barn:
+    pos: substantiv
+    gender: ett
+    forms: [barn, barnet, barnen, barns, barnets, barnens]
+    gloss_sv: "pojkar och flickor är barn (↔ män och kvinnor)"
+    gloss_en: "child"
+    intro: 2
+    tier: focus
+  mamma:
+    pos: substantiv
+    gender: en
+    forms: [mamma, mamman, mammor, mammorna, mammas]
+    gloss_sv: "Karin är Oskars mamma ♀"
+    gloss_en: "mum, mother"
+    intro: 2
+    tier: focus
+  pappa:
+    pos: substantiv
+    gender: en
+    forms: [pappa, pappan, pappor, papporna, pappas]
+    gloss_sv: "Anders är Oskars pappa ♂"
+    gloss_en: "dad, father"
+    intro: 2
+    tier: focus
+  son:
+    pos: substantiv
+    gender: en
+    forms: [son, sonen, söner, sönerna, sons, sonens]
+    gloss_sv: "Oskar är Anders och Karins son (pojke i familjen)"
+    gloss_en: "son"
+    intro: 2
+    tier: focus
+  dotter:
+    pos: substantiv
+    gender: en
+    forms: [dotter, dottern, döttrar, döttrarna, dotters, dotterns]
+    gloss_sv: "Astrid är Anders och Karins dotter (flicka i familjen)"
+    gloss_en: "daughter"
+    intro: 2
+    tier: focus
+  hund:
+    pos: substantiv
+    gender: en
+    forms: [hund, hunden, hundar, hundarna, hunds, hundens, hundars]
+    gloss_sv: "🐕 Ludde är en hund!"
+    gloss_en: "dog"
+    intro: 2
+    tier: focus
+  katt:
+    pos: substantiv
+    gender: en
+    forms: [katt, katten, katter, katterna, katts, kattens]
+    gloss_sv: "🐈 Misse är en katt!"
+    gloss_en: "cat"
+    intro: 2
+    tier: focus
+
+  # ---------- kap 2 stretch ----------
+  bror:
+    pos: substantiv
+    gender: en
+    forms: [bror, brodern, bröder, bröderna, brors, broderns]
+    gloss_sv: "Oskar är Astrids bror. Anders och Lasse är bröder."
+    gloss_en: "brother"
+    intro: 2
+    tier: stretch
+  syster:
+    pos: substantiv
+    gender: en
+    forms: [syster, systern, systrar, systrarna, systers, systerns]
+    gloss_sv: "Astrid är Oskars och Nils syster"
+    gloss_en: "sister"
+    intro: 2
+    tier: stretch
+  år:
+    pos: substantiv
+    gender: ett
+    forms: [år, året, åren, års, årets, årens]
+    gloss_sv: "Astrid är sju år (7!). 1 år = januari → december."
+    gloss_en: "year"
+    intro: 2
+    tier: stretch
+
+  # ---------- kap 3 freebies ----------
+  finnas:   {pos: verb, forms: [finns, finnas, fanns, funnits], gloss_sv: "det finns X i Y = X är i Y", gloss_en: "to exist, there is/are", intro: 3, tier: freebie}
+  under:    {pos: preposition, forms: [under], gloss_sv: "⬇ Misse ligger under bordet", gloss_en: "under", intro: 3, tier: freebie}
+  över:     {pos: preposition, forms: [över], gloss_sv: "⬆ lampan är över bordet", gloss_en: "over, above", intro: 3, tier: freebie}
+  bakom:    {pos: preposition, forms: [bakom], gloss_sv: "← trädgården är bakom huset", gloss_en: "behind", intro: 3, tier: freebie}
+  framför:  {pos: preposition, forms: [framför], gloss_sv: "→ dörren är framför huset", gloss_en: "in front of", intro: 3, tier: freebie}
+  mellan:   {pos: preposition, forms: [mellan], gloss_sv: "A ⟷ B: trädgården ligger mellan huset och sjön", gloss_en: "between", intro: 3, tier: freebie}
+  här:      {pos: adverb, forms: [här], gloss_sv: "här = 📍", gloss_en: "here", intro: 3, tier: freebie}
+  den:      {pos: pronomen, forms: [den], gloss_sv: "katten = den (en-ord; huset = det)", gloss_en: "it (en-words)", intro: 3, tier: freebie}
+
+  # ---------- kap 3 focus ----------
+  hus:
+    pos: substantiv
+    gender: ett
+    forms: [hus, huset, husen, husets, husens]
+    gloss_sv: "familjen Berg bor i ett hus 🏠"
+    gloss_en: "house"
+    intro: 3
+    tier: focus
+  rum:
+    pos: substantiv
+    gender: ett
+    forms: [rum, rummet, rummen, rummets]
+    gloss_sv: "i huset finns fem rum: kök, sovrum …"
+    gloss_en: "room"
+    intro: 3
+    tier: focus
+  kök:
+    pos: substantiv
+    gender: ett
+    forms: [kök, köket, köken, kökets]
+    gloss_sv: "rummet med bord och stolar 🍽"
+    gloss_en: "kitchen"
+    intro: 3
+    tier: focus
+  sovrum:
+    pos: substantiv
+    gender: ett
+    forms: [sovrum, sovrummet, sovrummen, sovrummets]
+    gloss_sv: "ett rum med en säng 🛏"
+    gloss_en: "bedroom"
+    intro: 3
+    tier: focus
+  dörr:
+    pos: substantiv
+    gender: en
+    forms: [dörr, dörren, dörrar, dörrarna, dörrens]
+    gloss_sv: "🚪 → 🏠"
+    gloss_en: "door"
+    intro: 3
+    tier: focus
+  fönster:
+    pos: substantiv
+    gender: ett
+    forms: [fönster, fönstret, fönstren, fönstrets]
+    gloss_sv: "🪟 i huset 👀"
+    gloss_en: "window"
+    intro: 3
+    tier: focus
+  bord:
+    pos: substantiv
+    gender: ett
+    forms: [bord, bordet, borden, bordets]
+    gloss_sv: "i köket: bordet och fyra stolar"
+    gloss_en: "table"
+    intro: 3
+    tier: focus
+  stol:
+    pos: substantiv
+    gender: en
+    forms: [stol, stolen, stolar, stolarna, stolens]
+    gloss_sv: "🪑 vid bordet"
+    gloss_en: "chair"
+    intro: 3
+    tier: focus
+  säng:
+    pos: substantiv
+    gender: en
+    forms: [säng, sängen, sängar, sängarna, sängens]
+    gloss_sv: "🛏 i sovrummet — Misse ligger i den!"
+    gloss_en: "bed"
+    intro: 3
+    tier: focus
+  trädgård:
+    pos: substantiv
+    gender: en
+    forms: [trädgård, trädgården, trädgårdar, trädgårdarna, trädgårdens]
+    gloss_sv: "träd 🌳 och 🌷 vid ett hus"
+    gloss_en: "garden"
+    intro: 3
+    tier: focus
+  träd:
+    pos: substantiv
+    gender: ett
+    forms: [träd, trädet, träden, trädets, trädens]
+    gloss_sv: "🌳 — en björk är ett träd"
+    gloss_en: "tree"
+    intro: 3
+    tier: focus
+  bo:
+    pos: verb
+    forms: [bor, bo, bodde, bott]
+    gloss_sv: "X bor i Y = Y är X:s hus"
+    gloss_en: "to live (dwell)"
+    intro: 3
+    tier: focus
+
+  # ---------- kap 3 stretch ----------
+  lampa:
+    pos: substantiv
+    gender: en
+    forms: [lampa, lampan, lampor, lamporna]
+    gloss_sv: "💡 över bordet"
+    gloss_en: "lamp"
+    intro: 3
+    tier: stretch
+  röd:
+    pos: adjektiv
+    forms: [röd, rött, röda]
+    gloss_sv: "🔴 — många svenska hus är röda!"
+    gloss_en: "red"
+    intro: 3
+    tier: stretch
+  björk:
+    pos: substantiv
+    gender: en
+    forms: [björk, björken, björkar, björkarna, björkens]
+    gloss_sv: "ett svenskt träd 🌳⚪"
+    gloss_en: "birch"
+    intro: 3
+    tier: stretch
+
+  # ---------- kap 4 freebies ----------
+  jag:      {pos: pronomen, forms: [jag], gloss_sv: "jag = 👤 (du och jag!)", gloss_en: "I", intro: 4, tier: freebie}
+  du:       {pos: pronomen, forms: [du], gloss_sv: "du = 👉 (jag och du!)", gloss_en: "you", intro: 4, tier: freebie}
+  mig:      {pos: pronomen, forms: [mig], gloss_sv: "Oskar retar mig! (jag → mig)", gloss_en: "me", intro: 4, tier: freebie}
+  dig:      {pos: pronomen, forms: [dig], gloss_sv: "Vad är det med dig? (du → dig)", gloss_en: "you (object)", intro: 4, tier: freebie}
+  honom:    {pos: pronomen, forms: [honom], gloss_sv: "mamma är arg på honom (han → honom)", gloss_en: "him", intro: 4, tier: freebie}
+  henne:    {pos: pronomen, forms: [henne], gloss_sv: "Nils hör henne (hon → henne)", gloss_en: "her", intro: 4, tier: freebie}
+  oss:      {pos: pronomen, forms: [oss], gloss_sv: "Kom till oss! (= till mamma och mig)", gloss_en: "us", intro: 4, tier: freebie}
+  dem:      {pos: pronomen, forms: [dem], gloss_sv: "han ser dem (de → dem)", gloss_en: "them", intro: 4, tier: freebie}
+  nu:       {pos: adverb, forms: [nu], gloss_sv: "nu = ⏰ i denna sekund!", gloss_en: "now", intro: 4, tier: freebie}
+  varför:   {pos: frågeord, forms: [varför], gloss_sv: "Varför? — Därför att …", gloss_en: "why?", intro: 4, tier: freebie}
+  därför:   {pos: adverb, forms: [därför], gloss_sv: "Varför? — Därför att …!", gloss_en: "therefore; (därför att) because", intro: 4, tier: freebie}
+  att:      {pos: konjunktion, forms: [att], gloss_sv: "därför att …", gloss_en: "that; (in därför att) because", intro: 4, tier: freebie}
+  säga:     {pos: verb, forms: [säger, säga, sa, sade, sagt, säg, sägs, sades], gloss_sv: "– Här är Lisa, säger Oskar. 💬", gloss_en: "to say", intro: 4, tier: freebie}
+  från:     {pos: preposition, forms: [från], gloss_sv: "från huset till trädgården (A → B)", gloss_en: "from", intro: 4, tier: freebie}
+  till:     {pos: preposition, forms: [till], gloss_sv: "springer till björken (→ B)", gloss_en: "to", intro: 4, tier: freebie}
+  bara:     {pos: adverb, forms: [bara], gloss_sv: "bara en = en, inte två", gloss_en: "only, just", intro: 4, tier: freebie}
+
+  # ---------- kap 4 focus ----------
+  gråta:
+    pos: verb
+    forms: [gråter, gråta, grät, gråtit]
+    gloss_sv: "😢 Astrid gråter — hon är ledsen"
+    gloss_en: "to cry"
+    intro: 4
+    tier: focus
+  skratta:
+    pos: verb
+    forms: [skrattar, skratta, skrattade, skrattat]
+    gloss_sv: "😄 ’haha!’ (↔ gråter 😢)"
+    gloss_en: "to laugh"
+    intro: 4
+    tier: focus
+  reta:
+    pos: verb
+    forms: [retar, reta, retade, retat]
+    gloss_sv: "Oskar retar Astrid — och hon gråter. Stygg!"
+    gloss_en: "to tease"
+    intro: 4
+    tier: focus
+  ropa:
+    pos: verb
+    forms: [ropar, ropa, ropade, ropat]
+    gloss_sv: "📢 'MAMMA!' — Nils ropar"
+    gloss_en: "to shout, call"
+    intro: 4
+    tier: focus
+  komma:
+    pos: verb
+    forms: [kommer, komma, kom, kommit]
+    gloss_sv: "→ 📍 Karin kommer till trädgården"
+    gloss_en: "to come"
+    intro: 4
+    tier: focus
+  springa:
+    pos: verb
+    forms: [springer, springa, sprang, sprungit, spring]
+    gloss_sv: "🏃 Oskar springer!"
+    gloss_en: "to run"
+    intro: 4
+    tier: focus
+  se:
+    pos: verb
+    forms: [ser, se, såg, sett]
+    gloss_sv: "👀 Nils ser dockan i trädet"
+    gloss_en: "to see"
+    intro: 4
+    tier: focus
+  höra:
+    pos: verb
+    forms: [hör, höra, hörde, hört]
+    gloss_sv: "👂 Karin hör Astrid: 'bäää!'"
+    gloss_en: "to hear"
+    intro: 4
+    tier: focus
+  fråga:
+    pos: verb
+    forms: [frågar, fråga, frågade, frågat, frågan, frågor, frågorna]
+    gloss_sv: "– Varför? ❓ (frågar → svarar; en fråga — frågan!)"
+    gloss_en: "to ask"
+    intro: 4
+    tier: focus
+  svara:
+    pos: verb
+    forms: [svarar, svara, svarade, svarat]
+    gloss_sv: "– Därför att … 💬 (frågar → svarar)"
+    gloss_en: "to answer"
+    intro: 4
+    tier: focus
+  ta:
+    pos: verb
+    forms: [tar, ta, tog, tagit, tas, togs]
+    gloss_sv: "👋 Oskar tar dockan!"
+    gloss_en: "to take"
+    intro: 4
+    tier: focus
+  stygg:
+    pos: adjektiv
+    forms: [stygg, styggt, stygga]
+    gloss_sv: "😈 Oskar retar Astrid — han är stygg!"
+    gloss_en: "naughty"
+    intro: 4
+    tier: focus
+
+  # ---------- kap 4 stretch ----------
+  docka:
+    pos: substantiv
+    gender: en
+    forms: [docka, dockan, dockor, dockorna, dockas, dockans]
+    gloss_sv: "🪆 en liten 'flicka' — men inte ett barn!"
+    gloss_en: "doll"
+    intro: 4
+    tier: stretch
+  ledsen:
+    pos: adjektiv
+    forms: [ledsen, ledset, ledsna]
+    gloss_sv: "😢 ledsen — Astrid gråter (↔ skrattar 😄)"
+    gloss_en: "sad"
+    intro: 4
+    tier: stretch
+  arg:
+    pos: adjektiv
+    forms: [arg, argt, arga]
+    gloss_sv: "😠 mamma är arg på Oskar!"
+    gloss_en: "angry"
+    intro: 4
+    tier: stretch
+
+  # ---------- kap 5 freebies ----------
+  vi:       {pos: pronomen, forms: [vi], gloss_sv: "du och jag = vi", gloss_en: "we", intro: 5, tier: freebie}
+  ni:       {pos: pronomen, forms: [ni], gloss_sv: "du och du = ni", gloss_en: "you (plural)", intro: 5, tier: freebie}
+  min:      {pos: pronomen, forms: [min, mitt, mina], gloss_sv: "min boll = jag har den! (min/mitt/mina)", gloss_en: "my", intro: 5, tier: freebie}
+  din:      {pos: pronomen, forms: [din, ditt, dina], gloss_sv: "din boll = du har den (din/ditt/dina)", gloss_en: "your", intro: 5, tier: freebie}
+  sin:      {pos: pronomen, forms: [sin, sitt, sina], gloss_sv: "Oskar tar sin boll = Oskars boll!", gloss_en: "his/her/their own", intro: 5, tier: freebie}
+  vår:      {pos: pronomen, forms: [vår, vårt, våra], gloss_sv: "vårt hus = familjens hus (vår/vårt/våra)", gloss_en: "our", intro: 5, tier: freebie}
+  er:       {pos: pronomen, forms: [er, ert, era], gloss_sv: "er trädgård = ni har den (er/ert/era)", gloss_en: "your (pl.); you (object)", intro: 5, tier: freebie}
+  deras:    {pos: pronomen, forms: [deras], gloss_sv: "deras hund = de har den", gloss_en: "their", intro: 5, tier: freebie}
+
+  # ---------- kap 5 focus ----------
+  ha:
+    pos: verb
+    forms: [har, ha, hade, haft]
+    gloss_sv: "🤲 Oskar har en boll = bollen är Oskars"
+    gloss_en: "to have"
+    intro: 5
+    tier: focus
+  boll:
+    pos: substantiv
+    gender: en
+    forms: [boll, bollen, bollar, bollarna, bolls, bollens]
+    gloss_sv: "⚽ barnen spelar boll"
+    gloss_en: "ball"
+    intro: 5
+    tier: focus
+  cykel:
+    pos: substantiv
+    gender: en
+    forms: [cykel, cykeln, cyklar, cyklarna, cykelns]
+    gloss_sv: "🚲 två hjul — och du!"
+    gloss_en: "bicycle"
+    intro: 5
+    tier: focus
+  bok:
+    pos: substantiv
+    gender: en
+    forms: [bok, boken, böcker, böckerna, boks, bokens]
+    gloss_sv: "📖 många ord och kapitel (en bok — två böcker!)"
+    gloss_en: "book"
+    intro: 5
+    tier: focus
+  sak:
+    pos: substantiv
+    gender: en
+    forms: [sak, saken, saker, sakerna, sakens]
+    gloss_sv: "en boll, en bok, en cykel — saker!"
+    gloss_en: "thing"
+    intro: 5
+    tier: focus
+  leka:
+    pos: verb
+    forms: [leker, leka, lekte, lekt]
+    gloss_sv: "🤸 barn leker — med bollar, dockor, saker"
+    gloss_en: "to play"
+    intro: 5
+    tier: focus
+  spela:
+    pos: verb
+    forms: [spelar, spela, spelade, spelat]
+    gloss_sv: "⚽ spelar boll (leker med en boll och regler!)"
+    gloss_en: "to play (a game)"
+    intro: 5
+    tier: focus
+  ny:
+    pos: adjektiv
+    forms: [ny, nytt, nya]
+    gloss_sv: "✨ ny — Astrids cykel är ny!"
+    gloss_en: "new"
+    intro: 5
+    tier: focus
+  blå:
+    pos: adjektiv
+    forms: [blå, blått, blåa]
+    gloss_sv: "🔵 — havet är blått!"
+    gloss_en: "blue"
+    intro: 5
+    tier: focus
+  gul:
+    pos: adjektiv
+    forms: [gul, gult, gula]
+    gloss_sv: "🟡 ☀!"
+    gloss_en: "yellow"
+    intro: 5
+    tier: focus
+  grön:
+    pos: adjektiv
+    forms: [grön, grönt, gröna]
+    gloss_sv: "🟢 — träden är gröna!"
+    gloss_en: "green"
+    intro: 5
+    tier: focus
+  vit:
+    pos: adjektiv
+    forms: [vit, vitt, vita]
+    gloss_sv: "⚪ — björkar är vita!"
+    gloss_en: "white"
+    intro: 5
+    tier: focus
+
+  # ---------- kap 5 stretch ----------
+  snäll:
+    pos: adjektiv
+    forms: [snäll, snällt, snälla, snällare, snällast, snällaste]
+    gloss_sv: "😊 snäll ↔ stygg"
+    gloss_en: "kind, nice"
+    intro: 5
+    tier: stretch
+  svart:
+    pos: adjektiv
+    forms: [svart, svarta]
+    gloss_sv: "⚫ — Anders cykel är svart!"
+    gloss_en: "black"
+    intro: 5
+    tier: stretch
+  fin:
+    pos: adjektiv
+    forms: [fin, fint, fina, finare, finast]
+    gloss_sv: "✨ fin! (en fin boll, ett fint hus)"
+    gloss_en: "fine, nice, pretty"
+    intro: 5
+    tier: stretch
+
+  # ---------- kap 6 freebies (läge/riktning) ----------
+  hit:      {pos: adverb, forms: [hit], gloss_sv: "→ 📍här: Kom hit!", gloss_en: "(to) here", intro: 6, tier: freebie}
+  dit:      {pos: adverb, forms: [dit], gloss_sv: "→ 👉där: Gå dit!", gloss_en: "(to) there", intro: 6, tier: freebie}
+  där:      {pos: adverb, forms: [där], gloss_sv: "👉 (inte här!)", gloss_en: "there", intro: 6, tier: freebie}
+  hem:      {pos: adverb, forms: [hem], gloss_sv: "→ 🏠: Ludde går hem", gloss_en: "(to) home", intro: 6, tier: freebie}
+  hemma:    {pos: adverb, forms: [hemma], gloss_sv: "i 🏠: Ludde är hemma", gloss_en: "at home", intro: 6, tier: freebie}
+  in:       {pos: adverb, forms: [in], gloss_sv: "→ 🏠 in genom dörren", gloss_en: "in(to)", intro: 6, tier: freebie}
+  inne:     {pos: adverb, forms: [inne], gloss_sv: "i 🏠: Misse är inne", gloss_en: "inside", intro: 6, tier: freebie}
+  ut:       {pos: adverb, forms: [ut], gloss_sv: "🏠 → ut genom fönstret", gloss_en: "out", intro: 6, tier: freebie}
+  ute:      {pos: adverb, forms: [ute], gloss_sv: "inte i huset: Ludde är ute", gloss_en: "outside", intro: 6, tier: freebie}
+  upp:      {pos: adverb, forms: [upp], gloss_sv: "⬆ Misse går upp i trädet", gloss_en: "up", intro: 6, tier: freebie}
+  uppe:     {pos: adverb, forms: [uppe], gloss_sv: "är ⬆: uppe i trädet", gloss_en: "up (location)", intro: 6, tier: freebie}
+  ner:      {pos: adverb, forms: [ner], gloss_sv: "⬇ går ner från trädet", gloss_en: "down", intro: 6, tier: freebie}
+  nere:     {pos: adverb, forms: [nere], gloss_sv: "är ⬇: nere vid sjön", gloss_en: "down (location)", intro: 6, tier: freebie}
+  genom:    {pos: preposition, forms: [genom], gloss_sv: "in genom fönstret, genom staden (⇢ tvärs!)", gloss_en: "through", intro: 6, tier: freebie}
+  vart:     {pos: frågeord, forms: [vart], gloss_sv: "Vart går du? (var + riktning →)", gloss_en: "where to?", intro: 6, tier: freebie}
+  sedan:    {pos: adverb, forms: [sedan], gloss_sv: "1 → 2: skolan … sedan hem!", gloss_en: "then, afterwards", intro: 6, tier: freebie}
+
+  # ---------- kap 6 focus ----------
+  väg:
+    pos: substantiv
+    gender: en
+    forms: [väg, vägen, vägar, vägarna, vägs, vägens]
+    gloss_sv: "🛣 från A till B går en väg"
+    gloss_en: "road, way"
+    intro: 6
+    tier: focus
+  skola:
+    pos: substantiv
+    gender: en
+    forms: [skola, skolan, skolor, skolorna, skolas, skolans]
+    gloss_sv: "🏫 hit går barnen — kapitel 14 är i skolan!"
+    gloss_en: "school"
+    intro: 6
+    tier: focus
+  bro:
+    pos: substantiv
+    gender: en
+    forms: [bro, bron, broar, broarna, brons]
+    gloss_sv: "🌉 en väg över vattnet"
+    gloss_en: "bridge"
+    intro: 6
+    tier: focus
+  affär:
+    pos: substantiv
+    gender: en
+    forms: [affär, affären, affärer, affärerna, affärens]
+    gloss_sv: "🏪 ett litet hus i staden — kapitel 8!"
+    gloss_en: "shop"
+    intro: 6
+    tier: focus
+  kyrka:
+    pos: substantiv
+    gender: en
+    forms: [kyrka, kyrkan, kyrkor, kyrkorna, kyrkans]
+    gloss_sv: "⛪ ett stort vitt hus i staden"
+    gloss_en: "church"
+    intro: 6
+    tier: focus
+  buss:
+    pos: substantiv
+    gender: en
+    forms: [buss, bussen, bussar, bussarna, bussens]
+    gloss_sv: "🚌 många åker i den"
+    gloss_en: "bus"
+    intro: 6
+    tier: focus
+  gå:
+    pos: verb
+    forms: [går, gå, gick, gått]
+    gloss_sv: "🚶 går = inte springer, inte åker!"
+    gloss_en: "to walk, go"
+    intro: 6
+    tier: focus
+  åka:
+    pos: verb
+    forms: [åker, åka, åkte, åkt]
+    gloss_sv: "åker buss/tåg/cykel = kommer MED den 🚌"
+    gloss_en: "to go (by vehicle)"
+    intro: 6
+    tier: focus
+  cykla:
+    pos: verb
+    forms: [cyklar, cykla, cyklade, cyklat]
+    gloss_sv: "🚲 åker på sin cykel"
+    gloss_en: "to cycle"
+    intro: 6
+    tier: focus
+  lång:
+    pos: adjektiv
+    forms: [lång, långt, långa, längre, längst, längsta]
+    gloss_sv: "en lång väg = mycket, mycket väg! (långt från ↔ nära)"
+    gloss_en: "long; (långt) far"
+    intro: 6
+    tier: focus
+  nära:
+    pos: adverb
+    forms: [nära]
+    gloss_sv: "nära = inte långt från 📍"
+    gloss_en: "near"
+    intro: 6
+    tier: focus
+  vatten:
+    pos: substantiv
+    gender: ett
+    forms: [vatten, vattnet, vattnets]
+    gloss_sv: "💧 i sjön, i havet — och under bron!"
+    gloss_en: "water"
+    intro: 6
+    tier: focus
+
+  # ---------- kap 6 stretch ----------
+  gata:
+    pos: substantiv
+    gender: en
+    forms: [gata, gatan, gator, gatorna, gatans]
+    gloss_sv: "en väg i en stad"
+    gloss_en: "street"
+    intro: 6
+    tier: stretch
+  station:
+    pos: substantiv
+    gender: en
+    forms: [station, stationen, stationer, stationerna, stationens]
+    gloss_sv: "🚉 här kommer tåget!"
+    gloss_en: "station"
+    intro: 6
+    tier: stretch
+  tåg:
+    pos: substantiv
+    gender: ett
+    forms: [tåg, tåget, tågen, tågets]
+    gloss_sv: "🚂 åker på järnväg — till Stockholm!"
+    gloss_en: "train"
+    intro: 6
+    tier: stretch
+
+  # ---------- kap 7 freebies ----------
+  sig:      {pos: pronomen, forms: [sig], gloss_sv: "Misse tvättar sig = tvättar Misse! (han/hon/de → sig)", gloss_en: "himself/herself/themselves", intro: 7, tier: freebie}
+  själv:    {pos: pronomen, forms: [själv, självt, själva], gloss_sv: "katten tvättar sig själv — inte mamma, katten!", gloss_en: "self", intro: 7, tier: freebie}
+  av:       {pos: preposition, forms: [av], gloss_sv: "Misse får mjölk av Astrid (← från henne)", gloss_en: "of, by, from", intro: 7, tier: freebie}
+  god:      {pos: adjektiv, forms: [god, gott, goda], gloss_sv: "god morgon! sov gott! maten är god 😋", gloss_en: "good", intro: 7, tier: freebie}
+  mjau:     {pos: interjektion, forms: [mjau], gloss_sv: "🐈 så 'talar' en katt!", gloss_en: "meow", intro: 7, tier: freebie}
+
+  # ---------- kap 7 focus ----------
+  ge:
+    pos: verb
+    forms: [ger, ge, gav, gett, givit]
+    gloss_sv: "Astrid ger Misse mjölk → 🥛 → 🐈"
+    gloss_en: "to give"
+    intro: 7
+    tier: focus
+  få:
+    pos: verb
+    forms: [får, få, fick, fått]
+    gloss_sv: "Misse får mjölk av Astrid: 🥛 → 🐈 (ger ↔ får)"
+    gloss_en: "to get, receive"
+    intro: 7
+    tier: focus
+  göra:
+    pos: verb
+    forms: [gör, göra, gjorde, gjort]
+    gloss_sv: "Vad gör katten? Hon sover! (göra = äta, leka, sova …)"
+    gloss_en: "to do, make"
+    intro: 7
+    tier: focus
+  mjölk:
+    pos: substantiv
+    gender: en
+    forms: [mjölk, mjölken, mjölks, mjölkens]
+    gloss_sv: "🥛 vit och god — från kor! (kapitel nio …)"
+    gloss_en: "milk"
+    intro: 7
+    tier: focus
+  mat:
+    pos: substantiv
+    gender: en
+    forms: [mat, maten, mats, matens]
+    gloss_sv: "🍽 bröd, mjölk … — man äter mat!"
+    gloss_en: "food"
+    intro: 7
+    tier: focus
+  äta:
+    pos: verb
+    forms: [äter, äta, åt, ätit, ät]
+    gloss_sv: "😋 äter mat (Ludde äter mycket!)"
+    gloss_en: "to eat"
+    intro: 7
+    tier: focus
+  dricka:
+    pos: verb
+    forms: [dricker, dricka, drack, druckit, drick]
+    gloss_sv: "🥛💧 dricker mjölk och vatten (äter mat, dricker mjölk!)"
+    gloss_en: "to drink"
+    intro: 7
+    tier: focus
+  sova:
+    pos: verb
+    forms: [sover, sova, sov, sovit]
+    gloss_sv: "😴 i sängen — 'zzz'. Katter sover mycket!"
+    gloss_en: "to sleep"
+    intro: 7
+    tier: focus
+  vakna:
+    pos: verb
+    forms: [vaknar, vakna, vaknade, vaknat]
+    gloss_sv: "😴 → 👀! sover … och vaknar på morgonen"
+    gloss_en: "to wake up"
+    intro: 7
+    tier: focus
+  tvätta:
+    pos: verb
+    forms: [tvättar, tvätta, tvättade, tvättat]
+    gloss_sv: "🧼💧 tvättar sig med vatten (katter: inte med vatten!)"
+    gloss_en: "to wash"
+    intro: 7
+    tier: focus
+  lägga:
+    pos: verb
+    forms: [lägger, lägga, la, lade, lagt]
+    gloss_sv: "lägger sig i sängen = går och ligger! 🛏"
+    gloss_en: "to lay; (lägga sig) lie down"
+    intro: 7
+    tier: focus
+  sätta:
+    pos: verb
+    forms: [sätter, sätta, satte, satt]
+    gloss_sv: "sätter sig på stolen = går och 'ligger' på en stol! 🪑"
+    gloss_en: "to set; (sätta sig) sit down"
+    intro: 7
+    tier: focus
+
+  # ---------- kap 7 stretch ----------
+  visa:
+    pos: verb
+    forms: [visar, visa, visade, visat]
+    gloss_sv: "– Se! 👀 Astrid visar Misse sin bok"
+    gloss_en: "to show"
+    intro: 7
+    tier: stretch
+  morgon:
+    pos: substantiv
+    gender: en
+    forms: [morgon, morgonen, morgnar, morgnarna, morgonens]
+    gloss_sv: "🌅 solen kommer upp — god morgon!"
+    gloss_en: "morning"
+    intro: 7
+    tier: stretch
+  kväll:
+    pos: substantiv
+    gender: en
+    forms: [kväll, kvällen, kvällar, kvällarna, kvällens]
+    gloss_sv: "🌆 solen går ner (morgon ↔ kväll)"
+    gloss_en: "evening"
+    intro: 7
+    tier: stretch
+  trött:
+    pos: adjektiv
+    forms: [trött, trötta]
+    gloss_sv: "😴 trött = 'jag vill sova!'"
+    gloss_en: "tired"
+    intro: 7
+    tier: stretch
+
+  # ---------- kap 8 freebies ----------
+  hej:      {pos: interjektion, forms: [hej], gloss_sv: "– Hej! 👋 (och 'hej då' = 👋 på vägen ut!)", gloss_en: "hi", intro: 8, tier: freebie}
+  då:       {pos: adverb, forms: [då], gloss_sv: "då = i den … tiden: 'på kvällen? då är affären stängd' — och: hej då!", gloss_en: "then", intro: 8, tier: freebie}
+  tack:     {pos: interjektion, forms: [tack], gloss_sv: "🙏 – Varsågod! – Tack!", gloss_en: "thanks", intro: 8, tier: freebie}
+  varsågod: {pos: interjektion, forms: [varsågod], gloss_sv: "– Varsågod! (= här, till dig!) – Tack!", gloss_en: "here you are", intro: 8, tier: freebie}
+  fru:      {pos: substantiv, gender: en, forms: [fru, frun], gloss_sv: "fru Ek = kvinnan Ek (titel)", gloss_en: "Mrs", intro: 8, tier: freebie}
+  vilja:    {pos: verb, forms: [vill, vilja, ville, velat], gloss_sv: "– Jag vill ha en bulle, tack! (vill ha X = 'X, tack!')", gloss_en: "to want", intro: 8, tier: freebie}
+  femton:   {pos: räkneord, forms: [femton], gloss_sv: "15", gloss_en: "fifteen", intro: 8, tier: freebie}
+  tjugo:    {pos: räkneord, forms: [tjugo], gloss_sv: "20", gloss_en: "twenty", intro: 8, tier: freebie}
+  trettio:  {pos: räkneord, forms: [trettio], gloss_sv: "30", gloss_en: "thirty", intro: 8, tier: freebie}
+  fyrtio:   {pos: räkneord, forms: [fyrtio], gloss_sv: "40 (säg 'förti'!)", gloss_en: "forty", intro: 8, tier: freebie}
+  fyrtiofem: {pos: räkneord, forms: [fyrtiofem], gloss_sv: "45 = fyrtio + fem", gloss_en: "forty-five", intro: 8, tier: freebie}
+  femtio:   {pos: räkneord, forms: [femtio], gloss_sv: "50", gloss_en: "fifty", intro: 8, tier: freebie}
+  sextio:   {pos: räkneord, forms: [sextio], gloss_sv: "60", gloss_en: "sixty", intro: 8, tier: freebie}
+  sjuttio:  {pos: räkneord, forms: [sjuttio], gloss_sv: "70", gloss_en: "seventy", intro: 8, tier: freebie}
+  åttio:    {pos: räkneord, forms: [åttio], gloss_sv: "80", gloss_en: "eighty", intro: 8, tier: freebie}
+  nittio:   {pos: räkneord, forms: [nittio], gloss_sv: "90", gloss_en: "ninety", intro: 8, tier: freebie}
+  hundra:   {pos: räkneord, forms: [hundra], gloss_sv: "100", gloss_en: "hundred", intro: 8, tier: freebie}
+
+  # ---------- kap 8 focus ----------
+  köpa:
+    pos: verb
+    forms: [köper, köpa, köpte, köpt]
+    gloss_sv: "ger pengar → får saken! (köper ↔ säljer)"
+    gloss_en: "to buy"
+    intro: 8
+    tier: focus
+  sälja:
+    pos: verb
+    forms: [säljer, sälja, sålde, sålt]
+    gloss_sv: "ger saken → får pengar! (säljer ↔ köper)"
+    gloss_en: "to sell"
+    intro: 8
+    tier: focus
+  kosta:
+    pos: verb
+    forms: [kostar, kosta, kostade, kostat]
+    gloss_sv: "💰 Hur mycket kostar bullen? — Femton kronor."
+    gloss_en: "to cost"
+    intro: 8
+    tier: focus
+  betala:
+    pos: verb
+    forms: [betalar, betala, betalade, betalat]
+    gloss_sv: "ger pengarna: Oskar betalar femtio kronor 💰→"
+    gloss_en: "to pay"
+    intro: 8
+    tier: focus
+  pengar:
+    pos: substantiv
+    forms: [pengar, pengarna, pengars]
+    gloss_sv: "💰 kronor! Man köper med pengar."
+    gloss_en: "money"
+    intro: 8
+    tier: focus
+  krona:
+    pos: substantiv
+    gender: en
+    forms: [krona, kronan, kronor, kronorna]
+    gloss_sv: "svenska pengar: 1 krona, 50 kronor 👑"
+    gloss_en: "crown (Swedish currency)"
+    intro: 8
+    tier: focus
+  bröd:
+    pos: substantiv
+    gender: ett
+    forms: [bröd, brödet, bröden, bröds]
+    gloss_sv: "🍞 mat — man äter bröd med ost!"
+    gloss_en: "bread"
+    intro: 8
+    tier: focus
+  ost:
+    pos: substantiv
+    gender: en
+    forms: [ost, osten, ostar, ostarna]
+    gloss_sv: "🧀 gul mat av mjölk — god på bröd!"
+    gloss_en: "cheese"
+    intro: 8
+    tier: focus
+  äpple:
+    pos: substantiv
+    gender: ett
+    forms: [äpple, äpplet, äpplen, äpplena]
+    gloss_sv: "🍎 rött eller grönt — gott och billigt!"
+    gloss_en: "apple"
+    intro: 8
+    tier: focus
+  godis:
+    pos: substantiv
+    gender: ett
+    forms: [godis, godiset]
+    gloss_sv: "🍬 mycket gott — men inte god mat!"
+    gloss_en: "candy, sweets"
+    intro: 8
+    tier: focus
+  dyr:
+    pos: adjektiv
+    forms: [dyr, dyrt, dyra, dyrare, dyrast]
+    gloss_sv: "kostar MYCKET: åttio kronor! (↔ billig)"
+    gloss_en: "expensive"
+    intro: 8
+    tier: focus
+  billig:
+    pos: adjektiv
+    forms: [billig, billigt, billiga, billigare, billigast]
+    gloss_sv: "kostar litet: fem kronor (↔ dyr)"
+    gloss_en: "cheap"
+    intro: 8
+    tier: focus
+
+  # ---------- kap 8 stretch ----------
+  glad:
+    pos: adjektiv
+    forms: [glad, glatt, glada]
+    gloss_sv: "😊 glad ↔ ledsen"
+    gloss_en: "happy, glad"
+    intro: 8
+    tier: stretch
+  öppen:
+    pos: adjektiv
+    forms: [öppen, öppet, öppna]
+    gloss_sv: "🔓 kom in! (↔ stängd)"
+    gloss_en: "open"
+    intro: 8
+    tier: stretch
+  stängd:
+    pos: adjektiv
+    forms: [stängd, stängt, stängda]
+    gloss_sv: "🔒 dörren är stängd (↔ öppen)"
+    gloss_en: "closed"
+    intro: 8
+    tier: stretch
+  bulle:
+    pos: substantiv
+    gender: en
+    forms: [bulle, bullen, bullar, bullarna]
+    gloss_sv: "🥐 litet, runt, gott bröd — mycket svenskt!"
+    gloss_en: "bun"
+    intro: 8
+    tier: stretch
+
+  # ---------- kap 9 freebies ----------
+  någon:    {pos: pronomen, forms: [någon, något, några], gloss_sv: "Finns det något lamm här? (någon/något/några = 1, 2 …?)", gloss_en: "some(one), any", intro: 9, tier: freebie}
+  ingen:    {pos: pronomen, forms: [ingen, inget, inga], gloss_sv: "ingen = 0! (inte någon)", gloss_en: "no(ne), nobody", intro: 9, tier: freebie}
+  alla:     {pos: pronomen, forms: [all, allt, alla], gloss_sv: "alla = 100%! (alla djuren)", gloss_en: "all, everyone", intro: 9, tier: freebie}
+  varje:    {pos: pronomen, forms: [varje], gloss_sv: "varje morgon = morgon, morgon, morgon …", gloss_en: "every", intro: 9, tier: freebie}
+  borta:    {pos: adverb, forms: [borta], gloss_sv: "borta = inte här! 😨", gloss_en: "gone, away", intro: 9, tier: freebie}
+  bort:     {pos: adverb, forms: [bort], gloss_sv: "→ borta: ovädret gick bort (läge: borta, riktning: bort!)", gloss_en: "away (direction)", intro: 9, tier: freebie}
+  bra:      {pos: adjektiv, forms: [bra, bättre, bäst, bästa], gloss_sv: "– Bra! 👍 (= mycket god!)", gloss_en: "good, well", intro: 9, tier: freebie}
+  voff:     {pos: interjektion, forms: [voff], gloss_sv: "🐕 så 'talar' en hund!", gloss_en: "woof", intro: 9, tier: freebie}
+  bom:      {pos: interjektion, forms: [bom], gloss_sv: "🔔 så säger en stor, stor klocka: BOM!", gloss_en: "bong (bell sound)", intro: 28, tier: freebie}
+  grrr:     {pos: interjektion, forms: [grrr], gloss_sv: "😾 så morrar en arg hund!", gloss_en: "grrr", intro: 22, tier: freebie}
+  bä:       {pos: interjektion, forms: [bä], gloss_sv: "🐑 så 'talar' ett får!", gloss_en: "baa", intro: 9, tier: freebie}
+  samma:    {pos: pronomen, forms: [samma], gloss_sv: "A = A: samma ord, samma hus", gloss_en: "same", intro: 9, tier: freebie}
+
+  # ---------- kap 9 focus ----------
+  morfar:
+    pos: substantiv
+    gender: en
+    forms: [morfar, morfars]
+    gloss_sv: "mammas pappa 👴 (mor + far!)"
+    gloss_en: "grandfather (mother's side)"
+    intro: 9
+    tier: focus
+  gård:
+    pos: substantiv
+    gender: en
+    forms: [gård, gården, gårdar, gårdarna, gårdens]
+    gloss_sv: "🚜 ett hus med djur och ängar — en bonde bor här"
+    gloss_en: "farm"
+    intro: 9
+    tier: focus
+  djur:
+    pos: substantiv
+    gender: ett
+    forms: [djur, djuret, djuren, djurets, djurens]
+    gloss_sv: "kor, hästar, hundar, katter — djur! (inte människor)"
+    gloss_en: "animal"
+    intro: 9
+    tier: focus
+  ko:
+    pos: substantiv
+    gender: en
+    forms: [ko, kon, kor, korna, kons]
+    gloss_sv: "🐄 stor, äter gräs — mjölken kommer från kor!"
+    gloss_en: "cow"
+    intro: 9
+    tier: focus
+  häst:
+    pos: substantiv
+    gender: en
+    forms: [häst, hästen, hästar, hästarna, hästens]
+    gloss_sv: "🐎 stort, snabbt djur — man kan sitta på den!"
+    gloss_en: "horse"
+    intro: 9
+    tier: focus
+  gris:
+    pos: substantiv
+    gender: en
+    forms: [gris, grisen, grisar, grisarna, grisens]
+    gloss_sv: "🐖 rosa djur — äter allt!"
+    gloss_en: "pig"
+    intro: 9
+    tier: focus
+  höna:
+    pos: substantiv
+    gender: en
+    forms: [höna, hönan, hönor, hönorna, hönans]
+    gloss_sv: "🐔 en fågel på gården — ägg kommer från hönor!"
+    gloss_en: "hen"
+    intro: 9
+    tier: focus
+  lamm:
+    pos: substantiv
+    gender: ett
+    forms: [lamm, lammet, lammen, lammets]
+    gloss_sv: "🐑 ett litet får — vitt och mjukt!"
+    gloss_en: "lamb"
+    intro: 9
+    tier: focus
+  får_djur:
+    pos: substantiv
+    gender: ett
+    forms: [får, fåret, fåren, fårets, fårens]
+    gloss_sv: "🐑 djuret med ull — ett får, två får (samma ord!). Och: får får gräs!"
+    gloss_en: "sheep"
+    intro: 9
+    tier: focus
+  gammal:
+    pos: adjektiv
+    forms: [gammal, gammalt, gamla, äldre, äldst, äldsta]
+    gloss_sv: "morfar är gammal — sjuttio år! (↔ ung, ny)"
+    gloss_en: "old"
+    intro: 9
+    tier: focus
+  leta:
+    pos: verb
+    forms: [letar, leta, letade, letat]
+    gloss_sv: "🔍 ser och ser: VAR är det?"
+    gloss_en: "to search"
+    intro: 9
+    tier: focus
+  hitta:
+    pos: verb
+    forms: [hittar, hitta, hittade, hittat]
+    gloss_sv: "letar … och HÄR är det! ✓"
+    gloss_en: "to find"
+    intro: 9
+    tier: focus
+
+  # ---------- kap 9 stretch ----------
+  bonde:
+    pos: substantiv
+    gender: en
+    forms: [bonde, bonden, bondes, bönder, bönderna, bondens]
+    gloss_sv: "en man eller kvinna med en gård 🚜"
+    gloss_en: "farmer"
+    intro: 9
+    tier: stretch
+  äng:
+    pos: substantiv
+    gender: en
+    forms: [äng, ängen, ängar, ängarna, ängens]
+    gloss_sv: "🌿 grönt 'golv' med gräs — korna äter här"
+    gloss_en: "meadow"
+    intro: 9
+    tier: stretch
+  gräs:
+    pos: substantiv
+    gender: ett
+    forms: [gräs, gräset, gräsets]
+    gloss_sv: "🌱 grönt — kor och får äter det!"
+    gloss_en: "grass"
+    intro: 9
+    tier: stretch
+  brun:
+    pos: adjektiv
+    forms: [brun, brunt, bruna]
+    gloss_sv: "🟤 — hästen Brunte är brun!"
+    gloss_en: "brown"
+    intro: 9
+    tier: stretch
+
+  # ---------- kap 10 freebies ----------
+  kunna:    {pos: verb, forms: [kan, kunna, kunde, kunnat], gloss_sv: "kan = ✓ det går! Fåglar kan flyga.", gloss_en: "can, to be able", intro: 10, tier: freebie}
+
+  # ---------- kap 10 focus ----------
+  människa:
+    pos: substantiv
+    gender: en
+    forms: [människa, människan, människor, människorna, människas, människans]
+    gloss_sv: "🧍 du och jag! Män, kvinnor och barn — inte djur"
+    gloss_en: "human being"
+    intro: 10
+    tier: focus
+  fågel:
+    pos: substantiv
+    gender: en
+    forms: [fågel, fågeln, fåglar, fåglarna, fågelns]
+    gloss_sv: "🐦 djuret som kan flyga (en höna är en fågel!)"
+    gloss_en: "bird"
+    intro: 10
+    tier: focus
+  fisk:
+    pos: substantiv
+    gender: en
+    forms: [fisk, fisken, fiskar, fiskarna, fiskens]
+    gloss_sv: "🐟 lever i vattnet och kan simma"
+    gloss_en: "fish"
+    intro: 10
+    tier: focus
+  björn:
+    pos: substantiv
+    gender: en
+    forms: [björn, björnen, björnar, björnarna, björnens]
+    gloss_sv: "🐻 stort, brunt, starkt vilt djur"
+    gloss_en: "bear"
+    intro: 10
+    tier: focus
+  älg:
+    pos: substantiv
+    gender: en
+    forms: [älg, älgen, älgar, älgarna, älgens]
+    gloss_sv: "mycket stort djur i svenska skogar — mycket svenskt! 🫎"
+    gloss_en: "moose, elk"
+    intro: 10
+    tier: focus
+  räv:
+    pos: substantiv
+    gender: en
+    forms: [räv, räven, rävar, rävarna, rävens]
+    gloss_sv: "🦊 rött vilt djur — letar hönor!"
+    gloss_en: "fox"
+    intro: 10
+    tier: focus
+  varg:
+    pos: substantiv
+    gender: en
+    forms: [varg, vargen, vargar, vargarna, vargens]
+    gloss_sv: "🐺 vild 'hund' i skogen — vill äta får!"
+    gloss_en: "wolf"
+    intro: 10
+    tier: focus
+  flyga:
+    pos: verb
+    forms: [flyger, flyga, flög, flugit, flyg]
+    gloss_sv: "🐦 fåglar flyger — uppe, över träden!"
+    gloss_en: "to fly"
+    intro: 10
+    tier: focus
+  simma:
+    pos: verb
+    forms: [simmar, simma, simmade, simmat]
+    gloss_sv: "🏊 'springa' i vattnet — fiskar simmar!"
+    gloss_en: "to swim"
+    intro: 10
+    tier: focus
+  tala:
+    pos: verb
+    forms: [talar, tala, talade, talat]
+    gloss_sv: "💬 säga många ord — bara människor talar!"
+    gloss_en: "to speak"
+    intro: 10
+    tier: focus
+  leva:
+    pos: verb
+    forms: [lever, leva, levde, levt, levande]
+    gloss_sv: "djur och människor lever — äter, sover, springer! (↔ död)"
+    gloss_en: "to live (be alive)"
+    intro: 10
+    tier: focus
+  skog:
+    pos: substantiv
+    gender: en
+    forms: [skog, skogen, skogar, skogarna, skogens]
+    gloss_sv: "🌲🌲🌲 många, många träd — vilda djur lever här"
+    gloss_en: "forest"
+    intro: 10
+    tier: focus
+
+  # ---------- kap 10 stretch ----------
+  vild:
+    pos: adjektiv
+    forms: [vild, vilt, vilda]
+    gloss_sv: "lever i skogen, ingen ger den mat (↔ tam)"
+    gloss_en: "wild"
+    intro: 10
+    tier: stretch
+  tam:
+    pos: adjektiv
+    forms: [tam, tamt, tama]
+    gloss_sv: "bor med människor: hundar och kor är tama (↔ vild)"
+    gloss_en: "tame"
+    intro: 10
+    tier: stretch
+  stark:
+    pos: adjektiv
+    forms: [stark, starkt, starka, starkare, starkast]
+    gloss_sv: "💪 björnen är stark!"
+    gloss_en: "strong"
+    intro: 10
+    tier: stretch
+
+  # ---------- kap 11 freebies ----------
+  måste:    {pos: verb, forms: [måste], gloss_sv: "💯 du har inget val: du måste!", gloss_en: "must", intro: 11, tier: freebie}
+  behöva:   {pos: verb, forms: [behöver, behöva, behövde, behövt], gloss_sv: "behöver = måste ha: sjuka barn behöver sova", gloss_en: "to need", intro: 11, tier: freebie}
+  ont:      {pos: substantiv, forms: [ont], gloss_sv: "har ont i huvudet = huvudet är inte bra! 😖", gloss_en: "pain (ha ont = to hurt)", intro: 11, tier: freebie}
+  känna:    {pos: verb, forms: [känner, känna, kände, känt], gloss_sv: "känner sig sjuk = 'jag är sjuk!' — känner på = 🖐 tar på", gloss_en: "to feel", intro: 11, tier: freebie}
+  när:      {pos: konjunktion, forms: [när], gloss_sv: "när X kommer = i den tiden X kommer ⏰", gloss_en: "when", intro: 11, tier: freebie}
+  så:       {pos: adverb, forms: [så], gloss_sv: "Så bra! = mycket bra!", gloss_en: "so", intro: 11, tier: freebie}
+
+  # ---------- kap 11 focus ----------
+  kropp:
+    pos: substantiv
+    gender: en
+    forms: [kropp, kroppen, kroppar, kropparna, kroppens]
+    gloss_sv: "🧍 huvud + armar + ben + allt = kroppen!"
+    gloss_en: "body"
+    intro: 11
+    tier: focus
+  huvud:
+    pos: substantiv
+    gender: ett
+    forms: [huvud, huvudet, huvuden, huvudets]
+    gloss_sv: "🗣 uppe på kroppen — här finns ögon, öron och mun"
+    gloss_en: "head"
+    intro: 11
+    tier: focus
+  mage:
+    pos: substantiv
+    gender: en
+    forms: [mage, magen, magar, magarna, magens]
+    gloss_sv: "maten går ner i magen! 🍽→"
+    gloss_en: "stomach"
+    intro: 11
+    tier: focus
+  hand:
+    pos: substantiv
+    gender: en
+    forms: [hand, handen, händer, händerna, handens]
+    gloss_sv: "🖐 med händerna tar du saker (en hand — två händer!)"
+    gloss_en: "hand"
+    intro: 11
+    tier: focus
+  arm:
+    pos: substantiv
+    gender: en
+    forms: [arm, armen, armar, armarna, armens]
+    gloss_sv: "💪 på armen finns handen"
+    gloss_en: "arm"
+    intro: 11
+    tier: focus
+  ben:
+    pos: substantiv
+    gender: ett
+    forms: [ben, benet, benen, benets, benens]
+    gloss_sv: "🦵 med benen går och springer du (Ludde har fyra!)"
+    gloss_en: "leg"
+    intro: 11
+    tier: focus
+  fot:
+    pos: substantiv
+    gender: en
+    forms: [fot, foten, fötter, fötterna, fotens]
+    gloss_sv: "🦶 nere på benet (en fot — två fötter!)"
+    gloss_en: "foot"
+    intro: 11
+    tier: focus
+  öga:
+    pos: substantiv
+    gender: ett
+    forms: [öga, ögat, ögon, ögonen, ögats]
+    gloss_sv: "👁 med ögonen ser du (ett öga — två ögon!)"
+    gloss_en: "eye"
+    intro: 11
+    tier: focus
+  öra:
+    pos: substantiv
+    gender: ett
+    forms: [öra, örat, öron, öronen, örats]
+    gloss_sv: "👂 med öronen hör du (ett öra — två öron!)"
+    gloss_en: "ear"
+    intro: 11
+    tier: focus
+  sjuk:
+    pos: adjektiv
+    forms: [sjuk, sjukt, sjuka, sjukare, sjukast]
+    gloss_sv: "🤒 har ont, har feber — måste vara i sängen (↔ frisk)"
+    gloss_en: "ill, sick"
+    intro: 11
+    tier: focus
+  frisk:
+    pos: adjektiv
+    forms: [frisk, friskt, friska]
+    gloss_sv: "💪 kroppen är bra! (↔ sjuk)"
+    gloss_en: "healthy, well"
+    intro: 11
+    tier: focus
+  läkare:
+    pos: substantiv
+    gender: en
+    forms: [läkare, läkaren, läkares, läkarens]
+    gloss_sv: "🩺 ser på sjuka människor — Karin är läkare!"
+    gloss_en: "doctor"
+    intro: 11
+    tier: focus
+
+  # ---------- kap 11 stretch ----------
+  mun:
+    pos: substantiv
+    gender: en
+    forms: [mun, munnen, munnar, munnens]
+    gloss_sv: "👄 med munnen äter och talar du"
+    gloss_en: "mouth"
+    intro: 11
+    tier: stretch
+  näsa:
+    pos: substantiv
+    gender: en
+    forms: [näsa, näsan, näsor, näsans]
+    gloss_sv: "👃 mellan ögonen och munnen"
+    gloss_en: "nose"
+    intro: 11
+    tier: stretch
+  hår:
+    pos: substantiv
+    gender: ett
+    forms: [hår, håret, hårets]
+    gloss_sv: "💇 uppe på huvudet"
+    gloss_en: "hair"
+    intro: 11
+    tier: stretch
+  feber:
+    pos: substantiv
+    gender: en
+    forms: [feber, febern, feberns]
+    gloss_sv: "🌡 kroppen är mycket varm — du är sjuk!"
+    gloss_en: "fever"
+    intro: 11
+    tier: stretch
+
+  # ---------- kap 12 freebies ----------
+  första:   {pos: räkneord, forms: [första, först], gloss_sv: "nummer 1: januari är den första månaden", gloss_en: "first", intro: 12, tier: freebie}
+  andra:    {pos: räkneord, forms: [andra, annan, annat], gloss_sv: "nummer 2 — och: en annan = inte samma!", gloss_en: "second; other", intro: 12, tier: freebie}
+  tredje:   {pos: räkneord, forms: [tredje], gloss_sv: "nummer 3", gloss_en: "third", intro: 12, tier: freebie}
+  fjärde:   {pos: räkneord, forms: [fjärde], gloss_sv: "nummer 4", gloss_en: "fourth", intro: 12, tier: freebie}
+  femte:    {pos: räkneord, forms: [femte], gloss_sv: "nummer 5: den femte maj 🎂", gloss_en: "fifth", intro: 12, tier: freebie}
+  sjätte:   {pos: räkneord, forms: [sjätte], gloss_sv: "nummer 6", gloss_en: "sixth", intro: 12, tier: freebie}
+  sjunde:   {pos: räkneord, forms: [sjunde], gloss_sv: "nummer 7", gloss_en: "seventh", intro: 12, tier: freebie}
+  åttonde:  {pos: räkneord, forms: [åttonde], gloss_sv: "nummer 8", gloss_en: "eighth", intro: 12, tier: freebie}
+  nionde:   {pos: räkneord, forms: [nionde], gloss_sv: "nummer 9", gloss_en: "ninth", intro: 12, tier: freebie}
+  tionde:   {pos: räkneord, forms: [tionde], gloss_sv: "nummer 10", gloss_en: "tenth", intro: 12, tier: freebie}
+  elfte:    {pos: räkneord, forms: [elfte], gloss_sv: "nummer 11", gloss_en: "eleventh", intro: 12, tier: freebie}
+  tolfte:   {pos: räkneord, forms: [tolfte], gloss_sv: "nummer 12: december är den tolfte månaden", gloss_en: "twelfth", intro: 12, tier: freebie}
+  sista:    {pos: adjektiv, forms: [sista, sist], gloss_sv: "nummer 12 av 12 = den sista!", gloss_en: "last", intro: 12, tier: freebie}
+  ofta:     {pos: adverb, forms: [ofta], gloss_sv: "ofta = många, många gånger: det regnar ofta på hösten", gloss_en: "often", intro: 12, tier: freebie}
+  länge:    {pos: adverb, forms: [länge], gloss_sv: "lång tid ⏳: solen är uppe länge om sommaren", gloss_en: "for a long time", intro: 12, tier: freebie}
+  efter:    {pos: preposition, forms: [efter], gloss_sv: "efter dagen kommer natten (1 → 2)", gloss_en: "after", intro: 12, tier: freebie}
+  grattis:  {pos: interjektion, forms: [grattis], gloss_sv: "🎉 säger man på födelsedagen!", gloss_en: "congratulations", intro: 12, tier: freebie}
+  om:       {pos: preposition, forms: [om], gloss_sv: "om sommaren = på sommaren ☀", gloss_en: "in, about; (om sommaren) in summer", intro: 12, tier: freebie}
+  tretton:  {pos: räkneord, forms: [tretton], gloss_sv: "13", gloss_en: "thirteen", intro: 12, tier: freebie}
+
+  # ---------- kap 12 focus ----------
+  månad:
+    pos: substantiv
+    gender: en
+    forms: [månad, månaden, månader, månaderna, månadens]
+    gloss_sv: "januari, februari … — ett år har tolv månader 📅"
+    gloss_en: "month"
+    intro: 12
+    tier: focus
+  vecka:
+    pos: substantiv
+    gender: en
+    forms: [vecka, veckan, veckor, veckorna, veckans]
+    gloss_sv: "7 dagar: måndag → söndag 📅"
+    gloss_en: "week"
+    intro: 12
+    tier: focus
+  dag:
+    pos: substantiv
+    gender: en
+    forms: [dag, dagen, dagar, dagarna, dags, dagens]
+    gloss_sv: "☀ morgon + … + kväll = en dag (↔ natt)"
+    gloss_en: "day"
+    intro: 12
+    tier: focus
+  årstid:
+    pos: substantiv
+    gender: en
+    forms: [årstid, årstiden, årstider, årstiderna, årstidens]
+    gloss_sv: "vinter, vår, sommar, höst — årets fyra 'delar'"
+    gloss_en: "season"
+    intro: 12
+    tier: focus
+  vinter:
+    pos: substantiv
+    gender: en
+    forms: [vinter, vintern, vintrar, vintrarna, vinterns]
+    gloss_sv: "❄ kall årstid med snö — december, januari, februari"
+    gloss_en: "winter"
+    intro: 12
+    tier: focus
+  vår_arstid:
+    pos: substantiv
+    gender: en
+    forms: [vår, våren, vårar, vårens]
+    gloss_sv: "🌱 efter vintern: solen kommer, träden är gröna!"
+    gloss_en: "spring"
+    intro: 12
+    tier: focus
+  sommar:
+    pos: substantiv
+    gender: en
+    forms: [sommar, sommaren, somrar, somrarna, sommarens]
+    gloss_sv: "☀ varm årstid — barnen badar i sjön!"
+    gloss_en: "summer"
+    intro: 12
+    tier: focus
+  höst:
+    pos: substantiv
+    gender: en
+    forms: [höst, hösten, höstar, höstarna, höstens]
+    gloss_sv: "🍂 efter sommaren: regn, och träden är gula och röda"
+    gloss_en: "autumn"
+    intro: 12
+    tier: focus
+  kall:
+    pos: adjektiv
+    forms: [kall, kallt, kalla, kallare, kallast]
+    gloss_sv: "🥶 som snö och is! (↔ varm)"
+    gloss_en: "cold"
+    intro: 12
+    tier: focus
+  varm:
+    pos: adjektiv
+    forms: [varm, varmt, varma, varmare, varmast]
+    gloss_sv: "🥵 som solen om sommaren! (↔ kall)"
+    gloss_en: "warm"
+    intro: 12
+    tier: focus
+  snö:
+    pos: substantiv
+    gender: en
+    forms: [snö, snön, snöns]
+    gloss_sv: "❄ vit, kall — 'vinterns regn'!"
+    gloss_en: "snow"
+    intro: 12
+    tier: focus
+  sol:
+    pos: substantiv
+    gender: en
+    forms: [sol, solen, solar, solens]
+    gloss_sv: "☀ gul, varm, uppe på dagen!"
+    gloss_en: "sun"
+    intro: 12
+    tier: focus
+
+  # ---------- kap 12 stretch ----------
+  bada:
+    pos: verb
+    forms: [badar, bada, badade, badat]
+    gloss_sv: "🏊 leka och simma i vattnet — om sommaren!"
+    gloss_en: "to bathe, swim"
+    intro: 12
+    tier: stretch
+  regn:
+    pos: substantiv
+    gender: ett
+    forms: [regn, regnet, regnets]
+    gloss_sv: "🌧 vatten från himlen — ofta på hösten!"
+    gloss_en: "rain"
+    intro: 12
+    tier: stretch
+  födelsedag:
+    pos: substantiv
+    gender: en
+    forms: [födelsedag, födelsedagen, födelsedagar, födelsedagarna, födelsedagens]
+    gloss_sv: "🎂 din dag nummer ett! Astrid: den femte maj"
+    gloss_en: "birthday"
+    intro: 12
+    tier: stretch
+  natt:
+    pos: substantiv
+    gender: en
+    forms: [natt, natten, nätter, nätterna, nattens]
+    gloss_sv: "🌙 efter kvällen — solen är borta, du sover (↔ dag)"
+    gloss_en: "night"
+    intro: 12
+    tier: stretch
+
+  # ---------- kap 13 freebies ----------
+  halv:     {pos: adjektiv, forms: [halv, halvt, halva], gloss_sv: "½! OBS: halv åtta = 7.30 (inte 8.30!)", gloss_en: "half", intro: 13, tier: freebie}
+  kvart:    {pos: substantiv, gender: en, forms: [kvart, kvarten], gloss_sv: "15 minuter: kvart över sju = 7.15, kvart i åtta = 7.45", gloss_en: "quarter (hour)", intro: 13, tier: freebie}
+  för:      {pos: adverb, forms: [för], gloss_sv: "för länge = mycket, mycket länge — inte bra!", gloss_en: "too; for", intro: 13, tier: freebie}
+  tjugofyra: {pos: räkneord, forms: [tjugofyra], gloss_sv: "24 = tjugo + fyra", gloss_en: "twenty-four", intro: 13, tier: freebie}
+  fjorton:  {pos: räkneord, forms: [fjorton], gloss_sv: "14", gloss_en: "fourteen", intro: 13, tier: freebie}
+
+  # ---------- kap 13 focus ----------
+  klocka:
+    pos: substantiv
+    gender: en
+    forms: [klocka, klockan, klockor, klockorna, klockans]
+    gloss_sv: "🕐 den säger vad tiden är: 'Vad är klockan?'"
+    gloss_en: "clock; (klockan) o'clock"
+    intro: 13
+    tier: focus
+  timme:
+    pos: substantiv
+    gender: en
+    forms: [timme, timmen, timmar, timmarna, timmens]
+    gloss_sv: "⏳ 60 minuter — en dag har 24 timmar!"
+    gloss_en: "hour"
+    intro: 13
+    tier: focus
+  frukost:
+    pos: substantiv
+    gender: en
+    forms: [frukost, frukosten, frukostar, frukostens]
+    gloss_sv: "🍞 morgonens mat: bröd, ost och mjölk"
+    gloss_en: "breakfast"
+    intro: 13
+    tier: focus
+  sitta:
+    pos: verb
+    forms: [sitter, sitta, satt, suttit, sitt]
+    gloss_sv: "🪑 ÄR på stolen (sätter sig → och nu sitter man!)"
+    gloss_en: "to sit"
+    intro: 13
+    tier: focus
+  stiga:
+    pos: verb
+    forms: [stiger, stiga, steg, stigit]
+    gloss_sv: "stiger upp = går upp från sängen! 🛏→🧍"
+    gloss_en: "to rise (stiga upp = get up)"
+    intro: 13
+    tier: focus
+  klä:
+    pos: verb
+    forms: [klär, klä, klädde, klätt]
+    gloss_sv: "klär på sig 👕 — 'kläder' på kroppen!"
+    gloss_en: "to dress"
+    intro: 13
+    tier: focus
+  borsta:
+    pos: verb
+    forms: [borstar, borsta, borstade, borstat]
+    gloss_sv: "🪥 borstar tänderna — varje morgon och kväll!"
+    gloss_en: "to brush"
+    intro: 13
+    tier: focus
+  tand:
+    pos: substantiv
+    gender: en
+    forms: [tand, tanden, tänder, tänderna, tandens]
+    gloss_sv: "🦷 vita, små, i munnen (en tand — två tänder!)"
+    gloss_en: "tooth"
+    intro: 13
+    tier: focus
+  väcka:
+    pos: verb
+    forms: [väcker, väcka, väckte, väckt]
+    gloss_sv: "📢 säger 'vakna!': Karin väcker barnen"
+    gloss_en: "to wake (someone)"
+    intro: 13
+    tier: focus
+  skynda:
+    pos: verb
+    forms: [skyndar, skynda, skyndade, skyndat]
+    gloss_sv: "🏃 skyndar sig = gör allt snabbt, snabbt!"
+    gloss_en: "to hurry"
+    intro: 13
+    tier: focus
+  snabb:
+    pos: adjektiv
+    forms: [snabb, snabbt, snabba, snabbare, snabbast]
+    gloss_sv: "🏃 gör det på en minut! (↔ långsam)"
+    gloss_en: "fast"
+    intro: 13
+    tier: focus
+  sen:
+    pos: adjektiv
+    forms: [sen, sent, sena]
+    gloss_sv: "😰 klockan är åtta — och du är inte där!"
+    gloss_en: "late"
+    intro: 13
+    tier: focus
+
+  # ---------- kap 13 stretch ----------
+  minut:
+    pos: substantiv
+    gender: en
+    forms: [minut, minuten, minuter, minuterna, minutens]
+    gloss_sv: "⏱ 60 minuter = en timme"
+    gloss_en: "minute"
+    intro: 13
+    tier: stretch
+  kamma:
+    pos: verb
+    forms: [kammar, kamma, kammade, kammat]
+    gloss_sv: "💇 kammar håret"
+    gloss_en: "to comb"
+    intro: 13
+    tier: stretch
+  långsam:
+    pos: adjektiv
+    forms: [långsam, långsamt, långsamma]
+    gloss_sv: "🐢 tar lång, lång tid (↔ snabb)"
+    gloss_en: "slow"
+    intro: 13
+    tier: stretch
+  bil:
+    pos: substantiv
+    gender: en
+    forms: [bil, bilen, bilar, bilarna, bilens]
+    gloss_sv: "🚗 man åker bil — snabbt på vägarna!"
+    gloss_en: "car"
+    intro: 13
+    tier: stretch
+
+  # ---------- kap 14 freebies ----------
+  nummer:   {pos: substantiv, gender: ett, forms: [nummer, numret, numrets], gloss_sv: "1, 2, 3 — nummer ett, nummer två!", gloss_en: "number", intro: 14, tier: freebie}
+  verb:     {pos: substantiv, gender: ett, forms: [verb, verbet, verben, verbets], gloss_sv: "'görar-ord': springer, läser, är … — verbet är nummer två i meningen!", gloss_en: "verb", intro: 14, tier: freebie}
+
+  # ---------- kap 14 focus ----------
+  lärare:
+    pos: substantiv
+    gender: en
+    forms: [lärare, läraren, lärares, lärarens, lärarna]
+    gloss_sv: "👩‍🏫 fru Lind! Läraren talar, och eleverna lär sig"
+    gloss_en: "teacher"
+    intro: 14
+    tier: focus
+  elev:
+    pos: substantiv
+    gender: en
+    forms: [elev, eleven, elever, eleverna, elevens, elevernas]
+    gloss_sv: "ett barn i skolan — Oskar, Nils och Astrid är elever"
+    gloss_en: "pupil, student"
+    intro: 14
+    tier: focus
+  klass:
+    pos: substantiv
+    gender: en
+    forms: [klass, klassen, klasser, klasserna, klassens]
+    gloss_sv: "elever som är tillsammans i skolan — Oskars klass har tjugo elever"
+    gloss_en: "class"
+    intro: 14
+    tier: focus
+  läsa:
+    pos: verb
+    forms: [läser, läsa, läste, läst, läs]
+    gloss_sv: "📖 ser på orden i en bok — och förstår dem!"
+    gloss_en: "to read"
+    intro: 14
+    tier: focus
+  skriva:
+    pos: verb
+    forms: [skriver, skriva, skrev, skrivit, skriv]
+    gloss_sv: "✍ gör ord med pennan på papperet"
+    gloss_en: "to write"
+    intro: 14
+    tier: focus
+  räkna:
+    pos: verb
+    forms: [räknar, räkna, räknade, räknat]
+    gloss_sv: "🔢 1 + 2 = 3! Räkna med siffror"
+    gloss_en: "to count, calculate"
+    intro: 14
+    tier: focus
+  rita:
+    pos: verb
+    forms: [ritar, rita, ritade, ritat]
+    gloss_sv: "✏🐺 gör en 'bild' med pennan — Oskar ritar vargar!"
+    gloss_en: "to draw"
+    intro: 14
+    tier: focus
+  lära:
+    pos: verb
+    forms: [lär, lära, lärde, lärt]
+    gloss_sv: "lär sig = kan inte … och sedan kan! Astrid lär sig läsa"
+    gloss_en: "to teach; (lära sig) to learn"
+    intro: 14
+    tier: focus
+  förstå:
+    pos: verb
+    forms: [förstår, förstå, förstod, förstått]
+    gloss_sv: "💡 hör eller läser ordet — och vet vad det är!"
+    gloss_en: "to understand"
+    intro: 14
+    tier: focus
+  papper:
+    pos: substantiv
+    gender: ett
+    forms: [papper, papperet, pappret, papprets]
+    gloss_sv: "📄 vitt — man skriver och ritar på det"
+    gloss_en: "paper"
+    intro: 14
+    tier: focus
+  rast:
+    pos: substantiv
+    gender: en
+    forms: [rast, rasten, raster, rasterna, rastens]
+    gloss_sv: "🎉 leka-tid i skolan — alla är ute!"
+    gloss_en: "break, recess"
+    intro: 14
+    tier: focus
+  språk:
+    pos: substantiv
+    gender: ett
+    forms: [språk, språket, språken, språkets]
+    gloss_sv: "svenska, engelska … — ord och meningar! 💬"
+    gloss_en: "language"
+    intro: 14
+    tier: focus
+
+  # ---------- kap 14 stretch ----------
+  klassrum:
+    pos: substantiv
+    gender: ett
+    forms: [klassrum, klassrummet, klassrummen]
+    gloss_sv: "rummet i skolan — här sitter klassen"
+    gloss_en: "classroom"
+    intro: 14
+    tier: stretch
+  matematik:
+    pos: substantiv
+    gender: en
+    forms: [matematik, matematiken]
+    gloss_sv: "🔢 siffror: 15 + 15 = 30!"
+    gloss_en: "mathematics"
+    intro: 14
+    tier: stretch
+  engelska:
+    pos: substantiv
+    forms: [engelska, engelskan, engelsk, engelskt]
+    gloss_sv: "språket i England och Amerika"
+    gloss_en: "English"
+    intro: 14
+    tier: stretch
+  penna:
+    pos: substantiv
+    gender: en
+    forms: [penna, pennan, pennor, pennorna, pennans]
+    gloss_sv: "✏ man skriver med den"
+    gloss_en: "pen, pencil"
+    intro: 14
+    tier: stretch
+
+  # ---------- kap 15 freebies ----------
+  alltid:   {pos: adverb, forms: [alltid], gloss_sv: "alltid = varje dag, varje gång — 100% av tiden!", gloss_en: "always", intro: 15, tier: freebie}
+  igen:     {pos: adverb, forms: [igen], gloss_sv: "en gång till: solen är uppe igen! 🔄", gloss_en: "again", intro: 15, tier: freebie}
+  hel:      {pos: adjektiv, forms: [hel, helt, hela], gloss_sv: "hela dagen = 100% av dagen, från morgon till kväll", gloss_en: "whole", intro: 15, tier: freebie}
+  sexton:   {pos: räkneord, forms: [sexton], gloss_sv: "16", gloss_en: "sixteen", intro: 15, tier: freebie}
+
+  # ---------- kap 15 focus ----------
+  väder:
+    pos: substantiv
+    gender: ett
+    forms: [väder, vädret, vädrets]
+    gloss_sv: "☀🌧💨 sol, regn, vind — svenskar talar alltid om vädret!"
+    gloss_en: "weather"
+    intro: 15
+    tier: focus
+  oväder:
+    pos: substantiv
+    gender: ett
+    forms: [oväder, ovädret, ovädrets]
+    gloss_sv: "⛈ MYCKET arg väder: regn + vind + åska! (o- = inte bra!)"
+    gloss_en: "storm"
+    intro: 15
+    tier: focus
+  regna:
+    pos: verb
+    forms: [regnar, regna, regnade, regnat]
+    gloss_sv: "🌧 det regnar = regn kommer från himlen"
+    gloss_en: "to rain"
+    intro: 15
+    tier: focus
+  blåsa:
+    pos: verb
+    forms: [blåser, blåsa, blåste, blåst]
+    gloss_sv: "💨 det blåser = vinden går!"
+    gloss_en: "to blow (wind)"
+    intro: 15
+    tier: focus
+  åska:
+    pos: verb
+    forms: [åskar, åska, åskade, åskat, åskan, åskans]
+    gloss_sv: "⚡ himlens stora 'voff'! Först blixten, sedan åskan"
+    gloss_en: "to thunder; (åskan) thunder"
+    intro: 15
+    tier: focus
+  vind:
+    pos: substantiv
+    gender: en
+    forms: [vind, vinden, vindar, vindarna, vindens]
+    gloss_sv: "💨 'springande' luft — det blåser!"
+    gloss_en: "wind"
+    intro: 15
+    tier: focus
+  moln:
+    pos: substantiv
+    gender: ett
+    forms: [moln, molnet, molnen, molnets]
+    gloss_sv: "☁ vitt eller grått, uppe på himlen — regnet bor där!"
+    gloss_en: "cloud"
+    intro: 15
+    tier: focus
+  himmel:
+    pos: substantiv
+    gender: en
+    forms: [himmel, himlen, himlar, himlens]
+    gloss_sv: "⬆ blå (eller grå!) — här är solen, molnen och fåglarna"
+    gloss_en: "sky"
+    intro: 15
+    tier: focus
+  våt:
+    pos: adjektiv
+    forms: [våt, vått, våta]
+    gloss_sv: "💧 med vatten på sig — Misse i regnet! (↔ torr)"
+    gloss_en: "wet"
+    intro: 15
+    tier: focus
+  torr:
+    pos: adjektiv
+    forms: [torr, torrt, torra]
+    gloss_sv: "utan vatten (↔ våt)"
+    gloss_en: "dry"
+    intro: 15
+    tier: focus
+  stanna:
+    pos: verb
+    forms: [stannar, stanna, stannade, stannat]
+    gloss_sv: "går inte bort: barnen stannar inne (regnet!)"
+    gloss_en: "to stay; to stop"
+    intro: 15
+    tier: focus
+  titta:
+    pos: verb
+    forms: [tittar, titta, tittade, tittat]
+    gloss_sv: "👀 ser — med fokus! Titta ut genom fönstret!"
+    gloss_en: "to look"
+    intro: 15
+    tier: focus
+
+  # ---------- kap 15 stretch ----------
+  blixt:
+    pos: substantiv
+    gender: en
+    forms: [blixt, blixten, blixtar, blixtarna, blixtens]
+    gloss_sv: "⚡ vitt, snabbt 'ljus' på himlen — sedan åskar det!"
+    gloss_en: "lightning"
+    intro: 15
+    tier: stretch
+  paraply:
+    pos: substantiv
+    gender: ett
+    forms: [paraply, paraplyet, paraplyer, paraplyerna]
+    gloss_sv: "☔ litet 'tak' i handen — mot regnet!"
+    gloss_en: "umbrella"
+    intro: 15
+    tier: stretch
+  plötsligt:
+    pos: adverb
+    forms: [plötsligt, plötslig, plötsliga]
+    gloss_sv: "⚡ nu — mycket snabbt, ingen ser det komma!"
+    gloss_en: "suddenly"
+    intro: 15
+    tier: stretch
+  grå:
+    pos: adjektiv
+    forms: [grå, grått, gråa]
+    gloss_sv: "☁ inte vit, inte svart — som regnmoln (och Misse!)"
+    gloss_en: "grey"
+    intro: 15
+    tier: stretch
+
+  # ---------- kap 16 freebies ----------
+  slut:     {pos: substantiv, gender: ett, forms: [slut, slutet, slutets], gloss_sv: "till slut = sist av allt; det är slut = färdigt!", gloss_en: "end", intro: 16, tier: freebie}
+  nästan:   {pos: adverb, forms: [nästan], gloss_sv: "inte 100% — men 95%!", gloss_en: "almost", intro: 16, tier: freebie}
+  sjutton:  {pos: räkneord, forms: [sjutton], gloss_sv: "17", gloss_en: "seventeen", intro: 16, tier: freebie}
+
+  # ---------- kap 16 focus ----------
+  hända:
+    pos: verb
+    forms: [händer, hända, hände, hänt]
+    gloss_sv: "Vad hände? = Vad var? Vad kom? (om i går!)"
+    gloss_en: "to happen"
+    intro: 16
+    tier: focus
+  berätta:
+    pos: verb
+    forms: [berättar, berätta, berättade, berättat]
+    gloss_sv: "💬📖 säga en lång sak — en 'liten bok' med munnen!"
+    gloss_en: "to tell, narrate"
+    intro: 16
+    tier: focus
+  minnas:
+    pos: verb
+    forms: [minns, minnas, mindes, mints]
+    gloss_sv: "🧠 har det i huvudet: jag minns i går! (↔ glömmer) — OBS: ordet har -s!"
+    gloss_en: "to remember"
+    intro: 16
+    tier: focus
+  glömma:
+    pos: verb
+    forms: [glömmer, glömma, glömde, glömt]
+    gloss_sv: "🙈 har det INTE i huvudet: Oskar glömde katten ute! (↔ minns)"
+    gloss_en: "to forget"
+    intro: 16
+    tier: focus
+  stå:
+    pos: verb
+    forms: [står, stå, stod, stått]
+    gloss_sv: "🧍 är på fötterna — sitter inte, ligger inte!"
+    gloss_en: "to stand"
+    intro: 16
+    tier: focus
+  middag:
+    pos: substantiv
+    gender: en
+    forms: [middag, middagen, middagar, middagarna, middagens]
+    gloss_sv: "🍽 dagens stora mat — familjen äter tillsammans"
+    gloss_en: "dinner"
+    intro: 16
+    tier: focus
+  hämta:
+    pos: verb
+    forms: [hämtar, hämta, hämtade, hämtat]
+    gloss_sv: "går ut → tar → kommer in med det! Karin hämtade Misse"
+    gloss_en: "to fetch"
+    intro: 16
+    tier: focus
+  tid:
+    pos: substantiv
+    gender: en
+    forms: [tid, tiden, tider, tiderna, tidens]
+    gloss_sv: "⏳ minuter, timmar, dagar, år — allt är tid!"
+    gloss_en: "time"
+    intro: 16
+    tier: focus
+
+  # ---------- kap 16 stretch ----------
+  tyst:
+    pos: adjektiv
+    forms: [tyst, tysta]
+    gloss_sv: "🤫 inga ord, inget ljud"
+    gloss_en: "quiet, silent"
+    intro: 16
+    tier: stretch
+
+  # ---------- kap 17 freebies ----------
+  än:       {pos: konjunktion, forms: [än], gloss_sv: "A är större ÄN B: pappa är längre än Oskar", gloss_en: "than", intro: 17, tier: freebie}
+  mer:      {pos: adverb, forms: [mer], gloss_sv: "mer mjölk (man räknar inte mjölk!)", gloss_en: "more", intro: 17, tier: freebie}
+  mest:     {pos: adverb, forms: [mest], gloss_sv: "🥇 av alla: Nils har mest pengar", gloss_en: "most", intro: 17, tier: freebie}
+  fler:     {pos: adverb, forms: [fler], gloss_sv: "fler kronor (man räknar: 1, 2, 3 …)", gloss_en: "more (countable)", intro: 17, tier: freebie}
+  flest:    {pos: adverb, forms: [flest], gloss_sv: "🥇 flest kronor av alla", gloss_en: "most (countable)", intro: 17, tier: freebie}
+  som:      {pos: konjunktion, forms: [som], gloss_sv: "lika stor som X = samma! (och: flickan som … — kapitel 23!)", gloss_en: "as; that/who", intro: 17, tier: freebie}
+  lika:     {pos: adverb, forms: [lika], gloss_sv: "lika stor som = A och B är samma!", gloss_en: "equally", intro: 17, tier: freebie}
+  tusen:    {pos: räkneord, forms: [tusen], gloss_sv: "1000 = tio hundra!", gloss_en: "thousand", intro: 17, tier: freebie}
+  arton:    {pos: räkneord, forms: [arton], gloss_sv: "18", gloss_en: "eighteen", intro: 17, tier: freebie}
+  åttiofem: {pos: räkneord, forms: [åttiofem], gloss_sv: "85 = åttio + fem", gloss_en: "eighty-five", intro: 17, tier: freebie}
+  kilometer: {pos: substantiv, forms: [kilometer, kilometern], gloss_sv: "1000 meter — en mil är tio kilometer", gloss_en: "kilometre", intro: 17, tier: freebie}
+
+  # ---------- kap 17 focus ----------
+  jämföra:
+    pos: verb
+    forms: [jämför, jämföra, jämförde, jämfört]
+    gloss_sv: "⚖ ser på A och B: vem är större? Vem har mer?"
+    gloss_en: "to compare"
+    intro: 17
+    tier: focus
+  spara:
+    pos: verb
+    forms: [sparar, spara, sparade, sparat]
+    gloss_sv: "💰 köper INTE — pengarna stannar! Krona efter krona …"
+    gloss_en: "to save"
+    intro: 17
+    tier: focus
+  hög:
+    pos: adjektiv
+    forms: [hög, högt, höga, högre, högst, högsta]
+    gloss_sv: "⛰⬆ Kebnekaise är högt! (↔ låg)"
+    gloss_en: "high, tall"
+    intro: 17
+    tier: focus
+  låg_adj:
+    pos: adjektiv
+    forms: [låg, lågt, låga, lägre, lägst]
+    gloss_sv: "⬇ inte hög (↔ hög)"
+    gloss_en: "low"
+    intro: 17
+    tier: focus
+  tung:
+    pos: adjektiv
+    forms: [tung, tungt, tunga, tyngre, tyngst]
+    gloss_sv: "⚓ Ludde är tung! (↔ lätt)"
+    gloss_en: "heavy"
+    intro: 17
+    tier: focus
+  lätt:
+    pos: adjektiv
+    forms: [lätt, lätta, lättare, lättast]
+    gloss_sv: "🪶 en katt är lätt (↔ tung)"
+    gloss_en: "light; easy"
+    intro: 17
+    tier: focus
+  kort:
+    pos: adjektiv
+    forms: [kort, korta, kortare, kortast]
+    gloss_sv: "inte lång: en kort väg, en kort dag (↔ lång)"
+    gloss_en: "short"
+    intro: 17
+    tier: focus
+  ung:
+    pos: adjektiv
+    forms: [ung, ungt, unga, yngre, yngst, yngsta]
+    gloss_sv: "inte gammal: Astrid är yngst i familjen! (↔ gammal)"
+    gloss_en: "young"
+    intro: 17
+    tier: focus
+  dålig:
+    pos: adjektiv
+    forms: [dålig, dåligt, dåliga, sämre, sämst]
+    gloss_sv: "inte bra! Regn är dåligt väder (dålig → sämre → sämst)"
+    gloss_en: "bad"
+    intro: 17
+    tier: focus
+
+  # ---------- kap 17 stretch ----------
+  djup:
+    pos: adjektiv
+    forms: [djup, djupt, djupa, djupare, djupast]
+    gloss_sv: "💧⬇ mycket vatten ner: Vättern är djup!"
+    gloss_en: "deep"
+    intro: 17
+    tier: stretch
+  mil:
+    pos: substantiv
+    gender: en
+    forms: [mil, milen]
+    gloss_sv: "en svensk mil = 10 kilometer! Sjövik → Stockholm: 30 mil"
+    gloss_en: "Swedish mile (10 km)"
+    intro: 17
+    tier: stretch
+
+  # ---------- kap 18 freebies ----------
+  någonsin: {pos: adverb, forms: [någonsin], gloss_sv: "Har du någonsin …? = en gång i ditt liv?", gloss_en: "ever", intro: 18, tier: freebie}
+  aldrig:   {pos: adverb, forms: [aldrig], gloss_sv: "inte en gång — 0 gånger!", gloss_en: "never", intro: 18, tier: freebie}
+  redan:    {pos: adverb, forms: [redan], gloss_sv: "nu — så snabbt?! Har svaret redan kommit?", gloss_en: "already", intro: 18, tier: freebie}
+  just:     {pos: adverb, forms: [just], gloss_sv: "just nu = nu, nu, nu! Brevet har just kommit", gloss_en: "just (now)", intro: 18, tier: freebie}
+  kära:     {pos: adjektiv, forms: [kära], gloss_sv: "Kära farmor! — så börjar ett brev ❤", gloss_en: "dear", intro: 18, tier: freebie}
+  hos:      {pos: preposition, forms: [hos], gloss_sv: "hos farmor = i farmors hus, med farmor", gloss_en: "at (someone's place)", intro: 18, tier: freebie}
+  välkommen: {pos: adjektiv, forms: [välkommen, välkomna, välkommet], gloss_sv: "🤗 Kom in! Vi vill ha dig här!", gloss_en: "welcome", intro: 18, tier: freebie}
+  nitton:   {pos: räkneord, forms: [nitton], gloss_sv: "19", gloss_en: "nineteen", intro: 17, tier: freebie}
+
+  # ---------- kap 18 focus ----------
+  brev:
+    pos: substantiv
+    gender: ett
+    forms: [brev, brevet, breven, brevets]
+    gloss_sv: "✉ ord på papper — till en människa långt borta"
+    gloss_en: "letter"
+    intro: 18
+    tier: focus
+  skicka:
+    pos: verb
+    forms: [skickar, skicka, skickade, skickat]
+    gloss_sv: "✉→📬 lägger brevet i brevlådan — och det åker!"
+    gloss_en: "to send"
+    intro: 18
+    tier: focus
+  farmor:
+    pos: substantiv
+    gender: en
+    forms: [farmor, farmors]
+    gloss_sv: "pappas mamma 👵 (far + mor! — och morfar = mor + far)"
+    gloss_en: "grandmother (father's side)"
+    intro: 18
+    tier: focus
+  hälsa:
+    pos: verb
+    forms: [hälsar, hälsa, hälsade, hälsat]
+    gloss_sv: "säger 'hej!' från en människa: Hälsa Ludde från mig!"
+    gloss_en: "to greet, say hello"
+    intro: 18
+    tier: focus
+  svar:
+    pos: substantiv
+    gender: ett
+    forms: [svar, svaret, svaren, svarets]
+    gloss_sv: "brevet som 'svarar' — farmors brev till barnen!"
+    gloss_en: "answer, reply"
+    intro: 18
+    tier: focus
+  bjuda:
+    pos: verb
+    forms: [bjuder, bjuda, bjöd, bjudit, bjuden, bjudet, bjudna]
+    gloss_sv: "🎟 säger 'kom till mig!': farmor bjuder familjen till Stockholm"
+    gloss_en: "to invite"
+    intro: 18
+    tier: focus
+  vänta:
+    pos: verb
+    forms: [väntar, vänta, väntade, väntat]
+    gloss_sv: "⏳ tiden går, och du ser på brevlådan …"
+    gloss_en: "to wait"
+    intro: 18
+    tier: focus
+  adress:
+    pos: substantiv
+    gender: en
+    forms: [adress, adressen, adresser, adresserna, adressens]
+    gloss_sv: "namn + stad på brevet — så hittar brevet hem!"
+    gloss_en: "address"
+    intro: 18
+    tier: focus
+  gång:
+    pos: substantiv
+    gender: en
+    forms: [gång, gången, gånger, gångerna, gångens]
+    gloss_sv: "en gång, två gånger … (aldrig = 0 gånger!)"
+    gloss_en: "time (occasion)"
+    intro: 18
+    tier: focus
+
+  # ---------- kap 18 stretch ----------
+  kram:
+    pos: substantiv
+    gender: en
+    forms: [kram, kramen, kramar, kramarna]
+    gloss_sv: "🤗 armarna om en människa! 'Kramar från …' — så slutar ett brev"
+    gloss_en: "hug"
+    intro: 18
+    tier: stretch
+  frimärke:
+    pos: substantiv
+    gender: ett
+    forms: [frimärke, frimärket, frimärken, frimärkena]
+    gloss_sv: "📮 den lilla 'biljetten' på brevet"
+    gloss_en: "stamp"
+    intro: 18
+    tier: stretch
+  brevlåda:
+    pos: substantiv
+    gender: en
+    forms: [brevlåda, brevlådan, brevlådor, brevlådorna]
+    gloss_sv: "📬 här lägger man brevet — och posten tar det!"
+    gloss_en: "mailbox"
+    intro: 18
+    tier: stretch
+
+  # ---------- kap 19 freebies ----------
+  ska:      {pos: verb, forms: [ska, skall, skulle], gloss_sv: "🔮 framtid: i morgon ska vi resa!", gloss_en: "will, shall", intro: 19, tier: freebie}
+  snart:    {pos: adverb, forms: [snart], gloss_sv: "⏩ inte nu — men nästan nu! Vi är snart framme", gloss_en: "soon", intro: 19, tier: freebie}
+  trehundra: {pos: räkneord, forms: [trehundra], gloss_sv: "300 = tre + hundra", gloss_en: "three hundred", intro: 19, tier: freebie}
+
+  # ---------- kap 19 focus ----------
+  resa_verb:
+    pos: verb
+    forms: [reser, resa, reste, rest]
+    gloss_sv: "🚂 åka långt — till en annan stad, ett annat land!"
+    gloss_en: "to travel"
+    intro: 19
+    tier: focus
+  resa_noun:
+    pos: substantiv
+    gender: en
+    forms: [resa, resan, resor, resorna, resans]
+    gloss_sv: "🚂 vägen från A till B: resan till Stockholm är trettio mil!"
+    gloss_en: "journey, trip"
+    intro: 19
+    tier: focus
+  packa:
+    pos: verb
+    forms: [packar, packa, packade, packat]
+    gloss_sv: "🧳 lägger sakerna i väskan — vi ska resa!"
+    gloss_en: "to pack"
+    intro: 19
+    tier: focus
+  väska:
+    pos: substantiv
+    gender: en
+    forms: [väska, väskan, väskor, väskorna, väskans]
+    gloss_sv: "🧳 sakerna bor i den på resan"
+    gloss_en: "bag, suitcase"
+    intro: 19
+    tier: focus
+  biljett:
+    pos: substantiv
+    gender: en
+    forms: [biljett, biljetten, biljetter, biljetterna, biljettens]
+    gloss_sv: "🎫 'du får åka!' — papperet som kostar pengar"
+    gloss_en: "ticket"
+    intro: 19
+    tier: focus
+  tänka:
+    pos: verb
+    forms: [tänker, tänka, tänkte, tänkt]
+    gloss_sv: "🧠 har i huvudet: Nils tänker på tåget. Tänker + verb = min plan!"
+    gloss_en: "to think; to plan to"
+    intro: 19
+    tier: focus
+  framme:
+    pos: adverb
+    forms: [framme]
+    gloss_sv: "📍 vid resans slut: Nu är vi framme!"
+    gloss_en: "arrived, there"
+    intro: 19
+    tier: focus
+  karta:
+    pos: substantiv
+    gender: en
+    forms: [karta, kartan, kartor, kartorna, kartans]
+    gloss_sv: "🗺 landet på ett papper — kapitel ett!"
+    gloss_en: "map"
+    intro: 19
+    tier: focus
+
+  # ---------- kap 19 stretch ----------
+  spännande:
+    pos: adjektiv
+    forms: [spännande]
+    gloss_sv: "✨ 'Oj! Vad kommer nu?!'"
+    gloss_en: "exciting"
+    intro: 19
+    tier: stretch
+  granne:
+    pos: substantiv
+    gender: en
+    forms: [granne, grannen, grannar, grannarna, grannens]
+    gloss_sv: "en människa i huset nära ditt hus"
+    gloss_en: "neighbour"
+    intro: 19
+    tier: stretch
+  mata:
+    pos: verb
+    forms: [matar, mata, matade, matat]
+    gloss_sv: "ger mat 🍽→🐈: Elsa matar Misse"
+    gloss_en: "to feed"
+    intro: 19
+    tier: stretch
+
+  # ---------- kap 20 freebies ----------
+  tjugoett: {pos: räkneord, forms: [tjugoett], gloss_sv: "21 = tjugo + ett", gloss_en: "twenty-one", intro: 20, tier: freebie}
+
+  # ---------- kap 20 focus ----------
+  slott:
+    pos: substantiv
+    gender: ett
+    forms: [slott, slottet, slotten, slottets]
+    gloss_sv: "🏰 ett mycket stort, mycket fint hus — Stockholms slott!"
+    gloss_en: "palace, castle"
+    intro: 20
+    tier: focus
+  torg:
+    pos: substantiv
+    gender: ett
+    forms: [torg, torget, torgen, torgets]
+    gloss_sv: "en stor öppen 'plats' i staden — mycket folk!"
+    gloss_en: "square"
+    intro: 20
+    tier: focus
+  båt:
+    pos: substantiv
+    gender: en
+    forms: [båt, båten, båtar, båtarna, båtens]
+    gloss_sv: "⛵ 'huset' som åker på vattnet!"
+    gloss_en: "boat"
+    intro: 20
+    tier: focus
+  trappa:
+    pos: substantiv
+    gender: en
+    forms: [trappa, trappan, trappor, trapporna, trappans]
+    gloss_sv: "🪜 väg upp i huset — fot efter fot!"
+    gloss_en: "stairs"
+    intro: 20
+    tier: focus
+  våning:
+    pos: substantiv
+    gender: en
+    forms: [våning, våningen, våningar, våningarna, våningens]
+    gloss_sv: "ett 'golv' i huset: farmor bor på femte våningen!"
+    gloss_en: "floor, storey"
+    intro: 20
+    tier: focus
+  hiss:
+    pos: substantiv
+    gender: en
+    forms: [hiss, hissen, hissar, hissarna, hissens]
+    gloss_sv: "⬆⬇ litet rum som åker upp och ner — Astrids nummer ett!"
+    gloss_en: "elevator"
+    intro: 20
+    tier: focus
+  glass:
+    pos: substantiv
+    gender: en
+    forms: [glass, glassen, glassar, glassarna, glassens]
+    gloss_sv: "🍦 kall, söt, god — bäst på en varm dag! (OBS: glass, inte glas!)"
+    gloss_en: "ice cream"
+    intro: 20
+    tier: focus
+  folk:
+    pos: substantiv
+    gender: ett
+    forms: [folk, folket, folkets]
+    gloss_sv: "många människor: på torget är mycket folk!"
+    gloss_en: "people"
+    intro: 20
+    tier: focus
+  museum:
+    pos: substantiv
+    gender: ett
+    forms: [museum, museet, museer, museerna, museets]
+    gloss_sv: "🏛 gamla saker bor här: gamla båtar, gamla kartor …"
+    gloss_en: "museum"
+    intro: 20
+    tier: focus
+  turist:
+    pos: substantiv
+    gender: en
+    forms: [turist, turisten, turister, turisterna, turistens]
+    gloss_sv: "📷 reser till en stad och tittar på allt!"
+    gloss_en: "tourist"
+    intro: 20
+    tier: focus
+
+  # ---------- kap 20 stretch ----------
+  promenera:
+    pos: verb
+    forms: [promenerar, promenera, promenerade, promenerat]
+    gloss_sv: "🚶 går långsamt och fint — inte till skolan, bara för att gå!"
+    gloss_en: "to stroll"
+    intro: 20
+    tier: stretch
+
+  # ---------- kap 21 freebies ----------
+  kanske:   {pos: adverb, forms: [kanske], gloss_sv: "🤷 ja? nej? — vi vet inte!", gloss_en: "maybe", intro: 21, tier: freebie}
+  före:     {pos: preposition, forms: [före], gloss_sv: "före resan = i tiden FÖRE resan ⏪ (↔ efter)", gloss_en: "before", intro: 21, tier: freebie}
+  herr:     {pos: substantiv, forms: [herr, herrn], gloss_sv: "herr Holm = mannen Holm (titel — som 'fru'!)", gloss_en: "Mr", intro: 21, tier: freebie}
+
+  # ---------- kap 22 freebies ----------
+  akta:     {pos: verb, forms: [akta, aktar, aktade, aktat], gloss_sv: "⚠ Akta! Akta dig! = se upp — kanske farligt!", gloss_en: "watch out, beware", intro: 22, tier: freebie}
+  förbi:    {pos: preposition, forms: [förbi], gloss_sv: "går förbi = kommer nära … och går bort igen →", gloss_en: "past", intro: 22, tier: freebie}
+  klart:    {pos: adjektiv, forms: [klart, klar, klara], gloss_sv: "– Klart! = ja, 100%! (och: klar = färdig)", gloss_en: "of course; ready", intro: 22, tier: freebie}
+  tjugotre: {pos: räkneord, forms: [tjugotre], gloss_sv: "23", gloss_en: "twenty-three", intro: 22, tier: freebie}
+  rätt:     {pos: adjektiv, forms: [rätt, rätta], gloss_sv: "✓ så är det! (↔ fel)", gloss_en: "right, correct", intro: 17, tier: freebie}
+  sönder:   {pos: adverb, forms: [sönder], gloss_sv: "💔 inte hel! Klockan är sönder — den säger inte 'pling'", gloss_en: "broken", intro: 21, tier: freebie}
+  tjugotvå: {pos: räkneord, forms: [tjugotvå], gloss_sv: "22", gloss_en: "twenty-two", intro: 21, tier: freebie}
+  pling:    {pos: interjektion, forms: [pling], gloss_sv: "🔔 så säger en cykelklocka!", gloss_en: "ding", intro: 21, tier: freebie}
+
+  # ---------- kap 21 focus ----------
+  bråk:
+    pos: substantiv
+    gender: ett
+    forms: [bråk, bråket, bråkets]
+    gloss_sv: "😠😠 två arga människor och många arga ord!"
+    gloss_en: "quarrel"
+    intro: 21
+    tier: focus
+  bråka:
+    pos: verb
+    forms: [bråkar, bråka, bråkade, bråkat]
+    gloss_sv: "ropar arga ord — vänner kan bråka … och bli vänner igen!"
+    gloss_en: "to quarrel"
+    intro: 21
+    tier: focus
+  ljuga:
+    pos: verb
+    forms: [ljuger, ljuga, ljög, ljugit]
+    gloss_sv: "🤥 säger det som INTE är sant!"
+    gloss_en: "to lie"
+    intro: 21
+    tier: focus
+  sann:
+    pos: adjektiv
+    forms: [sann, sant, sanna]
+    gloss_sv: "✓ så är det — inte en lögn? — SANT!"
+    gloss_en: "true"
+    intro: 21
+    tier: focus
+  fel_adj:
+    pos: adjektiv
+    forms: [fel]
+    gloss_sv: "✗ inte rätt! Oskar hade fel."
+    gloss_en: "wrong"
+    intro: 21
+    tier: focus
+  lova:
+    pos: verb
+    forms: [lovar, lova, lovade, lovat]
+    gloss_sv: "💯 säger 'jag SKA göra det' — och gör det!"
+    gloss_en: "to promise"
+    intro: 21
+    tier: focus
+  förlåta:
+    pos: verb
+    forms: [förlåter, förlåta, förlät, förlåtit, förlåt]
+    gloss_sv: "🙏 'Förlåt!' = jag gjorde fel! 'Jag förlåter dig' = det är OK nu"
+    gloss_en: "to forgive (förlåt! = sorry!)"
+    intro: 21
+    tier: focus
+  vän:
+    pos: substantiv
+    gender: en
+    forms: [vän, vännen, vänner, vännerna, vännens, vänners]
+    gloss_sv: "🤝 en människa du tycker om — Oskar och Elsa är vänner!"
+    gloss_en: "friend"
+    intro: 21
+    tier: focus
+  tro:
+    pos: verb
+    forms: [tror, tro, trodde, trott]
+    gloss_sv: "🤔 'jag tror det' = kanske — jag vet inte 100%!"
+    gloss_en: "to believe, think"
+    intro: 21
+    tier: focus
+  veta:
+    pos: verb
+    forms: [vet, veta, visste, vetat]
+    gloss_sv: "💯 'jag vet det' = 100% — jag såg det!"
+    gloss_en: "to know"
+    intro: 21
+    tier: focus
+  tycka:
+    pos: verb
+    forms: [tycker, tycka, tyckte, tyckt]
+    gloss_sv: "❤/💔 'jag tycker att …' = så är det FÖR MIG!"
+    gloss_en: "to think (opinion)"
+    intro: 21
+    tier: focus
+  låna:
+    pos: verb
+    forms: [lånar, låna, lånade, lånat]
+    gloss_sv: "tar — men bara en liten tid, och ger sedan igen!"
+    gloss_en: "to borrow, lend"
+    intro: 21
+    tier: focus
+
+  # ---------- kap 21 stretch ----------
+  sur:
+    pos: adjektiv
+    forms: [sur, surt, sura]
+    gloss_sv: "😾 litet arg och tyst — som Misse i regnet!"
+    gloss_en: "sulky, sour"
+    intro: 21
+    tier: stretch
+  mena:
+    pos: verb
+    forms: [menar, mena, menade, menat]
+    gloss_sv: "vill säga: 'Vad menar du?' = vad vill du säga?"
+    gloss_en: "to mean"
+    intro: 21
+    tier: stretch
+  ovän:
+    pos: substantiv
+    gender: en
+    forms: [ovän, ovännen, ovänner, ovännerna]
+    gloss_sv: "inte en vän! (o- = inte: vän/ovän, väder/oväder)"
+    gloss_en: "enemy, not-friend"
+    intro: 21
+    tier: stretch
+  egentligen:
+    pos: adverb
+    forms: [egentligen]
+    gloss_sv: "hur är det — sant och riktigt? Vem gjorde det egentligen?"
+    gloss_en: "actually, really"
+    intro: 21
+    tier: stretch
+
+  # ---------- kap 22 focus ----------
+  skylt:
+    pos: substantiv
+    gender: en
+    forms: [skylt, skylten, skyltar, skyltarna, skyltens]
+    gloss_sv: "🪧 ett litet 'brev' som alla ser: AKTA HUNDEN!"
+    gloss_en: "sign"
+    intro: 22
+    tier: focus
+  grind:
+    pos: substantiv
+    gender: en
+    forms: [grind, grinden, grindar, grindarna, grindens]
+    gloss_sv: "en 'dörr' i staketet 🚪🪵"
+    gloss_en: "gate"
+    intro: 22
+    tier: focus
+  farlig:
+    pos: adjektiv
+    forms: [farlig, farligt, farliga]
+    gloss_sv: "⚠ kan göra dig ont! En arg hund är farlig — kanske!"
+    gloss_en: "dangerous"
+    intro: 22
+    tier: focus
+  våga:
+    pos: verb
+    forms: [vågar, våga, vågade, vågat]
+    gloss_sv: "💪 gör det — är inte rädd! Vågar du klappa Bill?"
+    gloss_en: "to dare"
+    intro: 22
+    tier: focus
+  rädd:
+    pos: adjektiv
+    forms: [rädd, rädda]
+    gloss_sv: "😨 'jag vill springa bort!' — rädd för hunden"
+    gloss_en: "afraid"
+    intro: 22
+    tier: focus
+  skälla:
+    pos: verb
+    forms: [skäller, skälla, skällde, skällt]
+    gloss_sv: "🐕📢 hunden 'säger' VOFF! VOFF!"
+    gloss_en: "to bark"
+    intro: 22
+    tier: focus
+  bita:
+    pos: verb
+    forms: [biter, bita, bet, bitit, bits]
+    gloss_sv: "🦷 tar med tänderna — aj!"
+    gloss_en: "to bite"
+    intro: 22
+    tier: focus
+  lugn:
+    pos: adjektiv
+    forms: [lugn, lugnt, lugna]
+    gloss_sv: "😌 inte arg, inte rädd, inte snabb — lugn! (Var lugn!)"
+    gloss_en: "calm"
+    intro: 22
+    tier: focus
+  klappa:
+    pos: verb
+    forms: [klappar, klappa, klappade, klappat]
+    gloss_sv: "🖐🐕 handen — mjukt, mjukt — på hundens huvud"
+    gloss_en: "to pat, pet"
+    intro: 22
+    tier: focus
+  svans:
+    pos: substantiv
+    gender: en
+    forms: [svans, svansen, svansar, svansarna, svansens]
+    gloss_sv: "hundens 'arm' där bak — den viftar när han är glad!"
+    gloss_en: "tail"
+    intro: 22
+    tier: focus
+  vakta:
+    pos: verb
+    forms: [vaktar, vakta, vaktade, vaktat]
+    gloss_sv: "👀🏠 ser på huset — och skäller när någon kommer!"
+    gloss_en: "to guard"
+    intro: 22
+    tier: focus
+  vifta:
+    pos: verb
+    forms: [viftar, vifta, viftade, viftat]
+    gloss_sv: "🐕💓 svansen går hit och dit — glad hund!"
+    gloss_en: "to wag"
+    intro: 22
+    tier: focus
+
+  # ---------- kap 22 stretch ----------
+  staket:
+    pos: substantiv
+    gender: ett
+    forms: [staket, staketet, staketen, staketets]
+    gloss_sv: "🪵🪵🪵 trädgårdens 'väggar' — med en grind!"
+    gloss_en: "fence"
+    intro: 22
+    tier: stretch
+  morra:
+    pos: verb
+    forms: [morrar, morra, morrade, morrat]
+    gloss_sv: "grrr! 😾 — en arg hund morrar"
+    gloss_en: "to growl"
+    intro: 22
+    tier: stretch
+  slicka:
+    pos: verb
+    forms: [slickar, slicka, slickade, slickat]
+    gloss_sv: "👅 'tvättar' din hand med tungan — glad hund!"
+    gloss_en: "to lick"
+    intro: 22
+    tier: stretch
+
+  # ---------- kap 23 freebies ----------
+  varandra: {pos: pronomen, forms: [varandra, varandras], gloss_sv: "A ❤ B + B ❤ A = de älskar varandra!", gloss_en: "each other", intro: 23, tier: freebie}
+  sch:      {pos: interjektion, forms: [sch], gloss_sv: "🤫 = var tyst! (det är en hemlighet!)", gloss_en: "shh", intro: 23, tier: freebie}
+
+  # ---------- kap 23 focus ----------
+  sjöman:
+    pos: substantiv
+    gender: en
+    forms: [sjöman, sjömannen, sjömän, sjömännen, sjömans]
+    gloss_sv: "⚓ en man som arbetar på havet — Lasse!"
+    gloss_en: "sailor"
+    intro: 23
+    tier: focus
+  fartyg:
+    pos: substantiv
+    gender: ett
+    forms: [fartyg, fartyget, fartygen, fartygets]
+    gloss_sv: "🚢 en mycket, MYCKET stor båt — åker över haven!"
+    gloss_en: "ship"
+    intro: 23
+    tier: focus
+  hamn:
+    pos: substantiv
+    gender: en
+    forms: [hamn, hamnen, hamnar, hamnarna, hamnens]
+    gloss_sv: "⚓ båtarnas 'station': fartygen kommer in och ligger här"
+    gloss_en: "harbour"
+    intro: 23
+    tier: focus
+  älska:
+    pos: verb
+    forms: [älskar, älska, älskade, älskat]
+    gloss_sv: "❤❤❤ tycker om — mycket, mycket, MYCKET!"
+    gloss_en: "to love"
+    intro: 23
+    tier: focus
+  sakna:
+    pos: verb
+    forms: [saknar, sakna, saknade, saknat]
+    gloss_sv: "💔 hon är inte här — och det gör ont i hjärtat"
+    gloss_en: "to miss"
+    intro: 23
+    tier: focus
+  längta:
+    pos: verb
+    forms: [längtar, längta, längtade, längtat]
+    gloss_sv: "längtar efter X = vill, vill, VILL se X!"
+    gloss_en: "to long (for)"
+    intro: 23
+    tier: focus
+  träffa:
+    pos: verb
+    forms: [träffar, träffa, träffade, träffat, träffas]
+    gloss_sv: "ser och talar med en människa — Lasse träffade Maria i Stockholm!"
+    gloss_en: "to meet"
+    intro: 23
+    tier: focus
+  kär:
+    pos: adjektiv
+    forms: [kär, kärt, kära, kär_i]
+    gloss_sv: "💘 hjärtat säger: hon, hon, hon! Lasse är kär i Maria"
+    gloss_en: "in love"
+    intro: 23
+    tier: focus
+  förlovad:
+    pos: adjektiv
+    forms: [förlovad, förlovat, förlovade]
+    gloss_sv: "💍 har sagt 'ja, vi ska gifta oss!' — med ringar"
+    gloss_en: "engaged"
+    intro: 23
+    tier: focus
+  ring:
+    pos: substantiv
+    gender: en
+    forms: [ring, ringen, ringar, ringarna, ringens]
+    gloss_sv: "💍 liten, rund, fin — på handen!"
+    gloss_en: "ring"
+    intro: 23
+    tier: focus
+  fotografi:
+    pos: substantiv
+    gender: ett
+    forms: [fotografi, fotografiet, fotografier, fotografierna, fotografiets]
+    gloss_sv: "📷 en 'bild' av en människa — Maria på papper!"
+    gloss_en: "photograph"
+    intro: 23
+    tier: focus
+  arbeta:
+    pos: verb
+    forms: [arbetar, arbeta, arbetade, arbetat, arbete, arbetet]
+    gloss_sv: "🔨 gör sitt 'vuxen-jobb': pappa arbetar i Växjö, Lasse på havet!"
+    gloss_en: "to work"
+    intro: 23
+    tier: focus
+
+  # ---------- kap 23 stretch ----------
+  ombord:
+    pos: adverb
+    forms: [ombord]
+    gloss_sv: "⚓ på fartyget: Lasse arbetar ombord"
+    gloss_en: "on board"
+    intro: 23
+    tier: stretch
+  gifta:
+    pos: verb
+    forms: [gifter, gifta, gifte, gift, gifta_sig]
+    gloss_sv: "💒 gifta sig = bli man och fru!"
+    gloss_en: "to marry (gifta sig)"
+    intro: 23
+    tier: stretch
+  hjärta:
+    pos: substantiv
+    gender: ett
+    forms: [hjärta, hjärtat, hjärtan, hjärtats]
+    gloss_sv: "❤ i kroppen — det säger 'dunk, dunk' … och 'hon, hon, hon!'"
+    gloss_en: "heart"
+    intro: 23
+    tier: stretch
+  hemlighet:
+    pos: substantiv
+    gender: en
+    forms: [hemlighet, hemligheten, hemligheter, hemligheterna]
+    gloss_sv: "🤫 bara DU vet det — säg det inte!"
+    gloss_en: "secret"
+    intro: 23
+    tier: stretch
+
+  # ---------- kap 24 freebies ----------
+  medan:    {pos: konjunktion, forms: [medan], gloss_sv: "i SAMMA tid: medan han sover, sitter mamma vid sängen", gloss_en: "while", intro: 24, tier: freebie}
+  innan:    {pos: konjunktion, forms: [innan], gloss_sv: "FÖRE i tiden: innan han somnar, dricker han vatten", gloss_en: "before (conj.)", intro: 24, tier: freebie}
+  usch:     {pos: interjektion, forms: [usch], gloss_sv: "🤢 inte gott! (medicin — usch!)", gloss_en: "yuck", intro: 24, tier: freebie}
+  trettionio: {pos: räkneord, forms: [trettionio], gloss_sv: "39 — feber! 🌡", gloss_en: "thirty-nine", intro: 24, tier: freebie}
+  trettiosju: {pos: räkneord, forms: [trettiosju], gloss_sv: "37 — ingen feber! ✓", gloss_en: "thirty-seven", intro: 24, tier: freebie}
+  doktor:   {pos: substantiv, gender: en, forms: [doktor, doktorn], gloss_sv: "= läkare! (så säger barnen: doktor Astrid!)", gloss_en: "doctor", intro: 24, tier: freebie}
+  host:     {pos: interjektion, forms: [host], gloss_sv: "😷 så 'säger' en hosta: host, host!", gloss_en: "cough (sound)", intro: 24, tier: freebie}
+  tjugofem: {pos: räkneord, forms: [tjugofem], gloss_sv: "25", gloss_en: "twenty-five", intro: 24, tier: freebie}
+  berättelse: {pos: substantiv, gender: en, forms: [berättelse, berättelsen, berättelser, berättelserna], gloss_sv: "det man berättar — en 'bok med munnen'! 💬📖", gloss_en: "story, tale", intro: 24, tier: freebie}
+
+  # ---------- kap 24 focus ----------
+  bli:
+    pos: verb
+    forms: [blir, bli, blev, blivit]
+    gloss_sv: "A → B! frisk → sjuk: han BLEV sjuk. liten → stor: barn blir stora!"
+    gloss_en: "to become"
+    intro: 24
+    tier: focus
+  hosta:
+    pos: verb
+    forms: [hostar, hosta, hostade, hostat, hostan]
+    gloss_sv: "😷 host, host! — halsen och bröstet 'ropar'"
+    gloss_en: "to cough"
+    intro: 24
+    tier: focus
+  hals:
+    pos: substantiv
+    gender: en
+    forms: [hals, halsen, halsar, halsens]
+    gloss_sv: "mellan huvudet och kroppen — ont i halsen! 😖"
+    gloss_en: "throat, neck"
+    intro: 24
+    tier: focus
+  medicin:
+    pos: substantiv
+    gender: en
+    forms: [medicin, medicinen, mediciner, medicinens]
+    gloss_sv: "💊 inte god — men bra! Sjuka barn behöver den."
+    gloss_en: "medicine"
+    intro: 24
+    tier: focus
+  termometer:
+    pos: substantiv
+    gender: en
+    forms: [termometer, termometern, termometrar, termometerns]
+    gloss_sv: "🌡 säger hur varm kroppen är: 37 ✓, 39 = feber!"
+    gloss_en: "thermometer"
+    intro: 24
+    tier: focus
+  filt:
+    pos: substantiv
+    gender: en
+    forms: [filt, filten, filtar, filtarna, filtens]
+    gloss_sv: "varm och mjuk — över dig i sängen!"
+    gloss_en: "blanket"
+    intro: 24
+    tier: focus
+  kudde:
+    pos: substantiv
+    gender: en
+    forms: [kudde, kudden, kuddar, kuddarna, kuddens]
+    gloss_sv: "under huvudet i sängen — mjuk och god!"
+    gloss_en: "pillow"
+    intro: 24
+    tier: focus
+  vila:
+    pos: verb
+    forms: [vilar, vila, vilade, vilat]
+    gloss_sv: "ligga, sova, INTE springa — kroppen blir frisk!"
+    gloss_en: "to rest"
+    intro: 24
+    tier: focus
+  orolig:
+    pos: adjektiv
+    forms: [orolig, oroligt, oroliga]
+    gloss_sv: "😟 'är allt bra?!' — mammor är oroliga när barnen är sjuka"
+    gloss_en: "worried"
+    intro: 24
+    tier: focus
+  dröm:
+    pos: substantiv
+    gender: en
+    forms: [dröm, drömmen, drömmar, drömmarna, drömmens]
+    gloss_sv: "🌙 en 'film' i huvudet när du sover!"
+    gloss_en: "dream"
+    intro: 24
+    tier: focus
+  drömma:
+    pos: verb
+    forms: [drömmer, drömma, drömde, drömt]
+    gloss_sv: "🌙 ser 'filmen' i sömnen: Nils drömmer om en älg!"
+    gloss_en: "to dream"
+    intro: 24
+    tier: focus
+
+  # ---------- kap 24 stretch ----------
+  sked:
+    pos: substantiv
+    gender: en
+    forms: [sked, skeden, skedar, skedarna]
+    gloss_sv: "🥄 man äter med den — och tar medicin!"
+    gloss_en: "spoon"
+    intro: 24
+    tier: stretch
+  mörk:
+    pos: adjektiv
+    forms: [mörk, mörkt, mörka, mörkare, mörkast]
+    gloss_sv: "🌑 utan ljus — natten är mörk!"
+    gloss_en: "dark"
+    intro: 24
+    tier: stretch
+  somna:
+    pos: verb
+    forms: [somnar, somna, somnade, somnat]
+    gloss_sv: "😴 går in i sömnen (somnar ↔ vaknar!)"
+    gloss_en: "to fall asleep"
+    intro: 24
+    tier: stretch
+
+  # ---------- kap 25 freebies ----------
+  tjugosex: {pos: räkneord, forms: [tjugosex], gloss_sv: "26", gloss_en: "twenty-six", intro: 25, tier: freebie}
+  nästa:    {pos: pronomen, forms: [nästa], gloss_sv: "nästa vecka = veckan efter den här ⏩", gloss_en: "next", intro: 25, tier: freebie}
+  sluta:    {pos: verb, forms: [slutar, sluta, slutade, slutat], gloss_sv: "⏹ sista steget! Sagan slutar — den är slut (↔ börjar)", gloss_en: "to end, stop", intro: 25, tier: freebie}
+
+  # ---------- kap 25 focus ----------
+  saga:
+    pos: substantiv
+    gender: en
+    forms: [saga, sagan, sagor, sagorna, sagans]
+    gloss_sv: "✨ en gammal, gammal berättelse — om troll, kungar och guld!"
+    gloss_en: "fairy tale"
+    intro: 25
+    tier: focus
+  troll:
+    pos: substantiv
+    gender: ett
+    forms: [troll, trollet, trollen, trollets]
+    gloss_sv: "stort, gammalt — bor i berg och skogar (bara i sagor … kanske!)"
+    gloss_en: "troll"
+    intro: 25
+    tier: focus
+  guld:
+    pos: substantiv
+    gender: ett
+    forms: [guld, guldet, guldets]
+    gloss_sv: "🟡 gult och dyrt — fina ringar är av guld!"
+    gloss_en: "gold"
+    intro: 25
+    tier: focus
+  kung:
+    pos: substantiv
+    gender: en
+    forms: [kung, kungen, kungar, kungarna, kungens]
+    gloss_sv: "👑 landets 'pappa' — bor i ett slott!"
+    gloss_en: "king"
+    intro: 25
+    tier: focus
+  prinsessa:
+    pos: substantiv
+    gender: en
+    forms: [prinsessa, prinsessan, prinsessor, prinsessorna, prinsessans]
+    gloss_sv: "👸 kungens dotter"
+    gloss_en: "princess"
+    intro: 25
+    tier: focus
+  ensam:
+    pos: adjektiv
+    forms: [ensam, ensamt, ensamma]
+    gloss_sv: "utan människor — bara du. Trollet var ensamt i hundra år 💔"
+    gloss_en: "alone, lonely"
+    intro: 25
+    tier: focus
+  vandra:
+    pos: verb
+    forms: [vandrar, vandra, vandrade, vandrat]
+    gloss_sv: "🚶🌲 gå länge, länge — genom skogar och över berg"
+    gloss_en: "to wander, hike"
+    intro: 25
+    tier: focus
+  försvinna:
+    pos: verb
+    forms: [försvinner, försvinna, försvann, försvunnit]
+    gloss_sv: "var här — och nu borta! Prinsessan försvann i skogen"
+    gloss_en: "to disappear"
+    intro: 25
+    tier: focus
+  klok:
+    pos: adjektiv
+    forms: [klok, klokt, kloka]
+    gloss_sv: "🧠 har ett gott huvud — vet och förstår mycket! (↔ dum)"
+    gloss_en: "wise"
+    intro: 25
+    tier: focus
+  dum:
+    pos: adjektiv
+    forms: [dum, dumt, dumma]
+    gloss_sv: "förstår inte mycket (↔ klok) — men vem är dum egentligen?"
+    gloss_en: "stupid"
+    intro: 25
+    tier: focus
+  börja:
+    pos: verb
+    forms: [börjar, börja, började, börjat]
+    gloss_sv: "▶ första steget! Sagan börjar med 'Det var en gång …' (↔ slutar)"
+    gloss_en: "to begin"
+    intro: 25
+    tier: focus
+
+  # ---------- kap 25 stretch ----------
+  silver:
+    pos: substantiv
+    gender: ett
+    forms: [silver, silvret, silvrets]
+    gloss_sv: "⚪ vitt och fint — som guld, men inte gult!"
+    gloss_en: "silver"
+    intro: 25
+    tier: stretch
+  ljus:
+    pos: substantiv
+    gender: ett
+    forms: [ljus, ljuset, ljusen, ljust, ljusa, ljusaste]
+    gloss_sv: "🕯💡 solens och lampans 'vita' — ↔ mörker!"
+    gloss_en: "light"
+    intro: 25
+    tier: stretch
+
+  # ---------- kap 26 freebies ----------
+  mot:      {pos: preposition, forms: [mot], gloss_sv: "i riktning → : han flög mot sjön", gloss_en: "towards", intro: 26, tier: freebie}
+  trä:      {pos: substantiv, gender: ett, forms: [trä, träet, träts], gloss_sv: "det hårda från träd — hus, bord och vingar är av trä!", gloss_en: "wood", intro: 26, tier: freebie}
+  tjugosju: {pos: räkneord, forms: [tjugosju], gloss_sv: "27", gloss_en: "twenty-seven", intro: 26, tier: freebie}
+
+  # ---------- kap 26 focus ----------
+  vinge:
+    pos: substantiv
+    gender: en
+    forms: [vinge, vingen, vingar, vingarna, vingens]
+    gloss_sv: "🪽 fåglarnas 'armar' — med dem flyger de!"
+    gloss_en: "wing"
+    intro: 26
+    tier: focus
+  fjäder:
+    pos: substantiv
+    gender: en
+    forms: [fjäder, fjädern, fjädrar, fjädrarna, fjäderns]
+    gloss_sv: "🪶 fåglarnas 'hår' — lätt, lätt, lätt!"
+    gloss_en: "feather"
+    intro: 26
+    tier: focus
+  bygga:
+    pos: verb
+    forms: [bygger, bygga, byggde, byggt, byggs, byggdes, byggts]
+    gloss_sv: "🔨 gör ett hus, en båt, vingar — av trä och andra saker!"
+    gloss_en: "to build"
+    intro: 26
+    tier: focus
+  kalla:
+    pos: verb
+    forms: [kallar, kalla, kallade, kallat, kallas, kallades, kallats]
+    gloss_sv: "pojken kallades 'Fågel-Pelle' = folk sa så om honom!"
+    gloss_en: "to call (name)"
+    intro: 26
+    tier: focus
+  falla:
+    pos: verb
+    forms: [faller, falla, föll, fallit]
+    gloss_sv: "⬇ går ner — snabbt och utan att vilja! Pelle föll i gräset."
+    gloss_en: "to fall"
+    intro: 26
+    tier: focus
+  varna:
+    pos: verb
+    forms: [varnar, varna, varnade, varnat, varning, varningen]
+    gloss_sv: "⚠ säger 'akta dig!' FÖRE det händer"
+    gloss_en: "to warn"
+    intro: 26
+    tier: focus
+  lyssna:
+    pos: verb
+    forms: [lyssnar, lyssna, lyssnade, lyssnat]
+    gloss_sv: "👂 hör — med fokus! (som titta är för ögonen!)"
+    gloss_en: "to listen"
+    intro: 26
+    tier: focus
+  modig:
+    pos: adjektiv
+    forms: [modig, modigt, modiga]
+    gloss_sv: "💪 vågar mycket — är inte rädd!"
+    gloss_en: "brave"
+    intro: 26
+    tier: focus
+  prova:
+    pos: verb
+    forms: [provar, prova, provade, provat]
+    gloss_sv: "🔬 gör det — och ser: går det? Prova igen!"
+    gloss_en: "to try"
+    intro: 26
+    tier: focus
+
+  # ---------- kap 26 stretch ----------
+  örn:
+    pos: substantiv
+    gender: en
+    forms: [örn, örnen, örnar, örnarna, örnens]
+    gloss_sv: "🦅 en stor, stark fågel — himlens kung!"
+    gloss_en: "eagle"
+    intro: 26
+    tier: stretch
+  luft:
+    pos: substantiv
+    gender: en
+    forms: [luft, luften, luftens]
+    gloss_sv: "det du inte ser — men fåglarna flyger i den, och du drar den i näsan!"
+    gloss_en: "air"
+    intro: 26
+    tier: stretch
+
+  # ---------- kap 27 freebies ----------
+  fram:     {pos: adverb, forms: [fram], gloss_sv: "tar FRAM = tar — och nu ser alla det! (fram = hit, ut i ljuset)", gloss_en: "forth, out", intro: 27, tier: freebie}
+  runt:     {pos: preposition, forms: [runt], gloss_sv: "⭕ dansar runt majstången!", gloss_en: "around", intro: 27, tier: freebie}
+  hurra:    {pos: interjektion, forms: [hurra], gloss_sv: "🎉 alla ropar det när något är mycket bra!", gloss_en: "hooray", intro: 27, tier: freebie}
+  betoning: {pos: substantiv, gender: en, forms: [betoning, betoningen], gloss_sv: "det STARKA i ordet: ställer UPP! (uttalets 'muskler')", gloss_en: "stress (pronunciation)", intro: 27, tier: freebie}
+  rund:     {pos: adjektiv, forms: [rund, runt, runda], gloss_sv: "⭕ som en boll, en ring, en krans!", gloss_en: "round", intro: 27, tier: freebie}
+  fast:     {pos: adverb, forms: [fast], gloss_sv: "håller FAST = håller hårt — den går inte bort!", gloss_en: "firmly, fixed", intro: 27, tier: freebie}
+  ur:       {pos: preposition, forms: [ur], gloss_sv: "ut ur bilen = från bilens 'mage'!", gloss_en: "out of", intro: 27, tier: freebie}
+  tjugoåtta: {pos: räkneord, forms: [tjugoåtta], gloss_sv: "28", gloss_en: "twenty-eight", intro: 27, tier: freebie}
+
+  # ---------- kap 27 focus ----------
+  midsommar:
+    pos: substantiv
+    gender: en
+    forms: [midsommar, midsommaren, midsommarens]
+    gloss_sv: "☀🌸 årets längsta dag — Sveriges stora sommardag!"
+    gloss_en: "midsummer"
+    intro: 27
+    tier: focus
+  majstång:
+    pos: substantiv
+    gender: en
+    forms: [majstång, majstången, majstångens]
+    gloss_sv: "🎏 midsommarens höga gröna 'träd' — man dansar runt den!"
+    gloss_en: "maypole"
+    intro: 27
+    tier: focus
+  blomma:
+    pos: substantiv
+    gender: en
+    forms: [blomma, blomman, blommor, blommorna, blommans]
+    gloss_sv: "🌸 röd, gul, vit — står i gräset om sommaren!"
+    gloss_en: "flower"
+    intro: 27
+    tier: focus
+  krans:
+    pos: substantiv
+    gender: en
+    forms: [krans, kransen, kransar, kransarna, kransens]
+    gloss_sv: "🌸⭕ blommornas 'ring' — på huvudet på midsommar!"
+    gloss_en: "wreath, flower crown"
+    intro: 27
+    tier: focus
+  sill:
+    pos: substantiv
+    gender: en
+    forms: [sill, sillen, sillens]
+    gloss_sv: "🐟 liten fisk från havet — midsommarens mat!"
+    gloss_en: "herring"
+    intro: 27
+    tier: focus
+  potatis:
+    pos: substantiv
+    gender: en
+    forms: [potatis, potatisen, potatisar, potatisarna]
+    gloss_sv: "🥔 från jorden — sill och den första potatisen!"
+    gloss_en: "potato"
+    intro: 27
+    tier: focus
+  jordgubbe:
+    pos: substantiv
+    gender: en
+    forms: [jordgubbe, jordgubben, jordgubbar, jordgubbarna]
+    gloss_sv: "🍓 röd, söt, god — sommarens bästa!"
+    gloss_en: "strawberry"
+    intro: 27
+    tier: focus
+  dansa:
+    pos: verb
+    forms: [dansar, dansa, dansade, dansat, dans, dansen, danser]
+    gloss_sv: "💃 kroppen 'leker' till musiken — runt majstången!"
+    gloss_en: "to dance"
+    intro: 27
+    tier: focus
+  sjunga:
+    pos: verb
+    forms: [sjunger, sjunga, sjöng, sjungit]
+    gloss_sv: "🎶 'talar' med melodi!"
+    gloss_en: "to sing"
+    intro: 27
+    tier: focus
+  fira:
+    pos: verb
+    forms: [firar, fira, firade, firat, firas]
+    gloss_sv: "🎉 har en stor, glad dag: firar midsommar, firar födelsedag!"
+    gloss_en: "to celebrate"
+    intro: 27
+    tier: focus
+  ställa:
+    pos: verb
+    forms: [ställer, ställa, ställde, ställt, ställs, ställdes]
+    gloss_sv: "sätter den att STÅ: ställer upp majstången!"
+    gloss_en: "to put, stand (something)"
+    intro: 27
+    tier: focus
+  hålla:
+    pos: verb
+    forms: [håller, hålla, höll, hållit, håll]
+    gloss_sv: "🤲 har i handen — och: håller på med = gör och gör och gör!"
+    gloss_en: "to hold"
+    intro: 27
+    tier: focus
+
+  # ---------- kap 27 stretch ----------
+  duka:
+    pos: verb
+    forms: [dukar, duka, dukade, dukat, dukas, dukades]
+    gloss_sv: "ställer maten på bordet — bordet blir klart! 🍽"
+    gloss_en: "to set the table"
+    intro: 27
+    tier: stretch
+  gäst:
+    pos: substantiv
+    gender: en
+    forms: [gäst, gästen, gäster, gästerna, gästens]
+    gloss_sv: "en människa som kommer till din fest! 🎉"
+    gloss_en: "guest"
+    intro: 27
+    tier: stretch
+  grädde:
+    pos: substantiv
+    gender: en
+    forms: [grädde, grädden, gräddens]
+    gloss_sv: "vit, god — mjölkens 'guld', på jordgubbar! 🍓"
+    gloss_en: "cream"
+    intro: 27
+    tier: stretch
+  lek:
+    pos: substantiv
+    gender: en
+    forms: [lek, leken, lekar, lekarna, lekens]
+    gloss_sv: "det man leker! Barnens lekar på ängen 🤸"
+    gloss_en: "game"
+    intro: 27
+    tier: stretch
+  hjälpa:
+    pos: verb
+    forms: [hjälper, hjälpa, hjälpte, hjälpt, hjälp]
+    gloss_sv: "🤝 gör det tillsammans med dig — Hjälp! = kom och hjälp mig!"
+    gloss_en: "to help"
+    intro: 27
+    tier: stretch
+
+  # ---------- kap 28 freebies ----------
+  precis:   {pos: adverb, forms: [precis], gloss_sv: "exakt så! Det gick precis som Lasse sa.", gloss_en: "exactly, just", intro: 28, tier: freebie}
+  ingenting: {pos: pronomen, forms: [ingenting], gloss_sv: "= inget alls, 0! Oskar säger ingenting.", gloss_en: "nothing", intro: 28, tier: freebie}
+  tjugonio: {pos: räkneord, forms: [tjugonio], gloss_sv: "29", gloss_en: "twenty-nine", intro: 28, tier: freebie}
+
+  # ---------- kap 28 focus ----------
+  segel:
+    pos: substantiv
+    gender: ett
+    forms: [segel, seglet, seglen, seglets, segelbåt, segelbåten]
+    gloss_sv: "⛵ båtens stora vita 'vinge' — vinden tar det!"
+    gloss_en: "sail"
+    intro: 28
+    tier: focus
+  segla:
+    pos: verb
+    forms: [seglar, segla, seglade, seglat, segling, seglingen]
+    gloss_sv: "⛵ åker med segel och vind — vinden arbetar, inte du!"
+    gloss_en: "to sail"
+    intro: 28
+    tier: focus
+  mast:
+    pos: substantiv
+    gender: en
+    forms: [mast, masten, master, masterna, mastens]
+    gloss_sv: "båtens 'träd' — seglet sitter på den!"
+    gloss_en: "mast"
+    intro: 28
+    tier: focus
+  våg:
+    pos: substantiv
+    gender: en
+    forms: [våg, vågen, vågor, vågorna, vågens]
+    gloss_sv: "🌊 vattnets 'berg' — upp och ner, upp och ner!"
+    gloss_en: "wave"
+    intro: 28
+    tier: focus
+  öka:
+    pos: verb
+    forms: [ökar, öka, ökade, ökat]
+    gloss_sv: "📈 blir mer och mer: vinden ökar!"
+    gloss_en: "to increase"
+    intro: 28
+    tier: focus
+  vända:
+    pos: verb
+    forms: [vänder, vända, vände, vänt]
+    gloss_sv: "↩ går mot hem igen — åt det andra hållet!"
+    gloss_en: "to turn (around)"
+    intro: 28
+    tier: focus
+  strand:
+    pos: substantiv
+    gender: en
+    forms: [strand, stranden, stränder, stränderna, strandens]
+    gloss_sv: "🏖 där vattnet och landet träffas"
+    gloss_en: "beach, shore"
+    intro: 28
+    tier: focus
+  säker:
+    pos: adjektiv
+    forms: [säker, säkert, säkra]
+    gloss_sv: "✓ ingen fara! Vi är säkra här."
+    gloss_en: "safe; sure"
+    intro: 28
+    tier: focus
+  äventyr:
+    pos: substantiv
+    gender: ett
+    forms: [äventyr, äventyret, äventyrets, äventyren]
+    gloss_sv: "något stort, nytt och spännande — en berättelse du LEVER!"
+    gloss_en: "adventure"
+    intro: 28
+    tier: focus
+
+  # ---------- kap 28 stretch ----------
+  flytväst:
+    pos: substantiv
+    gender: en
+    forms: [flytväst, flytvästen, flytvästar, flytvästarna]
+    gloss_sv: "🦺 den håller dig UPPE i vattnet — alltid på i båten!"
+    gloss_en: "life jacket"
+    intro: 28
+    tier: stretch
+  lugna:
+    pos: verb
+    forms: [lugnar, lugna, lugnade, lugnat]
+    gloss_sv: "😌 säger 'var inte rädd' — och det hjälper!"
+    gloss_en: "to calm (someone)"
+    intro: 28
+    tier: stretch
+
+  # ---------- kap 29 freebies ----------
+  man_pron: {pos: pronomen, forms: [man], gloss_sv: "man = alla människor, du + jag: man ska inte ge upp!", gloss_en: "one, you (generic)", intro: 29, tier: freebie}
+  både:     {pos: konjunktion, forms: [både], gloss_sv: "både A och B = A + B!", gloss_en: "both", intro: 29, tier: freebie}
+  varken:   {pos: konjunktion, forms: [varken], gloss_sv: "varken A eller B = inte A, inte B!", gloss_en: "neither", intro: 29, tier: freebie}
+  antingen: {pos: konjunktion, forms: [antingen], gloss_sv: "antingen A eller B = en av två!", gloss_en: "either", intro: 29, tier: freebie}
+  ju:       {pos: adverb, forms: [ju], gloss_sv: "ju mer …, desto bättre! (mer → bättre)", gloss_en: "the (more…)", intro: 29, tier: freebie}
+  desto:    {pos: adverb, forms: [desto], gloss_sv: "ju mer man övar, DESTO bättre blir man!", gloss_en: "the (…better)", intro: 29, tier: freebie}
+  mening:   {pos: substantiv, gender: en, forms: [mening, meningen, meningar, meningarna], gloss_sv: "ord som bor tillsammans: 'Sverige är ett land.' — en mening!", gloss_en: "sentence; meaning", intro: 29, tier: freebie}
+
+  # ---------- kap 29 focus ----------
+  ordspråk:
+    pos: substantiv
+    gender: ett
+    forms: [ordspråk, ordspråket, ordspråken, ordspråkets]
+    gloss_sv: "en mening med en stor sanning i — från gamla till unga!"
+    gloss_en: "proverb"
+    intro: 29
+    tier: focus
+  betyda:
+    pos: verb
+    forms: [betyder, betyda, betydde, betytt]
+    gloss_sv: "vad ordet vill säga: Vad betyder 'tålamod'?"
+    gloss_en: "to mean"
+    intro: 29
+    tier: focus
+  öva:
+    pos: verb
+    forms: [övar, öva, övade, övat, övning, övningen, övningar]
+    gloss_sv: "🔁 gör det igen och igen — och blir bättre! (Övning A, B, C!)"
+    gloss_en: "to practise"
+    intro: 29
+    tier: focus
+  försöka:
+    pos: verb
+    forms: [försöker, försöka, försökte, försökt]
+    gloss_sv: "provar med hela hjärtat — igen och igen!"
+    gloss_en: "to try, attempt"
+    intro: 29
+    tier: focus
+  lyckas:
+    pos: verb
+    forms: [lyckas, lyckades, lyckats]
+    gloss_sv: "✓ det gick! Pelle försökte — och lyckades! (ordet har -s!)"
+    gloss_en: "to succeed"
+    intro: 29
+    tier: focus
+  misslyckas:
+    pos: verb
+    forms: [misslyckas, misslyckades, misslyckats]
+    gloss_sv: "✗ det gick inte … den här gången! (↔ lyckas)"
+    gloss_en: "to fail"
+    intro: 29
+    tier: focus
+  sanning:
+    pos: substantiv
+    gender: en
+    forms: [sanning, sanningen, sanningar, sanningarna, sanningens]
+    gloss_sv: "det som är sant — ordspråkens 'guld'!"
+    gloss_en: "truth"
+    intro: 29
+    tier: focus
+  tålamod:
+    pos: substantiv
+    gender: ett
+    forms: [tålamod, tålamodet, tålamodets]
+    gloss_sv: "⏳ kan vänta länge utan att bli arg — tålamod är guld värt!"
+    gloss_en: "patience"
+    intro: 29
+    tier: focus
+  råd:
+    pos: substantiv
+    gender: ett
+    forms: [råd, rådet, råden, rådets]
+    gloss_sv: "kloka ord till dig: 'gör så!' — gamla människor har många råd"
+    gloss_en: "advice"
+    intro: 29
+    tier: focus
+  viktig:
+    pos: adjektiv
+    forms: [viktig, viktigt, viktiga, viktigare, viktigast]
+    gloss_sv: "stor för hjärtat och huvudet — inte liten!"
+    gloss_en: "important"
+    intro: 29
+    tier: focus
+
+  # ---------- kap 29 stretch ----------
+  mod:
+    pos: substantiv
+    gender: ett
+    forms: [mod, modet, modets]
+    gloss_sv: "💪 det den modiga har! Mod och tålamod!"
+    gloss_en: "courage"
+    intro: 29
+    tier: stretch
+  värd:
+    pos: adjektiv
+    forms: [värd, värt, värda]
+    gloss_sv: "guld värt = mer 'stort' än guld! Vad är det värt?"
+    gloss_en: "worth"
+    intro: 29
+    tier: stretch
+
+  # ---------- kap 30 freebies ----------
+  skål:     {pos: interjektion, forms: [skål], gloss_sv: "🥂 alla dricker tillsammans — för bruden och brudgummen!", gloss_en: "cheers!", intro: 30, tier: freebie}
+  tillsammans: {pos: adverb, forms: [tillsammans], gloss_sv: "🤝 inte ensam — med varandra! Var lyckliga tillsammans!", gloss_en: "together", intro: 30, tier: freebie}
+
+  # ---------- kap 30 focus ----------
+  bröllop:
+    pos: substantiv
+    gender: ett
+    forms: [bröllop, bröllopet, bröllopets]
+    gloss_sv: "💒 dagen när två gifter sig — och alla firar!"
+    gloss_en: "wedding"
+    intro: 30
+    tier: focus
+  fest:
+    pos: substantiv
+    gender: en
+    forms: [fest, festen, fester, festerna, festens]
+    gloss_sv: "🎉 många glada människor tillsammans: mat, musik, dans!"
+    gloss_en: "party, feast"
+    intro: 30
+    tier: focus
+  tal_noun:
+    pos: substantiv
+    gender: ett
+    forms: [tal, talet, talets]
+    gloss_sv: "🗣 håller ett tal = står upp och talar till alla!"
+    gloss_en: "speech"
+    intro: 30
+    tier: focus
+  brud:
+    pos: substantiv
+    gender: en
+    forms: [brud, bruden, brudens]
+    gloss_sv: "👰 kvinnan på sitt bröllop — Maria!"
+    gloss_en: "bride"
+    intro: 30
+    tier: focus
+  brudgum:
+    pos: substantiv
+    gender: en
+    forms: [brudgum, brudgummen, brudgummens]
+    gloss_sv: "🤵 mannen på sitt bröllop — Lasse!"
+    gloss_en: "groom"
+    intro: 30
+    tier: focus
+  tårta:
+    pos: substantiv
+    gender: en
+    forms: [tårta, tårtan, tårtor, tårtorna, tårtans]
+    gloss_sv: "🎂 festens stora, vita, söta 'hus' av grädde!"
+    gloss_en: "cake"
+    intro: 30
+    tier: focus
+  musik:
+    pos: substantiv
+    gender: en
+    forms: [musik, musiken, musikens]
+    gloss_sv: "🎶 toner att dansa till!"
+    gloss_en: "music"
+    intro: 30
+    tier: focus
+  minne:
+    pos: substantiv
+    gender: ett
+    forms: [minne, minnet, minnen, minnena, minnets]
+    gloss_sv: "🧠❤ en dag som bor i huvudet — för alltid!"
+    gloss_en: "memory"
+    intro: 30
+    tier: focus
+  tacka:
+    pos: verb
+    forms: [tackar, tacka, tackade, tackat]
+    gloss_sv: "säger tack — fint och länge! Lasse tackar för talet."
+    gloss_en: "to thank"
+    intro: 30
+    tier: focus
+  lycklig:
+    pos: adjektiv
+    forms: [lycklig, lyckligt, lyckliga]
+    gloss_sv: "☀❤ mycket, MYCKET glad — i hjärtat!"
+    gloss_en: "happy"
+    intro: 30
+    tier: focus
+
+  # ---------- kap 30 stretch ----------
+  framtid:
+    pos: substantiv
+    gender: en
+    forms: [framtid, framtiden, framtidens]
+    gloss_sv: "⏩ tiden som kommer: i morgon, nästa år, nästa sommar …"
+    gloss_en: "future"
+    intro: 30
+    tier: stretch
+  präst:
+    pos: substantiv
+    gender: en
+    forms: [präst, prästen, präster, prästens]
+    gloss_sv: "talar i kyrkan — och gifter bruden och brudgummen!"
+    gloss_en: "priest"
+    intro: 30
+    tier: stretch
+
+proper:
+  # Months & weekdays (lowercase in Swedish, name-like in function)
+  januari:   {forms: [januari], what: "månad 1 ❄"}
+  februari:  {forms: [februari], what: "månad 2 ❄"}
+  mars:      {forms: [mars], what: "månad 3 🌱"}
+  april:     {forms: [april], what: "månad 4 🌱"}
+  maj:       {forms: [maj], what: "månad 5 🌱🎂"}
+  juni:      {forms: [juni], what: "månad 6 ☀"}
+  juli:      {forms: [juli], what: "månad 7 ☀"}
+  augusti:   {forms: [augusti], what: "månad 8 ☀"}
+  september: {forms: [september], what: "månad 9 🍂"}
+  oktober:   {forms: [oktober], what: "månad 10 🍂"}
+  november:  {forms: [november], what: "månad 11 🍂"}
+  december:  {forms: [december], what: "månad 12 ❄"}
+  måndag:    {forms: [måndag, måndagar, måndagen], what: "dag 1 i veckan"}
+  tisdag:    {forms: [tisdag, tisdagar, tisdagen], what: "dag 2 i veckan"}
+  onsdag:    {forms: [onsdag, onsdagar, onsdagen], what: "dag 3 i veckan"}
+  torsdag:   {forms: [torsdag, torsdagar, torsdagen], what: "dag 4 i veckan"}
+  fredag:    {forms: [fredag, fredagar, fredagen], what: "dag 5 i veckan"}
+  lördag:    {forms: [lördag, lördagar, lördagen], what: "dag 6 — inte skola! 🎉"}
+  söndag:    {forms: [söndag, söndagar, söndagen], what: "dag 7 — inte skola! 🎉"}
+  # The Berg family & friends
+  Anders:       {forms: [Anders], what: "man — pappa i familjen Berg"}
+  Karin:        {forms: [Karin, Karins], what: "kvinna — mamma i familjen Berg"}
+  Oskar:        {forms: [Oskar, Oskars], what: "pojke, tolv år"}
+  Nils:         {forms: [Nils], what: "pojke, tio år"}
+  Astrid:       {forms: [Astrid, Astrids], what: "flicka, sju år"}
+  Berg_namn:    {forms: [Berg, Bergs], what: "familjens namn"}
+  Ludde:        {forms: [Ludde, Luddes], what: "hund 🐕"}
+  Misse:        {forms: [Misse, Misses], what: "katt 🐈"}
+  Ingrid:       {forms: [Ingrid, Ingrids], what: "Anders mamma — bor i Stockholm"}
+  Sven:         {forms: [Sven, Svens], what: "Karins pappa — bor vid Sjövik"}
+  Karlsson:     {forms: [Karlsson, Karlssons], what: "Svens namn"}
+  Lasse:        {forms: [Lasse, Lasses], what: "Anders bror — på havet!"}
+  Björksjön:    {forms: [Björksjön, Björksjöns], what: "sjön vid Sjövik"}
+  Tomten:       {forms: [tomte, tomten, tomtens, tomtar], what: "en mycket liten, mycket gammal man som — kanske! — bor på gårdar och ser på djuren 🎅"}
+  Näcken:       {forms: [Näcken, Näckens], what: "mannen som — kanske! — lever i sjön och sjunger på kvällarna 🌊🎶"}
+  Lisa:         {forms: [Lisa, Lisas], what: "Astrids docka 🪆"}
+  Ek:           {forms: [Ek, Eks], what: "familjen med affären"}
+  Elsa:         {forms: [Elsa, Elsas], what: "fru Eks dotter, tolv år"}
+  Brunte:       {forms: [Brunte, Bruntes], what: "morfars bruna häst 🐎"}
+  Växjö:        {forms: [Växjö, Växjös], what: "stad i Småland — här arbetar Anders"}
+  Östergötland: {forms: [Östergötland, Östergötlands], what: "landskap norr om Småland"}
+  centralstationen: {forms: [centralstation, centralstationen], what: "Stockholms stora station 🚉"}
+  England:      {forms: [England, Englands], what: "land — här talar man engelska"}
+  Amerika:      {forms: [Amerika, Amerikas], what: "stor världsdel i väster"}
+  Holm:         {forms: [Holm, Holms], what: "herr Holm — grannen med den stora hunden"}
+  Bill:         {forms: [Bill, Bills], what: "herr Holms enorma, gamla, snälla hund 🐕"}
+  Maria:        {forms: [Maria, Marias], what: "kvinnan som Lasse älskar — bor i Stockholm ❤"}
+  Tuva:         {forms: [Tuva, Tuvas], what: "prinsessan i mammas saga 👸"}
+  Pelle:        {forms: [Pelle, Pelles], what: "pojken som ville flyga — 'Fågel-Pelle' 🪽"}
+  Fågel-Pelle:  {forms: [Fågel-Pelle, Fågel-Pelles], what: "Pelles namn i staden!"}
+  Lind:         {forms: [Lind, Linds], what: "fru Lind — lärare i Sjöviks skola"}
+  # Countries & regions
+  Sverige:      {forms: [Sverige, Sveriges], what: land}
+  Norge:        {forms: [Norge, Norges], what: land}
+  Danmark:      {forms: [Danmark, Danmarks], what: land}
+  Finland:      {forms: [Finland, Finlands], what: land}
+  Island:       {forms: [Island, Islands], what: "land + ö"}
+  Norden:       {forms: [Norden, Nordens], what: region}
+  Europa:       {forms: [Europa, Europas], what: världsdel}
+  Ryssland:     {forms: [Ryssland, Rysslands], what: land}
+  Grönland:     {forms: [Grönland, Grönlands], what: ö}
+  Småland:      {forms: [Småland, Smålands], what: landskap}
+  # Cities
+  Stockholm:    {forms: [Stockholm, Stockholms], what: stad}
+  Oslo:         {forms: [Oslo, Oslos], what: stad}
+  Köpenhamn:    {forms: [Köpenhamn, Köpenhamns], what: stad}
+  Helsingfors:  {forms: [Helsingfors], what: stad}
+  Reykjavik:    {forms: [Reykjavik, Reykjaviks], what: stad}
+  Göteborg:     {forms: [Göteborg, Göteborgs], what: stad}
+  Malmö:        {forms: [Malmö, Malmös], what: stad}
+  Sjövik:       {forms: [Sjövik, Sjöviks], what: "stad (fiktiv)"}
+  # Water & mountains
+  Vänern:       {forms: [Vänern, Vänerns], what: sjö}
+  Vättern:      {forms: [Vättern, Vätterns], what: sjö}
+  Mälaren:      {forms: [Mälaren, Mälarens], what: sjö}
+  Östersjön:    {forms: [Östersjön, Östersjöns], what: hav}
+  Nordsjön:     {forms: [Nordsjön, Nordsjöns], what: hav}
+  Atlanten:     {forms: [Atlanten, Atlantens], what: hav}
+  Kebnekaise:   {forms: [Kebnekaise, Kebnekaises], what: berg}
+  Galdhøpiggen: {forms: [Galdhøpiggen, Galdhøpiggens], what: berg}
+  Gotland:      {forms: [Gotland, Gotlands], what: ö}
+  Öland:        {forms: [Öland, Ölands], what: ö}

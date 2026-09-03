@@ -1,0 +1,246 @@
+# KAPITEL 21 — Bråket
+# Att-clauses and BIFF (inte before the verb in subordinate clauses),
+# carried by reported speech: the broken bike-bell affair.
+
+kapitel: 21
+titel: "Bråket"
+arc: D
+grammatik_fokus: "att-satser (säger/tror/vet/tycker att …); bisatsordföljd: inte FÖRE verbet; förlåt och lova"
+uttal_fokus: "satsmelodi: påstående (↘) och fråga (↗)"
+
+fokus: [bråk, bråka, ljuga, sann, fel_adj, lova, förlåta, vän, tro, veta, tycka, låna]
+stretch: [sur, mena, ovän, egentligen]
+
+illustration: >-
+  Outside the little shop: Oskar mid-accusation pointing at his bike's
+  silent bell, Elsa arms-crossed and indignant; between them, ghosted
+  flashback vignettes — Elsa pedaling that bike with cat food in the basket,
+  and (fainter, further back) Oskar in May riding smack into the birch,
+  bell flying. Nils arrives at the edge of the frame with the truth and one
+  raised finger. Watercolor.
+
+lasstycken:
+  - rubrik: "I. KLOCKAN SOM INTE SA PLING"
+    block:
+      - typ: narration
+        text: >-
+          Familjen är hemma i Sjövik igen. Misse är glad — nej, Misse är
+          Misse: hon tittar på dem och går. Men Ludde är GLAD: han
+          springer och springer! Oskar går till sin cykel … och står
+          tyst. Klockan på cykeln är sönder! – Vem har gjort det? ropar
+          han. Han är arg — mycket arg. Ett bråk kommer.
+        margin:
+          - "sönder 💔 = inte hel: klockan säger inte 'pling'!"
+          - "ett bråk = arga ord 😠😠"
+
+      - typ: narration
+        text: >-
+          Nils säger: – Elsa lånade din cykel. Hon cyklade hit varje dag
+          och matade Misse. – Elsa! ropar Oskar. Hon har gjort sönder min
+          klocka! Han springer till affären. Elsa står vid dörren. – Du
+          tog min cykel, säger Oskar, och nu är klockan sönder!
+        margin:
+          - "lånade = tog — men bara en liten tid!"
+
+      - typ: narration
+        text: >-
+          Elsa är sur. – Jag lånade din cykel därför att jag matade din
+          katt! säger hon. Men jag gjorde inte sönder klockan. Den var
+          redan sönder! – Det är inte sant! ropar Oskar. Du ljuger! – Jag
+          ljuger inte! Jag vet att den redan var sönder, därför att den
+          inte sa "pling"! Nu är Elsa arg, och Oskar är arg. De bråkar —
+          och nu är de ovänner.
+        margin:
+          - "ljuger 🤥 = säger det som inte är sant"
+          - "…att den INTE sa 'pling' — inte FÖRE verbet i att-satsen!"
+          - "vänner ↔ ovänner"
+          - "sur 😾 = litet arg och tyst"
+
+  - rubrik: "II. TRO, VETA, TYCKA"
+    block:
+      - typ: narration
+        text: >-
+          Oskar går hem och säger till mamma: – Elsa har gjort sönder min
+          klocka! Karin frågar: – Vet du det? – Jag tror det! – Att tro
+          är inte att veta, säger mamma. Vad säger Elsa? – Hon säger att
+          hon inte gjorde det. Hon säger att klockan redan var sönder. –
+          Är det sant? – Jag tycker att hon ljuger! – Kanske, säger
+          Karin långsamt. Och kanske inte. Jag tycker att du inte vet.
+        margin:
+          - "säger ATT … · tror ATT … · vet ATT … · tycker ATT …"
+          - "tror 🤔 < vet 💯"
+          - "…att hon INTE gjorde det (BIFF!)"
+
+      - typ: narration
+        text: >-
+          Då kommer Nils. – Jag vet något, säger han. Jag vet att klockan
+          var sönder före resan. Oskar gjorde den sönder i maj — han
+          cyklade in i björken! Jag såg det. – I björken? säger mamma.
+          Oskar är tyst. Han tänker … och nu minns han: björken, klockan,
+          "pling" — och sedan inget "pling". – Jag glömde det, säger han
+          långsamt. Det var jag. Jag gjorde sönder klockan själv. – Så
+          vem gjorde det egentligen? frågar mamma. – Jag. Jag trodde fel.
+        margin:
+          - "Nils VET — han såg det! 👀"
+          - "Vem gjorde det egentligen? Oskar själv!"
+
+      - typ: narration
+        text: >-
+          Oskar går till affären igen. Han står vid dörren och säger: –
+          Förlåt, Elsa. Jag hade fel: klockan var sönder före resan — jag
+          gjorde det själv, i maj. Jag trodde att du gjorde det, men jag
+          visste inte. Förlåter du mig? Elsa ser på honom … och skrattar:
+          – Ja! Men lova att du frågar först — och att du inte ropar! –
+          Jag lovar, säger Oskar. Elsa förlåter honom: nu bråkar de inte
+          — de är vänner igen.
+        margin:
+          - "Förlåt! 🙏 = jag gjorde fel!"
+          - "lovar 💯 = säger 'jag SKA göra det!'"
+          - "förlåter = 'det är OK nu'"
+
+  - rubrik: "III. VAD VAR SANT?"
+    block:
+      - typ: narration
+        text: >-
+          Vad var sönder? Klockan på Oskars cykel. Vem lånade cykeln —
+          och varför? Elsa: hon matade Misse varje dag. Trodde Oskar att
+          Elsa gjorde det? Ja — men han hade fel! Vem visste att klockan
+          var sönder före resan? Nils: han såg allt. Ljög Elsa? Nej — det
+          Elsa sa var sant. Vad menade Karin med "att tro är inte att
+          veta"? Att Oskar trodde — men inte visste! Vad lovar Oskar? Att
+          han frågar först — och att han inte ropar. Förlåter Elsa
+          honom? Ja, hon förlåter honom! Bråkar de nu? Nej, bråket är
+          slut: de är vänner — goda vänner. Och vad tycker du — om Oskar
+          och om Elsa?
+        margin:
+          - "tro 🤔 · veta 💯 · tycka ❤"
+          - "Vad tycker DU? (ja, du!)"
+
+      - typ: narration
+        text: >-
+          Alla bråk är inte stora, och alla slut är inte goda — men det
+          här slutet är gott! I kapitel tjugotvå: herr Holm — och hans
+          stora, stora hund.
+        margin:
+          - "🔍 den stora hunden …?"
+
+grammatik:
+  - rubrik: "att-satser"
+    forklaring: >-
+      Efter säger, tror, vet och tycker kommer ofta "att" + en liten
+      mening (en bisats): Oskar tror att Elsa ljuger.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Elsa säger att …", "… klockan redan var sönder."]
+        - ["Oskar tror att …", "… Elsa gjorde det."]
+        - ["Nils vet att …", "… klockan var sönder före resan."]
+        - ["Karin tycker att …", "… Oskar inte vet."]
+
+  - rubrik: "bisatsen: inte FÖRE verbet!"
+    forklaring: >-
+      I en huvudsats: "Hon gjorde INTE det." Men i en att-sats byter
+      "inte" plats — före verbet: "… att hon INTE gjorde det."
+    tabell:
+      head: ["huvudsats", "att-sats (bisats)"]
+      rows:
+        - ["Hon gjorde inte det.", "Hon säger att hon INTE gjorde det."]
+        - ["Klockan sa inte 'pling'.", "Jag vet att den INTE sa 'pling'."]
+        - ["Oskar vet inte.", "Karin tycker att Oskar INTE vet."]
+        - ["Den var redan sönder.", "Jag vet att den REDAN var sönder."]
+
+  - rubrik: "tro, veta, tycka"
+    forklaring: >-
+      Tro = kanske (🤔 jag vet inte 100%). Veta = 100% (💯 jag såg det!).
+      Tycka = så är det för MIG (❤ min mening).
+    tabell:
+      head: ["", "exempel"]
+      rows:
+        - ["tro 🤔", "Jag tror att det regnar i morgon."]
+        - ["veta 💯", "Jag vet att Sverige ligger i Norden."]
+        - ["tycka ❤", "Jag tycker att glass är gott!"]
+
+  - rubrik: "förlåt — och lova"
+    forklaring: >-
+      Gjorde du fel? Säg: "Förlåt!" Och den andra kan säga: "Jag
+      förlåter dig." Lova = säga "jag ska" — och göra det!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["– Förlåt, Elsa!", "– Jag förlåter dig."]
+        - ["– Lova att du frågar först!", "– Jag lovar."]
+
+uttal:
+  rubrik: "Satsmelodi: påstående och fråga"
+  forklaring: >-
+    Ett påstående går ner (↘): "Du tog min cykel." En fråga går upp (↗):
+    "Tog du min cykel?" Lyssna på melodin! 👂🎵
+  grupper:
+    - namn: "påstående ↘"
+      ord: ["Du tog min cykel.", "Klockan är sönder."]
+    - namn: "fråga ↗"
+      ord: ["Tog du min cykel?", "Är klockan sönder?"]
+
+ovningar:
+  A:
+    instruktion: "Skriv om till att-sats — och sätt inte/redan på rätt plats!"
+    items:
+      - q: "Elsa gjorde inte det. → Hon säger att hon {inte} gjorde det."
+      - q: "Klockan var redan sönder. → Elsa vet att klockan {redan} var sönder."
+      - q: "Oskar vet inte. → Karin tycker att Oskar {inte} vet."
+      - q: "Jag {tror} att Elsa ljuger — men jag vet inte! (tro)"
+      - q: "Nils {vet} att klockan var sönder — han såg det! (veta)"
+      - q: "Jag {tycker} att glass är gott. (tycka)"
+      - q: "Elsa {lånade} cykeln och matade Misse. (låna)"
+      - q: "Elsa {ljuger} inte — det hon sa var sant! (ljuga)"
+      - q: "– {Förlåt}, Elsa! säger Oskar."
+      - q: "– Jag {lovar} att fråga först. (lova)"
+      - q: "Det är inte {sant} — du ljuger! (sann)"
+      - q: "Oskar hade {fel}: Elsa gjorde inte sönder klockan."
+  B:
+    instruktion: "Skriv ordet: bråk, bråkar, ljuger, sant, fel, lovar, förlåter, vän, vänner, tror, vet, tycker, lånar, sur, ovänner, egentligen."
+    items:
+      - q: "Oskar och Elsa {bråkar} om klockan."
+      - q: "Ett {bråk} = många arga ord!"
+      - q: "– Du {ljuger}! ropar Oskar. Men Elsa sa det som var {sant}."
+      - q: "Oskar hade {fel} — Elsa gjorde det inte."
+      - q: "Elsa är {sur}: hon matade ju katten!"
+      - q: "Vem gjorde det {egentligen}? Oskar själv!"
+      - q: "– Jag {tror} det! — Att tro är inte att {veta}!"
+      - q: "Jag {tycker} att det här slutet är gott."
+      - q: "– Förlåter du mig? — Ja, jag {förlåter} dig!"
+      - q: "Oskar {lovar} att fråga först."
+      - q: "Nu är de {vänner} igen — inte {ovänner}!"
+      - q: "Elsa {lånar} cykeln varje dag."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Varför lånade Elsa Oskars cykel?"
+        model: "Därför att hon cyklade hem till familjen och matade Misse varje dag."
+      - q: "Vad säger Elsa om klockan?"
+        model: "Hon säger att hon inte gjorde sönder den — den var redan sönder."
+      - q: "Vad vet Nils?"
+        model: "Han vet att klockan var sönder före resan — Oskar cyklade in i björken i maj."
+      - q: "Vad säger Karin om att tro och att veta?"
+        model: "Hon säger att tro inte är att veta."
+      - q: "Vad säger Oskar till Elsa till slut?"
+        model: "Han säger förlåt: han hade fel, och han gjorde det själv."
+      - q: "Vad lovar Oskar?"
+        model: "Han lovar att han frågar först — och att han inte ropar."
+      - q: "Är Oskar och Elsa ovänner nu?"
+        model: "Nej, de är vänner igen — bråket är slut."
+
+repetition:
+  rubrik: "Astrid berättar för Elsa"
+  block:
+    - typ: narration
+      text: >-
+          Astrid berättar för Elsa om Stockholm: – Farmor hämtade oss vid tåget! Hon bor på femte
+          våningen, och där finns en hiss! Jag åkte hiss hundra gånger. –
+          Hundra? säger Elsa. – Ja! Eller … många. Vi promenerade i den
+          gamla staden och såg slottet. På torget köpte farmor glass — jag
+          åt två! Där fanns turister från många länder. Och farmors hus har
+          en lång, lång trappa — men jag tog hissen. – Tror du att jag
+          ljuger? – Nej, säger Elsa. Men hundra gånger i hissen … det tror
+          jag inte! De skrattar och går till affären: den är öppen, och fru
+          Ek har ny glass.

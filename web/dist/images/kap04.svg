@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="'Source Sans 3','Segoe UI',sans-serif">
+  <defs>
+    <g id="kid">
+      <circle cx="0" cy="-24" r="12" fill="currentColor"/>
+      <path d="M-13,22 C-13,-2 13,-2 13,22 Z" fill="currentColor"/>
+    </g>
+    <style>
+      .n{fill:#3a4550;font-weight:700;font-size:14.5px;text-anchor:middle}
+      .d{fill:#5a6b7a;font-size:12.5px;font-style:italic;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="800" height="560" fill="#e8f0e2"/>
+  <rect x="6" y="6" width="788" height="548" fill="none" stroke="#8a3033" stroke-width="3"/>
+  <text x="400" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#8a3033">DOCKAN I BJÖRKEN</text>
+  <rect x="6" y="460" width="788" height="94" fill="#a9c48a"/>
+
+  <!-- house corner -->
+  <rect x="660" y="240" width="134" height="220" fill="#8a3033" stroke="#5e1f22" stroke-width="3"/>
+  <path d="M650,240 L740,180 L794,216 L794,240 Z" fill="#7a5a4a"/>
+  <rect x="690" y="300" width="30" height="34" fill="#c9e2f0" stroke="#fdf8ee" stroke-width="3"/>
+  <text class="d" x="726" y="480">huset</text>
+
+  <!-- birch -->
+  <rect x="240" y="200" width="20" height="262" fill="#f5f2ea" stroke="#3a4550" stroke-width="1.5"/>
+  <g stroke="#3a4550" stroke-width="2.5">
+    <line x1="241" y1="250" x2="252" y2="250"/><line x1="248" y1="310" x2="259" y2="310"/>
+    <line x1="241" y1="370" x2="252" y2="370"/><line x1="248" y1="420" x2="259" y2="420"/>
+  </g>
+  <ellipse cx="250" cy="150" rx="120" ry="80" fill="#7aa25a"/>
+  <ellipse cx="160" cy="190" rx="55" ry="40" fill="#8fb26e"/>
+  <ellipse cx="345" cy="185" rx="58" ry="42" fill="#8fb26e"/>
+  <text class="n" x="120" y="120">björken</text>
+
+  <!-- doll high in the tree -->
+  <g transform="translate(322,158) scale(0.55)">
+    <use href="#kid" color="#d96a8a"/>
+  </g>
+  <line x1="352" y1="150" x2="430" y2="120" stroke="#3a4550" stroke-width="1.5"/>
+  <text class="n" x="480" y="116">Lisa — dockan! 🪆</text>
+  <text class="d" x="480" y="134">Dockan är i björken.</text>
+
+  <!-- Astrid crying -->
+  <g transform="translate(300,420) scale(0.85)"><use href="#kid" color="#b0679a"/></g>
+  <path d="M292,408 q-3,8 2,10 M310,408 q3,8 -2,10" stroke="#4a7fae" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text class="n" x="300" y="466">Astrid</text>
+  <text class="d" x="300" y="483">Hon gråter: – Lisa! 😢</text>
+
+  <!-- Oskar -->
+  <use href="#kid" x="440" y="416" color="#c98a3a"/>
+  <text class="n" x="440" y="466">Oskar</text>
+  <text class="d" x="440" y="483">en stygg pojke … 😈</text>
+
+  <!-- Nils calling -->
+  <use href="#kid" x="555" y="416" color="#5f8f5a"/>
+  <text class="n" x="555" y="466">Nils</text>
+  <text class="d" x="555" y="483">Han ropar: – Mamma! 📢</text>
+
+  <!-- Karin arriving -->
+  <use href="#kid" x="680" y="410" color="#8a3033"/>
+  <text class="n" x="680" y="466">mamma</text>
+  <text class="d" x="680" y="483">Hon kommer — arg! 😠</text>
+
+  <!-- dog -->
+  <ellipse cx="150" cy="440" rx="26" ry="14" fill="#d9a441"/>
+  <circle cx="176" cy="430" r="11" fill="#d9a441"/>
+  <text class="d" x="150" y="478">Ludde springer!</text>
+</svg>

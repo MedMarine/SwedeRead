@@ -1,0 +1,28 @@
+{
+ "nummer": 8,
+ "titel": "Näcken i sjön",
+ "efter_kapitel": 27,
+ "typ": "saga",
+ "block": [
+  {
+   "typ": "narration",
+   "text": "Det finns en gammal berättelse om Björksjön. Morfars mamma berättade den för honom, morfar för Karin — och Karin för barnen. I sjön bor — säger berättelsen — Näcken: en man som lever i vattnet. På kvällarna om sommaren, när sjön är tyst, sjunger han. Han sjunger så fint, så fint …",
+   "audio": "audio/lb08/b000_91a91f700454.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Den som hör Näcken vill komma nära — nära, nära vattnet. Och det är farligt! Därför varnade gamla människor barnen: – Bada inte på kvällen! Om ni hör att någon sjunger i sjön — spring hem! Ingen har sett Näcken. Men många har hört något fint från vattnet, sent på kvällen.",
+   "audio": "audio/lb08/b001_0525f2762782.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Morfar säger att hans morfar — Fågel-Pelle! — hörde Näcken en gång. Det var en varm kväll i juli, och Pelle satt vid vattnet. Då hörde han det: någon sjöng långt ute i vattnet. \"Det var inte en människa\", sa han. \"Människor sjunger inte så.\" Pelle ville gå ut i vattnet — men han mindes den kloka kvinnans ord: inte för långt! Och han gick hem. – Han lyssnade igen! säger Nils. Det gjorde han alltid. – Ja, säger Karin. Och därför blev han nittio år.",
+   "audio": "audio/lb08/b002_eddf3389b26e.mp3"
+  },
+  {
+   "typ": "narration",
+   "text": "Är det sant? – Nej, säger Nils. Det finns ingen man i sjön. – Kanske, säger Karin och skrattar litet — som hennes mamma skrattade. Men Astrid vet vad hon hörde en kväll: någon sjöng i sjön … – Det var Misse! säger Oskar. Kanske. Men Astrid badar aldrig på kvällen. Aldrig.",
+   "audio": "audio/lb08/b003_edb246654862.mp3"
+  }
+ ]
+}

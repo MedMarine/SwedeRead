@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="'Source Sans 3','Segoe UI',sans-serif">
+  <defs>
+    <g id="bike">
+      <circle cx="-30" cy="18" r="18" fill="none" stroke="currentColor" stroke-width="4"/>
+      <circle cx="30" cy="18" r="18" fill="none" stroke="currentColor" stroke-width="4"/>
+      <path d="M-30,18 L-8,-8 L18,-8 L30,18 M-8,-8 L4,18 M-14,-14 L-2,-14 M18,-8 L14,-16 M8,-16 L22,-16" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+    <style>
+      .n{fill:#3a4550;font-weight:700;font-size:14.5px;text-anchor:middle}
+      .d{fill:#5a6b7a;font-size:12.5px;font-style:italic;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="800" height="560" fill="#faf6ee"/>
+  <rect x="6" y="6" width="788" height="548" fill="none" stroke="#8a3033" stroke-width="3"/>
+  <text x="400" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#8a3033">BARNENS SAKER</text>
+
+  <!-- balls -->
+  <g transform="translate(170,140)">
+    <circle r="46" fill="#ffffff" stroke="#3a4550" stroke-width="2"/>
+    <path d="M-46,0 A46,46 0 0 1 46,0 Z" fill="#4a7fae"/>
+  </g>
+  <text class="n" x="170" y="212">Oskars boll</text>
+  <text class="d" x="170" y="229">blå och vit</text>
+
+  <g transform="translate(400,140)">
+    <circle r="46" fill="#e8c34a" stroke="#3a4550" stroke-width="2"/>
+    <path d="M-46,0 A46,46 0 0 1 46,0 Z" fill="#4a7fae"/>
+  </g>
+  <text class="n" x="400" y="212">Nils boll</text>
+  <text class="d" x="400" y="229">blå och gul</text>
+
+  <!-- doll + books -->
+  <g transform="translate(610,132)">
+    <circle cx="0" cy="-18" r="13" fill="#d96a8a"/>
+    <path d="M-15,30 C-15,-2 15,-2 15,30 Z" fill="#d96a8a"/>
+  </g>
+  <text class="n" x="610" y="212">Astrids docka</text>
+  <text class="d" x="610" y="229">Lisa 🪆</text>
+
+  <!-- bikes row -->
+  <g transform="translate(140,330)" color="#8a3033"><use href="#bike"/></g>
+  <text class="n" x="140" y="384">Oskars cykel</text>
+  <text class="d" x="140" y="401">Den är röd.</text>
+
+  <g transform="translate(320,330)" color="#3a4550"><use href="#bike"/></g>
+  <text class="n" x="320" y="384">Nils cykel</text>
+  <text class="d" x="320" y="401">Den är svart.</text>
+
+  <g transform="translate(500,336) scale(0.8)" color="#5f8f5a"><use href="#bike"/></g>
+  <text class="n" x="500" y="384">Astrids cykel</text>
+  <text class="d" x="500" y="401">liten, grön — och ny!</text>
+
+  <g transform="translate(670,330)" color="#9fb3c4"><use href="#bike"/></g>
+  <text class="n" x="670" y="384">Karins cykel</text>
+  <text class="d" x="670" y="401">Den är vit.</text>
+
+  <!-- books -->
+  <g transform="translate(120,470)">
+    <rect x="-40" y="-8" width="80" height="14" fill="#4a7fae"/>
+    <rect x="-36" y="-24" width="72" height="14" fill="#5f8f5a"/>
+    <rect x="-38" y="-40" width="76" height="14" fill="#8a3033"/>
+  </g>
+  <text class="n" x="120" y="500">Nils böcker 📚</text>
+  <text class="d" x="120" y="517">Han har många!</text>
+
+  <!-- color legend -->
+  <g transform="translate(300,462)" font-size="13.5">
+    <circle cx="0" cy="0" r="9" fill="#8a3033"/><text x="16" y="4" fill="#3a4550">röd</text>
+    <circle cx="80" cy="0" r="9" fill="#4a7fae"/><text x="96" y="4" fill="#3a4550">blå</text>
+    <circle cx="160" cy="0" r="9" fill="#e8c34a"/><text x="176" y="4" fill="#3a4550">gul</text>
+    <circle cx="240" cy="0" r="9" fill="#5f8f5a"/><text x="256" y="4" fill="#3a4550">grön</text>
+    <circle cx="330" cy="0" r="9" fill="#ffffff" stroke="#3a4550"/><text x="346" y="4" fill="#3a4550">vit</text>
+    <circle cx="410" cy="0" r="9" fill="#3a4550"/><text x="426" y="4" fill="#3a4550">svart</text>
+  </g>
+  <text class="d" x="512" y="505">Vems är bollen? Vems är cykeln?</text>
+  <text class="n" x="512" y="524">Färgerna svarar!</text>
+</svg>

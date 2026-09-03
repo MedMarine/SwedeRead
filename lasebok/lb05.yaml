@@ -1,0 +1,40 @@
+# Läseboken 05 — Tomten på gården
+# Supplementary reading (Colloquia-Personarum style): ZERO new words,
+# everything unlocked by kapitel 16. Pure re-exposure.
+
+nummer: 5
+titel: "Tomten på gården"
+efter_kapitel: 16
+typ: saga
+
+block:
+  - typ: narration
+    text: >-
+        Morfar berättade en kväll om något på sin gård — och han sa:
+        "Det hände!" På gamla gårdar bor — säger gamla människor — en
+        tomte. En tomte är en mycket liten och mycket gammal
+        man. Ingen ser honom, men han är där: han går till djuren på
+        natten, och han ser att alla har det bra.
+  - typ: narration
+    text: >-
+        – När min pappa var barn, berättade morfar, kom en mycket kall
+        vinter. Det var snö i fem månader, och nätterna var långa och
+        kalla. Men korna på gården hade det bra — och varför? Ja, varför!
+        En morgon såg min pappa något i snön: små, små fötter hade gått
+        från dörren till djuren! – Katten! sa Nils. – Nej, sa morfar.
+        Kattens fötter kände han. De här var … en liten mans fötter.
+  - typ: narration
+    text: >-
+        Vad gör en tomte? På natten, när alla sover, går han från djur
+        till djur. Han ser på korna: har de gräs? Han ser på hönorna:
+        sover de gott? Han känner på lammen med sin lilla hand: är de
+        varma? Och om en dörr är öppen och den kalla vinden kommer in —
+        då … ja, då är dörren stängd på morgonen! Ingen såg något. Ingen
+        hörde något. Det är tomtens sak.
+  - typ: narration
+    text: >-
+        – Min morfar satte mjölk och bröd vid dörren varje kväll,
+        berättade morfar. Och varje morgon var maten borta. – Det var
+        katten! sa Oskar. – Ja, ja, sa morfar och skrattade. Men jag
+        sätter mjölk vid dörren på kvällarna på vintern — också nu. En
+        gammal gård behöver sin tomte!

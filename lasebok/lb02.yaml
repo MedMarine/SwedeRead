@@ -1,0 +1,29 @@
+# Läseboken 02 — En morgon på gården
+# Supplementary reading (Colloquia-Personarum style): ZERO new words,
+# everything unlocked by kapitel 9. Pure re-exposure.
+
+nummer: 2
+titel: "En morgon på gården"
+efter_kapitel: 9
+typ: vardag
+
+block:
+  - typ: narration
+    text: >-
+        Det är morgon på morfars gård. Djuren sover — men morfar
+        vaknar! Han går ut till dem — varje morgon, i många, många år. Korna vill ha
+        gräs, och de får gräs. Hönorna vill ha mat, och de får mat.
+        Grisarna? Grisarna vill ha ALLT — och de får mycket. Fåren säger
+        "bä", och lammen springer i gräset.
+  - typ: narration
+    text: >-
+        Morfar letar: är alla här? En ko, två kor, tre, fyra — ja. Åtta
+        får och tre lamm — ja! Ingen är borta nu. Och Brunte? Hästen
+        kommer till morfar och säger sitt "god morgon": han vill ha ett
+        äpple — och han får ett äpple. Hästar och äpplen!
+  - typ: narration
+    text: >-
+        Sedan sätter sig morfar i köket. Han dricker mjölk och äter bröd
+        med ost. Genom fönstret ser han gården: djuren äter, och alla har
+        det bra. En bondes morgon är en god morgon. Varje morgon är samma morgon på gården, säger
+        morfar. Och det är bra.

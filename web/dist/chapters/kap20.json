@@ -1,0 +1,535 @@
+{
+ "kapitel": 20,
+ "image": "images/kap20.jpg",
+ "titel": "Hos farmor",
+ "arc": "D",
+ "grammatik_fokus": "bestämd form av adjektiv: den gamla staden, det stora slottet, de höga husen; hos",
+ "uttal_fokus": "glass eller glas? Lång och kort vokal gör ordet!",
+ "fokus": [
+  "slott",
+  "torg",
+  "båt",
+  "trappa",
+  "våning",
+  "hiss",
+  "glass",
+  "folk",
+  "museum",
+  "turist"
+ ],
+ "stretch": [
+  "promenera"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. FEMTE VÅNINGEN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Farmor bor på femte våningen i ett högt hus. Huset har många våningar — och en hiss! – Får jag åka hiss? frågar Astrid. Hon åker upp … och ner … och upp igen. – Hissen är bäst i Stockholm! säger hon. Farmor skrattar: – Du har inte sett staden än! I huset finns också en lång trappa. Oskar och Nils springer i trappan — Astrid åker hiss.",
+     "margin": [
+      "en våning = ett 'golv' i huset (femte våningen = 5!)",
+      "en hiss ⬆⬇",
+      "en trappa 🪜"
+     ],
+     "audio": "audio/kap20/b000_d46a38397cfe.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "På söndagen går familjen ut i den stora staden. Stockholm är gammalt — en gammal, gammal stad. Den gamla staden vid vattnet heter Gamla stan: här är gatorna små och husen gula, röda och höga. – Titta på det gula huset! säger Astrid. – Och det röda! De gamla husen står vid de små gatorna — hus vid hus.",
+     "margin": [
+      "en gammal stad → DEN gamlA stadEN!",
+      "ett gult hus → DET gulA husET",
+      "höga hus → DE högA husEN",
+      "Gamla stan = Stockholms gamla stad"
+     ],
+     "audio": "audio/kap20/b001_9e3fafd58700.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Mitt i Gamla stan ligger slottet. Ett slott är ett mycket stort och fint hus. Stockholms slott är stort, gult och gammalt: det stora gula slottet står vid vattnet. – Vem bor i det stora slottet? frågar Astrid. – En mycket, mycket fin familj, säger farmor och skrattar. Familjen tittar länge på det gamla slottet.",
+     "margin": [
+      "ett slott 🏰",
+      "det storA gulA slottET"
+     ],
+     "audio": "audio/kap20/b002_69f1206e3a42.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. STADEN PÅ ÖARNA",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Stockholm ligger vid vattnet: staden står på öar! Mellan öarna går broar, och på vattnet åker båtar — stora vita båtar och små snabba båtar. Familjen promenerar över broarna och tittar. – Fjorton öar! läser Nils i sin bok. Stockholm är en stad på fjorton öar. – Som Sjövik? frågar Astrid. – Nej, säger Nils. Sjövik ligger VID en sjö. Stockholm ligger PÅ vattnet — nästan!",
+     "margin": [
+      "en båt ⛵ — båtar",
+      "promenerar = går långsamt och fint 🚶",
+      "kapitel ett: öar, broar, vatten!"
+     ],
+     "audio": "audio/kap20/b003_34fa6099b4b3.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "På det stora torget är mycket folk: människor går, står, talar och äter. Här finns turister från många länder — från Danmark och Finland, från England och Amerika — och de har kartor och tittar på de gamla husen. – Varför är det så mycket folk här? frågar Astrid. – Det är en stor stad, säger farmor. – Är vi också turister? frågar Nils. – Ja, säger pappa. I dag är vi turister i Stockholm! Vid torget köper farmor glass: fem stora glassar. Glassen är kall och god — bäst på en varm dag!",
+     "margin": [
+      "ett torg = stor öppen 'plats'",
+      "folk = många människor",
+      "en turist 📷",
+      "glass 🍦 (inte glas!)"
+     ],
+     "audio": "audio/kap20/b004_bb36bdcc0748.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Efter glassen går familjen till ett museum vid ett stort torg. På museet finns gamla saker: gamla båtar, gamla kartor, gamla pengar — allt är gammalt! Nils läser allt och förstår mycket. Oskar tittar på en stor gammal båt: – Den är större än morfars hus! Astrid är trött i benen: – Mina fötter vill hem till farmors hiss — inte fler trappor!",
+     "margin": [
+      "ett museum — museET! 🏛",
+      "på museet finns gamla saker"
+     ],
+     "audio": "audio/kap20/b005_8a2ecfd958a7.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. STADEN PÅ KVÄLLEN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "På kvällen sitter familjen hos farmor på femte våningen och äter middag. – Vad var bäst i dag? frågar farmor. – Hissen! säger Astrid. – Den gamla staden, säger Nils. – Den stora båten på museet, säger Oskar. – Glassen! säger alla. Genom det stora fönstret ser de staden: de höga husen, det gamla slottet och vattnet — och nere på gatorna går folket hem.",
+     "margin": [
+      "DEN gamla staden · DET stora fönstret · DE höga husen"
+     ],
+     "audio": "audio/kap20/b006_1e59c3fb138a.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "En hel vecka som turister hos farmor — dag efter dag i den stora staden! Men hemma i Sjövik väntar Elsa och Misse … och när familjen kommer hem, händer något mellan Oskar och Elsa. Vad? Det är kapitel tjugoett!",
+     "margin": [
+      "🔍 Oskar och Elsa …?"
+     ],
+     "audio": "audio/kap20/b007_fdc4dfdbc387.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Bussen genom staden",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "En dag åker familjen buss genom Stockholm — en stor blå buss. Farmor köper biljetter: – Sex biljetter, tack! Från bussen ser familjen staden: gator, torg, broar och vatten. – Är vi framme? frågar Astrid många gånger. – Snart! Framme vid museet stiger alla av. Och sista kvällen packar familjen sina väskor. – Har du packat allt? frågar Karin. Oskar har packat snabbt — som alltid! — och något ligger under sängen: en boll. – En boll? säger mamma. I Stockholm?! Alla skrattar, och bollen åker hem i väskan.",
+    "audio": "audio/kap20/b008_43147a5e5253.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "bestämd form av adjektiv",
+   "forklaring": "En gammal stad — men: DEN gamlA stadEN! Tre saker händer: den/det/de först, adjektivet får -a, och substantivet har bestämd form.",
+   "tabell": {
+    "head": [
+     "obestämd",
+     "bestämd"
+    ],
+    "rows": [
+     [
+      "en gammal stad",
+      "den gamla staden"
+     ],
+     [
+      "ett stort slott",
+      "det stora slottet"
+     ],
+     [
+      "ett gult hus",
+      "det gula huset"
+     ],
+     [
+      "höga hus",
+      "de höga husen"
+     ],
+     [
+      "små gator",
+      "de små gatorna"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "hos",
+   "forklaring": "Hos farmor = i farmors hus, med farmor. Familjen bor hos farmor en vecka. Ludde bor hos morfar!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "hos farmor",
+      "i farmors hus"
+     ],
+     [
+      "hos morfar",
+      "på morfars gård"
+     ],
+     [
+      "hemma hos oss",
+      "i vårt hus"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "stadens ord",
+   "forklaring": "I en stor stad finns torg, slott, museer, höga hus med hissar — och mycket folk!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "ett torg",
+      "en öppen plats — mycket folk!"
+     ],
+     [
+      "ett slott 🏰",
+      "ett mycket stort fint hus"
+     ],
+     [
+      "ett museum 🏛",
+      "gamla saker bor här"
+     ],
+     [
+      "en våning + en hiss",
+      "farmor bor på femte våningen"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "vid, på, i — staden",
+   "forklaring": "Sjövik ligger VID en sjö. Stockholm står PÅ fjorton öar. Farmor bor I ett högt hus, PÅ femte våningen.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "vid vattnet",
+      "slottet står vid vattnet"
+     ],
+     [
+      "på öar",
+      "staden står på fjorton öar"
+     ],
+     [
+      "på femte våningen",
+      "i ett högt hus"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Glass eller glas?",
+  "forklaring": "Kort a + två s = glass 🍦. Lång a + ett s = glas (av vatten)! Vokalen gör ordet. Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "kort vokal",
+    "ord": [
+     "glass",
+     "slott",
+     "folk",
+     "trappa"
+    ]
+   },
+   {
+    "namn": "lång vokal",
+    "ord": [
+     "båt",
+     "torg",
+     "museum",
+     "turist"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "glass": "audio/uttal/795d56c7f083.mp3",
+  "slott": "audio/uttal/d39eeba371a0.mp3",
+  "folk": "audio/uttal/193894eec852.mp3",
+  "trappa": "audio/uttal/9a16311da0fd.mp3",
+  "båt": "audio/uttal/8ad642da6d7c.mp3",
+  "torg": "audio/uttal/16315c46d7af.mp3",
+  "museum": "audio/uttal/dadac3e55406.mp3",
+  "turist": "audio/uttal/d1f6f9e5f0f3.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv bestämd form med adjektiv: den/det/de + -a + bestämd form!",
+   "items": [
+    {
+     "q": "en gammal stad → {den} gamla staden"
+    },
+    {
+     "q": "ett stort slott → det {stora} slottet"
+    },
+    {
+     "q": "ett gult hus → det gula {huset}"
+    },
+    {
+     "q": "höga hus → {de} höga husen"
+    },
+    {
+     "q": "små gator → de {små} gatorna"
+    },
+    {
+     "q": "en stor båt → den {stora} båten"
+    },
+    {
+     "q": "ett stort torg → {det} stora torget"
+    },
+    {
+     "q": "en lång trappa → den {långa} trappan"
+    },
+    {
+     "q": "Farmor bor {på} femte våningen."
+    },
+    {
+     "q": "Familjen bor {hos} farmor en vecka."
+    },
+    {
+     "q": "en båt — två {båtar}"
+    },
+    {
+     "q": "ett museum — {museet}!"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: slott, torg, båt, trappa, våning, hiss, glass, folk, museum, turister, promenerar.",
+   "items": [
+    {
+     "q": "Farmor bor på femte {våningen}."
+    },
+    {
+     "q": "Astrid åker {hiss} — upp och ner och upp igen!"
+    },
+    {
+     "q": "Oskar och Nils springer i {trappan}."
+    },
+    {
+     "q": "Det stora gula {slottet} står vid vattnet."
+    },
+    {
+     "q": "På vattnet åker stora vita {båtar}."
+    },
+    {
+     "q": "På det stora {torget} är mycket folk."
+    },
+    {
+     "q": "{Turister} från många länder tittar på de gamla husen."
+    },
+    {
+     "q": "Farmor köper fem stora {glassar}."
+    },
+    {
+     "q": "På {museet} finns gamla båtar och kartor."
+    },
+    {
+     "q": "Familjen {promenerar} över broarna."
+    },
+    {
+     "q": "På kvällen går {folket} hem."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Var bor farmor?",
+     "model": "Hon bor på femte våningen i ett högt hus i Stockholm."
+    },
+    {
+     "q": "Vad är bäst i Stockholm — säger Astrid?",
+     "model": "Hissen! Hon åker upp och ner och upp igen."
+    },
+    {
+     "q": "Vad heter den gamla staden vid vattnet?",
+     "model": "Den heter Gamla stan."
+    },
+    {
+     "q": "Hur många öar står Stockholm på?",
+     "model": "Staden står på fjorton öar."
+    },
+    {
+     "q": "Vad köper farmor vid torget?",
+     "model": "Hon köper fem stora glassar."
+    },
+    {
+     "q": "Vad finns på museet?",
+     "model": "Gamla saker: gamla båtar, gamla kartor och gamla pengar."
+    },
+    {
+     "q": "Vad ser familjen genom det stora fönstret på kvällen?",
+     "model": "De ser de höga husen, det gamla slottet och vattnet."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "slott": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "slott",
+    "slottet",
+    "slotten",
+    "slottets"
+   ],
+   "sv": "🏰 ett mycket stort, mycket fint hus — Stockholms slott!",
+   "en": "palace, castle",
+   "tier": "focus"
+  },
+  "torg": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "torg",
+    "torget",
+    "torgen",
+    "torgets"
+   ],
+   "sv": "en stor öppen 'plats' i staden — mycket folk!",
+   "en": "square",
+   "tier": "focus"
+  },
+  "båt": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "båt",
+    "båten",
+    "båtar",
+    "båtarna",
+    "båtens"
+   ],
+   "sv": "⛵ 'huset' som åker på vattnet!",
+   "en": "boat",
+   "tier": "focus"
+  },
+  "trappa": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "trappa",
+    "trappan",
+    "trappor",
+    "trapporna",
+    "trappans"
+   ],
+   "sv": "🪜 väg upp i huset — fot efter fot!",
+   "en": "stairs",
+   "tier": "focus"
+  },
+  "våning": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "våning",
+    "våningen",
+    "våningar",
+    "våningarna",
+    "våningens"
+   ],
+   "sv": "ett 'golv' i huset: farmor bor på femte våningen!",
+   "en": "floor, storey",
+   "tier": "focus"
+  },
+  "hiss": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "hiss",
+    "hissen",
+    "hissar",
+    "hissarna",
+    "hissens"
+   ],
+   "sv": "⬆⬇ litet rum som åker upp och ner — Astrids nummer ett!",
+   "en": "elevator",
+   "tier": "focus"
+  },
+  "glass": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "glass",
+    "glassen",
+    "glassar",
+    "glassarna",
+    "glassens"
+   ],
+   "sv": "🍦 kall, söt, god — bäst på en varm dag! (OBS: glass, inte glas!)",
+   "en": "ice cream",
+   "tier": "focus"
+  },
+  "folk": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "folk",
+    "folket",
+    "folkets"
+   ],
+   "sv": "många människor: på torget är mycket folk!",
+   "en": "people",
+   "tier": "focus"
+  },
+  "museum": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "museum",
+    "museet",
+    "museer",
+    "museerna",
+    "museets"
+   ],
+   "sv": "🏛 gamla saker bor här: gamla båtar, gamla kartor …",
+   "en": "museum",
+   "tier": "focus"
+  },
+  "turist": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "turist",
+    "turisten",
+    "turister",
+    "turisterna",
+    "turistens"
+   ],
+   "sv": "📷 reser till en stad och tittar på allt!",
+   "en": "tourist",
+   "tier": "focus"
+  },
+  "promenera": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "promenerar",
+    "promenera",
+    "promenerade",
+    "promenerat"
+   ],
+   "sv": "🚶 går långsamt och fint — inte till skolan, bara för att gå!",
+   "en": "to stroll",
+   "tier": "stretch"
+  }
+ }
+}

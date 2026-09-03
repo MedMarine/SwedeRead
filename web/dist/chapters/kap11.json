@@ -1,0 +1,633 @@
+{
+ "kapitel": 11,
+ "image": "images/kap11.jpg",
+ "titel": "Kroppen",
+ "arc": "B",
+ "grammatik_fokus": "måste, får (inte), behöver; har ont i + kroppsdel; känner sig; ögon/öron/händer/fötter",
+ "uttal_fokus": "lång och kort vokal i kroppens ord: ben — hand, fot — kropp",
+ "fokus": [
+  "kropp",
+  "huvud",
+  "mage",
+  "hand",
+  "arm",
+  "ben",
+  "fot",
+  "öga",
+  "öra",
+  "sjuk",
+  "frisk",
+  "läkare"
+ ],
+ "stretch": [
+  "mun",
+  "näsa",
+  "hår",
+  "feber"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. EN MÄNNISKAS KROPP",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "En människa har en kropp. Vad har kroppen? Ett huvud! På huvudet finns hår, två ögon, två öron, en näsa och en mun. Med ögonen ser du. Med öronen hör du. Med munnen äter du och talar du. Och näsan? Den är mellan ögonen och munnen!",
+     "margin": [
+      "en kropp 🧍",
+      "ett öga — två ÖGON 👀",
+      "ett öra — två ÖRON 👂",
+      "en mun 👄 · en näsa 👃 · hår 💇"
+     ],
+     "audio": "audio/kap11/b000_82af853e9dbc.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Kroppen har också två armar och två ben. På armen finns en hand: två armar, två händer! Med händerna tar du saker. På benet finns en fot: två ben, två fötter. Med fötterna går och springer du. Hur många ögon har en människa? Två. Hur många fötter? Två. Och hur många ben har Ludde? Fyra!",
+     "margin": [
+      "en hand — två HÄNDER (a → ä!)",
+      "en fot — två FÖTTER (o → ö!)",
+      "en arm — armar 💪 · ett ben — ben 🦵"
+     ],
+     "audio": "audio/kap11/b001_dd71a5ff3f60.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Är kroppen bra? Då är du frisk: du kan springa, leka och gå till skolan. Har du ont i huvudet eller i magen? Då är du sjuk. Sjuka människor behöver en läkare! En läkare ser på kroppen och frågar: – Var har du ont? Karin Berg är läkare: sjuka människor i Sjövik kommer till henne.",
+     "margin": [
+      "frisk 💪 ↔ sjuk 🤒",
+      "har ont i X = X är inte bra! 😖",
+      "en läkare 🩺",
+      "behöver = måste ha"
+     ],
+     "audio": "audio/kap11/b002_0a6ee8f65445.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. OSKAR ÄR SJUK — ELLER?",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det är morgon. Barnen måste gå till skolan — men Oskar ligger i sängen och ropar:",
+     "margin": [
+      "måste = 💯 inget val!"
+     ],
+     "audio": "audio/kap11/b003_6539d16dce25.mp3"
+    },
+    {
+     "typ": "dialogue",
+     "speaker": "Oskar",
+     "text": "Mamma! Jag är sjuk! Jag har ont i huvudet … och i magen … och i benen!",
+     "audio": "audio/kap11/b004_53d67bdae2ab.mp3"
+    },
+    {
+     "typ": "dialogue",
+     "speaker": "Karin",
+     "text": "Känner du dig sjuk? Kom, jag ser på dig.",
+     "audio": "audio/kap11/b005_f10bd6b657a7.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Karin kommer till sängen. Hon är läkare — och hon är mamma! Hon ser på Oskars ögon, på öronen och i munnen. Hon känner på hans huvud med handen. Har Oskar feber? Nej — ingen feber: huvudet är bra.",
+     "margin": [
+      "känner på = 🖐 tar på",
+      "feber 🌡 = kroppen är mycket varm"
+     ],
+     "audio": "audio/kap11/b006_7211d59d2985.mp3"
+    },
+    {
+     "typ": "dialogue",
+     "speaker": "Karin",
+     "text": "Du har inte feber. Men du har ont, säger du — då är du sjuk, och sjuka pojkar måste vara i sängen. Du får inte leka, du får inte gå ut, och du får inte äta godis. Sjuka pojkar behöver sova!",
+     "margin": [
+      "får inte = ✗ förbjudet!"
+     ],
+     "audio": "audio/kap11/b007_f084367ebce1.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Oskar ligger i sängen. Han sover inte — han är inte trött! Han hör Astrid och Nils: de går till skolan. Han ser ut genom fönstret. Misse kommer och lägger sig på honom. Oskar ligger och ligger. Han vill leka. Han vill äta godis. Men sjuka pojkar måste vara i sängen …",
+     "margin": [
+      "🛏 … en lång, lång morgon"
+     ],
+     "audio": "audio/kap11/b008_a6af256f7f55.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "När barnen kommer hem från skolan, springer Oskar ner till köket: – Mamma! Jag är frisk nu! Jag har inte ont — jag kan leka! Karin ser på honom. – Så bra! säger hon. Friska pojkar kan leka … och friska pojkar går till skolan. Nils skrattar. Oskar svarar inte.",
+     "margin": [
+      "frisk nu! 😇 … mamma ser allt 👀"
+     ],
+     "audio": "audio/kap11/b009_40c28f8add5d.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. FRISK OCH SJUK",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Hur många ögon har en människa? Två ögon — och två öron, två armar och två fötter. Vad gör du med öronen? Du hör. Var har Oskar ont? I huvudet och i magen — säger han! Har han feber? Nej. Är han sjuk? Han säger det! Vad får sjuka pojkar inte göra? De får inte leka, och de får inte äta godis. Vem är läkare i familjen? Karin. Och är Oskar frisk på kvällen? Ja — mycket frisk!",
+     "margin": [
+      "frågar → svarar"
+     ],
+     "audio": "audio/kap11/b010_8e452484f84d.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Oskar är frisk, och alla är glada. Och kapitel tolv? Det är ett år i Sverige!",
+     "margin": [
+      "🔍 ett år …?"
+     ],
+     "audio": "audio/kap11/b011_c5060aae2551.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Ludde på tre ben",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Ludde kommer på tre ben! Han har ont i en fot. – Är hunden sjuk? frågar Astrid. Karin är läkare — också hundens läkare, säger Astrid! Mamma ser på foten och känner på den med händerna. Där finns något — en mycket liten sak. Karin tar den från foten. – Nu är foten bra! Ludde får mat och vatten, och Misse ser på dem. Katter har inte ont — säger Misses ögon. På kvällen springer Ludde på fyra ben: han är frisk! – Bra, säger Astrid. En frisk hund har fyra ben, två öron, två ögon och en mage. Och min mamma är barnens läkare — och hundens!",
+    "audio": "audio/kap11/b012_064ad49cee7c.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "måste, får inte, behöver",
+   "forklaring": "Måste = du har inget val! Får inte = det är förbjudet! Behöver = måste ha. Alla tre + verb utan \"att\".",
+   "tabell": {
+    "head": [
+     "",
+     "exempel"
+    ],
+    "rows": [
+     [
+      "måste 💯",
+      "Sjuka pojkar måste vara i sängen."
+     ],
+     [
+      "får inte ✗",
+      "Du får inte äta godis!"
+     ],
+     [
+      "behöver",
+      "Sjuka barn behöver sova."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "har ont i",
+   "forklaring": "– Var har du ont? – Jag har ont i huvudet! Ont i magen, ont i benen, ont i örat …",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Jag har ont i huvudet.",
+      "Har du ont i magen?"
+     ],
+     [
+      "Oskar har ont — säger han!",
+      "Var har du ont?"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "känner sig",
+   "forklaring": "Känner du dig sjuk? — Ja, jag känner mig mycket sjuk! (Och: känner PÅ = tar på med handen.)",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "jag känner mig sjuk",
+      "vi känner oss trötta"
+     ],
+     [
+      "känner du dig frisk?",
+      "han känner sig bra"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "kroppens plural",
+   "forklaring": "Ögon, öron, händer, fötter — kroppens ord har sina egna former!",
+   "tabell": {
+    "head": [
+     "singular",
+     "plural",
+     "bestämd plural"
+    ],
+    "rows": [
+     [
+      "ett öga",
+      "två ögon",
+      "ögonen"
+     ],
+     [
+      "ett öra",
+      "två öron",
+      "öronen"
+     ],
+     [
+      "en hand",
+      "två händer",
+      "händerna"
+     ],
+     [
+      "en fot",
+      "två fötter",
+      "fötterna"
+     ],
+     [
+      "en arm",
+      "två armar",
+      "armarna"
+     ],
+     [
+      "ett ben",
+      "två ben",
+      "benen"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Lång och kort vokal i kroppen",
+  "forklaring": "Ben har lång e — hand har kort a! En vokal + två konsonanter = kort. Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "lång vokal",
+    "ord": [
+     "ben",
+     "fot",
+     "hår",
+     "mage"
+    ]
+   },
+   {
+    "namn": "kort vokal",
+    "ord": [
+     "hand",
+     "arm",
+     "mun",
+     "kropp"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "ben": "audio/uttal/5756809f5cc5.mp3",
+  "fot": "audio/uttal/e7b0d3273ebe.mp3",
+  "hår": "audio/uttal/269ac1137eba.mp3",
+  "mage": "audio/uttal/85b7443dab5e.mp3",
+  "hand": "audio/uttal/d1d8f69b6475.mp3",
+  "arm": "audio/uttal/5043113a187d.mp3",
+  "mun": "audio/uttal/c0fa1cad9fe3.mp3",
+  "kropp": "audio/uttal/a14960662979.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv plural — och måste/får/behöver, mig/dig/sig.",
+   "items": [
+    {
+     "q": "ett öga — två {ögon}"
+    },
+    {
+     "q": "ett öra — två {öron}"
+    },
+    {
+     "q": "en hand — två {händer}"
+    },
+    {
+     "q": "en fot — två {fötter}"
+    },
+    {
+     "q": "en arm — två {armar}"
+    },
+    {
+     "q": "ett ben — två {ben}"
+    },
+    {
+     "q": "Sjuka pojkar {måste} vara i sängen."
+    },
+    {
+     "q": "Du {får} inte äta godis!"
+    },
+    {
+     "q": "Sjuka barn {behöver} sova."
+    },
+    {
+     "q": "Oskar har {ont} i huvudet — säger han!"
+    },
+    {
+     "q": "Känner du {dig} sjuk?"
+    },
+    {
+     "q": "Oskar känner {sig} frisk nu!"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: kropp, huvud, mage, hand, händer, arm, ben, fot, fötter, ögon, öron, mun, näsa, hår, sjuk, frisk, läkare, feber.",
+   "items": [
+    {
+     "q": "Med {ögonen} ser du, och med {öronen} hör du."
+    },
+    {
+     "q": "Med munnen äter och talar du — och {näsan} är mellan ögonen och munnen."
+    },
+    {
+     "q": "Med {händerna} tar du saker."
+    },
+    {
+     "q": "Med fötterna {springer} du."
+    },
+    {
+     "q": "På huvudet finns {hår}."
+    },
+    {
+     "q": "Maten går ner i {magen}."
+    },
+    {
+     "q": "Karin är {läkare} — sjuka människor kommer till henne."
+    },
+    {
+     "q": "Oskar säger: – Jag är {sjuk}!"
+    },
+    {
+     "q": "Men han har ingen {feber}."
+    },
+    {
+     "q": "På kvällen är Oskar {frisk} — mycket frisk!"
+    },
+    {
+     "q": "En människas {kropp} har ett huvud, två armar och två ben."
+    },
+    {
+     "q": "Jag har ont i {huvudet}!"
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vad gör du med ögonen — och med öronen?",
+     "model": "Med ögonen ser jag, och med öronen hör jag."
+    },
+    {
+     "q": "Hur många ben har Ludde?",
+     "model": "Han har fyra ben!"
+    },
+    {
+     "q": "Var har Oskar ont — säger han?",
+     "model": "Han säger: i huvudet, i magen och i benen."
+    },
+    {
+     "q": "Har Oskar feber?",
+     "model": "Nej, han har ingen feber — huvudet är bra."
+    },
+    {
+     "q": "Vad får sjuka pojkar inte göra?",
+     "model": "De får inte leka, inte gå ut och inte äta godis."
+    },
+    {
+     "q": "Vad behöver sjuka barn göra?",
+     "model": "De behöver sova."
+    },
+    {
+     "q": "Är Oskar sjuk på kvällen?",
+     "model": "Nej, då känner han sig frisk — mycket frisk!"
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "kropp": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "kropp",
+    "kroppen",
+    "kroppar",
+    "kropparna",
+    "kroppens"
+   ],
+   "sv": "🧍 huvud + armar + ben + allt = kroppen!",
+   "en": "body",
+   "tier": "focus"
+  },
+  "huvud": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "huvud",
+    "huvudet",
+    "huvuden",
+    "huvudets"
+   ],
+   "sv": "🗣 uppe på kroppen — här finns ögon, öron och mun",
+   "en": "head",
+   "tier": "focus"
+  },
+  "mage": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "mage",
+    "magen",
+    "magar",
+    "magarna",
+    "magens"
+   ],
+   "sv": "maten går ner i magen! 🍽→",
+   "en": "stomach",
+   "tier": "focus"
+  },
+  "hand": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "hand",
+    "handen",
+    "händer",
+    "händerna",
+    "handens"
+   ],
+   "sv": "🖐 med händerna tar du saker (en hand — två händer!)",
+   "en": "hand",
+   "tier": "focus"
+  },
+  "arm": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "arm",
+    "armen",
+    "armar",
+    "armarna",
+    "armens"
+   ],
+   "sv": "💪 på armen finns handen",
+   "en": "arm",
+   "tier": "focus"
+  },
+  "ben": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "ben",
+    "benet",
+    "benen",
+    "benets",
+    "benens"
+   ],
+   "sv": "🦵 med benen går och springer du (Ludde har fyra!)",
+   "en": "leg",
+   "tier": "focus"
+  },
+  "fot": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "fot",
+    "foten",
+    "fötter",
+    "fötterna",
+    "fotens"
+   ],
+   "sv": "🦶 nere på benet (en fot — två fötter!)",
+   "en": "foot",
+   "tier": "focus"
+  },
+  "öga": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "öga",
+    "ögat",
+    "ögon",
+    "ögonen",
+    "ögats"
+   ],
+   "sv": "👁 med ögonen ser du (ett öga — två ögon!)",
+   "en": "eye",
+   "tier": "focus"
+  },
+  "öra": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "öra",
+    "örat",
+    "öron",
+    "öronen",
+    "örats"
+   ],
+   "sv": "👂 med öronen hör du (ett öra — två öron!)",
+   "en": "ear",
+   "tier": "focus"
+  },
+  "sjuk": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "sjuk",
+    "sjukt",
+    "sjuka",
+    "sjukare",
+    "sjukast"
+   ],
+   "sv": "🤒 har ont, har feber — måste vara i sängen (↔ frisk)",
+   "en": "ill, sick",
+   "tier": "focus"
+  },
+  "frisk": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "frisk",
+    "friskt",
+    "friska"
+   ],
+   "sv": "💪 kroppen är bra! (↔ sjuk)",
+   "en": "healthy, well",
+   "tier": "focus"
+  },
+  "läkare": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "läkare",
+    "läkaren",
+    "läkares",
+    "läkarens"
+   ],
+   "sv": "🩺 ser på sjuka människor — Karin är läkare!",
+   "en": "doctor",
+   "tier": "focus"
+  },
+  "mun": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "mun",
+    "munnen",
+    "munnar",
+    "munnens"
+   ],
+   "sv": "👄 med munnen äter och talar du",
+   "en": "mouth",
+   "tier": "stretch"
+  },
+  "näsa": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "näsa",
+    "näsan",
+    "näsor",
+    "näsans"
+   ],
+   "sv": "👃 mellan ögonen och munnen",
+   "en": "nose",
+   "tier": "stretch"
+  },
+  "hår": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "hår",
+    "håret",
+    "hårets"
+   ],
+   "sv": "💇 uppe på huvudet",
+   "en": "hair",
+   "tier": "stretch"
+  },
+  "feber": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "feber",
+    "febern",
+    "feberns"
+   ],
+   "sv": "🌡 kroppen är mycket varm — du är sjuk!",
+   "en": "fever",
+   "tier": "stretch"
+  }
+ }
+}

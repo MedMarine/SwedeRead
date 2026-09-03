@@ -1,0 +1,594 @@
+{
+ "kapitel": 13,
+ "image": "images/kap13.jpg",
+ "titel": "En ny dag",
+ "arc": "C",
+ "grammatik_fokus": "klockan (halv, kvart i/över); stiger upp, klär på sig, skyndar sig; snabb → snabbt (adverb!)",
+ "uttal_fokus": "sj-ljud i skynda (sk + y!); sju, sjuttio",
+ "fokus": [
+  "klocka",
+  "timme",
+  "frukost",
+  "sitta",
+  "stiga",
+  "klä",
+  "borsta",
+  "tand",
+  "väcka",
+  "skynda",
+  "snabb",
+  "sen"
+ ],
+ "stretch": [
+  "minut",
+  "kamma",
+  "långsam",
+  "bil"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. VAD ÄR KLOCKAN?",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "En dag har tjugofyra timmar, och en timme har sextio minuter. Vad är klockan? Klockan är sju. Klockan är åtta. Men vad är \"halv åtta\"? Halv åtta är inte åtta — det är sju och trettio minuter: en halv timme till åtta! Och \"kvart över sju\"? Det är sju och femton minuter. \"Kvart i åtta\" är sju och fyrtiofem.",
+     "margin": [
+      "en klocka 🕐",
+      "OBS! halv åtta = 7.30 (inte 8.30!)",
+      "kvart över sju = 7.15",
+      "kvart i åtta = 7.45",
+      "1 timme = 60 minuter"
+     ],
+     "audio": "audio/kap13/b000_594c5d8c15e0.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. MORGONEN HEMMA",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Klockan är halv sju, och det är morgon i huset vid sjön. Karin vaknar först. Kvart i sju väcker hon barnen: – God morgon! Upp, upp! Nils stiger upp — han är snabb på morgonen. Men Oskar? Oskar sover. – Oskar! Klockan är kvart i sju! Karin väcker honom — men Oskar hör inte: han sover och sover. Nu stiger Astrid också upp.",
+     "margin": [
+      "väcker = säger 'vakna!' 📢",
+      "stiger upp = går upp från sängen",
+      "snabb ↔ långsam"
+     ],
+     "audio": "audio/kap13/b001_19cc07158ae3.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Klockan sju sitter familjen i köket och äter frukost: bröd med ost, och mjölk. Frukost är morgonens mat. Misse sitter under bordet och ser på mjölken. Astrid äter långsamt — hon talar och talar. Nu kommer Oskar ner. Han är sen: klockan är tio över sju! – Du är sen, säger Nils. Oskar äter sin frukost mycket snabbt.",
+     "margin": [
+      "sitter = ÄR på stolen 🪑",
+      "frukost 🍞 = mat på morgonen",
+      "sen 😰",
+      "äter snabbt (snabb + t = adverb!)"
+     ],
+     "audio": "audio/kap13/b002_fdca4083c899.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Efter frukosten borstar barnen tänderna — Oskar borstar sina tänder mycket snabbt! Astrid kammar sitt långa hår, långsamt, långsamt. Sedan klär de på sig. Astrid klär på sig mycket långsamt: – Var är mina saker? Mamma! Klockan är halv åtta: nu måste barnen gå. – Skynda er! säger Karin. Oskar och Nils skyndar sig … men Astrid är Astrid.",
+     "margin": [
+      "borstar tänderna 🪥",
+      "kammar håret 💇",
+      "klär på sig 👕",
+      "Skynda er! = snabbt, snabbt! 🏃"
+     ],
+     "audio": "audio/kap13/b003_dcd63d2086b4.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Kvart i åtta går barnen till skolan — de måste vara där klockan åtta. Anders åker bil till Växjö: han har bilen vid huset. Karin cyklar: Sjöviks sjuka människor behöver sin läkare! Och Ludde? Ludde har ingen klocka. Han lägger sig i Oskars säng och sover. En hund behöver inte skynda sig!",
+     "margin": [
+      "en bil 🚗",
+      "Ludde har ingen klocka 😴"
+     ],
+     "audio": "audio/kap13/b004_6a9323e96829.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. KLOCKAN OCH MORGONEN",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Vad är klockan när Karin vaknar? Halv sju. När väcker hon barnen? Kvart i sju. När sitter familjen i köket och äter frukost — och hur länge? Klockan sju, en halv timme. När stiger Oskar upp? Sent! Vem borstar tänderna snabbt? Oskar. Vem klär på sig långsamt? Astrid! När går barnen? Kvart i åtta — och klockan åtta är de i skolan. Och vem är sen? Oskar. Han sover för länge!",
+     "margin": [
+      "för länge = mycket, MYCKET länge!"
+     ],
+     "audio": "audio/kap13/b005_194ea677d965.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Nu är barnen i skolan, pappa är i Växjö, och mamma är med sjuka människor. Ludde sitter inte — han ligger, i Oskars säng! Men vad gör barnen i skolan, och vem är fru Lind? Det är kapitel fjorton!",
+     "margin": [
+      "🔍 skolan … fru Lind …?"
+     ],
+     "audio": "audio/kap13/b006_7eb1b221cde8.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Frukost — snabbt och långsamt",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Oskar äter frukost mycket snabbt — för snabbt! Nu har han ont i magen. – Långsamt, Oskar! säger mamma. Magen vill äta långsamt. Astrid talar och talar — och äter inte. – Ät nu, Astrid! Klockan är tjugo över sju! Och Ludde? Ludde äter på en minut, och hans mage har det bra. Efter frukosten tvättar sig barnen och borstar tänderna. Karin ser på Astrids öron: – Och öronen, Astrid? Tvättar du öronen? – Öronen?! Astrid tvättar öronen — långsamt. Klockan är kvart i åtta: – Skynda er! En morgon i huset vid sjön. Varje morgon!",
+    "audio": "audio/kap13/b007_45a4e06a9f51.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "klockan",
+   "forklaring": "Vad är klockan? Klockan är sju. Halv åtta = 7.30 — en halv timme TILL åtta! Kvart över sju = 7.15. Kvart i åtta = 7.45.",
+   "tabell": {
+    "head": [
+     "klockan",
+     "svenska"
+    ],
+    "rows": [
+     [
+      "7.00",
+      "klockan (är) sju"
+     ],
+     [
+      "7.15",
+      "kvart över sju"
+     ],
+     [
+      "7.30",
+      "halv åtta (OBS!)"
+     ],
+     [
+      "7.45",
+      "kvart i åtta"
+     ],
+     [
+      "8.00",
+      "klockan åtta"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "morgonens verb",
+   "forklaring": "Många morgonverb har en liten partikel eller \"sig\": stiger UPP, klär PÅ SIG, skyndar SIG.",
+   "tabell": {
+    "head": [
+     "",
+     "exempel"
+    ],
+    "rows": [
+     [
+      "stiger upp",
+      "Nils stiger upp kvart i sju."
+     ],
+     [
+      "klär på sig",
+      "Astrid klär på sig långsamt."
+     ],
+     [
+      "skyndar sig",
+      "Oskar och Nils skyndar sig."
+     ],
+     [
+      "borstar tänderna",
+      "efter frukosten"
+     ],
+     [
+      "kammar håret",
+      "Astrid — långsamt!"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "sitta, sätta sig — ligga, lägga sig",
+   "forklaring": "Sätter sig → och nu SITTER man! Lägger sig → och nu LIGGER man!",
+   "tabell": {
+    "head": [
+     "riktning →",
+     "läge 📍"
+    ],
+    "rows": [
+     [
+      "Misse sätter sig under bordet",
+      "nu sitter hon där"
+     ],
+     [
+      "Ludde lägger sig i sängen",
+      "nu ligger han där"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "snabb → snabbt (adverb)",
+   "forklaring": "Nils är snabb (adjektiv) — han äter snabbt (adverb, med -t!). Astrid är långsam — hon klär på sig långsamt.",
+   "tabell": {
+    "head": [
+     "adjektiv",
+     "adverb"
+    ],
+    "rows": [
+     [
+      "Oskar är snabb.",
+      "Oskar äter snabbt."
+     ],
+     [
+      "Astrid är långsam.",
+      "Astrid kammar sig långsamt."
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Sj-ljud i skynda!",
+  "forklaring": "Sk före e, i, y, ä, ö = sj-ljud: skynda! Och sju, sjuttio har sj. Men skola har hårt sk. Lyssna! 👂🔊",
+  "grupper": [
+   {
+    "namn": "sj-ljud",
+    "ord": [
+     "skynda",
+     "sju",
+     "sjuttio",
+     "Sjövik"
+    ]
+   },
+   {
+    "namn": "hårt sk",
+    "ord": [
+     "skola",
+     "skrattar",
+     "skog"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "skynda": "audio/uttal/e4aa6b906fba.mp3",
+  "sju": "audio/uttal/8f33b361edec.mp3",
+  "sjuttio": "audio/uttal/e43393e7e52c.mp3",
+  "Sjövik": "audio/uttal/75a8bad10b17.mp3",
+  "skola": "audio/uttal/4a5efcd4a147.mp3",
+  "skrattar": "audio/uttal/5a61022c4d8e.mp3",
+  "skog": "audio/uttal/cc709fafc18c.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv klockan på svenska — och verben.",
+   "items": [
+    {
+     "q": "7.30 = {halv} åtta"
+    },
+    {
+     "q": "7.15 = kvart {över} sju"
+    },
+    {
+     "q": "7.45 = kvart {i} åtta"
+    },
+    {
+     "q": "9.30 = halv {tio}"
+    },
+    {
+     "q": "Nils {stiger} upp kvart i sju. (stiga)"
+    },
+    {
+     "q": "Karin {väcker} barnen. (väcka)"
+    },
+    {
+     "q": "Familjen {sitter} i köket och äter frukost. (sitta)"
+    },
+    {
+     "q": "Barnen {borstar} tänderna. (borsta)"
+    },
+    {
+     "q": "Astrid klär {på} sig långsamt."
+    },
+    {
+     "q": "– Skynda {er}! säger Karin. (ni)"
+    },
+    {
+     "q": "Oskar äter mycket {snabbt}. (snabb)"
+    },
+    {
+     "q": "Astrid kammar sig {långsamt}. (långsam)"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: klockan, timme, timmar, minuter, frukost, sitter, stiger, klär, borstar, tänderna, väcker, skyndar, snabb, sen, långsam, bil.",
+   "items": [
+    {
+     "q": "En dag har tjugofyra {timmar}."
+    },
+    {
+     "q": "En timme har sextio {minuter}."
+    },
+    {
+     "q": "Vad är {klockan}? Den är halv åtta!"
+    },
+    {
+     "q": "På morgonen äter familjen {frukost}."
+    },
+    {
+     "q": "Karin {väcker} barnen kvart i sju."
+    },
+    {
+     "q": "Nils {stiger} upp — han är snabb."
+    },
+    {
+     "q": "Oskar sover för länge: han är {sen}."
+    },
+    {
+     "q": "Barnen {borstar} tänderna efter frukosten."
+    },
+    {
+     "q": "Astrid {klär} på sig mycket långsamt."
+    },
+    {
+     "q": "Oskar och Nils {skyndar} sig till skolan."
+    },
+    {
+     "q": "Anders åker {bil} till Växjö."
+    },
+    {
+     "q": "Misse {sitter} under bordet."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Vad är 'halv åtta'?",
+     "model": "Det är sju och trettio minuter — en halv timme till åtta!"
+    },
+    {
+     "q": "Vem vaknar först i huset?",
+     "model": "Karin vaknar först, klockan halv sju."
+    },
+    {
+     "q": "Vem är snabb på morgonen, och vem är långsam?",
+     "model": "Nils är snabb — Astrid är långsam!"
+    },
+    {
+     "q": "Varför är Oskar sen?",
+     "model": "Därför att han sover för länge."
+    },
+    {
+     "q": "Vad äter familjen till frukost?",
+     "model": "De äter bröd med ost och dricker mjölk."
+    },
+    {
+     "q": "Hur kommer Anders till Växjö?",
+     "model": "Han åker bil."
+    },
+    {
+     "q": "Varför behöver Ludde inte skynda sig?",
+     "model": "Därför att en hund inte har någon klocka — han sover!"
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "klocka": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "klocka",
+    "klockan",
+    "klockor",
+    "klockorna",
+    "klockans"
+   ],
+   "sv": "🕐 den säger vad tiden är: 'Vad är klockan?'",
+   "en": "clock; (klockan) o'clock",
+   "tier": "focus"
+  },
+  "timme": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "timme",
+    "timmen",
+    "timmar",
+    "timmarna",
+    "timmens"
+   ],
+   "sv": "⏳ 60 minuter — en dag har 24 timmar!",
+   "en": "hour",
+   "tier": "focus"
+  },
+  "frukost": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "frukost",
+    "frukosten",
+    "frukostar",
+    "frukostens"
+   ],
+   "sv": "🍞 morgonens mat: bröd, ost och mjölk",
+   "en": "breakfast",
+   "tier": "focus"
+  },
+  "sitta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "sitter",
+    "sitta",
+    "satt",
+    "suttit",
+    "sitt"
+   ],
+   "sv": "🪑 ÄR på stolen (sätter sig → och nu sitter man!)",
+   "en": "to sit",
+   "tier": "focus"
+  },
+  "stiga": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "stiger",
+    "stiga",
+    "steg",
+    "stigit"
+   ],
+   "sv": "stiger upp = går upp från sängen! 🛏→🧍",
+   "en": "to rise (stiga upp = get up)",
+   "tier": "focus"
+  },
+  "klä": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "klär",
+    "klä",
+    "klädde",
+    "klätt"
+   ],
+   "sv": "klär på sig 👕 — 'kläder' på kroppen!",
+   "en": "to dress",
+   "tier": "focus"
+  },
+  "borsta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "borstar",
+    "borsta",
+    "borstade",
+    "borstat"
+   ],
+   "sv": "🪥 borstar tänderna — varje morgon och kväll!",
+   "en": "to brush",
+   "tier": "focus"
+  },
+  "tand": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "tand",
+    "tanden",
+    "tänder",
+    "tänderna",
+    "tandens"
+   ],
+   "sv": "🦷 vita, små, i munnen (en tand — två tänder!)",
+   "en": "tooth",
+   "tier": "focus"
+  },
+  "väcka": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "väcker",
+    "väcka",
+    "väckte",
+    "väckt"
+   ],
+   "sv": "📢 säger 'vakna!': Karin väcker barnen",
+   "en": "to wake (someone)",
+   "tier": "focus"
+  },
+  "skynda": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "skyndar",
+    "skynda",
+    "skyndade",
+    "skyndat"
+   ],
+   "sv": "🏃 skyndar sig = gör allt snabbt, snabbt!",
+   "en": "to hurry",
+   "tier": "focus"
+  },
+  "snabb": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "snabb",
+    "snabbt",
+    "snabba",
+    "snabbare",
+    "snabbast"
+   ],
+   "sv": "🏃 gör det på en minut! (↔ långsam)",
+   "en": "fast",
+   "tier": "focus"
+  },
+  "sen": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "sen",
+    "sent",
+    "sena"
+   ],
+   "sv": "😰 klockan är åtta — och du är inte där!",
+   "en": "late",
+   "tier": "focus"
+  },
+  "minut": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "minut",
+    "minuten",
+    "minuter",
+    "minuterna",
+    "minutens"
+   ],
+   "sv": "⏱ 60 minuter = en timme",
+   "en": "minute",
+   "tier": "stretch"
+  },
+  "kamma": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "kammar",
+    "kamma",
+    "kammade",
+    "kammat"
+   ],
+   "sv": "💇 kammar håret",
+   "en": "to comb",
+   "tier": "stretch"
+  },
+  "långsam": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "långsam",
+    "långsamt",
+    "långsamma"
+   ],
+   "sv": "🐢 tar lång, lång tid (↔ snabb)",
+   "en": "slow",
+   "tier": "stretch"
+  },
+  "bil": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "bil",
+    "bilen",
+    "bilar",
+    "bilarna",
+    "bilens"
+   ],
+   "sv": "🚗 man åker bil — snabbt på vägarna!",
+   "en": "car",
+   "tier": "stretch"
+  }
+ }
+}

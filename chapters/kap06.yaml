@@ -1,0 +1,256 @@
+# KAPITEL 6 — Vägen till skolan
+# Motion verbs; the location/direction adverb pairs (här/hit, hemma/hem …);
+# definite plural (-na/-en). Sjövik's geography is fixed for good.
+
+kapitel: 6
+titel: "Vägen till skolan"
+arc: A
+grammatik_fokus: "går/åker/cyklar; läge och riktning (här/hit, där/dit, hemma/hem, inne/in, ute/ut, uppe/upp, nere/ner); bestämd form plural"
+uttal_fokus: "sj-ljud (sjö, station) mot hårt sk (skola, skrattar) — och tj-ljud i kyrka"
+
+fokus: [väg, skola, bro, affär, kyrka, buss, gå, åka, cykla, lång, nära, vatten]
+stretch: [gata, station, tåg]
+
+illustration: >-
+  A picture-map of Sjövik drawn like a board game path: the red house by the
+  lake, a winding road, a wooden bridge over the lake's outlet stream, the
+  little shop, the big white church, the school at the end; a tiny train and
+  station at the edge of town with a dotted line toward "STOCKHOLM"; the three
+  children walking/cycling along the path, the golden dog being pointed back
+  toward home. Watercolor children's-atlas style with tiny labels.
+
+lasstycken:
+  - rubrik: "I. VÄGEN GENOM SJÖVIK"
+    block:
+      - typ: narration
+        text: >-
+          I Sjövik finns en skola. Oskar, Nils och Astrid går till skolan —
+          men skolan ligger inte nära familjens hus: den ligger långt från
+          sjön. Hur kommer barnen till skolan? De går, eller de cyklar.
+          Och vägen till skolan? Här är den!
+        margin:
+          - "en skola 🏫"
+          - "långt ↔ nära"
+          - "cyklar = åker på sin cykel 🚲"
+
+      - typ: narration
+        text: >-
+          Från huset går en väg. Vägen går från huset till bron. Under bron
+          finns vatten — det kommer från Björksjön. Barnen går över bron.
+          Affären ligger nära bron, vid vägen, och bakom affären finns en
+          kyrka — Sjöviks kyrka. Kyrkan är stor och vit. Från kyrkan är det
+          inte långt till skolan.
+        margin:
+          - "en väg — vägen — vägar — vägarNA"
+          - "en bro 🌉 — över vattnet!"
+          - "en affär 🏪 · en kyrka ⛪"
+
+      - typ: narration
+        text: >-
+          I Sjövik finns också bussar och tåg. Bussen åker genom gatorna —
+          en gata är en väg i en stad. Och tåget? Tåget kommer till Sjöviks
+          station, och från stationen åker det till Stockholm! Men barnen
+          åker inte buss till skolan, och de åker inte tåg: de går eller
+          cyklar. Vägen till skolan är inte lång.
+        margin:
+          - "en buss 🚌 — bussar — bussarNA"
+          - "ett tåg 🚂 → Stockholm (kapitel nitton …)"
+          - "en station 🚉"
+          - "gå 🚶 · cykla 🚲 · åka 🚌🚂"
+
+      - typ: narration
+        text: >-
+          En väg — vägen. Många vägar — vägarna! Vägarna i Sjövik är små.
+          Husen vid gatorna är röda, gula och vita, och trädgårdarna är
+          gröna. I skolan är barnen många: pojkarna och flickorna kommer
+          från många hus. Och cyklarna? De är vid skolan — många cyklar:
+          röda, blåa och svarta.
+        margin:
+          - "vägar → vägarNA · gator → gatorNA"
+          - "hus → husEN · barn → barnEN"
+          - "pojkar → pojkarNA · flickor → flickorNA"
+
+  - rubrik: "II. HIT OCH DIT"
+    block:
+      - typ: narration
+        text: >-
+          Barnen går till skolan, men Ludde — var är han? Han är inte
+          hemma: han är ute! Ludde springer på vägen. – Ludde, gå hem!
+          ropar Oskar. Men Ludde kommer hit, till barnen. – Nej, Ludde!
+          Hem! Ludde ser Oskar … och går hem. Nu är hunden hemma, och
+          barnen går till skolan.
+        margin:
+          - "hem = → 🏠 (går hem)"
+          - "hemma = i 🏠 (är hemma)"
+          - "hit = → 📍 här"
+          - "ute ↔ inne"
+
+      - typ: narration
+        text: >-
+          Och Misse? Misse är inne, i huset. Katten går ut genom fönstret —
+          nu är hon ute. Hon går upp i björken: nu är hon uppe i trädet!
+          Misse ser långt: här är trädgården, där är sjön och vattnet.
+          Katten går ner
+          från trädet och in genom fönstret. Nu är hon inne — och nere i
+          köket ligger Ludde. Hunden och katten är hemma, inne i huset.
+        margin:
+          - "in → inne · ut → ute"
+          - "upp → uppe · ner → nere"
+          - "här 📍 ↔ där 👉"
+          - "Misse = hon (en flick-katt!)"
+
+      - typ: narration
+        text: >-
+          Nu går barnen hem från skolan. – Kom hit, Ludde! ropar Astrid vid
+          dörren — och Ludde springer till henne. Barnen går över bron,
+          genom gatorna, och hem. Nu är de hemma. Och var är Ludde? Han är
+          uppe i Oskars säng!
+        margin:
+          - "vart? = var + riktning (→)"
+          - "Var är du? – Här! Vart går du? – Dit!"
+
+      - typ: narration
+        text: >-
+          Var ligger skolan — nära eller långt från huset? Långt från
+          huset. Vart går barnen? Till skolan — och sedan hem. Hur kommer
+          de dit? De går eller cyklar; de åker inte buss. Vad finns under
+          bron? Vatten! Vad ligger vid vägen? Affären och kyrkan. Och vart
+          åker tåget från Sjöviks station? Till Stockholm!
+        margin:
+          - "sedan = 1, 2, 3 … (först skolan, sedan hem)"
+
+      - typ: narration
+        text: >-
+          Nu är familjen hemma i huset vid sjön. Men Astrid och Misse — en
+          flicka och en katt! Vad har de? Det är kapitel sju!
+        margin:
+          - "🔍 Astrid och Misse …?"
+
+grammatik:
+  - rubrik: "gå, cykla, åka"
+    forklaring: >-
+      Man går med fötterna 🚶. Man cyklar på en cykel 🚲. Man åker buss,
+      tåg eller bil — man är I den! Barnen går till skolan; tåget åker
+      till Stockholm.
+    tabell:
+      head: ["verb", "exempel"]
+      rows:
+        - ["går 🚶", "Barnen går över bron."]
+        - ["cyklar 🚲", "Oskar cyklar på sin röda cykel."]
+        - ["åker 🚌🚂", "Familjen åker buss; tåget åker till Stockholm."]
+
+  - rubrik: "bestämd form plural"
+    forklaring: >-
+      Många vägar — vägarna: plural + -na! Ett-ord med samma form i plural
+      har -en: hus — husen, barn — barnen.
+    tabell:
+      head: ["singular", "plural", "bestämd plural"]
+      rows:
+        - ["en väg", "vägar", "vägarna"]
+        - ["en gata", "gator", "gatorna"]
+        - ["en pojke", "pojkar", "pojkarna"]
+        - ["en flicka", "flickor", "flickorna"]
+        - ["ett hus", "hus", "husen"]
+        - ["ett barn", "barn", "barnen"]
+
+  - rubrik: "läge och riktning"
+    forklaring: >-
+      VAR är du? — Här. Hemma. Inne. Uppe. VART går du? — Hit! Hem! In!
+      Upp! Läge = 📍, riktning = →.
+    tabell:
+      head: ["var? (läge 📍)", "vart? (riktning →)"]
+      rows:
+        - ["här", "hit"]
+        - ["där", "dit"]
+        - ["hemma", "hem"]
+        - ["inne", "in"]
+        - ["ute", "ut"]
+        - ["uppe", "upp"]
+        - ["nere", "ner"]
+
+  - rubrik: "till, från, över, genom"
+    forklaring: >-
+      Vägen går FRÅN huset TILL skolan, ÖVER bron och GENOM staden.
+    tabell:
+      head: ["preposition", "exempel"]
+      rows:
+        - ["till →", "till skolan, till Stockholm"]
+        - ["från ←", "från huset, från stationen"]
+        - ["över", "över bron, över vattnet"]
+        - ["genom", "genom gatorna, in genom fönstret"]
+
+uttal:
+  rubrik: "Sj-ljud, hårt sk — och tj i kyrka"
+  forklaring: >-
+    Sj-ljudet: sjö, sju — och station ("stasjon")! Men sk är hårt i skola
+    och skrattar. Och k i kyrka är tj-ljudet! Lyssna! 👂🔊
+  grupper:
+    - namn: "sj-ljud"
+      ord: [sjö, sju, Sjövik, station]
+    - namn: "hårt sk"
+      ord: [skola, skolan, skrattar]
+    - namn: "tj-ljud"
+      ord: [kyrka, kyrkan, köket]
+
+ovningar:
+  A:
+    instruktion: "Skriv bestämd plural — och rätt ord: hem/hemma, hit/här, in/inne, upp/uppe."
+    items:
+      - q: "många vägar → {vägarna}"
+      - q: "många hus → {husen}"
+      - q: "många barn → {barnen}"
+      - q: "många pojkar → {pojkarna}"
+      - q: "många flickor → {flickorna}"
+      - q: "många cyklar → {cyklarna}"
+      - q: "Ludde är inte hemma — han är {ute}."
+      - q: "– Ludde, gå {hem}!"
+      - q: "Nu är Ludde {hemma}."
+      - q: "– Kom {hit}! ropar Astrid."
+      - q: "Misse går {upp} i björken — nu är hon {uppe} i trädet."
+      - q: "Katten går {in} genom fönstret — nu är hon {inne}."
+  B:
+    instruktion: "Skriv ordet: väg, skola, bro, affär, kyrka, buss, tåg, går, åker, cyklar, långt, nära, vatten, station, gata."
+    items:
+      - q: "Barnen {går} till skolan — de åker inte buss."
+      - q: "Oskar {cyklar} på sin röda cykel."
+      - q: "Under bron finns {vatten}."
+      - q: "Barnen går över {bron}."
+      - q: "Sjöviks {kyrka} är stor och vit."
+      - q: "Tåget kommer till Sjöviks {station}."
+      - q: "{Tåget} åker till Stockholm."
+      - q: "En {gata} är en väg i en stad."
+      - q: "Skolan ligger inte nära — den ligger {långt} från huset."
+      - q: "Affären ligger {nära} bron."
+      - q: "{Vägen} går från huset till bron."
+      - q: "I Sjövik finns en {skola}, en kyrka och en {affär}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vart går barnen?"
+        model: "De går till skolan — Sjöviks skola."
+      - q: "Ligger skolan nära familjens hus?"
+        model: "Nej, den ligger långt från huset."
+      - q: "Vad finns under bron?"
+        model: "Under bron finns vatten — det kommer från Björksjön."
+      - q: "Hur kommer barnen till skolan?"
+        model: "De går eller cyklar."
+      - q: "Vart åker tåget från Sjöviks station?"
+        model: "Det åker till Stockholm."
+      - q: "Var är Ludde — hemma eller ute?"
+        model: "Han är ute på vägen, men Oskar ropar: – Gå hem!"
+      - q: "Vart går Misse?"
+        model: "Hon går ut genom fönstret och upp i björken — och sedan ner och in i huset."
+      - q: "Vad är en gata?"
+        model: "En gata är en väg i en stad."
+repetition:
+  rubrik: "Vart springer Ludde?"
+  block:
+    - typ: narration
+      text: >-
+          Ludde springer ut på vägen, och barnen springer med honom.
+          Springer han till skolan? Nej! Till affären? Nej! Hunden springer
+          till bron — och där, vid vattnet under bron, ligger … Oskars boll!
+          – Min boll! ropar Oskar. Han tar bollen, och barnen och hunden går
+          hem: över bron, på vägen, genom Sjövik, hem till huset vid sjön. –
+          En snäll hund! säger Astrid. Ludde är en mycket snäll hund. Och
+          bollen? Den är hemma nu — den också!

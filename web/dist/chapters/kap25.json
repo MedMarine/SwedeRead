@@ -1,0 +1,547 @@
+{
+ "kapitel": 25,
+ "image": "images/kap25.jpg",
+ "titel": "Sagan om trollet i berget",
+ "arc": "E",
+ "grammatik_fokus": "sagans språk: det var en gång …; berättande preteritum; börja och sluta",
+ "uttal_fokus": "berättarröstens rytm — långsamt, med pauser",
+ "fokus": [
+  "saga",
+  "troll",
+  "guld",
+  "kung",
+  "prinsessa",
+  "ensam",
+  "vandra",
+  "försvinna",
+  "klok",
+  "dum",
+  "börja"
+ ],
+ "stretch": [
+  "silver",
+  "ljus"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. DET VAR EN GÅNG …",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Nils är frisk igen, men han vilar. På kvällen sitter familjen i det stora rummet. – Berätta en saga, mamma! säger Astrid. En saga är en gammal berättelse — om troll, om kungar och prinsessor, om mörka skogar och guld. Sagor börjar alltid med samma ord: \"Det var en gång …\" Karin sätter sig, och det blir tyst. Hon börjar:",
+     "margin": [
+      "en saga ✨ = en gammal, gammal berättelse",
+      "Det var en gång … (så börjar ALLA sagor!)",
+      "börjar ↔ slutar"
+     ],
+     "audio": "audio/kap25/b000_4a0611fbd463.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Det var en gång en kung som bodde i ett stort slott. Kungen hade allt: hundra rum, tusen böcker och ett stort bord med god mat. Han hade också en dotter — en prinsessa som hette Tuva. Men prinsessan älskade inte det stora, tysta slottet — hon älskade skogen. Varje dag vandrade hon ut, och varje kväll kom hon hem, men en dag försvann hon: kvällen kom, och natten kom, och prinsessan kom inte hem.",
+     "margin": [
+      "en kung 👑 — bor i ett slott",
+      "en prinsessa 👸 = kungens dotter",
+      "försvann = var borta! Ingen såg henne."
+     ],
+     "audio": "audio/kap25/b001_e5b5b804883b.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Prinsessan hade inte försvunnit — hon hade vandrat för långt, och nu hittade hon inte hem. Skogen blev mörkare och mörkare, och Tuva blev trött och ledsen, för hon var ensam. Då såg hon ett ljus — ett litet gult ljus som kom från ett stort berg. När hon kom till berget fanns där en dörr, och Tuva, som var en klok flicka och inte rädd, gick in.",
+     "margin": [
+      "vandra 🚶🌲 = gå länge, länge",
+      "ensam = utan människor — bara du",
+      "ett ljus 🕯 i mörkret",
+      "klok 🧠 ↔ dum"
+     ],
+     "audio": "audio/kap25/b002_3da901a8a471.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. TROLLET",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "I berget bodde ett troll. Trollet var stort — större än en man — och mycket gammalt. I berget fanns guld och silver: guld här, silver där, guld och silver i varje rum. Folk sa att troll var dumma och farliga. Men det här trollet var inte dumt — det var klokt. Och det var inte farligt — det var ensamt. Ingen hade hälsat på trollet på hundra år: alla var rädda för troll.",
+     "margin": [
+      "ett troll: stort, gammalt, bor i berg",
+      "guld 🟡 · silver ⚪",
+      "inte dumt — klokt! inte farligt — ensamt!"
+     ],
+     "audio": "audio/kap25/b003_76d4e76e0f69.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Trollet såg flickan och blev glad — men det sa långsamt: – Vad vill du ha, lilla människa? Guld? Silver? Ta det och gå! – Jag vill inte ha guld, svarade Tuva. Jag hittar inte hem. Jag vill bara ha vägen hem — och kanske … en vän. Trollet var tyst. En vän? Ingen hade sagt det ordet i berget på hundra år.",
+     "margin": [
+      "– Ta det och gå! (trollet tror att alla vill ha guld …)",
+      "… en vän ❤"
+     ],
+     "audio": "audio/kap25/b004_88719fffc747.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Trollet visade henne vägen genom den mörka skogen — och när Tuva såg slottet, sa hon: – Tack! Jag kommer igen, det lovar jag. Trollet trodde henne inte: människor lovade mycket och kom aldrig. Men Tuva kom igen — nästa vecka, och nästa, och varje sommar efter det. Kungen var först rädd, men prinsessan sa: – Trollet är klokt och snällt, pappa. Och trollet? Trollet var aldrig mer ensamt. Det hade guld, och det hade silver — men nu hade det en vän, och en vän är mer än guld och silver.",
+     "margin": [
+      "visade vägen 🌲→🏰",
+      "aldrig mer ensam!",
+      "en vän > guld + silver ❤"
+     ],
+     "audio": "audio/kap25/b005_655e67926061.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. SAGAN ÄR SLUT",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "– Är sagan slut? frågar Astrid. – Sagan är slut, säger mamma. Den började med \"det var en gång\", och den slutar här. – Fanns det inga vargar i skogen? frågar Oskar. – Inte i den här sagan! – Finns troll? frågar Astrid. Nils skrattar: – Nej! Troll finns bara i sagor. – Kanske, säger Karin och skrattar litet. Men i sagor lever de — och sagor lever länge. Den här sagan berättade MIN mamma för mig, för länge sedan.",
+     "margin": [
+      "Sagan är slut. (så slutar sagor!)",
+      "sagor lever länge — från mamma till barn ❤"
+     ],
+     "audio": "audio/kap25/b006_02baec2e5e7f.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Vem försvann i sagan? Prinsessan Tuva — hon hade vandrat för långt. Vem bodde i berget? Ett gammalt, klokt troll med guld och silver. Varför var trollet ensamt? Därför att alla var rädda för troll. Var trollet dumt? Nej — klokt! Vad ville Tuva ha? Inte guld: bara vägen hem, och en vän. Och vad är mer än guld och silver? En vän! I morgon kväll berättar morfar en saga — om en pojke som ville flyga. Det är kapitel tjugosex!",
+     "margin": [
+      "🔍 pojken som ville flyga …?"
+     ],
+     "audio": "audio/kap25/b007_7f0cd4d9694c.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Doktor Astrid",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Nu är Lisa sjuk! Dockan ligger i sängen under en liten filt, med huvudet på en liten kudde. – Hon har feber, säger doktor Astrid. Termometern säger … hundra! – Hundra?! säger Nils. Då är hon mycket sjuk! – Och hon hostar, säger Astrid. Host, host! Lisa får \"medicin\" på en sked — vatten! — och doktor Astrid säger lugnt: – Sov nu. Jag sitter här. Var inte orolig! Misse kommer och lägger sig på filten. – Nej, Misse! Lisa behöver lugn! På kvällen är dockan \"frisk\" igen. – Hon hade en dröm, berättar Astrid vid middagen. Hon drömde om ett troll! – Om ett troll? säger mamma. Berätta! Och Astrid berättar — för nu kan hon sagan.",
+    "audio": "audio/kap25/b008_e09322ae1398.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "sagans språk",
+   "forklaring": "Sagor har sina egna ord! De börjar och slutar på samma vis — i hundra år, från mamma till barn.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Det var en gång …",
+      "så BÖRJAR en saga"
+     ],
+     [
+      "långt, långt borta …",
+      "i en stor mörk skog …"
+     ],
+     [
+      "i hundra år …",
+      "sagans långa tid!"
+     ],
+     [
+      "Sagan är slut.",
+      "så SLUTAR en saga"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "berättande preteritum",
+   "forklaring": "En saga bor i preteritum! Bodde, hade, älskade, vandrade — och de starka verben: kom, såg, gick, sa, blev, fanns.",
+   "tabell": {
+    "head": [
+     "svaga",
+     "starka"
+    ],
+    "rows": [
+     [
+      "bodde, hade, älskade",
+      "kom, såg, gick"
+     ],
+     [
+      "vandrade, hittade, visade",
+      "sa, blev, fanns"
+     ],
+     [
+      "lovade, svarade",
+      "försvann"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "börja och sluta",
+   "forklaring": "Sagan börjar med \"det var en gång\" och slutar med \"sagan är slut\". Kapitlet börjar och slutar. Dagen börjar och slutar!",
+   "tabell": {
+    "head": [
+     "▶ börja",
+     "⏹ sluta"
+    ],
+    "rows": [
+     [
+      "Sagan börjar.",
+      "Sagan är slut."
+     ],
+     [
+      "Karin började berätta.",
+      "Hon slutade sent på kvällen."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "sagans folk",
+   "forklaring": "I sagor bor kungar i slott, prinsessor vandrar i skogar — och troll sitter ensamma i berg, med guld som ingen vill ha.",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "en kung 👑",
+      "bor i ett slott, har allt"
+     ],
+     [
+      "en prinsessa 👸",
+      "kungens dotter — älskar skogen!"
+     ],
+     [
+      "ett troll",
+      "stort, gammalt, ensamt — och klokt?"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Berättarrösten",
+  "forklaring": "En saga läser man långsamt, med pauser: \"Det var en gång … ett troll.\" Lyssna på rytmen — och pauserna! 👂✨",
+  "grupper": [
+   {
+    "namn": "sagans ord",
+    "ord": [
+     "Det var en gång …",
+     "troll",
+     "guld",
+     "prinsessa"
+    ]
+   },
+   {
+    "namn": "långa mörka ord",
+    "ord": [
+     "ensam",
+     "vandrade",
+     "försvann"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "Det var en gång …": "audio/uttal/e4fda23873e2.mp3",
+  "troll": "audio/uttal/ea9a5a3cebe1.mp3",
+  "guld": "audio/uttal/3a5e3f733780.mp3",
+  "prinsessa": "audio/uttal/f175f4528213.mp3",
+  "ensam": "audio/uttal/b269208deb0f.mp3",
+  "vandrade": "audio/uttal/d154b0ecc194.mp3",
+  "försvann": "audio/uttal/e462ad475147.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv preteritum — sagans tempus!",
+   "items": [
+    {
+     "q": "Det {var} en gång en kung. (är)"
+    },
+    {
+     "q": "Kungen {hade} allt. (har)"
+    },
+    {
+     "q": "Prinsessan {älskade} skogen. (älska)"
+    },
+    {
+     "q": "Varje dag {vandrade} hon ut. (vandra)"
+    },
+    {
+     "q": "Men en dag {försvann} hon. (försvinna)"
+    },
+    {
+     "q": "Skogen {blev} mörk. (bli)"
+    },
+    {
+     "q": "Hon {såg} ett ljus i berget. (se)"
+    },
+    {
+     "q": "I berget {fanns} en dörr. (finns)"
+    },
+    {
+     "q": "Hon {gick} in. (gå)"
+    },
+    {
+     "q": "Trollet {visade} henne vägen. (visa)"
+    },
+    {
+     "q": "– Jag kommer igen! {sa} hon. (säger)"
+    },
+    {
+     "q": "Sagan {började} med 'det var en gång'. (börja)"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: saga, troll, guld, silver, kung, prinsessa, ensam, ensamt, vandrade, försvann, klok, klokt, dum, ljus, börjar.",
+   "items": [
+    {
+     "q": "En {saga} börjar med 'det var en gång'."
+    },
+    {
+     "q": "I berget bodde ett gammalt {troll}."
+    },
+    {
+     "q": "Trollet hade {guld} och {silver} i varje rum."
+    },
+    {
+     "q": "{Kungen} bodde i ett stort slott."
+    },
+    {
+     "q": "{Prinsessan} Tuva älskade skogen."
+    },
+    {
+     "q": "Hon {vandrade} för långt — och {försvann}."
+    },
+    {
+     "q": "Tuva såg ett litet gult {ljus} i berget."
+    },
+    {
+     "q": "Trollet var inte farligt — det var {ensamt}."
+    },
+    {
+     "q": "Folk sa att troll var {dumma} — men det här trollet var {klokt}."
+    },
+    {
+     "q": "Sagan {börjar} — och sagan är slut!"
+    },
+    {
+     "q": "Tuva var en {klok} flicka: hon var inte rädd."
+    },
+    {
+     "q": "Trollet var aldrig mer {ensamt}."
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna. Skriv hela meningar!",
+   "items": [
+    {
+     "q": "Hur börjar alla sagor?",
+     "model": "De börjar med orden 'Det var en gång …'"
+    },
+    {
+     "q": "Varför kom prinsessan inte hem?",
+     "model": "Hon hade vandrat för långt och hittade inte hem."
+    },
+    {
+     "q": "Vad fanns i trollets berg?",
+     "model": "Guld och silver — i varje rum!"
+    },
+    {
+     "q": "Varför var trollet ensamt?",
+     "model": "Därför att alla var rädda för troll — ingen hade hälsat på det på hundra år."
+    },
+    {
+     "q": "Vad ville Tuva ha av trollet?",
+     "model": "Inte guld — bara vägen hem, och kanske en vän."
+    },
+    {
+     "q": "Kom Tuva igen?",
+     "model": "Ja — nästa vecka, och nästa, och varje sommar efter det."
+    },
+    {
+     "q": "Vad är mer än guld och silver?",
+     "model": "En vän!"
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "saga": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "saga",
+    "sagan",
+    "sagor",
+    "sagorna",
+    "sagans"
+   ],
+   "sv": "✨ en gammal, gammal berättelse — om troll, kungar och guld!",
+   "en": "fairy tale",
+   "tier": "focus"
+  },
+  "troll": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "troll",
+    "trollet",
+    "trollen",
+    "trollets"
+   ],
+   "sv": "stort, gammalt — bor i berg och skogar (bara i sagor … kanske!)",
+   "en": "troll",
+   "tier": "focus"
+  },
+  "guld": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "guld",
+    "guldet",
+    "guldets"
+   ],
+   "sv": "🟡 gult och dyrt — fina ringar är av guld!",
+   "en": "gold",
+   "tier": "focus"
+  },
+  "kung": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "kung",
+    "kungen",
+    "kungar",
+    "kungarna",
+    "kungens"
+   ],
+   "sv": "👑 landets 'pappa' — bor i ett slott!",
+   "en": "king",
+   "tier": "focus"
+  },
+  "prinsessa": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "prinsessa",
+    "prinsessan",
+    "prinsessor",
+    "prinsessorna",
+    "prinsessans"
+   ],
+   "sv": "👸 kungens dotter",
+   "en": "princess",
+   "tier": "focus"
+  },
+  "ensam": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "ensam",
+    "ensamt",
+    "ensamma"
+   ],
+   "sv": "utan människor — bara du. Trollet var ensamt i hundra år 💔",
+   "en": "alone, lonely",
+   "tier": "focus"
+  },
+  "vandra": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "vandrar",
+    "vandra",
+    "vandrade",
+    "vandrat"
+   ],
+   "sv": "🚶🌲 gå länge, länge — genom skogar och över berg",
+   "en": "to wander, hike",
+   "tier": "focus"
+  },
+  "försvinna": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "försvinner",
+    "försvinna",
+    "försvann",
+    "försvunnit"
+   ],
+   "sv": "var här — och nu borta! Prinsessan försvann i skogen",
+   "en": "to disappear",
+   "tier": "focus"
+  },
+  "klok": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "klok",
+    "klokt",
+    "kloka"
+   ],
+   "sv": "🧠 har ett gott huvud — vet och förstår mycket! (↔ dum)",
+   "en": "wise",
+   "tier": "focus"
+  },
+  "dum": {
+   "pos": "adjektiv",
+   "gender": null,
+   "forms": [
+    "dum",
+    "dumt",
+    "dumma"
+   ],
+   "sv": "förstår inte mycket (↔ klok) — men vem är dum egentligen?",
+   "en": "stupid",
+   "tier": "focus"
+  },
+  "börja": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "börjar",
+    "börja",
+    "började",
+    "börjat"
+   ],
+   "sv": "▶ första steget! Sagan börjar med 'Det var en gång …' (↔ slutar)",
+   "en": "to begin",
+   "tier": "focus"
+  },
+  "silver": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "silver",
+    "silvret",
+    "silvrets"
+   ],
+   "sv": "⚪ vitt och fint — som guld, men inte gult!",
+   "en": "silver",
+   "tier": "stretch"
+  },
+  "ljus": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "ljus",
+    "ljuset",
+    "ljusen",
+    "ljust",
+    "ljusa",
+    "ljusaste"
+   ],
+   "sv": "🕯💡 solens och lampans 'vita' — ↔ mörker!",
+   "en": "light",
+   "tier": "stretch"
+  }
+ }
+}

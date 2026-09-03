@@ -1,0 +1,582 @@
+{
+ "kapitel": 18,
+ "image": "images/kap18.jpg",
+ "titel": "Ett brev till farmor",
+ "arc": "C",
+ "grammatik_fokus": "perfekt (har + supinum: har varit, har skrivit); någonsin, aldrig, redan, just; att skriva brev",
+ "uttal_fokus": "obetonat 'har' i snabbt tal: har-skrivit, har-varit",
+ "fokus": [
+  "brev",
+  "skicka",
+  "farmor",
+  "hälsa",
+  "svar",
+  "bjuda",
+  "vänta",
+  "adress",
+  "gång"
+ ],
+ "stretch": [
+  "kram",
+  "frimärke",
+  "brevlåda"
+ ],
+ "lasstycken": [
+  {
+   "rubrik": "I. BARNEN SKRIVER",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Det är söndag, och det regnar — igen! Barnen sitter i köket. – Vad kan vi göra? frågar Astrid. – Vi skriver ett brev till Ingrid! säger Nils. Ingrid bor i Stockholm: hon är pappas mamma — barnens farmor. Farmor och morfar: pappas mamma och mammas pappa!",
+     "margin": [
+      "ett brev ✉",
+      "farmor = pappas mamma (far + mor!)",
+      "morfar = mammas pappa (kapitel nio!)"
+     ],
+     "audio": "audio/kap18/b000_e3ef561cc6c1.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Barnen skriver — alla tre. Nils skriver, Oskar berättar, och Astrid ritar. Vad har hänt i Sjövik? Mycket har hänt! Här är brevet:",
+     "margin": [
+      "Vad HAR HÄNT? — perfekt!"
+     ],
+     "audio": "audio/kap18/b001_d2bf4c487753.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Kära farmor! Hur har du det i Stockholm? Vi har det bra i Sjövik — men mycket har hänt! Vi har haft ett stort oväder: det regnade och åskade en hel dag. Misse har varit ute i regnet (Oskar glömde henne!). Vi har varit på morfars gård — ett lamm var borta, men Ludde hittade det. Astrid har haft födelsedag: hon är åtta år nu. Oskar har varit \"sjuk\" en morgon (men bara en morgon!). Nils har sparat åttiofem kronor. Har du någonsin sett så mycket regn som i år? Kom till Sjövik! Kramar från Oskar, Nils och Astrid.",
+     "margin": [
+      "Kära farmor! — så börjar ett brev ❤",
+      "har hänt, har haft, har varit: har + supinum",
+      "en kram 🤗 — Kramar från … (så slutar ett brev!)"
+     ],
+     "audio": "audio/kap18/b002_68b2eb49a1b2.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Vad har barnen skrivit? De har skrivit ett långt brev. Vad har hänt i Sjövik? Ett oväder har kommit och gått, Astrid har haft födelsedag, och Nils har sparat många kronor. Har Oskar någonsin varit sjuk? Ja — en morgon! Har farmor läst brevet? Nej, inte än: brevet ligger på bordet.",
+     "margin": [
+      "har skrivit — men NÄR? Vi säger inte när!",
+      "i går skrev de (⏪ i går) · de har skrivit (✔ klart!)",
+      "inte än = inte nu, men snart!"
+     ],
+     "audio": "audio/kap18/b003_bfded0b4fdcf.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "II. BREVET ÅKER",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "Brevet behöver ett frimärke och en adress. Nils skriver adressen: Ingrid Berg, Stockholm. Frimärken finns i affären: Oskar springer dit och köper ett — det kostar arton kronor! Sedan går barnen till brevlådan vid affären. Astrid lägger brevet i brevlådan. – Hej då, brev! säger hon. Nu har de skickat brevet, och det åker till Stockholm — med bil och tåg!",
+     "margin": [
+      "ett frimärke 📮 (på brevet!)",
+      "en adress: namn + stad",
+      "en brevlåda 📬",
+      "har skickat ✔"
+     ],
+     "audio": "audio/kap18/b004_fad0b709ab3d.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Nu väntar barnen på ett svar. De väntar en dag … två dagar … tre dagar. – Har svaret redan kommit? frågar Astrid varje morgon. – Nej, inte än! Att vänta är inte lätt. Men på fredagen ligger ett brev från Stockholm i brevlådan. Farmor har svarat — svaret har just kommit!",
+     "margin": [
+      "väntar ⏳ på ett svar",
+      "redan = så snabbt?!",
+      "just = nu, nu, nu!"
+     ],
+     "audio": "audio/kap18/b005_f0b63a7fe2f5.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Kära barn! Tack för ert fina brev — jag har läst det många gånger, och jag har skrattat mycket! Ni har haft ett stort år i Sjövik. Nu vill jag se er! Jag bjuder er alla till Stockholm: kom med tåget, och stanna en hel vecka hos mig. Har ni någonsin varit i Stockholm? Här finns mycket att se! Hälsa Ludde och Misse från mig. Välkomna! Kramar från farmor Ingrid.",
+     "margin": [
+      "bjuder = säger 'kom till mig!' 🎟",
+      "hos mig = i mitt hus",
+      "många gånger (en gång, två gånger …)",
+      "Välkomna! 🤗"
+     ],
+     "audio": "audio/kap18/b006_96473f4c3a17.mp3"
+    }
+   ]
+  },
+  {
+   "rubrik": "III. TILL STOCKHOLM?",
+   "block": [
+    {
+     "typ": "narration",
+     "text": "– Stockholm! ropar barnen. Farmor har bjudit oss till Stockholm! Har Astrid någonsin varit där? Nej, aldrig! Oskar och Nils har varit där en gång — men de var små och minns inte mycket. Karin och Anders säger ja. Astrid springer till Ludde: – Farmor hälsar! Och Ludde? Han förstår inte — men han är glad.",
+     "margin": [
+      "aldrig = 0 gånger!",
+      "en gång — men de minns inte!"
+     ],
+     "audio": "audio/kap18/b007_8bef0bc85221.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Har barnen skickat ett brev? Ja — och farmor har skickat ett svar! Hur många gånger har hon läst barnens brev? Många gånger. Vad skriver man på brevet? Ett frimärke och en adress — med adressen hittar brevet hem! Vem hälsar farmor till? Till Ludde och Misse — och Astrid hälsar dem. Och hur länge väntade barnen på svaret? Till fredagen!",
+     "margin": [
+      "skickat ✔ · svarat ✔ · hälsat ✔"
+     ],
+     "audio": "audio/kap18/b008_48a20d56b16d.mp3"
+    },
+    {
+     "typ": "narration",
+     "text": "Barnen har skrivit ett brev, och farmor har svarat. Hon har bjudit familjen till Stockholm! Nu väntar barnen igen — på tåget och på lördagen. Men Misse och Ludde har aldrig åkt tåg … och hur åker en hel familj trettio mil? Det är kapitel nitton!",
+     "margin": [
+      "🔍 tåget till Stockholm …?"
+     ],
+     "audio": "audio/kap18/b009_4749e2e63f6c.mp3"
+    }
+   ]
+  }
+ ],
+ "repetition": {
+  "rubrik": "Astrids brev",
+  "block": [
+   {
+    "typ": "narration",
+    "text": "Nils brev till farmor var långt. Astrids brev var kort — mycket kort! \"Kära farmor! Misse sover på min säng. Kram, Astrid.\" – Ditt brev är kort, sa Oskar. – Ja, sa Astrid. Men det är fint! Nils jämförde breven: hans brev hade hundra ord, och Astrids hade tio. – Långa brev är bra, sa han, men korta brev är också brev. Farmor läste de två breven många gånger — och hon skrattade mest åt det korta!",
+    "audio": "audio/kap18/b010_4621da77698b.mp3"
+   }
+  ]
+ },
+ "grammatik": [
+  {
+   "rubrik": "perfekt: har + supinum",
+   "forklaring": "Vad har hänt? Mycket har hänt! Perfekt = har + supinum. Supinum är en tredje form: skriva — skrev — har skrivit.",
+   "tabell": {
+    "head": [
+     "presens",
+     "preteritum",
+     "perfekt"
+    ],
+    "rows": [
+     [
+      "skriver",
+      "skrev",
+      "har skrivit"
+     ],
+     [
+      "ser",
+      "såg",
+      "har sett"
+     ],
+     [
+      "är",
+      "var",
+      "har varit"
+     ],
+     [
+      "har",
+      "hade",
+      "har haft"
+     ],
+     [
+      "kommer",
+      "kom",
+      "har kommit"
+     ],
+     [
+      "gör",
+      "gjorde",
+      "har gjort"
+     ],
+     [
+      "får",
+      "fick",
+      "har fått"
+     ],
+     [
+      "äter",
+      "åt",
+      "har ätit"
+     ],
+     [
+      "händer",
+      "hände",
+      "har hänt"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "preteritum eller perfekt?",
+   "forklaring": "I går skrev vi ett brev — vi säger NÄR (i går). Vi har skrivit ett brev — det är klart, och vi säger inte när!",
+   "tabell": {
+    "head": [
+     "preteritum (när? ⏪)",
+     "perfekt (klart! ✔)"
+    ],
+    "rows": [
+     [
+      "I går regnade det.",
+      "Det har regnat mycket i år."
+     ],
+     [
+      "Astrid hade födelsedag i maj.",
+      "Astrid har haft födelsedag."
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "någonsin, aldrig, redan, just",
+   "forklaring": "Har du någonsin varit i Stockholm? — Nej, aldrig! Har svaret redan kommit? — Ja, det har just kommit!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "någonsin = en gång i livet?",
+      "aldrig = 0 gånger"
+     ],
+     [
+      "redan = så snabbt?!",
+      "just = nu, nu, nu"
+     ]
+    ]
+   }
+  },
+  {
+   "rubrik": "att skriva ett brev",
+   "forklaring": "Ett brev börjar med \"Kära X!\" och slutar med \"Kramar från Y\". Och på brevet: frimärke och adress!",
+   "tabell": {
+    "head": [
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Kära farmor!",
+      "← så börjar det"
+     ],
+     [
+      "Hur har du det?",
+      "← en bra fråga"
+     ],
+     [
+      "Kramar från …",
+      "← så slutar det"
+     ]
+    ]
+   }
+  }
+ ],
+ "uttal": {
+  "rubrik": "Obetonat 'har'",
+  "forklaring": "I snabbt tal är \"har\" mycket litet: \"vi har skrivit\" — lyssna på hur kort \"har\" är! 👂🔊",
+  "grupper": [
+   {
+    "namn": "har + supinum",
+    "ord": [
+     "har skrivit",
+     "har varit",
+     "har kommit",
+     "har sett"
+    ]
+   },
+   {
+    "namn": "supinum",
+    "ord": [
+     "skrivit",
+     "varit",
+     "hänt",
+     "gjort"
+    ]
+   }
+  ]
+ },
+ "uttal_audio": {
+  "har skrivit": "audio/uttal/d642a4e010b6.mp3",
+  "har varit": "audio/uttal/b407bd86b4dd.mp3",
+  "har kommit": "audio/uttal/cbe5fb1e1c52.mp3",
+  "har sett": "audio/uttal/4b6eb6928a55.mp3",
+  "skrivit": "audio/uttal/6c4c44bbab3e.mp3",
+  "varit": "audio/uttal/a09c83ae18ed.mp3",
+  "hänt": "audio/uttal/30dc02511f24.mp3",
+  "gjort": "audio/uttal/2cb16482d65f.mp3"
+ },
+ "ovningar": {
+  "A": {
+   "instruktion": "Skriv supinum — och rätt litet ord.",
+   "items": [
+    {
+     "q": "skriver — skrev — har {skrivit}"
+    },
+    {
+     "q": "ser — såg — har {sett}"
+    },
+    {
+     "q": "är — var — har {varit}"
+    },
+    {
+     "q": "har — hade — har {haft}"
+    },
+    {
+     "q": "kommer — kom — har {kommit}"
+    },
+    {
+     "q": "gör — gjorde — har {gjort}"
+    },
+    {
+     "q": "får — fick — har {fått}"
+    },
+    {
+     "q": "äter — åt — har {ätit}"
+    },
+    {
+     "q": "Vi {har} haft ett stort oväder."
+    },
+    {
+     "q": "Har du ___ varit i Stockholm? — Nej, {aldrig}!"
+    },
+    {
+     "q": "Har svaret {redan} kommit? — Nej, inte än!"
+    },
+    {
+     "q": "Brevet har {just} kommit — nu, nu, nu!"
+    }
+   ]
+  },
+  "B": {
+   "instruktion": "Skriv ordet: brev, skickar, farmor, hälsar, svar, bjuder, väntar, adress, gånger, kram, frimärke, brevlåda.",
+   "items": [
+    {
+     "q": "Barnen skriver ett långt {brev}."
+    },
+    {
+     "q": "Ingrid är barnens {farmor} — pappas mamma."
+    },
+    {
+     "q": "På brevet finns ett {frimärke} och en adress."
+    },
+    {
+     "q": "Nils skriver {adressen}: Ingrid Berg, Stockholm."
+    },
+    {
+     "q": "Astrid lägger brevet i {brevlådan}."
+    },
+    {
+     "q": "Nu har de {skickat} brevet."
+    },
+    {
+     "q": "Barnen {väntar} på ett svar i tre dagar."
+    },
+    {
+     "q": "På fredagen kommer farmors {svar}!"
+    },
+    {
+     "q": "Farmor {bjuder} familjen till Stockholm."
+    },
+    {
+     "q": "Hon har läst brevet många {gånger}."
+    },
+    {
+     "q": "– {Hälsa} Ludde och Misse från mig!"
+    },
+    {
+     "q": "Brevet slutar med 'Kramar' — en {kram} 🤗!"
+    }
+   ]
+  },
+  "C": {
+   "instruktion": "Svara på frågorna — i perfekt!",
+   "items": [
+    {
+     "q": "Vad har barnen skrivit?",
+     "model": "De har skrivit ett långt brev till farmor."
+    },
+    {
+     "q": "Vad har hänt i Sjövik i år?",
+     "model": "Ett oväder har kommit, Astrid har haft födelsedag, och Nils har sparat åttiofem kronor."
+    },
+    {
+     "q": "Har Astrid någonsin varit i Stockholm?",
+     "model": "Nej, aldrig — men Oskar och Nils har varit där en gång."
+    },
+    {
+     "q": "Hur länge har barnen väntat på svaret?",
+     "model": "De har väntat i tre dagar? Nej — till fredagen!"
+    },
+    {
+     "q": "Vad har farmor gjort med brevet?",
+     "model": "Hon har läst det många gånger och skrattat mycket."
+    },
+    {
+     "q": "Vad har farmor bjudit familjen till?",
+     "model": "Hon har bjudit dem till Stockholm — en hel vecka hos henne!"
+    },
+    {
+     "q": "Vem hälsar farmor till?",
+     "model": "Hon hälsar till Ludde och Misse."
+    }
+   ]
+  }
+ },
+ "glossary": {
+  "brev": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "brev",
+    "brevet",
+    "breven",
+    "brevets"
+   ],
+   "sv": "✉ ord på papper — till en människa långt borta",
+   "en": "letter",
+   "tier": "focus"
+  },
+  "skicka": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "skickar",
+    "skicka",
+    "skickade",
+    "skickat"
+   ],
+   "sv": "✉→📬 lägger brevet i brevlådan — och det åker!",
+   "en": "to send",
+   "tier": "focus"
+  },
+  "farmor": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "farmor",
+    "farmors"
+   ],
+   "sv": "pappas mamma 👵 (far + mor! — och morfar = mor + far)",
+   "en": "grandmother (father's side)",
+   "tier": "focus"
+  },
+  "hälsa": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "hälsar",
+    "hälsa",
+    "hälsade",
+    "hälsat"
+   ],
+   "sv": "säger 'hej!' från en människa: Hälsa Ludde från mig!",
+   "en": "to greet, say hello",
+   "tier": "focus"
+  },
+  "svar": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "svar",
+    "svaret",
+    "svaren",
+    "svarets"
+   ],
+   "sv": "brevet som 'svarar' — farmors brev till barnen!",
+   "en": "answer, reply",
+   "tier": "focus"
+  },
+  "bjuda": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "bjuder",
+    "bjuda",
+    "bjöd",
+    "bjudit",
+    "bjuden",
+    "bjudet",
+    "bjudna"
+   ],
+   "sv": "🎟 säger 'kom till mig!': farmor bjuder familjen till Stockholm",
+   "en": "to invite",
+   "tier": "focus"
+  },
+  "vänta": {
+   "pos": "verb",
+   "gender": null,
+   "forms": [
+    "väntar",
+    "vänta",
+    "väntade",
+    "väntat"
+   ],
+   "sv": "⏳ tiden går, och du ser på brevlådan …",
+   "en": "to wait",
+   "tier": "focus"
+  },
+  "adress": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "adress",
+    "adressen",
+    "adresser",
+    "adresserna",
+    "adressens"
+   ],
+   "sv": "namn + stad på brevet — så hittar brevet hem!",
+   "en": "address",
+   "tier": "focus"
+  },
+  "gång": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "gång",
+    "gången",
+    "gånger",
+    "gångerna",
+    "gångens"
+   ],
+   "sv": "en gång, två gånger … (aldrig = 0 gånger!)",
+   "en": "time (occasion)",
+   "tier": "focus"
+  },
+  "kram": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "kram",
+    "kramen",
+    "kramar",
+    "kramarna"
+   ],
+   "sv": "🤗 armarna om en människa! 'Kramar från …' — så slutar ett brev",
+   "en": "hug",
+   "tier": "stretch"
+  },
+  "frimärke": {
+   "pos": "substantiv",
+   "gender": "ett",
+   "forms": [
+    "frimärke",
+    "frimärket",
+    "frimärken",
+    "frimärkena"
+   ],
+   "sv": "📮 den lilla 'biljetten' på brevet",
+   "en": "stamp",
+   "tier": "stretch"
+  },
+  "brevlåda": {
+   "pos": "substantiv",
+   "gender": "en",
+   "forms": [
+    "brevlåda",
+    "brevlådan",
+    "brevlådor",
+    "brevlådorna"
+   ],
+   "sv": "📬 här lägger man brevet — och posten tar det!",
+   "en": "mailbox",
+   "tier": "stretch"
+  }
+ }
+}

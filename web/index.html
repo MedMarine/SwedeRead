@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Svenska per se illustrata</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+
+  <!-- ===== LANDING ===== -->
+  <div id="landing" class="view active">
+    <header class="landing-header">
+      <p class="site-overtitle">SVENSKA</p>
+      <h1 class="site-title">per se illustrata</h1>
+      <p class="site-subtitle">Del I &middot; Familjen Berg</p>
+      <p class="site-blurb">
+        En bok på svenska — bara på svenska. Läs, lyssna och förstå!
+      </p>
+    </header>
+
+    <div class="continue-banner" id="continue-banner" style="display:none;">
+      <button class="continue-btn" id="continue-btn">
+        <span class="continue-label">Fortsätt läsa</span>
+        <span class="continue-chapter" id="continue-chapter-label"></span>
+      </button>
+    </div>
+
+    <main class="chapter-list" id="chapter-list"></main>
+
+    <footer class="landing-footer">
+      <p>Byggd efter metoden i <em>Lingua Latina per se Illustrata</em> av Hans H. &Oslash;rberg.</p>
+    </footer>
+  </div>
+
+  <!-- ===== READER ===== -->
+  <div id="reader" class="view">
+    <header class="reader-header">
+      <button id="back-btn" class="hdr-btn" aria-label="Tillbaka">&larr;</button>
+      <div class="chapter-meta">
+        <span class="chapter-number" id="reader-chapter-num"></span>
+        <h2 class="chapter-title" id="reader-chapter-title"></h2>
+      </div>
+      <div class="reader-header-right">
+        <button id="play-chapter-btn" class="hdr-btn" title="Spela hela kapitlet">&#9654; Lyssna</button>
+        <button id="en-toggle" class="hdr-btn" title="Engelska glosor (nödutgång)" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <main class="chapter-scroll" id="chapter-scroll"></main>
+
+    <div id="gloss-popover" class="gloss-popover" role="dialog" aria-hidden="true"></div>
+
+    <footer class="reader-footer">
+      <button class="nav-btn" id="prev-chapter-btn" disabled>&larr; F&ouml;rra</button>
+      <span class="footer-title" id="footer-title"></span>
+      <button class="nav-btn" id="next-chapter-btn" disabled>N&auml;sta &rarr;</button>
+    </footer>
+  </div>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>

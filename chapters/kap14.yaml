@@ -1,0 +1,242 @@
+# KAPITEL 14 — I skolan
+# Fru Lind's classroom. V2/inversion taught explicitly ("verbet är nummer
+# två!"); school vocabulary; lär sig; the book becomes self-aware ("på
+# svenska heter det …").
+
+kapitel: 14
+titel: "I skolan"
+arc: C
+grammatik_fokus: "ordföljd: verbet är nummer två! (Nu räknar vi; I dag har klassen matematik); lär sig; skolans ord"
+uttal_fokus: "betoning i skolord: klassrum, matematik, engelska"
+
+fokus: [lärare, elev, klass, läsa, skriva, räkna, rita, lära, förstå, papper, rast, språk]
+stretch: [klassrum, matematik, engelska, penna]
+
+illustration: >-
+  Fru Lind's classroom mid-lesson: twenty pupils at desks, big windows with
+  the lake beyond; fru Lind (55, cardigan, one raised eyebrow of infinite
+  patience) standing beside Oskar's desk, where his math paper clearly shows
+  a magnificent toothy wolf instead of sums; Elsa with her hand up; on the
+  wall, children's drawings and large friendly Swedish words. Watercolor.
+
+lasstycken:
+  - rubrik: "I. SJÖVIKS SKOLA"
+    block:
+      - typ: narration
+        text: >-
+          I Sjöviks skola går många barn: pojkar och flickor från staden
+          och från gårdarna. I skolan är barnen elever. Astrid är elev,
+          Nils är elev, och Oskar och Elsa är också elever. En skola har
+          lärare: fru Lind är lärare. Hon är Oskars och Elsas lärare — de
+          går i samma klass. I klassen är tjugo elever.
+        margin:
+          - "en elev = ett barn i skolan"
+          - "en lärare 👩‍🏫 (en lärare — två lärare!)"
+          - "en klass = en 'familj' av elever"
+
+      - typ: narration
+        text: >-
+          Klassrummet är stort. Här finns bord och stolar, och eleverna
+          sitter vid sina bord. De har pennor och papper: med pennan
+          skriver du på papperet. Fru Lind sitter inte — hon går i
+          klassrummet och talar, och hon skriver stora ord — och alla ser
+          dem.
+        margin:
+          - "ett klassrum"
+          - "en penna ✏ · papper 📄"
+
+  - rubrik: "II. I KLASSRUMMET"
+    block:
+      - typ: narration
+        text: >-
+          I dag har klassen matematik. – Nu räknar vi! säger fru Lind.
+          Eleverna räknar: femton och femton är trettio; fyrtio och fem är
+          fyrtiofem. Elsa räknar snabbt. Oskar räknar långsamt … mycket
+          långsamt. Varför? Därför att han ritar! På papperet ritar Oskar
+          en varg — en stor varg med många tänder. Fru Lind kommer till
+          hans bord. – Räknar du, Oskar? – Ja … nej … säger Oskar. Vargen
+          ser på fru Lind. Fru Lind ser på vargen. – En fin varg, säger
+          hon. Men nu räknar vi!
+        margin:
+          - "räknar 🔢: 15 + 15 = 30"
+          - "ritar ✏🐺"
+          - "NU räknar VI — verbet är nummer två!"
+
+      - typ: narration
+        text: >-
+          Sedan har klassen svenska. Svenska är ett språk — Sveriges
+          språk! Eleverna läser en bok, och de skriver ord. Nils klass har
+          också svenska: Nils läser mycket och skriver fint. Och Astrid?
+          Astrid lär sig läsa! Hon läser långsamt — "solen … är … uppe"
+          — men hon lär sig, dag efter dag.
+        margin:
+          - "ett språk: svenska, engelska …"
+          - "läser 📖 · skriver ✍"
+          - "lär sig = kan inte … och sedan kan!"
+
+      - typ: narration
+        text: >-
+          Klassen har också engelska. Engelska är också ett språk. På
+          svenska heter det "en hund" — men på engelska heter det inte
+          "hund"! Och "ett hus" heter inte "hus". Elsa förstår många
+          engelska ord. Oskar förstår inte många. – Förstår du, Oskar?
+          frågar fru Lind. – Nej, svarar Oskar. – Bra! säger fru Lind. Nu
+          kan du lära dig!
+        margin:
+          - "på engelska: 'a dog', 'a house'"
+          - "förstår 💡"
+          - "fru Lind: – Bra! (hon säger ofta så!)"
+
+      - typ: narration
+        text: >-
+          Sedan är det rast! På rasten är alla elever ute. Oskar och Elsa
+          spelar boll. Nils sitter med en bok — han läser på rasten också!
+          Astrid springer och leker med de andra flickorna. Efter rasten
+          skriver och räknar eleverna — och klockan tre går alla hem.
+        margin:
+          - "en rast 🎉 = leka-tid i skolan"
+          - "andra = inte samma (de andra flickorna)"
+
+  - rubrik: "III. VERBET ÄR NUMMER TVÅ!"
+    block:
+      - typ: narration
+        text: >-
+          Vad gör eleverna i skolan? De läser, skriver, räknar och ritar —
+          och de lär sig! Och vad gör läraren? Hon lär eleverna. Och nu
+          förstår du en stor sak: Nu räknar vi.
+          Sedan läser barnen. I dag har klassen engelska. På rasten leker
+          alla. Först kommer "nu" eller "sedan" eller "i dag" — och sedan
+          kommer verbet. Verbet är nummer två!
+        margin:
+          - "V2: [Nu] [räknar] [vi] — 1, 2, 3!"
+          - "[På rasten] [leker] [alla]"
+
+      - typ: narration
+        text: >-
+          Klockan tre går barnen hem från skolan. Men något kommer över
+          Sjövik i kapitel femton — något stort, med regn och mycket
+          vatten! Det är kapitel femton.
+        margin:
+          - "🔍 något kommer …?"
+
+grammatik:
+  - rubrik: "ordföljd: verbet är nummer två!"
+    forklaring: >-
+      På svenska är verbet nummer två i meningen. Först kan subjektet
+      komma — eller "nu", "sedan", "i dag", "på rasten". Men verbet är
+      nummer två!
+    tabell:
+      head: ["nummer 1", "nummer 2 (verbet!)", "sedan"]
+      rows:
+        - ["Barnen", "läser", "en bok."]
+        - ["Nu", "läser", "barnen en bok."]
+        - ["I dag", "har", "klassen matematik."]
+        - ["På rasten", "leker", "alla."]
+        - ["Sedan", "går", "alla hem."]
+
+  - rubrik: "lär sig"
+    forklaring: >-
+      Astrid kan inte läsa … hon lär sig läsa … och sedan kan hon läsa!
+      Läraren lär eleverna — eleverna lär sig.
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["Astrid lär sig läsa.", "Oskar kan lära sig engelska!"]
+        - ["Läraren lär barnen.", "Barnen lär sig av läraren."]
+
+  - rubrik: "skolans ord"
+    forklaring: >-
+      En skola har lärare och elever. Eleverna går i klasser. De läser,
+      skriver, räknar och ritar — och på rasten leker de!
+    tabell:
+      head: ["", ""]
+      rows:
+        - ["en lärare", "fru Lind — hon lär eleverna"]
+        - ["en elev", "ett barn i skolan"]
+        - ["en klass", "tjugo elever tillsammans"]
+        - ["en rast", "alla är ute och leker"]
+
+  - rubrik: "språk"
+    forklaring: >-
+      Svenska är ett språk, och engelska är ett språk. På svenska heter
+      det "en hund" — på engelska heter det något annat!
+    tabell:
+      head: ["på svenska", "på engelska"]
+      rows:
+        - ["en hund", "a dog"]
+        - ["ett hus", "a house"]
+        - ["en bok", "a book"]
+
+uttal:
+  rubrik: "Betoning i skolans ord"
+  forklaring: >-
+    Var är betoningen? KLASS-rum — men mate-ma-TIK! Lyssna! 👂🔊
+  grupper:
+    - namn: "betoning först"
+      ord: [klassrum, lärare, engelska, svenska]
+    - namn: "betoning sist"
+      ord: [matematik, elev]
+
+ovningar:
+  A:
+    instruktion: "Skriv verbet på rätt plats — verbet är nummer två!"
+    items:
+      - q: "Vi räknar nu. → Nu {räknar} vi."
+      - q: "Klassen har matematik i dag. → I dag {har} klassen matematik."
+      - q: "Alla leker på rasten. → På rasten {leker} alla."
+      - q: "Barnen går hem sedan. → Sedan {går} barnen hem."
+      - q: "Astrid lär {sig} läsa."
+      - q: "Oskar {ritar} en varg. (rita)"
+      - q: "Elsa {räknar} snabbt. (räkna)"
+      - q: "Nils {läser} mycket. (läsa)"
+      - q: "Fru Lind {skriver} stora ord. (skriva)"
+      - q: "Förstår du? Ja, jag {förstår}!"
+      - q: "en elev — många {elever}"
+      - q: "en klass — två {klasser}"
+  B:
+    instruktion: "Skriv ordet: lärare, elev, elever, klass, klassrum, läser, skriver, räknar, ritar, lär, förstår, papper, penna, rast, språk, matematik, engelska."
+    items:
+      - q: "Fru Lind är {lärare} i Sjöviks skola."
+      - q: "I klassen är tjugo {elever}."
+      - q: "Med pennan skriver du på {papperet}."
+      - q: "Eleverna {räknar}: femton och femton är trettio."
+      - q: "Oskar {ritar} en stor varg."
+      - q: "Nils {läser} mycket — också på rasten!"
+      - q: "Astrid {lär} sig läsa."
+      - q: "Svenska är ett {språk}."
+      - q: "Klassen har {matematik} — 15 + 15 = 30!"
+      - q: "På {rasten} är alla elever ute."
+      - q: "– {Förstår} du, Oskar? – Nej!"
+      - q: "Eleverna sitter i {klassrummet}."
+  C:
+    instruktion: "Svara på frågorna. Skriv hela meningar!"
+    items:
+      - q: "Vem är fru Lind?"
+        model: "Hon är lärare i Sjöviks skola — Oskars och Elsas lärare."
+      - q: "Vad ritar Oskar på matematiken?"
+        model: "Han ritar en stor varg med många tänder."
+      - q: "Vad säger fru Lind om vargen?"
+        model: "– En fin varg! Men nu räknar vi!"
+      - q: "Vad lär sig Astrid?"
+        model: "Hon lär sig läsa — långsamt, men dag efter dag!"
+      - q: "Vad gör eleverna på rasten?"
+        model: "De är ute: Oskar och Elsa spelar boll, och Nils läser en bok."
+      - q: "Vad är nummer två i en svensk mening?"
+        model: "Verbet! Nu räknar vi. På rasten leker alla."
+      - q: "När går barnen hem från skolan?"
+        model: "De går hem klockan tre."
+
+repetition:
+  rubrik: "Elsas morgon"
+  block:
+    - typ: narration
+      text: >-
+          Också Elsa har morgnar! Fru Ek väcker henne klockan sju: – God
+          morgon! Elsa stiger upp — inte snabbt, inte långsamt. Hon tvättar
+          sig, borstar tänderna och kammar sitt hår. Sedan klär hon på sig
+          och äter frukost i köket — familjen Ek bor bakom affären! Elsa
+          går till skolan … och i dag är hon sen. Hon springer på vägen,
+          över bron, till skolan. – Skynda dig, Elsa! ropar Oskar vid
+          dörren. Hon kommer — kvart över åtta. Fru Lind ser på henne. –
+          Sen, Elsa? – Ja, säger Elsa. Mycket sen! I klassrummet sitter
+          tjugo elever — och nu är alla där.
