@@ -98,7 +98,7 @@ def main() -> None:
                 }
 
         image = None
-        for ext in ("svg", "jpg", "png"):
+        for ext in ("jpg", "png", "svg"):
             if (OUT / "images" / f"kap{n:02d}.{ext}").exists():
                 image = f"images/kap{n:02d}.{ext}"
                 break

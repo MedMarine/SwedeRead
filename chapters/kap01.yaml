@@ -12,11 +12,14 @@ fokus: [land, stad, sjö, hav, ö, berg, ligga, stor, liten, svensk, bokstav, or
 stretch: [siffra, norr, söder]
 
 illustration: >-
-  A hand-drawn map of the Nordic countries in warm watercolor: Sweden, Norway,
-  Denmark, Finland, Iceland labeled; Stockholm, Oslo, Köpenhamn, Helsingfors
-  marked with dots; lakes Vänern/Vättern/Mälaren visible; a compass rose (norr
-  up); a tiny red dot in Småland labeled "Sjövik" with a magnifying-glass inset
-  showing a small town by a lake. Style: children's-atlas, clean lines.
+  A hand-drawn map of the Nordic countries, geographically recognizable.
+  Country labels (exact spelling): Sverige, Norge, Danmark, Finland, Island.
+  City dots with labels (exact spelling): Stockholm, Göteborg, Malmö, Oslo,
+  Köpenhamn, Helsingfors. The great Swedish lakes Vänern and Vättern visible
+  in blue (unlabeled). A small compass rose in a corner labeled only "norr",
+  pointing up. In Småland in southern Sweden, a tiny falu-red dot labeled
+  Sjövik, with a round magnifying-glass inset showing a miniature red
+  lakeside town with a birch tree. No other text anywhere.
 
 lasstycken:
   - rubrik: "I. FEM LÄNDER"

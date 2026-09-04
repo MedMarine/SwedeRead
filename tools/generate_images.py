@@ -59,6 +59,23 @@ a birch by the house, a small lake (Björksjön), forest behind.
 Scene for this chapter:
 """
 
+# Chapter 1 is the atlas map: unlike every other illustration it NEEDS
+# text labels, and the recurring cast is irrelevant, so it gets its own
+# preamble instead of STYLE.
+MAP_CHAPTERS = {1}
+
+MAP_STYLE = """\
+Wide-aspect (4:3) children's-atlas map for a Swedish graded reader, in
+warm watercolor with soft ink outlines and generous white paper margins.
+Palette: lake blue seas, birch-green land, straw-yellow lowlands, falu
+red (#8a3033) accents. Clean, legible hand-lettered labels are REQUIRED,
+in Swedish, spelled EXACTLY as given in the scene brief — letter for
+letter, including å/ä/ö — and NO other text anywhere. Calm, wholesome,
+classic Scandinavian schoolbook feel.
+
+Scene for this chapter:
+"""
+
 
 def parse_range(spec: str) -> list[int]:
     out: set[int] = set()
@@ -92,7 +109,8 @@ def collect(chapter_nums: list[int], force: bool) -> list[tuple[int, str, Path]]
             continue
         if dst.exists() and not force:
             continue
-        jobs.append((n, STYLE + brief, dst))
+        preamble = MAP_STYLE if n in MAP_CHAPTERS else STYLE
+        jobs.append((n, preamble + brief, dst))
     return jobs
 
 
